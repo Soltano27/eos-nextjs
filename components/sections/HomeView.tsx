@@ -115,47 +115,8 @@ const HTML = `<!-- ════════════════════�
         <p class="home-mv-sub">Reaching young people before neurological disease does, and building the infrastructure that sustains that reach for generations.</p>
       </div>
 
-      <div class="home-mv-divider"></div>
-
-      <!-- VALUES STRIP -->
-      <div class="home-mv-values">
-        <div class="home-mv-val">
-          <div class="home-mv-val-num">01</div>
-          <div class="home-mv-val-body">
-            <div class="home-mv-val-name">Prevention Before Crisis</div>
-            <div class="home-mv-val-desc">The most powerful intervention arrives before the patient does.</div>
-          </div>
-        </div>
-        <div class="home-mv-val">
-          <div class="home-mv-val-num">02</div>
-          <div class="home-mv-val-body">
-            <div class="home-mv-val-name">Culture</div>
-            <div class="home-mv-val-desc">Behaviour change happens in communities, not clinics.</div>
-          </div>
-        </div>
-        <div class="home-mv-val">
-          <div class="home-mv-val-num">03</div>
-          <div class="home-mv-val-body">
-            <div class="home-mv-val-name">Integrity</div>
-            <div class="home-mv-val-desc">Credibility is not a value we aspire to. It is the ground we stand on.</div>
-          </div>
-        </div>
-        <div class="home-mv-val">
-          <div class="home-mv-val-num">04</div>
-          <div class="home-mv-val-body">
-            <div class="home-mv-val-name">Community</div>
-            <div class="home-mv-val-desc">People change when they belong to something.</div>
-          </div>
-        </div>
-        <div class="home-mv-val">
-          <div class="home-mv-val-num">05</div>
-          <div class="home-mv-val-body">
-            <div class="home-mv-val-name">Legacy</div>
-            <div class="home-mv-val-desc">We build in honour of a man who believed knowledge saves lives.</div>
-          </div>
-        </div>
-      </div>
-
+    
+      
       <div class="home-mv-cta">
         <button class="btn-primary" data-route="about-mission">Read Our Full Mission</button>
       </div>
@@ -167,9 +128,7 @@ const HTML = `<!-- ════════════════════�
   <section class="programs">
     <div class="programs-head">
       <div class="section-label"><span>Our Programmes</span></div>
-      <h2>Four Pillars. One Movement.</h2>
-      <p>Every programme connects to Brain Performance, Brain Protection, or Brain Identity. If it doesn't connect, it doesn't get built.</p>
-    </div>
+      </div>
     <div class="programs-grid">
       <div class="prog-card" data-route="programs-culture">
         <div class="prog-accent" style="background:#0A84C8"></div>
@@ -226,8 +185,7 @@ const HTML = `<!-- ════════════════════�
   <section class="impact">
     <div class="impact-top">
       <div class="section-label"><span>Our Impact</span></div>
-      <h2>Fully self-funded since 2023.</h2>
-      <p>Every number below was built without a single external grant. This is what EOS looks like before scale.</p>
+  
     </div>
     <div class="impact-grid">
       <div class="impact-stat">
@@ -474,43 +432,7 @@ const HTML = `<!-- ════════════════════�
     </div>
   </section>
 
-  <!-- TEAM -->
-  <section class="team">
-    <div class="section-label"><span>Who We Are</span></div>
-    <h2>The People Building This.</h2>
-    <div class="team-grid" style="align-items:stretch;">
-      <div class="team-card" style="display:flex;flex-direction:column;">
-        <div class="team-photo" style="padding:0;overflow:hidden;">
-          <img src="/images/team-1.jpg" alt="Founder" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"/>
-        </div>
-        <div class="team-info" style="flex:1;">
-          <h4><a href="https://www.linkedin.com/in/toluwanimi-sanya/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Dr Toluwanimi Akinremi</a></h4>
-          <span class="team-role" style="color:#0A84C8">Founder &amp; Executive Director</span>
-          <p>Vision, partnerships, and fundraising. The person who decided Nigeria needed this and started building before anyone else agreed.</p>
-        </div>
-      </div>
-      <div class="team-card" style="display:flex;flex-direction:column;">
-        <div class="team-photo" style="padding:0;overflow:hidden;">
-          <img src="/images/team-2.jpg" alt="Programs Lead" style="width:100%;height:100%;object-fit:cover;object-position:center center;display:block;"/>
-        </div>
-        <div class="team-info" style="flex:1;">
-          <h4><a href="https://www.linkedin.com/in/faruq-sosanya/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Faruq Olawale Sosanya</a></h4>
-          <span class="team-role" style="color:#5B3FA0">Programs Lead</span>
-          <p>Owns Education and Access. Runs the Fellowship, coordinates clinic days, and keeps the program engine moving.</p>
-        </div>
-      </div>
-      <div class="team-card" style="display:flex;flex-direction:column;">
-        <div class="team-photo" style="padding:0;overflow:hidden;">
-          <img src="/images/team-3.jpg" alt="Content Lead" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"/>
-        </div>
-        <div class="team-info" style="flex:1;">
-          <h4><a href="https://www.linkedin.com/in/enioluwa-emmanuel-ojewunmi-health-writer/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Enioluwa Emmanuel Ojewunmi</a></h4>
-          <span class="team-role" style="color:#00BFA5">Content Lead</span>
-          <p>Owns the Brain Culture Lab. Every article, video, and campaign that reaches the world starts here.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   <!-- JOIN -->
   <section class="join">

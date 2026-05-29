@@ -1,13 +1,7 @@
-// AUTO-GENERATED from original HTML — markup preserved byte-for-byte.
-// Mounted via dangerouslySetInnerHTML so all inline handlers (onclick="ps2('home')" etc.)
-// continue to work with the original vanilla JS attached on window.
 "use client";
 import React from "react";
 
-const HTML = `<!-- ══════════════════════════════
-     NAV
-══════════════════════════════ -->
-<nav>
+const HTML = `<nav>
   <div class="nav-logo" data-route="home">E<span>O</span>S</div>
 
   <div class="nav-links">
@@ -74,6 +68,12 @@ const HTML = `<!-- ════════════════════�
   </div>
 
   <button class="nav-cta" data-route="programs-guild">Join the Guild</button>
+
+  <button class="ham-btn" id="ham-btn" aria-label="Open menu">
+    <span class="bar b1"></span>
+    <span class="bar b2"></span>
+    <span class="bar b3"></span>
+  </button>
 </nav>`;
 
 export default function Nav() {
