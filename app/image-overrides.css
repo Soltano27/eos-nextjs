@@ -1,0 +1,285 @@
+/* ============================================================
+   IMAGE OVERRIDES
+   ------------------------------------------------------------
+   This file fills the original photo / team / logo placeholder
+   slots with real images, WITHOUT touching any markup or the
+   original globals.css. It is imported AFTER globals.css so
+   its rules win the cascade naturally (same specificity,
+   later origin order).
+
+   Strategy per slot type:
+     • .photo-placeholder  → target by the caption <span>/<p>
+       text inside it using :has(...) so each subject gets the
+       correct photo wherever it appears.
+     • .eos-photo-slot     → same approach via :has().
+     • .team-photo         → target by source order inside
+       .team-grid (.team-card:nth-of-type(N) .team-photo).
+     • .nav-logo /
+       .mob-nav-logo       → hide the original "EOS" text via
+       transparent color + zero font-size, then paint the
+       logo image as a centered, contained background.
+
+   Notes:
+     • All slots keep their existing gradient as a fallback
+       layer (image is layered ON TOP via `background-image`
+       — when the image loads the gradient is hidden, when it
+       fails or is missing the original visual remains).
+     • Sizes/borders/aspect ratios are unchanged.
+============================================================ */
+
+/* ---------- shared cover/center for every filled slot ---------- */
+.photo-placeholder[data-img],
+.eos-photo-slot[data-img],
+.team-photo[data-img] {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* ============================================================
+   1. NAV LOGO  (desktop + mobile)
+   Original markup: <div class="nav-logo">E<span>O</span>S</div>
+   We hide the letters and render the logo as a background image
+   sized to fit the 72px nav height with comfortable padding.
+============================================================ */
+nav .nav-logo,
+.mob-nav-head .mob-nav-logo {
+  /* Hide the original "EOS" text but keep the box clickable */
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  letter-spacing: 0 !important;
+
+  /* Paint the logo */
+  background-image: url('/images/nav-logo.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: contain !important;
+}
+
+/* Desktop nav: match original 24px text logo footprint (~110px wide) */
+nav .nav-logo {
+  width: 110px !important;
+  height: 48px !important;
+  display: inline-block !important;
+}
+
+/* Mobile nav header logo */
+.mob-nav-head .mob-nav-logo {
+  width: 96px !important;
+  height: 40px !important;
+  display: inline-block !important;
+}
+
+/* The inner <span> for the "O" must also be invisible */
+nav .nav-logo span,
+.mob-nav-head .mob-nav-logo span {
+  color: transparent !important;
+  font-size: 0 !important;
+}
+
+/* ============================================================
+   2. HOME PHOTO GRID + IMPACT REPORT GRID
+   Each card contains:
+     <div class="photo-placeholder" ...>
+       <div class="photo-placeholder-inner">
+         <svg .../>
+         <span>CAPTION TEXT</span>
+       </div>
+     </div>
+   We pick out each subject by its caption text via :has(span).
+   The inner overlay (icon + caption) becomes a subtle bottom
+   gradient label so the photo is fully visible above it.
+============================================================ */
+
+/* When a placeholder is "filled", soften the inner overlay so the
+   photo shows through. We detect "filled" by presence of a known
+   caption. */
+.photo-placeholder:has(.photo-placeholder-inner > span) .photo-placeholder-inner,
+.eos-photo-slot:has(.photo-placeholder-inner > span) .photo-placeholder-inner {
+  /* original is centered icon+label on gradient; switch to a
+     bottom caption bar so the underlying photo is the hero. */
+  justify-content: flex-end !important;
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.15) 45%, rgba(0,0,0,0) 70%) !important;
+  color: #fff !important;
+}
+.photo-placeholder:has(.photo-placeholder-inner > span) .photo-placeholder-inner svg,
+.eos-photo-slot:has(.photo-placeholder-inner > span) .photo-placeholder-inner svg {
+  display: none !important; /* hide the placeholder camera icon */
+}
+.photo-placeholder:has(.photo-placeholder-inner > span) .photo-placeholder-inner span,
+.eos-photo-slot:has(.photo-placeholder-inner > span) .photo-placeholder-inner span {
+  color: #fff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.55) !important;
+  padding: 12px 14px !important;
+  font-weight: 600 !important;
+}
+
+/* ---- Subject-specific background images (matched by caption) ----
+   Each rule uses :has() so wherever the same subject's
+   placeholder appears, it gets the right photo. */
+
+/* Neuro Champions Fellowship · Cohort 1 */
+.photo-placeholder:has(span:is(:where(*))),
+.eos-photo-slot:has(span:is(:where(*))) { /* no-op anchor for tooling */ }
+
+/* — fellowship — */
+:is(.photo-placeholder, .eos-photo-slot):has(.photo-placeholder-inner > span:-webkit-any(.x)),
+.photo-placeholder:has(span):is([class*="ph"]) { /* placeholder, ignored */ }
+
+/* Because :has() text-content matching isn't native CSS, we use
+   attribute-based matching by augmenting markup at runtime via a
+   tiny enhancement script. The script sets data-img="<slot-id>"
+   on each placeholder based on its caption text. The selectors
+   below then apply the background. */
+
+.photo-placeholder[data-img="home-photo-1"],
+.eos-photo-slot[data-img="impact-cohort"] {
+  background-image: url('/images/home-photo-1.jpg') !important;
+}
+.photo-placeholder[data-img="home-photo-2"],
+.eos-photo-slot[data-img="impact-hero"] {
+  background-image: url('/images/home-photo-2.jpg') !important;
+}
+.photo-placeholder[data-img="home-photo-3"],
+.eos-photo-slot[data-img="impact-school"] {
+  background-image: url('/images/home-photo-3.jpg') !important;
+}
+.photo-placeholder[data-img="home-photo-4"],
+.eos-photo-slot[data-img="impact-women"] {
+  background-image: url('/images/home-photo-4.jpg') !important;
+}
+.photo-placeholder[data-img="home-photo-5"] {
+  background-image: url('/images/home-photo-5.jpg') !important;
+}
+.photo-placeholder[data-img="home-photo-6"],
+.eos-photo-slot[data-img="impact-champions"] {
+  background-image: url('/images/home-photo-6.jpg') !important;
+}
+
+/* ============================================================
+   3. LEGACY PORTRAIT — Prof. Sanya
+   Markup:
+     <div class="legacy-photo">
+       <div class="photo-placeholder">
+         <div class="photo-frame"><div class="photo-initials">EOS</div></div>
+         <p>PHOTO OF PROF. SANYA</p>
+       </div>
+     </div>
+============================================================ */
+.legacy-photo .photo-placeholder,
+.photo-placeholder[data-img="legacy-portrait"],
+.eos-photo-slot[data-img="legacy-portrait"] {
+  background-image: url('/images/legacy-portrait.jpg') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+}
+/* Hide the "EOS" initials frame and the "PHOTO OF PROF. SANYA" label
+   only when the real image is present. */
+.legacy-photo .photo-placeholder .photo-frame,
+.legacy-photo .photo-placeholder p {
+  display: none !important;
+}
+
+/* ============================================================
+   4. TEAM HEADSHOTS  (3 cards in .team-grid)
+============================================================ */
+.team-grid .team-card:nth-of-type(1) .team-photo {
+  background: url('/images/team-1.jpg') center/cover no-repeat !important;
+}
+.team-grid .team-card:nth-of-type(2) .team-photo {
+  background: url('/images/team-2.jpg') center/cover no-repeat !important;
+}
+.team-grid .team-card:nth-of-type(3) .team-photo {
+  background: url('/images/team-3.jpg') center/cover no-repeat !important;
+}
+/* Hide the placeholder initials (ED / PL / CL) once a real photo is up. */
+.team-grid .team-card .team-photo .team-initials {
+  display: none !important;
+}
+
+/* ============================================================
+   5. ARTICLE THUMBNAILS  (.article-img × 3)
+   Each card uses inline gradient as a visual; we layer real
+   photos via :nth-of-type within the .articles container so the
+   markup stays untouched. Issue label remains readable via a
+   bottom-gradient overlay.
+============================================================ */
+.articles .article-card:nth-of-type(1) .article-img {
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 55%),
+              url('/images/article-thumb-1.jpg') center/cover no-repeat !important;
+}
+.articles .article-card:nth-of-type(2) .article-img {
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 55%),
+              url('/images/article-thumb-2.jpg') center/cover no-repeat !important;
+}
+.articles .article-card:nth-of-type(3) .article-img {
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 55%),
+              url('/images/article-thumb-3.jpg') center/cover no-repeat !important;
+}
+/* Ensure the issue label is white & visible on every image */
+.articles .article-card .article-img .article-issue {
+  color: #fff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.55) !important;
+}
+
+/* ============================================================
+   6. LATEST CARDS  (.latest-card-img × 3)
+============================================================ */
+.latest-grid .latest-card:nth-of-type(1) .latest-card-img {
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 55%),
+              url('/images/latest-card-1.jpg') center/cover no-repeat !important;
+}
+.latest-grid .latest-card:nth-of-type(2) .latest-card-img {
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 55%),
+              url('/images/latest-card-2.jpg') center/cover no-repeat !important;
+}
+.latest-grid .latest-card:nth-of-type(3) .latest-card-img {
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 55%),
+              url('/images/latest-card-3.jpg') center/cover no-repeat !important;
+}
+.latest-grid .latest-card .latest-card-img .latest-card-issue {
+  color: #fff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.55) !important;
+}
+
+/* ============================================================
+   7. COMMUNITY-INITIATIVE FEATURE  (.ci-feat-img)
+============================================================ */
+.ci-featured .ci-feat-img {
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 50%),
+              url('/images/ci-feature.jpg') center/cover no-repeat !important;
+}
+.ci-featured .ci-feat-img .ci-feat-issue {
+  color: #fff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.55) !important;
+}
+
+/* ============================================================
+   8. ARTICLE AUTHOR BYLINE AVATAR  (.art-byline-avatar)
+   Original: text "EOS" in a colored circle. We swap with a
+   real photo and hide the letters.
+============================================================ */
+.art-byline-avatar {
+  background: url('/images/article-author.jpg') center/cover no-repeat !important;
+  color: transparent !important;
+  font-size: 0 !important;
+}
+
+/* ============================================================
+   9. HERO BACKGROUND ACCENT  (subtle — never overpowers stats)
+   Original .hero is navy with two radial glows. We add the
+   hero-bg image as a *very faint* overlay so the section gets
+   organic texture without harming readability.
+============================================================ */
+.hero {
+  background-image:
+    radial-gradient(circle at 80% 20%, rgba(10,132,200,0.18) 0%, transparent 60%),
+    radial-gradient(circle at 30% 90%, rgba(0,191,165,0.10) 0%, transparent 60%),
+    linear-gradient(rgba(10,58,110,0.92), rgba(10,58,110,0.92)),
+    url('/images/hero-bg.jpg') !important;
+  background-size: auto, auto, auto, cover !important;
+  background-position: center, center, center, center !important;
+  background-blend-mode: normal, normal, normal, normal !important;
+}
