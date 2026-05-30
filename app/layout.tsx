@@ -4,6 +4,23 @@ import "./image-overrides.css"; // applies real images to the placeholder slots
 
 export const metadata: Metadata = {
   title: "EOS — Own Your Brain",
+  description:
+    "The EOS Foundation is dedicated to brain health, neuroscience education, and empowering communities to own their brain.",
+  openGraph: {
+    title: "EOS — Own Your Brain",
+    description:
+      "The EOS Foundation is dedicated to brain health, neuroscience education, and empowering communities to own their brain.",
+    url: "https://theeosfoundation.org",
+    siteName: "The EOS Foundation",
+    images: [
+      {
+        url: "https://theeosfoundation.org/preview-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
 };
 
 // Mirrors the original <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -12,7 +29,11 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <head>
