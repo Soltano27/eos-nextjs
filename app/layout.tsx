@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "The EOS Foundation",
     images: [
       {
-        url: "https://theeosfoundation.org/preview-image.jpg",
+        url: "https://theeosfoundation.org/images/preview-image.png",
         width: 1200,
         height: 630,
       },
