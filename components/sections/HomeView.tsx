@@ -85,7 +85,7 @@ const HTML = `<!-- ════════════════════�
       </div>
     </div>
     <div class="legacy-photo" style="padding:0;overflow:hidden;">
-      <img src="/images/EOS-Prof_sanya.jpeg" alt="Prof. Emmanuel Olatunde Sanya" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"/>
+      <img src="/images/EOS-Prof_Sanya.jpeg" alt="Prof. Emmanuel Olatunde Sanya" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"/>
     </div>
   </section>
 
