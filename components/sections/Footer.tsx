@@ -28,11 +28,11 @@ const HTML = `<footer>
       </div>
       <div class="footer-col">
         <h5>Connect</h5>
-        <a>Instagram</a>
-        <a>LinkedIn</a>
-        <a>Twitter / X</a>
-        <a>YouTube</a>
-        <a>Substack</a>
+        <a href="https://www.instagram.com/theeosfoundation/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/company/the-emmanuel-olatunde-sanya-foundation/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://web.facebook.com/profile.php?id=100090215816607" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://youtube.com/@theeosfoundation" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://theeosfoundation.substack.com" target="_blank" rel="noopener">Substack</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -42,5 +42,7 @@ const HTML = `<footer>
   </footer>`;
 
 export default function Footer() {
-  return <div data-section="Footer" dangerouslySetInnerHTML={{ __html: HTML }} />;
+  return (
+    <div data-section="Footer" dangerouslySetInnerHTML={{ __html: HTML }} />
+  );
 }

@@ -331,7 +331,7 @@ const HTML = `<!-- ════════════════════�
         <p>Our biweekly publication. Accurate, engaging, built for young Nigerians who want to understand their brain.</p>
       </div>
       <div class="cortex-head-right">
-        <a data-route="cortex">Read all issues on Substack →</a>
+        <a href="https://theeosfoundation.substack.com" target="_blank" rel="noopener">Read all issues on Substack →</a>
       </div>
     </div>
     <div class="articles">
@@ -409,25 +409,25 @@ const HTML = `<!-- ════════════════════�
         <div class="cta-icon">▶️</div>
         <h5>Is Your Brain Cooked?</h5>
         <p>Our flagship video series. Episodes on everything from dopamine to stroke prevention.</p>
-        <a style="color:#0A84C8">Watch on YouTube →</a>
+        <a href="https://youtube.com/@theeosfoundation" target="_blank" rel="noopener" style="color:#0A84C8">Watch on YouTube →</a>
       </div>
       <div class="cta-card">
         <div class="cta-icon">📖</div>
         <h5>The Cortex Printout</h5>
         <p>Biweekly articles on brain health, neuroscience, and what it means for young Nigerians.</p>
-        <a style="color:#0A84C8">Read on Substack →</a>
+        <a href="https://theeosfoundation.substack.com" target="_blank" rel="noopener" style="color:#0A84C8">Read on Substack →</a>
       </div>
       <div class="cta-card">
         <div class="cta-icon">📸</div>
         <h5>Follow on Instagram</h5>
         <p>Behind the scenes, brain health tips, fellowship moments, and community highlights.</p>
-        <a style="color:#5B3FA0">@theeosfoundation →</a>
+        <a href="https://www.instagram.com/theeosfoundation/" target="_blank" rel="noopener" style="color:#5B3FA0">@theeosfoundation →</a>
       </div>
       <div class="cta-card">
         <div class="cta-icon">💼</div>
         <h5>Connect on LinkedIn</h5>
         <p>Updates for professionals, funders, and partners following the EOS journey.</p>
-        <a style="color:#0A3A6E">EOS Foundation →</a>
+        <a href="https://www.linkedin.com/company/the-emmanuel-olatunde-sanya-foundation/" target="_blank" rel="noopener" style="color:#0A3A6E">EOS Foundation →</a>
       </div>
     </div>
   </section>
