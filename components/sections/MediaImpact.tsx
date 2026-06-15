@@ -84,39 +84,47 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="eos-photo-grid">
         <div class="eos-photo-slot wide">
-          <div class="photo-placeholder-inner">
-            <svg width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-            <span>Stroke Outreach Event · 1,000+ Attendees</span>
-          </div>
+          <img src="/images/impact-hero.jpg" alt="Stroke awareness outreach Lagos 2024" class="eos-photo-img" style="object-position:center 30%;"/>
           <div class="photo-caption">Our largest event — stroke awareness outreach · Lagos 2024</div>
         </div>
         <div class="eos-photo-slot tall">
-          <div class="photo-placeholder-inner">
-            <svg width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-            <span>Fellowship Training</span>
-          </div>
+          <img src="/images/impact-cohort.jpg" alt="Fellowship Training Cohort 1" class="eos-photo-img"/>
           <div class="photo-caption">Cohort 1 training · 53 fellows onboarded</div>
         </div>
         <div class="eos-photo-slot short">
-          <div class="photo-placeholder-inner">
-            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-            <span>School Visit</span>
-          </div>
+          <img src="/images/impact-school.jpg" alt="Secondary school visit Lagos" class="eos-photo-img"/>
           <div class="photo-caption">Secondary school visit · Lagos</div>
         </div>
         <div class="eos-photo-slot short">
-          <div class="photo-placeholder-inner">
-            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-            <span>Women's Workshop</span>
-          </div>
+          <img src="/images/impact-women.jpg" alt="Women's Neuro Health Workshop" class="eos-photo-img"/>
           <div class="photo-caption">Women's Neuro Health Workshop</div>
         </div>
         <div class="eos-photo-slot tall">
-          <div class="photo-placeholder-inner">
-            <svg width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-            <span>Graduation Day</span>
-          </div>
+          <img src="/images/impact-champions.jpg" alt="14 Certified NeuroChampions Cohort 1" class="eos-photo-img"/>
           <div class="photo-caption">14 Certified NeuroChampions · Cohort 1</div>
+        </div>
+      </div>
+    </div>
+    <!-- IMPACT REPORT DOWNLOAD -->
+    <div class="impact-download-wrap" style="padding:0 60px 60px;">
+      <div style="background:linear-gradient(135deg,#0A3A6E 0%,#0A2A50 100%);border-radius:20px;padding:48px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;">
+        <div style="flex:1;min-width:260px;">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;">
+            <div style="width:24px;height:2px;background:var(--teal);border-radius:1px;"></div>
+            <span style="font-size:10px;font-weight:800;letter-spacing:0.22em;color:var(--teal);text-transform:uppercase;">Full Report</span>
+          </div>
+          <h3 style="font-family:var(--serif);font-size:26px;color:var(--white);margin:0 0 12px;line-height:1.25;">NeuroChampions Fellowship<br/>Impact Report · Pilot Cohort</h3>
+          <p style="font-size:14px;color:rgba(255,255,255,0.5);margin:0;line-height:1.7;">The complete report covering our program structure, outcomes, lessons learned, and what comes next. September – December 2025.</p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;align-items:flex-start;flex-shrink:0;">
+          <a href="/EOS%20IMPACT%20REPORT%20PILOT%20COHORT.pdf" download="EOS_NCF_Impact_Report_2025.pdf" style="display:inline-flex;align-items:center;gap:10px;background:var(--teal);color:#fff;border-radius:100px;padding:16px 28px;font-size:14px;font-weight:600;cursor:pointer;font-family:var(--sans);text-decoration:none;white-space:nowrap;">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download PDF
+          </a>
+          <a href="/EOS%20IMPACT%20REPORT%20PILOT%20COHORT.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;color:rgba(255,255,255,0.45);font-size:13px;font-family:var(--sans);text-decoration:none;padding:4px 0;">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            View in browser
+          </a>
         </div>
       </div>
     </div>
@@ -132,5 +140,10 @@ const HTML = `<!-- ════════════════════�
 </div>`;
 
 export default function MediaImpact() {
-  return <div data-section="MediaImpact" dangerouslySetInnerHTML={{ __html: HTML }} />;
+  return (
+    <div
+      data-section="MediaImpact"
+      dangerouslySetInnerHTML={{ __html: HTML }}
+    />
+  );
 }

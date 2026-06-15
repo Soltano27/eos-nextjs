@@ -1520,12 +1520,30 @@ footer {
 .eos-photo-grid .eos-photo-slot.tall {
   height: 320px;
 }
+
+/* Impact report download section responsive */
+@media (max-width: 768px) {
+  .impact-download-wrap {
+    padding: 0 20px 48px !important;
+  }
+  .impact-download-wrap > div {
+    padding: 32px 24px !important;
+    flex-direction: column !important;
+  }
+  .impact-download-wrap h3 {
+    font-size: 20px !important;
+  }
+  .impact-download-wrap a[download] {
+    width: 100%;
+    justify-content: center;
+  }
+}
 .eos-photo-grid .eos-photo-slot.short {
   height: 200px;
 }
 .eos-photo-grid .eos-photo-slot.wide {
   grid-column: span 2;
-  height: 240px;
+  height: 380px;
 }
 @media (max-width: 992px) {
   .eos-photo-grid {
