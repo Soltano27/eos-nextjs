@@ -26,7 +26,7 @@ const HTML = `<!-- ════════════════════�
     <div class="hero-visual">
       <div class="hero-card">
         <div class="hero-card-label" style="color:rgba(10,132,200,0.7)">Neuro Champions Fellowship</div>
-        <div class="hero-card-num" style="color:#0A84C8">53</div>
+        <div class="hero-card-num" style="color:#0A84C8">50</div>
         <div class="hero-card-desc">Fellows trained across 9 universities</div>
       </div>
       <div class="hero-card-row">
@@ -92,8 +92,6 @@ const HTML = `<!-- ════════════════════�
   <!-- MISSION & VISION -->
   <section class="home-mv-section">
     <div class="home-mv-inner">
-
-      <!-- VISION -->
       <div class="home-mv-block">
         <div class="home-mv-label">
           <div class="home-mv-rule"></div>
@@ -102,10 +100,7 @@ const HTML = `<!-- ════════════════════�
         <h2 class="home-mv-heading">An Africa where a young person's first encounter with brain health is not a hospital in crisis, but a community built to prevent one.</h2>
         <p class="home-mv-sub">Where the knowledge is accessible, the infrastructure exists, and no brain is lost to a condition that could have been prevented.</p>
       </div>
-
       <div class="home-mv-divider"></div>
-
-      <!-- MISSION -->
       <div class="home-mv-block">
         <div class="home-mv-label">
           <div class="home-mv-rule" style="background:var(--teal)"></div>
@@ -114,13 +109,9 @@ const HTML = `<!-- ════════════════════�
         <h2 class="home-mv-heading">To build Africa's foremost youth brain health movement — through culture, community, and direct access to care.</h2>
         <p class="home-mv-sub">Reaching young people before neurological disease does, and building the infrastructure that sustains that reach for generations.</p>
       </div>
-
-    
-      
       <div class="home-mv-cta">
         <button class="btn-primary" data-route="about-mission">Read Our Full Mission</button>
       </div>
-
     </div>
   </section>
 
@@ -128,7 +119,7 @@ const HTML = `<!-- ════════════════════�
   <section class="programs">
     <div class="programs-head">
       <div class="section-label"><span>Our Programmes</span></div>
-      </div>
+    </div>
     <div class="programs-grid">
       <div class="prog-card" data-route="programs-culture">
         <div class="prog-accent" style="background:#0A84C8"></div>
@@ -185,11 +176,10 @@ const HTML = `<!-- ════════════════════�
   <section class="impact">
     <div class="impact-top">
       <div class="section-label"><span>Our Impact</span></div>
-  
     </div>
     <div class="impact-grid">
       <div class="impact-stat">
-        <div class="impact-num" style="color:#0A84C8">53</div>
+        <div class="impact-num" style="color:#0A84C8">50</div>
         <div class="impact-label">Fellows trained across<br/>9 universities</div>
       </div>
       <div class="impact-stat">
@@ -215,7 +205,6 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="eos-slideshow-track-wrap">
       <div class="eos-slideshow-track" id="eosSlideTrack">
-        <!-- SET A -->
         <div class="eos-slide-card">
           <img src="/images/home-photo-1.jpg" alt="Fellowship Training" class="eos-slide-img"/>
           <div class="photo-caption">Neuro Champions Fellowship · Cohort 1</div>
@@ -240,7 +229,6 @@ const HTML = `<!-- ════════════════════�
           <img src="/images/home-photo-6.jpg" alt="Graduation Ceremony" class="eos-slide-img"/>
           <div class="photo-caption">NCF Cohort 1 · 14 Certified Champions</div>
         </div>
-        <!-- SET B (duplicate for seamless loop) -->
         <div class="eos-slide-card">
           <img src="/images/home-photo-1.jpg" alt="Fellowship Training" class="eos-slide-img"/>
           <div class="photo-caption">Neuro Champions Fellowship · Cohort 1</div>
@@ -267,7 +255,6 @@ const HTML = `<!-- ════════════════════�
         </div>
       </div>
     </div>
-    <!-- Prev / Next controls -->
     <div class="eos-slideshow-controls">
       <button class="eos-slide-btn" id="essPrev" onclick="essStep(-1)" aria-label="Previous">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
@@ -286,15 +273,15 @@ const HTML = `<!-- ════════════════════�
       <p>From the latest Cortex Printout to new episodes and free tools — everything EOS is putting out right now.</p>
     </div>
     <div class="latest-grid">
-      <div class="latest-card" data-route="cortex-article-1">
-        <div class="latest-card-img" style="background:linear-gradient(135deg,#0A3A6E,#0A84C8)">
+      <div class="latest-card" data-route="cortex-article-4">
+        <div class="latest-card-img" style="background:linear-gradient(135deg,#1A3A1A,#2D6A2D)">
           <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
         </div>
         <div class="latest-card-body">
-          <div class="latest-card-cat" style="color:#0A84C8">Physical Brain Health</div>
-          <h4>Is Your Brain Healthy? What Brain Health Is and Why It Matters</h4>
-          <p>The brain controls everything — but how do you know if yours is actually functioning well?</p>
-          <a class="read-more" data-route="cortex-article-1">Read Article <span>→</span></a>
+          <div class="latest-card-cat" style="color:#4CAF50">Mental Health &amp; Performance · Issue 004</div>
+          <h4>You're not a Burden, Speak Up</h4>
+          <p>Men account for 73% of suicide deaths. This June, we talk about why men don't reach out — and what needs to change.</p>
+          <a class="read-more" data-route="cortex-article-4">Read Article <span>→</span></a>
         </div>
       </div>
       <div class="latest-card" data-route="programs-culture">
@@ -330,10 +317,14 @@ const HTML = `<!-- ════════════════════�
         <h2>Brain Health.<br/>Written Honestly.</h2>
         <p>Our biweekly publication. Accurate, engaging, built for young Nigerians who want to understand their brain.</p>
       </div>
-      <div class="cortex-head-right" style="display:flex;align-items:center;gap:12px;">
-        <div style="display:flex;gap:8px;">
-          <button class="ci-slider-btn" id="home-ci-prev" aria-label="Previous">←</button>
-          <button class="ci-slider-btn" id="home-ci-next" aria-label="Next">→</button>
+      <div class="cortex-head-right" style="display:flex;flex-direction:column;align-items:flex-end;gap:16px;justify-content:flex-end;">
+        <div style="display:flex;gap:0;border:1px solid rgba(10,58,110,0.15);border-radius:100px;overflow:hidden;">
+          <button class="ci-slider-btn" id="home-ci-prev" aria-label="Previous">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button class="ci-slider-btn" id="home-ci-next" aria-label="Next" style="border-left:1px solid rgba(10,58,110,0.1);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
         </div>
         <a href="https://theeosfoundation.substack.com" target="_blank" rel="noopener">Read all issues on Substack →</a>
       </div>
@@ -450,8 +441,6 @@ const HTML = `<!-- ════════════════════�
     </div>
   </section>
 
- 
-
   <!-- JOIN -->
   <section class="join">
     <div class="section-label"><span>Get Involved</span></div>
@@ -480,14 +469,14 @@ const HTML = `<!-- ════════════════════�
 
 export default function HomeView() {
   React.useEffect(() => {
-    // Inject slider CSS if not already present
     const styleId = "ci-slider-styles";
     if (!document.getElementById(styleId)) {
       const s = document.createElement("style");
       s.id = styleId;
       s.textContent = `
-        .ci-slider-btn { width:36px; height:36px; border-radius:50%; border:1px solid rgba(10,58,110,0.15); background:var(--white); color:var(--navy); font-size:16px; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background 0.2s,border-color 0.2s,color 0.2s; }
-        .ci-slider-btn:hover { background:var(--blue); border-color:var(--blue); color:#fff; }
+        .ci-slider-controls { display:flex; gap:0; border:1px solid rgba(10,58,110,0.15); border-radius:100px; overflow:hidden; }
+        .ci-slider-btn { width:40px; height:40px; border-radius:0; border:none; background:var(--white); color:var(--navy); cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background 0.2s,color 0.2s; }
+        .ci-slider-btn:hover { background:var(--blue); color:#fff; }
         .ci-slider-wrap { overflow:hidden; width:100%; }
         .ci-slider-track { display:flex; gap:0; transition:transform 0.4s cubic-bezier(0.25,1,0.5,1); will-change:transform; }
         .ci-slider-track .article-card { flex:0 0 33.333%; padding:0 10px; box-sizing:border-box; }
@@ -591,7 +580,6 @@ export default function HomeView() {
       };
     }
 
-    // Run on mount — home is visible by default
     const cleanup = initHomeSlider();
     return () => {
       if (cleanup) cleanup();

@@ -70,13 +70,17 @@ const HTML = `<!-- ════════════════════�
     <div class="ci-issues-header">
       <h3 class="ci-grid-title">All Issues</h3>
       <div class="ci-slider-controls">
-        <button class="ci-slider-btn" id="ci-prev" aria-label="Previous">←</button>
-        <button class="ci-slider-btn" id="ci-next" aria-label="Next">→</button>
+        <button class="ci-slider-btn" id="ci-prev" aria-label="Previous">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="ci-slider-btn" id="ci-next" aria-label="Next">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
       </div>
     </div>
     <div class="ci-slider-wrap">
       <div class="ci-slider-track" id="ci-track">
-        <div class="article-card" data-route="cortex-article-4">
+        <div class="article-card" data-route="cortex-article-4" data-category="Mental Health &amp; Performance">
           <div class="article-img" style="background:linear-gradient(135deg,#1A3A1A,#2D6A2D)">
             <span class="article-issue">ISSUE 004</span>
           </div>
@@ -87,7 +91,7 @@ const HTML = `<!-- ════════════════════�
             <a class="read-more" data-route="cortex-article-4">Read More <span>→</span></a>
           </div>
         </div>
-        <div class="article-card" data-route="cortex-article-3">
+        <div class="article-card" data-route="cortex-article-3" data-category="Physical Brain Health">
           <div class="article-img" style="background:linear-gradient(135deg,#006A58,#00BFA5)">
             <span class="article-issue">ISSUE 003</span>
           </div>
@@ -98,7 +102,7 @@ const HTML = `<!-- ════════════════════�
             <a class="read-more" data-route="cortex-article-3">Read More <span>→</span></a>
           </div>
         </div>
-        <div class="article-card" data-route="cortex-article-2">
+        <div class="article-card" data-route="cortex-article-2" data-category="Physical Brain Health">
           <div class="article-img" style="background:linear-gradient(135deg,#3A1A70,#5B3FA0)">
             <span class="article-issue">ISSUE 002</span>
           </div>
@@ -109,7 +113,7 @@ const HTML = `<!-- ════════════════════�
             <a class="read-more" data-route="cortex-article-2">Read More <span>→</span></a>
           </div>
         </div>
-        <div class="article-card" data-route="cortex-article-1">
+        <div class="article-card" data-route="cortex-article-1" data-category="Physical Brain Health">
           <div class="article-img" style="background:linear-gradient(135deg,#0A3A6E,#0A84C8)">
             <span class="article-issue">ISSUE 001</span>
           </div>
@@ -802,9 +806,10 @@ export default function OtherStubs() {
       s.textContent = `
         .ci-issues-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:24px; }
         .ci-issues-header .ci-grid-title { margin-bottom:0; border-bottom:none; padding-bottom:0; }
-        .ci-slider-controls { display:flex; gap:8px; }
-        .ci-slider-btn { width:36px; height:36px; border-radius:50%; border:1px solid rgba(10,58,110,0.15); background:var(--white); color:var(--navy); font-size:16px; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background 0.2s,border-color 0.2s,color 0.2s; }
-        .ci-slider-btn:hover { background:var(--blue); border-color:var(--blue); color:#fff; }
+        .ci-slider-controls { display:flex; gap:0; border:1px solid rgba(10,58,110,0.15); border-radius:100px; overflow:hidden; }
+        .ci-slider-btn { width:40px; height:40px; border-radius:0; border:none; border-right:1px solid rgba(10,58,110,0.1); background:var(--white); color:var(--navy); cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background 0.2s,color 0.2s; }
+        .ci-slider-btn:last-child { border-right:none; }
+        .ci-slider-btn:hover { background:var(--blue); color:#fff; }
         .ci-slider-wrap { overflow:hidden; width:100%; }
         .ci-slider-track { display:flex; gap:0; transition:transform 0.4s cubic-bezier(0.25,1,0.5,1); will-change:transform; }
         .ci-slider-track .article-card { flex:0 0 33.333%; padding:0 10px; box-sizing:border-box; }
@@ -931,8 +936,72 @@ export default function OtherStubs() {
       attributeFilter: ["class"],
     });
 
+    // Category filter logic
+    function initCortexFilter() {
+      const cats = document.querySelectorAll(".cortex-index-cats .ci-cat");
+      if (!cats.length) return;
+
+      cats.forEach((cat) => {
+        cat.addEventListener("click", () => {
+          // Update active state
+          cats.forEach((c) => c.classList.remove("active"));
+          cat.classList.add("active");
+
+          const selected = (cat as HTMLElement).textContent?.trim() || "All";
+          const track = document.getElementById("ci-track");
+          const dotsWrap = document.getElementById("ci-dots");
+          if (!track) return;
+
+          const allCards = Array.from(
+            track.querySelectorAll(".article-card"),
+          ) as HTMLElement[];
+
+          if (selected === "All") {
+            // Show all cards
+            allCards.forEach((c) => {
+              c.style.display = "";
+              c.style.flex = "";
+            });
+          } else {
+            // Show only matching cards, hide others
+            allCards.forEach((c) => {
+              const cardCat = (c.dataset.category || "").replace(/&amp;/g, "&");
+              if (cardCat === selected) {
+                c.style.display = "";
+                c.style.flex = "0 0 33.333%";
+              } else {
+                c.style.display = "none";
+              }
+            });
+          }
+
+          // Reset slider position
+          track.style.transform = "translateX(0)";
+          if (dotsWrap) dotsWrap.innerHTML = "";
+
+          // Reinit slider with filtered cards
+          setTimeout(initCortexSlider, 50);
+        });
+      });
+    }
+
+    // Also observe for filter init
+    const filterObserver = new MutationObserver(() => {
+      const view = document.getElementById("view-cortex");
+      if (view && view.classList.contains("active")) {
+        initCortexFilter();
+        filterObserver.disconnect();
+      }
+    });
+    filterObserver.observe(document.body, {
+      attributes: true,
+      subtree: true,
+      attributeFilter: ["class"],
+    });
+
     return () => {
       observer.disconnect();
+      filterObserver.disconnect();
       if (sliderCleanup) sliderCleanup();
     };
   }, []);
