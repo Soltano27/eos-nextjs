@@ -330,45 +330,63 @@ const HTML = `<!-- ════════════════════�
         <h2>Brain Health.<br/>Written Honestly.</h2>
         <p>Our biweekly publication. Accurate, engaging, built for young Nigerians who want to understand their brain.</p>
       </div>
-      <div class="cortex-head-right">
+      <div class="cortex-head-right" style="display:flex;align-items:center;gap:12px;">
+        <div style="display:flex;gap:8px;">
+          <button class="ci-slider-btn" id="home-ci-prev" aria-label="Previous">←</button>
+          <button class="ci-slider-btn" id="home-ci-next" aria-label="Next">→</button>
+        </div>
         <a href="https://theeosfoundation.substack.com" target="_blank" rel="noopener">Read all issues on Substack →</a>
       </div>
     </div>
-    <div class="articles">
-      <div class="article-card" data-route="cortex-article-1">
-        <div class="article-img" style="background:linear-gradient(135deg,#0A3A6E,#0A84C8)">
-          <span class="article-issue">ISSUE 001</span>
+    <div class="ci-slider-wrap" id="home-ci-wrap">
+      <div class="ci-slider-track" id="home-ci-track">
+        <div class="article-card" data-route="cortex-article-4">
+          <div class="article-img" style="background:linear-gradient(135deg,#1A3A1A,#2D6A2D)">
+            <span class="article-issue">ISSUE 004</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#4CAF50">Mental Health &amp; Performance</div>
+            <h4>You're not a Burden, Speak Up</h4>
+            <p>Men account for 73% of suicide deaths. This June, we talk about why men don't reach out — and what needs to change.</p>
+            <a class="read-more" data-route="cortex-article-4">Read More <span>→</span></a>
+          </div>
         </div>
-        <div class="article-body">
-          <div class="article-cat" style="color:#0A84C8">Physical Brain Health</div>
-          <h4>Is Your Brain Healthy? What Brain Health Is and Why It Matters</h4>
-          <p>The brain controls everything — but how do you know if yours is actually functioning well?</p>
-          <a class="read-more" data-route="cortex-article-1">Read More <span>→</span></a>
+        <div class="article-card" data-route="cortex-article-3">
+          <div class="article-img" style="background:linear-gradient(135deg,#006A58,#00BFA5)">
+            <span class="article-issue">ISSUE 003</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#00BFA5">Physical Brain Health</div>
+            <h4>What Are Seizures and Epilepsy? Causes, Types, and Treatment Explained</h4>
+            <p>Separating myth from medicine — what seizures really are and how to respond when it happens.</p>
+            <a class="read-more" data-route="cortex-article-3">Read More <span>→</span></a>
+          </div>
         </div>
-      </div>
-      <div class="article-card" data-route="cortex">
-        <div class="article-img" style="background:linear-gradient(135deg,#3A1A70,#5B3FA0)">
-          <span class="article-issue">ISSUE 002</span>
+        <div class="article-card" data-route="cortex-article-2">
+          <div class="article-img" style="background:linear-gradient(135deg,#3A1A70,#5B3FA0)">
+            <span class="article-issue">ISSUE 002</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#5B3FA0">Physical Brain Health</div>
+            <h4>What Are Migraines and Why Do You Keep Getting Them?</h4>
+            <p>Migraines are more than headaches. Understand the stages, the triggers, and how to manage them.</p>
+            <a class="read-more" data-route="cortex-article-2">Read More <span>→</span></a>
+          </div>
         </div>
-        <div class="article-body">
-          <div class="article-cat" style="color:#5B3FA0">Technology</div>
-          <h4>Brain Rot Is Real: What Screen Time Is Actually Doing to the Young Nigerian Brain</h4>
-          <p>Dopamine, shortened attention spans, and what a digital detox actually achieves.</p>
-          <a class="read-more" data-route="cortex">Read More <span>→</span></a>
-        </div>
-      </div>
-      <div class="article-card" data-route="cortex">
-        <div class="article-img" style="background:linear-gradient(135deg,#006A58,#00BFA5)">
-          <span class="article-issue">ISSUE 003</span>
-        </div>
-        <div class="article-body">
-          <div class="article-cat" style="color:#00BFA5">Women's Neuro Health</div>
-          <h4>Hormones and the Brain: What Every Young Nigerian Woman Should Know</h4>
-          <p>Oestrogen, cognition, and the conversation that rarely happens in public.</p>
-          <a class="read-more" data-route="cortex">Read More <span>→</span></a>
+        <div class="article-card" data-route="cortex-article-1">
+          <div class="article-img" style="background:linear-gradient(135deg,#0A3A6E,#0A84C8)">
+            <span class="article-issue">ISSUE 001</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#0A84C8">Physical Brain Health</div>
+            <h4>Is Your Brain Healthy? What Brain Health Is and Why It Matters</h4>
+            <p>What the brain is, what brain health means, and how to protect yours starting now.</p>
+            <a class="read-more" data-route="cortex-article-1">Read More <span>→</span></a>
+          </div>
         </div>
       </div>
     </div>
+    <div class="ci-slider-dots" id="home-ci-dots"></div>
   </section>
 
   <!-- RESOURCES -->
@@ -461,6 +479,125 @@ const HTML = `<!-- ════════════════════�
 </div><!-- /view-home -->`;
 
 export default function HomeView() {
+  React.useEffect(() => {
+    // Inject slider CSS if not already present
+    const styleId = "ci-slider-styles";
+    if (!document.getElementById(styleId)) {
+      const s = document.createElement("style");
+      s.id = styleId;
+      s.textContent = `
+        .ci-slider-btn { width:36px; height:36px; border-radius:50%; border:1px solid rgba(10,58,110,0.15); background:var(--white); color:var(--navy); font-size:16px; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background 0.2s,border-color 0.2s,color 0.2s; }
+        .ci-slider-btn:hover { background:var(--blue); border-color:var(--blue); color:#fff; }
+        .ci-slider-wrap { overflow:hidden; width:100%; }
+        .ci-slider-track { display:flex; gap:0; transition:transform 0.4s cubic-bezier(0.25,1,0.5,1); will-change:transform; }
+        .ci-slider-track .article-card { flex:0 0 33.333%; padding:0 10px; box-sizing:border-box; }
+        .ci-slider-dots { display:flex; justify-content:center; gap:8px; margin-top:24px; }
+        .ci-dot { width:8px; height:8px; border-radius:50%; background:rgba(10,58,110,0.15); border:none; cursor:pointer; transition:background 0.2s,transform 0.2s; padding:0; }
+        .ci-dot.active { background:var(--blue); transform:scale(1.25); }
+        @media(max-width:768px){ .ci-slider-track .article-card { flex:0 0 100%; padding:0 8px; } }
+      `;
+      document.head.appendChild(s);
+    }
+
+    function initHomeSlider() {
+      const track = document.getElementById(
+        "home-ci-track",
+      ) as HTMLElement | null;
+      const dotsWrap = document.getElementById(
+        "home-ci-dots",
+      ) as HTMLElement | null;
+      const prevBtn = document.getElementById(
+        "home-ci-prev",
+      ) as HTMLButtonElement | null;
+      const nextBtn = document.getElementById(
+        "home-ci-next",
+      ) as HTMLButtonElement | null;
+      if (!track || !dotsWrap || !prevBtn || !nextBtn) return;
+
+      const cards = track.querySelectorAll(".article-card");
+      const totalCards = cards.length;
+      let perPage = window.innerWidth <= 768 ? 1 : 3;
+      let currentIndex = 0;
+
+      function getStepPct() {
+        return 100 / perPage;
+      }
+      function getMaxIndex() {
+        return totalCards - perPage;
+      }
+
+      function updateSlider() {
+        track!.style.transform = `translateX(-${currentIndex * getStepPct()}%)`;
+      }
+
+      function buildDots() {
+        dotsWrap!.innerHTML = "";
+        const pages = Math.ceil(totalCards / perPage);
+        for (let i = 0; i < pages; i++) {
+          const d = document.createElement("button");
+          d.className = "ci-dot" + (i === 0 ? " active" : "");
+          d.setAttribute("aria-label", "Page " + (i + 1));
+          const idx = i;
+          d.addEventListener("click", () => {
+            currentIndex = Math.min(idx * perPage, getMaxIndex());
+            updateSlider();
+            updateDots();
+          });
+          dotsWrap!.appendChild(d);
+        }
+      }
+
+      function updateDots() {
+        const activePage = Math.round(currentIndex / perPage);
+        dotsWrap!.querySelectorAll(".ci-dot").forEach((d, i) => {
+          d.classList.toggle("active", i === activePage);
+        });
+      }
+
+      const onNext = () => {
+        currentIndex =
+          currentIndex < getMaxIndex()
+            ? Math.min(currentIndex + perPage, getMaxIndex())
+            : 0;
+        updateSlider();
+        updateDots();
+      };
+      const onPrev = () => {
+        currentIndex =
+          currentIndex > 0
+            ? Math.max(currentIndex - perPage, 0)
+            : getMaxIndex();
+        updateSlider();
+        updateDots();
+      };
+
+      buildDots();
+      prevBtn.addEventListener("click", onPrev);
+      nextBtn.addEventListener("click", onNext);
+      updateSlider();
+
+      const handleResize = () => {
+        perPage = window.innerWidth <= 768 ? 1 : 3;
+        currentIndex = 0;
+        buildDots();
+        updateSlider();
+        updateDots();
+      };
+      window.addEventListener("resize", handleResize);
+      return () => {
+        prevBtn.removeEventListener("click", onPrev);
+        nextBtn.removeEventListener("click", onNext);
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+
+    // Run on mount — home is visible by default
+    const cleanup = initHomeSlider();
+    return () => {
+      if (cleanup) cleanup();
+    };
+  }, []);
+
   return (
     <div data-section="HomeView" dangerouslySetInnerHTML={{ __html: HTML }} />
   );

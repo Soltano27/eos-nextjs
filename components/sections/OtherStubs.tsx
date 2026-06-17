@@ -67,42 +67,62 @@ const HTML = `<!-- ════════════════════�
       </div>
     </div>
     <!-- Grid of all issues -->
-    <h3 class="ci-grid-title">All Issues</h3>
-    <div class="ci-grid">
-      <div class="article-card" data-route="cortex-article-1">
-        <div class="article-img" style="background:linear-gradient(135deg,#0A3A6E,#0A84C8)">
-          <span class="article-issue">ISSUE 001</span>
-        </div>
-        <div class="article-body">
-          <div class="article-cat" style="color:#0A84C8">Physical Brain Health</div>
-          <h4>Is Your Brain Healthy? What Brain Health Is and Why It Matters</h4>
-          <p>What the brain is, what brain health means, and how to protect yours starting now.</p>
-          <a class="read-more" data-route="cortex-article-1">Read More <span>→</span></a>
-        </div>
+    <div class="ci-issues-header">
+      <h3 class="ci-grid-title">All Issues</h3>
+      <div class="ci-slider-controls">
+        <button class="ci-slider-btn" id="ci-prev" aria-label="Previous">←</button>
+        <button class="ci-slider-btn" id="ci-next" aria-label="Next">→</button>
       </div>
-      <div class="article-card" data-route="cortex-article-2">
-        <div class="article-img" style="background:linear-gradient(135deg,#3A1A70,#5B3FA0)">
-          <span class="article-issue">ISSUE 002</span>
+    </div>
+    <div class="ci-slider-wrap">
+      <div class="ci-slider-track" id="ci-track">
+        <div class="article-card" data-route="cortex-article-4">
+          <div class="article-img" style="background:linear-gradient(135deg,#1A3A1A,#2D6A2D)">
+            <span class="article-issue">ISSUE 004</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#4CAF50">Mental Health &amp; Performance</div>
+            <h4>You're not a Burden, Speak Up</h4>
+            <p>Men account for roughly 73% of suicide deaths. This June, we are talking about why men don't reach out — and what we all need to change.</p>
+            <a class="read-more" data-route="cortex-article-4">Read More <span>→</span></a>
+          </div>
         </div>
-        <div class="article-body">
-          <div class="article-cat" style="color:#5B3FA0">Physical Brain Health</div>
-          <h4>What are Migraines and Why Do You Keep Getting Them?</h4>
-          <p>Migraines are more than headaches. Understand the stages, the triggers, and how to manage them effectively.</p>
-          <a class="read-more" data-route="cortex-article-2">Read More <span>→</span></a>
+        <div class="article-card" data-route="cortex-article-3">
+          <div class="article-img" style="background:linear-gradient(135deg,#006A58,#00BFA5)">
+            <span class="article-issue">ISSUE 003</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#00BFA5">Physical Brain Health</div>
+            <h4>What Are Seizures and Epilepsy? Causes, Types, and Treatment Explained</h4>
+            <p>Separating myth from medicine — what seizures really are, what causes epilepsy, and how to respond when it happens.</p>
+            <a class="read-more" data-route="cortex-article-3">Read More <span>→</span></a>
+          </div>
         </div>
-      </div>
-      <div class="article-card" data-route="cortex-article-3">
-        <div class="article-img" style="background:linear-gradient(135deg,#006A58,#00BFA5)">
-          <span class="article-issue">ISSUE 003</span>
+        <div class="article-card" data-route="cortex-article-2">
+          <div class="article-img" style="background:linear-gradient(135deg,#3A1A70,#5B3FA0)">
+            <span class="article-issue">ISSUE 002</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#5B3FA0">Physical Brain Health</div>
+            <h4>What are Migraines and Why Do You Keep Getting Them?</h4>
+            <p>Migraines are more than headaches. Understand the stages, the triggers, and how to manage them effectively.</p>
+            <a class="read-more" data-route="cortex-article-2">Read More <span>→</span></a>
+          </div>
         </div>
-        <div class="article-body">
-          <div class="article-cat" style="color:#00BFA5">Physical Brain Health</div>
-          <h4>What Are Seizures and Epilepsy? Causes, Types, and Treatment Explained</h4>
-          <p>Separating myth from medicine — what seizures really are, what causes epilepsy, and how to respond when it happens.</p>
-          <a class="read-more" data-route="cortex-article-3">Read More <span>→</span></a>
+        <div class="article-card" data-route="cortex-article-1">
+          <div class="article-img" style="background:linear-gradient(135deg,#0A3A6E,#0A84C8)">
+            <span class="article-issue">ISSUE 001</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#0A84C8">Physical Brain Health</div>
+            <h4>Is Your Brain Healthy? What Brain Health Is and Why It Matters</h4>
+            <p>What the brain is, what brain health means, and how to protect yours starting now.</p>
+            <a class="read-more" data-route="cortex-article-1">Read More <span>→</span></a>
+          </div>
         </div>
       </div>
     </div>
+    <div class="ci-slider-dots" id="ci-dots"></div>
     <div style="text-align:center;padding:40px 0 80px">
       <button class="back-btn" data-route="home">← Back to Home</button>
     </div>
@@ -264,7 +284,7 @@ const HTML = `<!-- ════════════════════�
 
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
-        <button class="art-back-btn" data-route="home">← Back to Home</button>
+        <button class="art-back-btn" data-route="cortex-article-2">Next Issue →</button>
       </div>
     </article>
   </div>
@@ -453,6 +473,7 @@ const HTML = `<!-- ════════════════════�
       </div>
 
       <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-1">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
         <button class="art-back-btn" data-route="cortex-article-3">Next Issue →</button>
       </div>
@@ -664,12 +685,258 @@ const HTML = `<!-- ════════════════════�
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-2">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
+        <button class="art-back-btn" data-route="cortex-article-4">Next Issue →</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     CORTEX ARTICLE 4 — YOU'RE NOT A BURDEN, SPEAK UP
+══════════════════════════════ -->
+<div id="view-cortex-article-4" class="page-view">
+  <div class="art-hero" style="background:linear-gradient(135deg,#1A3A1A 0%,#2D6A2D 100%)">
+    <div class="art-hero-inner">
+      <div class="art-breadcrumb">
+        <span data-route="cortex" style="cursor:pointer;opacity:0.6;transition:opacity 0.2s">The Cortex Printout</span>
+        <span style="opacity:0.3;margin:0 8px">/</span>
+        <span style="opacity:0.9">Issue 004</span>
+      </div>
+      <div class="art-meta-row">
+        <span class="art-issue-badge">ISSUE 004</span>
+        <span class="art-cat-badge" style="background:rgba(76,175,80,0.2);color:#A5D6A7">Mental Health &amp; Performance</span>
+      </div>
+      <h1 class="art-title">You're not a Burden,<br/>Speak Up</h1>
+      <p class="art-deck">Men account for roughly 73% of suicide deaths. We keep telling men to reach out — but we rarely fix the culture that stops them from doing so.</p>
+      <div class="art-byline">
+        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <div>
+          <div class="art-byline-name">The Cortex Printout</div>
+          <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation · June 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="art-layout">
+    <aside class="art-sidebar">
+      <div class="art-toc">
+        <div class="art-toc-title">In This Article</div>
+        <a class="art-toc-item" href="#b-intro">Introduction</a>
+        <a class="art-toc-item" href="#b-silence">The Culture of Silence</a>
+        <a class="art-toc-item" href="#b-june">Men's Mental Health Month</a>
+        <a class="art-toc-item" href="#b-message">A Message to Men</a>
+        <a class="art-toc-item" href="#b-help">Seek Help</a>
+      </div>
+      <div class="art-key-takeaways">
+        <div class="art-kt-title">Key Takeaways</div>
+        <ul class="art-kt-list">
+          <li>Men account for roughly 73% of suicide deaths worldwide, yet the culture around men's vulnerability rarely changes.</li>
+          <li>Teaching boys to suppress emotion creates men who suffer in silence — and sometimes don't survive it.</li>
+          <li>Telling men to reach out means nothing if the people around them aren't prepared to listen without judgement.</li>
+          <li>Seeking therapy or counselling does not make a man weak. It makes him strategic about his own survival.</li>
+          <li>You are not a burden. You are worth the conversation.</li>
+        </ul>
+      </div>
+    </aside>
+
+    <article class="art-body">
+      <section id="b-intro">
+        <p class="art-lede">Whenever we hear the sad news that a man has taken his life, we often exclaim and ask why he didn't reach out. We ask ourselves why he didn't talk to someone or call for help. We post and tell men to reach out and talk to someone if they are having suicidal thoughts. But you know what we don't do? We don't correct the mindset that a man should bear his problems by himself.</p>
+        <p>We tell young boys to be men when life hits them and knocks them down. We tell boys to suck up their struggles and keep their problems to themselves. The impact of these expectations can be devastating. Men account for roughly 73% of suicide deaths, highlighting the urgent need to create spaces where they can seek support without fear of judgement.</p>
+      </section>
+
+      <section id="b-silence">
+        <h2>The Culture of Silence</h2>
+        <p>When the girl child is abused, there is a roaring outrage to get justice for her, but when the victim is a boy, the outrage is much quieter. We assume he will be fine and leave him to deal with his demons on his own. When some of these boys try to open up, we see them as soft and less manly.</p>
+        <p>When they grow up to be men, they continue these patterns, and then we are surprised when some of them end up taking their own lives. We act surprised and wonder why they didn't reach out for help.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">💬</div>
+          <div>"I would rather carry the weight of your tears than carry the weight of your coffin."</div>
+        </div>
+      </section>
+
+      <section id="b-june">
+        <h2>Men's Mental Health Month</h2>
+        <p>June is Men's Mental Health Month, and as usual, there is a lot of content telling men to open up and seek help. While this is noble and admirable, it would be better backed up with action. Let us also strive to be people they can open up to.</p>
+        <p>Let us banish the thought that men are weak for opening up. Let us teach our boys that it is okay to seek help when they need to.</p>
+        <p>Let men ask themselves which call they would rather receive — a call from their friend stating he needs help, or a call informing them that he has taken his own life.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">📞</div>
+          <div>If someone around you is struggling, be the kind of person they feel safe calling. That simple shift saves lives.</div>
+        </div>
+      </section>
+
+      <section id="b-message">
+        <h2>A Message to Men</h2>
+        <p>To all men, please remember that you are not weak for opening up, and if the people around you truly care for you, they will be happy to listen to your struggles and help you through all you are going through.</p>
+        <p>I understand that you may be carrying a lot on your mind, and sometimes it feels like no one understands you. I understand some days feel so dark that it is difficult to see the light. I understand that sometimes ending it all seems like your only escape. But it isn't.</p>
+        <p>There is no shame in seeking help. Going for therapy and counselling does not make you any less of a man. Think of it this way: when soldiers are out on a mission and they get stuck or trapped, they request backup, and no one mocks them for it. No one calls them weak or cowardly for doing so — instead, they rush to their aid. So, see yourself as a soldier who just needs some support.</p>
+      </section>
+
+      <section id="b-help">
+        <h2>Seek Help. Get Better.</h2>
+        <p>Don't be a statistic to be quoted every June. If you need help, seek it. It may not look like it now, but things can get better. Please don't consider suicide as an option. If you are having suicidal thoughts, open up to people around you and get help. If you need professional counselling, several options are available to you.</p>
+        <p>Seek help and get better. You're worth it.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">🧠</div>
+          <div>You don't have to carry the weight alone. If you are ready to prioritise your brain health or just need a safe space to start, join our community and explore our resources at <strong>theeosfoundation.org</strong>.</div>
+        </div>
+      </section>
+
+      <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-3">← Previous Issue</button>
+        <button class="art-back-btn" data-route="cortex">← All Issues</button>
       </div>
     </article>
   </div>
 </div>`;
 
 export default function OtherStubs() {
+  React.useEffect(() => {
+    // Inject slider CSS once
+    const styleId = "ci-slider-styles";
+    if (!document.getElementById(styleId)) {
+      const s = document.createElement("style");
+      s.id = styleId;
+      s.textContent = `
+        .ci-issues-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:24px; }
+        .ci-issues-header .ci-grid-title { margin-bottom:0; border-bottom:none; padding-bottom:0; }
+        .ci-slider-controls { display:flex; gap:8px; }
+        .ci-slider-btn { width:36px; height:36px; border-radius:50%; border:1px solid rgba(10,58,110,0.15); background:var(--white); color:var(--navy); font-size:16px; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background 0.2s,border-color 0.2s,color 0.2s; }
+        .ci-slider-btn:hover { background:var(--blue); border-color:var(--blue); color:#fff; }
+        .ci-slider-wrap { overflow:hidden; width:100%; }
+        .ci-slider-track { display:flex; gap:0; transition:transform 0.4s cubic-bezier(0.25,1,0.5,1); will-change:transform; }
+        .ci-slider-track .article-card { flex:0 0 33.333%; padding:0 10px; box-sizing:border-box; }
+        .ci-slider-dots { display:flex; justify-content:center; gap:8px; margin-top:24px; }
+        .ci-dot { width:8px; height:8px; border-radius:50%; background:rgba(10,58,110,0.15); border:none; cursor:pointer; transition:background 0.2s,transform 0.2s; padding:0; }
+        .ci-dot.active { background:var(--blue); transform:scale(1.25); }
+        @media(max-width:768px){
+          .ci-slider-track .article-card { flex:0 0 100%; padding:0 8px; }
+        }
+      `;
+      document.head.appendChild(s);
+    }
+
+    let sliderCleanup: (() => void) | null = null;
+
+    function initCortexSlider() {
+      if (sliderCleanup) {
+        sliderCleanup();
+        sliderCleanup = null;
+      }
+
+      const track = document.getElementById("ci-track") as HTMLElement | null;
+      const dotsWrap = document.getElementById("ci-dots") as HTMLElement | null;
+      const prevBtn = document.getElementById(
+        "ci-prev",
+      ) as HTMLButtonElement | null;
+      const nextBtn = document.getElementById(
+        "ci-next",
+      ) as HTMLButtonElement | null;
+      if (!track || !dotsWrap || !prevBtn || !nextBtn) return;
+
+      const cards = track.querySelectorAll(".article-card");
+      const totalCards = cards.length;
+      let perPage = window.innerWidth <= 768 ? 1 : 3;
+      let currentIndex = 0;
+
+      function getStepPct() {
+        return 100 / perPage;
+      }
+      function getMaxIndex() {
+        return totalCards - perPage;
+      }
+
+      function updateSlider() {
+        track!.style.transform = `translateX(-${currentIndex * getStepPct()}%)`;
+      }
+
+      function buildDots() {
+        dotsWrap!.innerHTML = "";
+        const pages = Math.ceil(totalCards / perPage);
+        for (let i = 0; i < pages; i++) {
+          const d = document.createElement("button");
+          d.className = "ci-dot" + (i === 0 ? " active" : "");
+          d.setAttribute("aria-label", "Page " + (i + 1));
+          const idx = i;
+          d.addEventListener("click", () => {
+            currentIndex = Math.min(idx * perPage, getMaxIndex());
+            updateSlider();
+            updateDots();
+          });
+          dotsWrap!.appendChild(d);
+        }
+      }
+
+      function updateDots() {
+        const activePage = Math.round(currentIndex / perPage);
+        dotsWrap!.querySelectorAll(".ci-dot").forEach((d, i) => {
+          d.classList.toggle("active", i === activePage);
+        });
+      }
+
+      const onNext = () => {
+        if (currentIndex < getMaxIndex()) {
+          currentIndex = Math.min(currentIndex + perPage, getMaxIndex());
+        } else {
+          currentIndex = 0;
+        }
+        updateSlider();
+        updateDots();
+      };
+
+      const onPrev = () => {
+        if (currentIndex > 0) {
+          currentIndex = Math.max(currentIndex - perPage, 0);
+        } else {
+          currentIndex = getMaxIndex();
+        }
+        updateSlider();
+        updateDots();
+      };
+
+      buildDots();
+      prevBtn.addEventListener("click", onPrev);
+      nextBtn.addEventListener("click", onNext);
+      updateSlider();
+
+      const handleResize = () => {
+        perPage = window.innerWidth <= 768 ? 1 : 3;
+        currentIndex = 0;
+        buildDots();
+        updateSlider();
+        updateDots();
+      };
+      window.addEventListener("resize", handleResize);
+
+      sliderCleanup = () => {
+        prevBtn?.removeEventListener("click", onPrev);
+        nextBtn?.removeEventListener("click", onNext);
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+
+    // Watch for view-cortex becoming active
+    const observer = new MutationObserver(() => {
+      const view = document.getElementById("view-cortex");
+      if (view && view.classList.contains("active")) {
+        // Wait for layout to settle
+        setTimeout(initCortexSlider, 100);
+      }
+    });
+    observer.observe(document.body, {
+      attributes: true,
+      subtree: true,
+      attributeFilter: ["class"],
+    });
+
+    return () => {
+      observer.disconnect();
+      if (sliderCleanup) sliderCleanup();
+    };
+  }, []);
+
   return (
     <div data-section="OtherStubs" dangerouslySetInnerHTML={{ __html: HTML }} />
   );
