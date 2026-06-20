@@ -273,17 +273,17 @@ const HTML = `<!-- ════════════════════�
       <p>From the latest Cortex Printout to new episodes and free tools — everything EOS is putting out right now.</p>
     </div>
     <div class="latest-grid">
-      <div class="latest-card" data-route="cortex-article-4">
-        <div class="latest-card-img" style="background:linear-gradient(135deg,#1A3A1A,#2D6A2D)">
-          <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
-        </div>
-        <div class="latest-card-body">
-          <div class="latest-card-cat" style="color:#4CAF50">Mental Health &amp; Performance · Issue 004</div>
-          <h4>You're not a Burden, Speak Up</h4>
-          <p>Men account for 73% of suicide deaths. This June, we talk about why men don't reach out — and what needs to change.</p>
-          <a class="read-more" data-route="cortex-article-4">Read Article <span>→</span></a>
-        </div>
-      </div>
+      <div class="latest-card" data-route="cortex-article-5">
+  <div class="latest-card-img" style="background:linear-gradient(135deg,#6E0A14,#C81E3A)">
+    <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
+  </div>
+  <div class="latest-card-body">
+    <div class="latest-card-cat" style="color:#C81E3A">Physical Brain Health · Issue 005</div>
+    <h4>What Do You Know About Sickle Cell?</h4>
+    <p>Nigeria carries one of the highest burdens of sickle cell disease globally. Here is what every family should know — and why genotype testing matters.</p>
+    <a class="read-more" data-route="cortex-article-5">Read Article <span>→</span></a>
+  </div>
+</div>
       <div class="latest-card" data-route="programs-culture">
         <div class="latest-card-img" style="background:linear-gradient(135deg,#3A1A70,#5B3FA0)">
           <span class="latest-card-issue">IS YOUR BRAIN COOKED?</span>
@@ -331,17 +331,28 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap" id="home-ci-wrap">
       <div class="ci-slider-track" id="home-ci-track">
-        <div class="article-card" data-route="cortex-article-4">
-          <div class="article-img" style="background:linear-gradient(135deg,#1A3A1A,#2D6A2D)">
-            <span class="article-issue">ISSUE 004</span>
-          </div>
-          <div class="article-body">
-            <div class="article-cat" style="color:#4CAF50">Mental Health &amp; Performance</div>
-            <h4>You're not a Burden, Speak Up</h4>
-            <p>Men account for 73% of suicide deaths. This June, we talk about why men don't reach out — and what needs to change.</p>
-            <a class="read-more" data-route="cortex-article-4">Read More <span>→</span></a>
-          </div>
-        </div>
+        <div class="article-card" data-route="cortex-article-5">
+  <div class="article-img" style="background:linear-gradient(135deg,#6E0A14,#C81E3A)">
+    <span class="article-issue">ISSUE 005</span>
+  </div>
+  <div class="article-body">
+    <div class="article-cat" style="color:#C81E3A">Physical Brain Health</div>
+    <h4>What Do You Know About Sickle Cell?</h4>
+    <p>Nigeria's sickle cell burden explained — causes, neurological impact, and why genotype testing matters.</p>
+    <a class="read-more" data-route="cortex-article-5">Read More <span>→</span></a>
+  </div>
+</div>
+<div class="article-card" data-route="cortex-article-4">
+  <div class="article-img" style="background:linear-gradient(135deg,#1A3A1A,#2D6A2D)">
+    <span class="article-issue">ISSUE 004</span>
+  </div>
+  <div class="article-body">
+    <div class="article-cat" style="color:#4CAF50">Mental Health &amp; Performance</div>
+    <h4>You're not a Burden, Speak Up</h4>
+    <p>Men account for 73% of suicide deaths. This June, we talk about why men don't reach out — and what needs to change.</p>
+    <a class="read-more" data-route="cortex-article-4">Read More <span>→</span></a>
+  </div>
+</div>
         <div class="article-card" data-route="cortex-article-3">
           <div class="article-img" style="background:linear-gradient(135deg,#006A58,#00BFA5)">
             <span class="article-issue">ISSUE 003</span>

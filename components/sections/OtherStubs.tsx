@@ -80,6 +80,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap">
       <div class="ci-slider-track" id="ci-track">
+        <div class="article-card" data-route="cortex-article-5" data-category="Physical Brain Health">
+          <div class="article-img" style="background:linear-gradient(135deg,#6E0A14,#C81E3A)">
+            <span class="article-issue">ISSUE 005</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#C81E3A">Physical Brain Health</div>
+            <h4>What Do You Know About Sickle Cell?</h4>
+            <p>Nigeria carries one of the highest burdens of sickle cell disease globally. Here is what every family should know — and why genotype testing matters.</p>
+            <a class="read-more" data-route="cortex-article-5">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-4" data-category="Mental Health &amp; Performance">
           <div class="article-img" style="background:linear-gradient(135deg,#1A3A1A,#2D6A2D)">
             <span class="article-issue">ISSUE 004</span>
@@ -726,6 +737,167 @@ const HTML = `<!-- ════════════════════�
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-3">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
+        <button class="art-back-btn" data-route="cortex-article-5">Next Issue →</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     CORTEX ARTICLE 5 — SICKLE CELL
+══════════════════════════════ -->
+<div id="view-cortex-article-5" class="page-view">
+  <div class="art-hero" style="background:linear-gradient(135deg,#6E0A14 0%,#C81E3A 100%)">
+    <div class="art-hero-inner">
+      <div class="art-breadcrumb">
+        <span data-route="cortex" style="cursor:pointer;opacity:0.6;transition:opacity 0.2s">The Cortex Printout</span>
+        <span style="opacity:0.3;margin:0 8px">/</span>
+        <span style="opacity:0.9">Issue 005</span>
+      </div>
+      <div class="art-meta-row">
+        <span class="art-issue-badge">ISSUE 005</span>
+        <span class="art-cat-badge" style="background:rgba(200,30,58,0.2);color:#FCA5A5">Physical Brain Health</span>
+      </div>
+      <h1 class="art-title">What Do You Know About Sickle Cell?<br/>Understanding Sickle Cell: What Every Nigerian Family Should Know</h1>
+      <p class="art-deck">Sickle cell disease shapes the daily lives of millions of Nigerian families — yet much of it is preventable. Here is what every family should know, from the genetics to the brain health risks involved.</p>
+      <div class="art-byline">
+        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <div>
+          <div class="art-byline-name">The Cortex Printout</div>
+          <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation · June 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="art-layout">
+    <aside class="art-sidebar">
+      <div class="art-toc">
+        <div class="art-toc-title">In This Article</div>
+        <a class="art-toc-item" href="#sc-intro">Introduction</a>
+        <a class="art-toc-item" href="#sc-what">What Is Sickle Cell?</a>
+        <a class="art-toc-item" href="#sc-symptoms">Symptoms of Sickle Cell</a>
+        <a class="art-toc-item" href="#sc-neuro">Sickle Cell and Brain Health</a>
+        <a class="art-toc-item" href="#sc-causes">What Causes Sickle Cell?</a>
+        <a class="art-toc-item" href="#sc-prevalence">Why Sickle Cell Is So Common in Nigeria</a>
+        <a class="art-toc-item" href="#sc-management">How Is Sickle Cell Managed?</a>
+        <a class="art-toc-item" href="#sc-wrapup">Wrap Up</a>
+        <a class="art-toc-item" href="#sc-faq">FAQs</a>
+      </div>
+      <div class="art-key-takeaways">
+        <div class="art-kt-title">Key Takeaways</div>
+        <ul class="art-kt-list">
+          <li>Sickle cell disease is an inherited blood disorder caused when a child inherits abnormal haemoglobin genes (SS) from both parents, leading to misshapen red blood cells that obstruct blood flow.</li>
+          <li>Nigeria carries one of the highest burdens of sickle cell disease globally, driven largely by limited awareness, late genotype testing, and continued AS–AS marriages without informed genetic counselling.</li>
+          <li>The condition causes lifelong physical and emotional challenges, including chronic pain, frequent hospitalisations, increased infection risk, and significant psychological and social stigma.</li>
+          <li>Many cases of sickle cell disease are preventable through early genotype screening, informed partner selection, and genetic counselling before marriage or childbearing.</li>
+          <li>While prevention is critical, people already living with sickle cell disease require empathy, improved healthcare access, and support to manage the condition and maintain quality of life.</li>
+        </ul>
+      </div>
+    </aside>
+    <article class="art-body">
+      <section id="sc-intro">
+        <p class="art-lede">As we celebrate World Sickle Cell Day, we remember the people born with sickle cell disease, and we raise awareness about the condition. This genetic condition is caused by a child inheriting the S gene from both parents.</p>
+        <p>In Nigeria, we have a large number of sickle cell patients due to various factors. In times past, there was very little information about genotypes and blood groups, so most people were not tested, and as such, many AS people got married to each other and, unfortunately, produced children with sickle cell. While much information has been spread about genotypes and blood groups, many people refuse to get tested, and even when tested, many forget to ask potential partners for their genotype. Unfortunately, even among those who know, some still insist they love each other and cannot be separated, and so they get married despite knowing the likelihood of having children with the SS gene.</p>
+        <p>But for the sake of information, let us answer the question:</p>
+      </section>
+      <section id="sc-what">
+        <h2>What Is Sickle Cell?</h2>
+        <p>This is an inherited disease that attacks the red blood cells. It is a genetic mutation that causes red blood cells to become sickle-shaped instead of their flexible disc shape.<sup>[1]</sup> These abnormally shaped cells can block blood flow in small vessels.</p>
+      </section>
+      <section id="sc-symptoms">
+        <h2>What Are the Symptoms of Sickle Cell?</h2>
+        <p>Symptoms of sickle cell include anaemia (a shortage of healthy red blood cells), pain in various regions of the body caused by the obstructed blood flow, frequent weakness, swollen hands and feet, as well as a higher susceptibility to infections.</p>
+        <p>The day-to-day life of a sickle cell patient is not exactly sunshine and roses. In Nigeria, the life expectancy of SCD patients is estimated to be about 21 years.<sup>[4]</sup></p>
+        <p>In cases where access to expert medical care is available, the life expectancy is much longer because the complications are easier to manage. In low-income situations, the life expectancy can be much lower because of the lack of access to medical attention.</p>
+        <p>Sickle cell disease takes a toll on the physical and emotional health of the patient. Many children with SCD often experience long periods of hospitalisation, the need for frequent blood transfusions, and longer periods dealing with infections. Many miss long periods of school and activities because of health concerns. In addition, they have to deal with a lot of chronic pain due to their condition.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">💬</div>
+          <div>Physical health is not the only part that suffers — there is the emotional aspect as well. As many as 24% of SCD patients experience depression, with some studies reporting figures as high as 85%.<sup>[3]</sup></div>
+        </div>
+        <p>In children, seeing their friends run around fit as a fiddle while they frequent hospitals can be depressing. In Nigeria and African countries, there is also the stigma involved, as SCD patients are often called "sicklers."</p>
+      </section>
+      <section id="sc-neuro">
+        <h2>Is There Any Correlation Between Sickle Cell and Neurological Function?</h2>
+        <p>Sickle cell disease has neurological implications for patients. A study of SCD patients revealed their brains looked much older and smaller in scans, with some appearing 14 years older than the real age of the patient. Brain shrinking occurs naturally as age advances, and premature shrinking is usually caused by neurodegenerative diseases such as dementia. In sickle cell patients, the condition is present from birth, and so it is necessary to run tests to estimate cognitive decline.<sup>[6]</sup></p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🧠</div>
+          <div>Sickle cell disease also affects brain health in other ways. Children with SCD score lower than those without it in cognitive function tests, and are more likely to suffer from neurological conditions such as stroke.</div>
+        </div>
+        <p>This is because the abnormal shape of the red blood cells in their blood can lead to obstruction of the blood vessels, and this raises the likelihood of a stroke occurring. Furthermore, there are silent strokes that may also occur, which may not display the full symptoms of a normal stroke. These are called Silent Cerebral Infarctions.<sup>[7]</sup></p>
+        <p>In addition, other conditions affect neurological health. Because sickle cell disease often causes chronic anaemia, less oxygen may be delivered to the brain and other organs, increasing the risk of hypoxia and related complications.<sup>[8]</sup></p>
+      </section>
+      <section id="sc-causes">
+        <h2>What Causes Sickle Cell?</h2>
+        <p>Sickle cell is caused by the transmission of the S gene from both parents. In this case, both parents could be carriers (AS), or they could be affected themselves (SS). If an AS man and an AS woman meet and have children, each pregnancy has a 25% chance of producing a child with the SS gene. This is why it is very important for intending couples to undergo genetic testing before getting married.</p>
+      </section>
+      <section id="sc-prevalence">
+        <h2>How Common Is Sickle Cell in Nigeria?</h2>
+        <p>Nigeria is the global epicentre for sickle cell, with about 2–3% of the population suffering from the condition. This means that about 4 million Nigerians carry the condition, with about 50 million people carrying the trait. About 150,000 babies are born with sickle cell each year.<sup>[2]</sup> Sources disagree over the exact numbers.</p>
+        <p>Sickle cell is very common in Nigeria. There are several factors that have led to this.</p>
+        <h3>Inadequate Information and Sensitisation</h3>
+        <p>While there has been a marked improvement in this, there are many people who do not have the proper information about the condition. This is caused by the high levels of illiteracy and difficulty in accessing remote areas for sensitisation. Many people still don't know what sickle cell is or why they should get tested before marriage.</p>
+        <h3>Poor Planning of Some Couples</h3>
+        <p>It is one thing for people who don't know their genotype to get married; it is concerning when people who know their genotype get married and have children. But in Nigeria, several couples only discover the genotype of their partner when they are about to get married, and yet still insist on getting married. They claim they love each other and cannot do without each other. One would assume the subject of genotype would be a first-date question, but many don't discover it until it is too late. Some end the relationship, but others choose to proceed despite knowing the chances of birthing children with the SS gene.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>Many sickle cell cases could have been prevented if testing and counselling had been done early. Millions of children would be spared the day-to-day pain and frustration of dealing with the condition if people with the AS genotype were more careful and intentional about their partners.</div>
+        </div>
+      </section>
+      <section id="sc-management">
+        <h2>How Is Sickle Cell Managed?</h2>
+        <p>Sickle cell is managed by a combination of medication — some for pain and some to boost the immune system to better fight infections — and blood transfusions for the anaemia. There is also ongoing research into bone marrow transplants and gene therapies as treatment options.<sup>[5]</sup></p>
+        <p>If you or anyone you know is affected by sickle cell, you must see a doctor to discuss treatment options, and they will help you determine the best one for you.</p>
+      </section>
+      <section id="sc-wrapup">
+        <h2>Wrap Up</h2>
+        <p>As we celebrate World Sickle Cell Day, there are very important lessons for us to remember. If you don't know your genotype, do so today. Go and get tested and ensure you know your genotype. If you are AS or AC, before getting into a relationship with anyone, ask their genotype first. Don't just eat shawarma and ice cream on the dates — ask the important questions first. Spare the children a lifetime of pain and suffering by making wise and responsible decisions now.</p>
+        <p>We should also avoid stigmatising SCD patients. Let us not call them "sicklers" or other derogatory names. We should show compassion and empathy to those dealing with the disease.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">🩸</div>
+          <div>For more information about your health, subscribe to The Cortex Printout on Substack or visit our website at <strong>theeosfoundation.org</strong>.</div>
+        </div>
+      </section>
+      <section id="sc-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is sickle cell disease?</div>
+            <div class="art-faq-a">Sickle cell disease is an inherited blood disorder caused by a genetic mutation that affects haemoglobin. It causes red blood cells to become sickle-shaped, which can block blood flow and lead to pain, anaemia, and other complications.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How does someone get sickle cell disease?</div>
+            <div class="art-faq-a">A person develops sickle cell disease when they inherit two abnormal haemoglobin genes (SS), one from each parent. If both parents carry the AS genotype, there is a 25% chance with each pregnancy that the child will have sickle cell disease.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can sickle cell disease be prevented?</div>
+            <div class="art-faq-a">Yes. Many cases can be prevented through early genotype testing, genetic counselling, and informed decision-making before marriage or having children. This helps couples understand the risk of passing the SS gene to their children.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are the common symptoms of sickle cell disease?</div>
+            <div class="art-faq-a">Common symptoms include chronic pain episodes, anaemia, fatigue, swollen hands and feet, frequent infections, and complications that may affect the organs over time.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Why is sickle cell disease so common in Nigeria?</div>
+            <div class="art-faq-a">Nigeria has a high prevalence due to a large number of carriers (AS individuals), limited awareness in some communities, and delayed or absent genotype screening before marriage in many cases.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>National Heart, Lung, and Blood Institute (NHLBI). <em>Sickle Cell Disease.</em> 2024. https://www.nhlbi.nih.gov/health/sickle-cell-disease</li>
+          <li>Center for Policy Impact. <em>Sickle Cell Disease in Nigeria: Why We Must Focus on Advocacy.</em> 2024. https://centerforpolicyimpact.org/2024/09/17/sickle-cell-disease-in-nigeria-why-we-must-focus-on-advocacy/</li>
+          <li>National Library of Medicine (PubMed Central). <em>Psychological and Psychiatric Aspects of Sickle Cell Disease: A Systematic Review.</em> 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8025551/</li>
+          <li>National Library of Medicine (PubMed Central). <em>Life Expectancy and Survival in Sickle Cell Disease: A Review of Global Evidence.</em> 2014. https://pmc.ncbi.nlm.nih.gov/articles/PMC4215364/</li>
+          <li>National Heart, Lung, and Blood Institute (NHLBI). <em>Sickle Cell Disease: Treatments and Therapies.</em> 2024. https://www.nhlbi.nih.gov/health/sickle-cell-disease/treatment</li>
+          <li>Washington University School of Medicine in St. Louis. <em>Brains of People with Sickle Cell Disease Appear Older.</em> 2025. https://medicine.washu.edu/news/brains-of-people-with-sickle-cell-disease-appear-older/</li>
+          <li>National Library of Medicine (PubMed Central). <em>Neurological Complications of Sickle Cell Disease: Current Understanding and Future Directions.</em> 2023. https://pmc.ncbi.nlm.nih.gov/articles/PMC10101159/</li>
+          <li>National Library of Medicine (PubMed Central). <em>Hypoxia, Cerebral Oxygenation, and Neurological Outcomes in Sickle Cell Disease.</em> 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11466366/</li>
+        </ol>
+      </div>
+      <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-4">← Previous Issue</button>
+        <button class="art-back-btn" data-route="cortex">← All Issues</button>
       </div>
     </article>
   </div>
@@ -756,11 +928,6 @@ export default function OtherStubs() {
     let sliderCleanup: (() => void) | null = null;
 
     function initCortexSlider() {
-      if (sliderCleanup) {
-        sliderCleanup();
-        sliderCleanup = null;
-      }
-
       const track = document.getElementById("ci-track") as HTMLElement | null;
       const dotsWrap = document.getElementById("ci-dots") as HTMLElement | null;
       const prevBtn = document.getElementById(
@@ -778,7 +945,31 @@ export default function OtherStubs() {
       const totalCards = cards.length;
       if (totalCards === 0) return;
 
-      let perPage = window.innerWidth <= 768 ? 1 : 3;
+      const newPerPage = window.innerWidth <= 768 ? 1 : 3;
+
+      // Idempotency guard — if this exact configuration is already wired up,
+      // do nothing. Without this, the broad MutationObserver below would
+      // re-run this whole function (and reset currentIndex to 0) on every
+      // unrelated class change anywhere in the app, which is what made the
+      // mobile slider look like it "moved once then stopped."
+      if (
+        track.dataset.sliderReady === "true" &&
+        Number(track.dataset.totalCards) === totalCards &&
+        Number(track.dataset.perPage) === newPerPage
+      ) {
+        return;
+      }
+
+      if (sliderCleanup) {
+        sliderCleanup();
+        sliderCleanup = null;
+      }
+
+      track.dataset.sliderReady = "true";
+      track.dataset.totalCards = String(totalCards);
+      track.dataset.perPage = String(newPerPage);
+
+      let perPage = newPerPage;
       let currentIndex = 0;
 
       function setCardWidths() {
@@ -855,8 +1046,14 @@ export default function OtherStubs() {
       updateSlider();
 
       const handleResize = () => {
-        perPage = window.innerWidth <= 768 ? 1 : 3;
+        const resizedPerPage = window.innerWidth <= 768 ? 1 : 3;
+        // Mobile browsers fire `resize` when the address bar shows/hides on
+        // scroll, even though the breakpoint hasn't actually changed. Ignore
+        // those — only react to a real breakpoint flip (e.g. rotation).
+        if (resizedPerPage === perPage) return;
+        perPage = resizedPerPage;
         currentIndex = 0;
+        track!.dataset.perPage = String(perPage);
         setCardWidths();
         buildDots();
         updateSlider();
@@ -927,6 +1124,10 @@ export default function OtherStubs() {
 
           track.style.transform = "translateX(0)";
           if (dotsWrap) dotsWrap.innerHTML = "";
+          // Force a fresh slider init after a filter change, since the
+          // visible card count just changed — clear the readiness flag so
+          // the idempotency guard above doesn't short-circuit this one.
+          delete track.dataset.sliderReady;
           setTimeout(initCortexSlider, 50);
         });
       });
