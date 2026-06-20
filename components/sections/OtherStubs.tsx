@@ -159,7 +159,6 @@ const HTML = `<!-- ════════════════════�
       </div>
     </div>
   </div>
-
   <div class="art-layout">
     <aside class="art-sidebar">
       <div class="art-toc">
@@ -183,13 +182,11 @@ const HTML = `<!-- ════════════════════�
         </ul>
       </div>
     </aside>
-
     <article class="art-body">
       <section id="s-intro">
         <p class="art-lede">What is the most important part of the body? If you said anything other than the brain, then you need to go back to primary school. Or didn't they teach you in primary school? The brain is the part of the body that controls the rest. It receives information from the other parts of the body and then acts based on that information. When the brain is functioning properly, it takes rational and correct decisions, but when it isn't, it takes some very questionable decisions. Anyone who doubts this has clearly never driven a car in Nigeria. Some drivers drive as if traffic laws do not exist. If you doubt me, come to Ibadan and board a Micra cab. I guarantee you would be holding on for dear life all through the ride.</p>
         <p>On a more serious note, let us answer the first question you need to know.</p>
       </section>
-
       <section id="s-what">
         <h2>What Is the Brain?</h2>
         <p>The brain is a complex organ that controls all thoughts, emotions, decisions, and body processes. The brain is the control center of the body. The brain controls all body processes, including involuntary processes such as blood circulation and kidney filtration, which is a good thing because some of you would decide to stop your kidneys from filtering your blood if you could, or stop your heart because you were served breakfast. If you are in this category, change your ways.</p>
@@ -199,14 +196,12 @@ const HTML = `<!-- ════════════════════�
           <div>The brain weighs roughly 1.4 kg and consumes about 20% of the body's total energy — despite being only 2% of your body weight.</div>
         </div>
       </section>
-
       <section id="s-health">
         <h2>What Is Brain Health?</h2>
         <p>Brain health is the brain's ability to function properly across thinking, memory, emotions, and behaviour. You cannot separate the brain from health. According to the World Health Organisation, brain health is <em>"the state of brain functioning across cognitive, sensory, social-emotional, behavioural, and motor domains, allowing a person to realize their full potential over the life course, irrespective of the presence or absence of disorders."</em> Brain health simply refers to the overall well-being of the brain. It examines whether the brain is functioning properly or like that of Lagosians. Don't argue, you know it's true.</p>
         <p>Proper brain health means the brain is receiving the proper nutrition, it is not being damaged by drugs and alcohol, it is carrying out its functions smoothly and properly, and if its decision-making is not compromised (Hence the jab at Lagosians).</p>
         <p>Now that we have seen what the brain is and what brain health is, there is another important question to ask.</p>
       </section>
-
       <section id="s-factors">
         <h2>What Are the Factors That Affect Brain Health?</h2>
         <p>Certain factors affect brain health. Or did you think the brain just decides to be healthy or unhealthy?</p>
@@ -223,12 +218,10 @@ const HTML = `<!-- ════════════════════�
           <div>Alcohol, drugs, and cigarettes do not just affect your body — they cross the blood-brain barrier and alter how your brain functions, sometimes permanently.</div>
         </div>
       </section>
-
       <section id="s-signs">
         <h2>What Are the Signs That the Brain Is Not Healthy?</h2>
         <p>The signs of poor brain health include memory loss, frequent and unexplained headaches, sleeping problems, sudden confusion and dizziness, and in some cases, behavioural changes, especially increased aggression.</p>
       </section>
-
       <section id="s-care">
         <h2>How Do I Take Care of My Brain?</h2>
         <p>This is a question you should have been asking, but better late than never. Or don't you want to know what improves brain health?</p>
@@ -248,7 +241,6 @@ const HTML = `<!-- ════════════════════�
         </div>
         <p>The brain is the most important part of the body, and it should be treated with care. Ensuring that the brain is healthy should be a priority for everyone. The brain is too important to treat with levity, so taking care of it is unavoidable. To take care of your brain, eat right, exercise, and deal with stress and anxiety, so my question to you, my dear reader, is this: Will you take care of your brain or not?</p>
       </section>
-
       <section id="s-faq">
         <h2>Frequently Asked Questions</h2>
         <div class="art-faq">
@@ -274,7 +266,6 @@ const HTML = `<!-- ════════════════════�
           </div>
         </div>
       </section>
-
       <div class="art-references">
         <div class="art-ref-title">References</div>
         <ol class="art-ref-list">
@@ -285,7 +276,6 @@ const HTML = `<!-- ════════════════════�
           <li>Harvard Health Publishing. <em>Foods linked to better brainpower.</em> https://www.health.harvard.edu/healthbeat/foods-linked-to-better-brainpower</li>
         </ol>
       </div>
-
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
         <button class="art-back-btn" data-route="cortex-article-2">Next Issue →</button>
@@ -320,7 +310,6 @@ const HTML = `<!-- ════════════════════�
       </div>
     </div>
   </div>
-
   <div class="art-layout">
     <aside class="art-sidebar">
       <div class="art-toc">
@@ -346,12 +335,10 @@ const HTML = `<!-- ════════════════════�
         </ul>
       </div>
     </aside>
-
     <article class="art-body">
       <section id="m-intro">
         <p class="art-lede">When many of us hear the word migraine, we automatically assume headache. While headaches are a part of migraines, migraines are more than just headaches. Many of us erroneously say we are having a migraine when we are having a simple headache. So, for our proper education — what exactly is a migraine?</p>
       </section>
-
       <section id="m-what">
         <h2>What Is a Migraine?</h2>
         <p>A migraine is a neurological condition that usually causes severe, throbbing headaches, often along with symptoms such as nausea, sensitivity to light, and sensitivity to sound. The headache gets worse with bright lights, physical activity, and loud noises.<sup>[1]</sup> Migraines can last anywhere from 2–3 hours to 2–3 days.<sup>[2]</sup></p>
@@ -360,72 +347,55 @@ const HTML = `<!-- ════════════════════�
           <div>Migraines are one of the world's most disabling conditions. The WHO lists migraine among the top 10 causes of disability worldwide.</div>
         </div>
       </section>
-
       <section id="m-diff">
         <h2>What Is the Difference Between a Migraine and a Headache?</h2>
         <p>A regular headache may feel like pressure or pain in different parts of the head, while migraines are often more intense and commonly involve throbbing pain. A headache is usually short and over in a couple of hours, while a migraine can last as long as two days.<sup>[3]</sup></p>
         <p>Here is the important thing to note: a headache generally refers to pain in the head, but a migraine is a specific type of headache. <strong>All migraines are headaches, but not all headaches are migraines.</strong> Migraines come with a throbbing, pulsing pain usually felt on one side of the head.</p>
       </section>
-
       <section id="m-stages">
         <h2>What Are the Stages of a Migraine?</h2>
         <p>A migraine has four stages.</p>
-
         <h3>1. Prodrome</h3>
         <p>This stage occurs about 24 hours before the headache. It displays symptoms like mood changes, trouble sleeping, loss of concentration, neck stiffness, intense food cravings, and frequent thirst as well as urination.<sup>[1]</sup></p>
-
         <h3>2. Aura</h3>
         <p>This stage refers to the warning signs of the impending headache. These signs can affect the senses, movement, or speech. Symptoms include sensitivity to touch, ringing in the ears, muscle weakness, vision changes, numbness, and tingling. This stage can be as short as five minutes or as long as an hour.</p>
         <div class="art-callout art-callout-purple">
           <div class="art-callout-icon">💡</div>
           <div><strong>Silent Migraine:</strong> A condition where aura presents itself without any headache at all. No pain, but all the sensory warning signs are present.</div>
         </div>
-
         <h3>3. Headache</h3>
         <p>As the name suggests, this involves a headache that can be mild or severe. The pain is often described as throbbing or pulsing and is usually felt on one side of the head — though it can be felt on both sides and even all over the head. It comes with nausea, vomiting, and sensitivity to light and sound. It is best to take your prescribed pain relievers as soon as the headache starts.<sup>[3]</sup></p>
-
         <h3>4. Postdrome</h3>
         <p>This occurs after the headache has come and gone. It is similar to a hangover — sometimes called the "migraine hangover." Symptoms are similar to the prodrome stage and may take hours or even days to disappear.<sup>[3]</sup></p>
       </section>
-
       <section id="m-triggers">
         <h2>What Are the Habits That Make Migraines More Likely?</h2>
         <p>While the exact cause of migraines is not fully known, several factors can make them occur more frequently.</p>
-
         <h3>Lifestyle Factors</h3>
         <p>Poor sleeping habits, dehydration, skipping meals, and fatigue make a person significantly more likely to experience migraines frequently.</p>
-
         <h3>Dietary Factors</h3>
         <p>Consumption of alcohol, drugs, and excessive caffeine — especially when combined with bad sleeping habits — can make migraines more recurrent.</p>
-
         <h3>Environmental Factors</h3>
         <p>Frequent and repeated exposure to loud music, bright lights, and strong smells are factors that can increase the occurrence of migraines.</p>
-
         <div class="art-callout art-callout-blue">
           <div class="art-callout-icon">⚠️</div>
           <div>Keeping a migraine diary — noting what you ate, how you slept, and what you were doing before each attack — is one of the most effective ways to identify your personal triggers.</div>
         </div>
       </section>
-
       <section id="m-types">
         <h2>What Are the Types of Migraines?</h2>
         <p>There are two main types of migraines, plus several less common variants.</p>
-
         <h3>Migraine With Aura (Classic Migraine)</h3>
         <p>This is a recurring headache that happens with or immediately after the aura stage. Symptoms include visual disturbances such as seeing blind spots, shimmering spots, flashes of light, or vision loss. Other symptoms include tingling in one arm or one side of the face, difficulty speaking, hearing loss, and in some cases, partial paralysis.<sup>[4]</sup></p>
-
         <h3>Migraine Without Aura</h3>
         <p>This is the more common type. It occurs without the aura stage and can last for hours or even days without effective treatment. Symptoms include throbbing pain on one side of the head, nausea and vomiting, and sensitivity to light and sound.<sup>[5]</sup></p>
-
         <h3>Other Types</h3>
         <p>Other recognised types include: migraines in children; chronic migraine (headache on at least 15 days per month)<sup>[6]</sup>; silent migraine (migraine without headache)<sup>[7]</sup>; and menstrual migraine, caused by the drop in oestrogen levels during the menstrual period.<sup>[8]</sup></p>
       </section>
-
       <section id="m-cure">
         <h2>Are Migraines Curable?</h2>
         <p>Unfortunately, migraines are not 100% curable, but they are usually managed effectively with medication. Doctors typically prescribe pain relievers and anti-nausea medications. However, it is equally important to address the lifestyle stressors that increase the likelihood of recurrence — eating properly, getting enough rest and sleep, reducing alcohol and caffeine intake, and staying away from environments with bright lights or loud noises.</p>
       </section>
-
       <section id="m-doctor">
         <h2>When to See a Doctor</h2>
         <p>If the pain is getting unbearable or is sudden and head-splitting, see a doctor immediately. If migraines are becoming more frequent, also seek medical attention as soon as possible. Migraines can sometimes be a sign of a more serious underlying condition. Resist the urge to self-medicate with pain relievers and get properly diagnosed.</p>
@@ -435,7 +405,6 @@ const HTML = `<!-- ════════════════════�
         </div>
         <p>Migraines are a serious condition, and it is important to treat them as such. Always pay attention to your head. If something feels off, don't hesitate to see a doctor.</p>
       </section>
-
       <section id="m-faq">
         <h2>Frequently Asked Questions</h2>
         <div class="art-faq">
@@ -461,7 +430,6 @@ const HTML = `<!-- ════════════════════�
           </div>
         </div>
       </section>
-
       <div class="art-references">
         <div class="art-ref-title">References</div>
         <ol class="art-ref-list">
@@ -475,7 +443,6 @@ const HTML = `<!-- ════════════════════�
           <li>Cleveland Clinic. <em>Menstrual Migraines (Hormone Headaches).</em> 2024. https://my.clevelandclinic.org/health/diseases/8260-menstrual-migraines-hormone-headaches</li>
         </ol>
       </div>
-
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-1">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
@@ -511,7 +478,6 @@ const HTML = `<!-- ════════════════════�
       </div>
     </div>
   </div>
-
   <div class="art-layout">
     <aside class="art-sidebar">
       <div class="art-toc">
@@ -537,18 +503,15 @@ const HTML = `<!-- ════════════════════�
         </ul>
       </div>
     </aside>
-
     <article class="art-body">
       <section id="e-intro">
         <p class="art-lede">The brain and nervous system communicate with electrical and chemical signals. When these signals originate from the right places and reach the right destinations, everything runs smoothly. But just like with all electrical systems, there are misfires. These abnormal electrical disturbances can lead to episodes known as seizures — and depending on the area of the brain involved, they may affect movement, awareness, emotions, behaviour, or sensation.</p>
         <p>Many of us have seen people suffer from seizures. In Africa, these episodes are often associated with spiritual attacks. Victims have been kept in spiritual houses, starved, chained, and beaten in attempts to "exorcise" what is, in fact, a medical condition. Proper education changes that.</p>
       </section>
-
       <section id="e-seizure">
         <h2>What Are Seizures?</h2>
         <p>A seizure is the uncontrolled, abnormal electrical activity of the brain that may cause changes in the level of consciousness, behaviour, memory, or feelings.<sup>[1]</sup> While the involuntary, jerking movements are the most recognisable type, there are many other types of seizures — not all of which look dramatic from the outside.</p>
       </section>
-
       <section id="e-epilepsy">
         <h2>What Is Epilepsy?</h2>
         <p>Epilepsy is a chronic noncommunicable disease of the brain that affects around 50 million people worldwide.<sup>[2]</sup> A major symptom of epilepsy is recurrent seizures. However, not everyone who has a seizure is epileptic. Epilepsy is diagnosed when there are two or more unprovoked seizures. While there is a relationship between seizures and epilepsy, the presence of seizures alone does not confirm epilepsy.</p>
@@ -557,45 +520,33 @@ const HTML = `<!-- ════════════════════�
           <div>Epilepsy is a medical condition — not a spiritual attack, curse, or punishment. This distinction matters enormously for how patients are treated and whether they seek care.</div>
         </div>
       </section>
-
       <section id="e-causes">
         <h2>What Causes Seizures and Epilepsy?</h2>
         <p>Seizures occur when there is a sudden burst of abnormal electrical activity in the brain. The exact cause remains unknown in many cases. Several factors can increase risk:</p>
-
         <h3>Head Injuries</h3>
         <p>Traumatic brain injuries from road accidents, falls, sports injuries, or violence can damage brain tissue and disrupt normal electrical activity. Seizures may occur immediately after the injury or develop months or even years later.</p>
-
         <h3>Brain Infections</h3>
         <p>Infections such as meningitis, encephalitis, cerebral malaria, and neurocysticercosis can trigger seizures by causing inflammation or scarring in the brain.</p>
-
         <h3>Stroke and Blood Vessel Disorders</h3>
         <p>Stroke is one of the leading causes of seizures in older adults. When blood flow to part of the brain is interrupted, brain cells may become damaged in ways that lead to seizure activity.</p>
-
         <h3>Genetic Factors</h3>
         <p>Some forms of epilepsy are linked to inherited genetic changes that affect how brain cells communicate. Having a family history of epilepsy may increase a person's risk, although not everyone with a genetic predisposition will develop the condition.</p>
-
         <h3>Brain Tumours and Structural Abnormalities</h3>
         <p>Brain tumours, developmental abnormalities present at birth, and other structural changes in the brain can interfere with normal nerve signalling.</p>
-
         <h3>Birth and Developmental Conditions</h3>
         <p>Complications during pregnancy, labour, or delivery that deprive the brain of oxygen may increase the risk of epilepsy later in life. Certain developmental disorders, including cerebral palsy and autism spectrum disorder, are also associated with a higher incidence of seizures.</p>
-
         <h3>Metabolic and Medical Conditions</h3>
         <p>Medical problems that affect the body's chemical balance — including low blood sugar, electrolyte imbalances, kidney failure, liver disease, and severe dehydration — can sometimes result in seizures.</p>
-
         <div class="art-callout art-callout-blue">
           <div class="art-callout-icon">⚠️</div>
           <div><strong>Common seizure triggers</strong> for people who already have epilepsy include: lack of sleep, emotional stress, excessive alcohol, flashing lights, illness, fever, and missing prescribed medication doses. These do not cause epilepsy itself — they can provoke episodes in those already affected.</div>
         </div>
       </section>
-
       <section id="e-types">
         <h2>What Are the Types of Seizures?</h2>
         <p>There are two major categories of seizures.</p>
-
         <h3>Focal Seizures</h3>
         <p>These originate from only one part of the brain and are more common. They are described by the region they originate from — frontal lobe seizures, occipital lobe seizures, etc. They can cause changes in movement, sensation, or consciousness on one side of the body. Focal seizures can spread to the other side of the brain, at which point symptoms are seen on both sides.<sup>[3]</sup></p>
-
         <h3>Generalised Seizures</h3>
         <p>These originate from both hemispheres of the brain and often impair consciousness. They are less common than focal seizures.<sup>[4]</sup> Subtypes include:</p>
         <ul style="margin:12px 0 12px 20px;line-height:1.8">
@@ -604,28 +555,22 @@ const HTML = `<!-- ════════════════════�
           <li><strong>Tonic seizures</strong> — causes stiffness in the muscles of the arms, legs, and trunk. Mostly occurs during sleep but can cause falls if it happens while the person is awake.<sup>[7]</sup></li>
         </ul>
       </section>
-
       <section id="e-diagnosis">
         <h2>How Are Seizures and Epilepsy Diagnosed?</h2>
         <p>Diagnosis involves a combination of brain imaging tests such as MRIs or CT scans, blood tests to rule out infections, and in some cases, spinal fluid analysis. The doctor will examine results alongside a detailed account of the seizure episodes.<sup>[8]</sup></p>
       </section>
-
       <section id="e-treatment">
         <h2>How Are Seizures and Epilepsy Treated?</h2>
         <p>Treatment involves a combination of anti-seizure medication, dietary changes, anti-seizure devices, and in some cases, surgery.</p>
-
         <h3>Anti-Seizure Medication</h3>
         <p>Medication aims to reduce the frequency of seizures and is effective in 2 out of 3 patients. The main challenge is identifying which combination works best for each individual. Common medications include lamotrigine, levetiracetam, carbamazepine, phenytoin, and valproate.<sup>[9]</sup></p>
-
         <h3>Anti-Seizure Devices</h3>
         <p>These fall into two types: seizure detectors that identify when a seizure is about to happen, and neuromodulation devices that use nerve stimulation to prevent seizures from occurring.<sup>[10][11]</sup></p>
-
         <div class="art-callout art-callout-teal">
           <div class="art-callout-icon">💡</div>
           <div>With proper diagnosis, treatment, and community support, many people living with epilepsy lead full, healthy, and productive lives. The key is early intervention.</div>
         </div>
       </section>
-
       <section id="e-firstaid">
         <h2>What Should I Do If Someone Is Having a Seizure Near Me?</h2>
         <ul class="art-firstaid-list">
@@ -642,7 +587,6 @@ const HTML = `<!-- ════════════════════�
           <div><strong>DO NOT put any object in their mouth during a seizure.</strong> This is a dangerous myth that can cause serious injury to their jaw, teeth, and your own hand.</div>
         </div>
       </section>
-
       <section id="e-faq">
         <h2>Frequently Asked Questions</h2>
         <div class="art-faq">
@@ -668,7 +612,6 @@ const HTML = `<!-- ════════════════════�
           </div>
         </div>
       </section>
-
       <div class="art-references">
         <div class="art-ref-title">References</div>
         <ol class="art-ref-list">
@@ -685,7 +628,6 @@ const HTML = `<!-- ════════════════════�
           <li>Epilepsy Foundation. <em>Seizure Treatment Devices.</em> https://www.epilepsy.com/treatment/devices</li>
         </ol>
       </div>
-
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-2">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
@@ -721,7 +663,6 @@ const HTML = `<!-- ════════════════════�
       </div>
     </div>
   </div>
-
   <div class="art-layout">
     <aside class="art-sidebar">
       <div class="art-toc">
@@ -743,13 +684,11 @@ const HTML = `<!-- ════════════════════�
         </ul>
       </div>
     </aside>
-
     <article class="art-body">
       <section id="b-intro">
         <p class="art-lede">Whenever we hear the sad news that a man has taken his life, we often exclaim and ask why he didn't reach out. We ask ourselves why he didn't talk to someone or call for help. We post and tell men to reach out and talk to someone if they are having suicidal thoughts. But you know what we don't do? We don't correct the mindset that a man should bear his problems by himself.</p>
         <p>We tell young boys to be men when life hits them and knocks them down. We tell boys to suck up their struggles and keep their problems to themselves. The impact of these expectations can be devastating. Men account for roughly 73% of suicide deaths, highlighting the urgent need to create spaces where they can seek support without fear of judgement.</p>
       </section>
-
       <section id="b-silence">
         <h2>The Culture of Silence</h2>
         <p>When the girl child is abused, there is a roaring outrage to get justice for her, but when the victim is a boy, the outrage is much quieter. We assume he will be fine and leave him to deal with his demons on his own. When some of these boys try to open up, we see them as soft and less manly.</p>
@@ -759,7 +698,6 @@ const HTML = `<!-- ════════════════════�
           <div>"I would rather carry the weight of your tears than carry the weight of your coffin."</div>
         </div>
       </section>
-
       <section id="b-june">
         <h2>Men's Mental Health Month</h2>
         <p>June is Men's Mental Health Month, and as usual, there is a lot of content telling men to open up and seek help. While this is noble and admirable, it would be better backed up with action. Let us also strive to be people they can open up to.</p>
@@ -770,14 +708,12 @@ const HTML = `<!-- ════════════════════�
           <div>If someone around you is struggling, be the kind of person they feel safe calling. That simple shift saves lives.</div>
         </div>
       </section>
-
       <section id="b-message">
         <h2>A Message to Men</h2>
         <p>To all men, please remember that you are not weak for opening up, and if the people around you truly care for you, they will be happy to listen to your struggles and help you through all you are going through.</p>
         <p>I understand that you may be carrying a lot on your mind, and sometimes it feels like no one understands you. I understand some days feel so dark that it is difficult to see the light. I understand that sometimes ending it all seems like your only escape. But it isn't.</p>
         <p>There is no shame in seeking help. Going for therapy and counselling does not make you any less of a man. Think of it this way: when soldiers are out on a mission and they get stuck or trapped, they request backup, and no one mocks them for it. No one calls them weak or cowardly for doing so — instead, they rush to their aid. So, see yourself as a soldier who just needs some support.</p>
       </section>
-
       <section id="b-help">
         <h2>Seek Help. Get Better.</h2>
         <p>Don't be a statistic to be quoted every June. If you need help, seek it. It may not look like it now, but things can get better. Please don't consider suicide as an option. If you are having suicidal thoughts, open up to people around you and get help. If you need professional counselling, several options are available to you.</p>
@@ -787,7 +723,6 @@ const HTML = `<!-- ════════════════════�
           <div>You don't have to carry the weight alone. If you are ready to prioritise your brain health or just need a safe space to start, join our community and explore our resources at <strong>theeosfoundation.org</strong>.</div>
         </div>
       </section>
-
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-3">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
@@ -798,7 +733,6 @@ const HTML = `<!-- ════════════════════�
 
 export default function OtherStubs() {
   React.useEffect(() => {
-    // Inject slider CSS once
     const styleId = "ci-slider-styles";
     if (!document.getElementById(styleId)) {
       const s = document.createElement("style");
@@ -812,13 +746,9 @@ export default function OtherStubs() {
         .ci-slider-btn:hover { background:var(--blue); color:#fff; }
         .ci-slider-wrap { overflow:hidden; width:100%; }
         .ci-slider-track { display:flex; gap:0; transition:transform 0.4s cubic-bezier(0.25,1,0.5,1); will-change:transform; }
-        .ci-slider-track .article-card { flex:0 0 33.333%; padding:0 10px; box-sizing:border-box; }
         .ci-slider-dots { display:flex; justify-content:center; gap:8px; margin-top:24px; }
         .ci-dot { width:8px; height:8px; border-radius:50%; background:rgba(10,58,110,0.15); border:none; cursor:pointer; transition:background 0.2s,transform 0.2s; padding:0; }
         .ci-dot.active { background:var(--blue); transform:scale(1.25); }
-        @media(max-width:768px){
-          .ci-slider-track .article-card { flex:0 0 100%; padding:0 8px; }
-        }
       `;
       document.head.appendChild(s);
     }
@@ -841,16 +771,35 @@ export default function OtherStubs() {
       ) as HTMLButtonElement | null;
       if (!track || !dotsWrap || !prevBtn || !nextBtn) return;
 
-      const cards = track.querySelectorAll(".article-card");
+      // Only count visible cards
+      const cards = Array.from(track.querySelectorAll(".article-card")).filter(
+        (c) => (c as HTMLElement).style.display !== "none",
+      ) as HTMLElement[];
       const totalCards = cards.length;
+      if (totalCards === 0) return;
+
       let perPage = window.innerWidth <= 768 ? 1 : 3;
       let currentIndex = 0;
+
+      function setCardWidths() {
+        const pct = 100 / perPage;
+        // Reset all first
+        Array.from(track!.querySelectorAll(".article-card")).forEach((c) => {
+          const el = c as HTMLElement;
+          if (el.style.display !== "none") {
+            el.style.flex = `0 0 ${pct}%`;
+            el.style.maxWidth = `${pct}%`;
+            el.style.padding = perPage === 1 ? "0 8px" : "0 10px";
+            el.style.boxSizing = "border-box";
+          }
+        });
+      }
 
       function getStepPct() {
         return 100 / perPage;
       }
       function getMaxIndex() {
-        return totalCards - perPage;
+        return Math.max(0, totalCards - perPage);
       }
 
       function updateSlider() {
@@ -882,25 +831,24 @@ export default function OtherStubs() {
       }
 
       const onNext = () => {
-        if (currentIndex < getMaxIndex()) {
-          currentIndex = Math.min(currentIndex + perPage, getMaxIndex());
-        } else {
-          currentIndex = 0;
-        }
+        currentIndex =
+          currentIndex < getMaxIndex()
+            ? Math.min(currentIndex + perPage, getMaxIndex())
+            : 0;
         updateSlider();
         updateDots();
       };
 
       const onPrev = () => {
-        if (currentIndex > 0) {
-          currentIndex = Math.max(currentIndex - perPage, 0);
-        } else {
-          currentIndex = getMaxIndex();
-        }
+        currentIndex =
+          currentIndex > 0
+            ? Math.max(currentIndex - perPage, 0)
+            : getMaxIndex();
         updateSlider();
         updateDots();
       };
 
+      setCardWidths();
       buildDots();
       prevBtn.addEventListener("click", onPrev);
       nextBtn.addEventListener("click", onNext);
@@ -909,6 +857,7 @@ export default function OtherStubs() {
       const handleResize = () => {
         perPage = window.innerWidth <= 768 ? 1 : 3;
         currentIndex = 0;
+        setCardWidths();
         buildDots();
         updateSlider();
         updateDots();
@@ -922,11 +871,9 @@ export default function OtherStubs() {
       };
     }
 
-    // Watch for view-cortex becoming active
     const observer = new MutationObserver(() => {
       const view = document.getElementById("view-cortex");
       if (view && view.classList.contains("active")) {
-        // Wait for layout to settle
         setTimeout(initCortexSlider, 100);
       }
     });
@@ -936,14 +883,12 @@ export default function OtherStubs() {
       attributeFilter: ["class"],
     });
 
-    // Category filter logic
     function initCortexFilter() {
       const cats = document.querySelectorAll(".cortex-index-cats .ci-cat");
       if (!cats.length) return;
 
       cats.forEach((cat) => {
         cat.addEventListener("click", () => {
-          // Update active state
           cats.forEach((c) => c.classList.remove("active"));
           cat.classList.add("active");
 
@@ -955,37 +900,38 @@ export default function OtherStubs() {
           const allCards = Array.from(
             track.querySelectorAll(".article-card"),
           ) as HTMLElement[];
+          const isMobile = window.innerWidth <= 768;
 
           if (selected === "All") {
-            // Show all cards
             allCards.forEach((c) => {
               c.style.display = "";
-              c.style.flex = "";
+              c.style.flex = isMobile ? "0 0 100%" : "0 0 33.333%";
+              c.style.maxWidth = isMobile ? "100%" : "33.333%";
+              c.style.padding = isMobile ? "0 8px" : "0 10px";
+              c.style.boxSizing = "border-box";
             });
           } else {
-            // Show only matching cards, hide others
             allCards.forEach((c) => {
               const cardCat = (c.dataset.category || "").replace(/&amp;/g, "&");
               if (cardCat === selected) {
                 c.style.display = "";
-                c.style.flex = "0 0 33.333%";
+                c.style.flex = isMobile ? "0 0 100%" : "0 0 33.333%";
+                c.style.maxWidth = isMobile ? "100%" : "33.333%";
+                c.style.padding = isMobile ? "0 8px" : "0 10px";
+                c.style.boxSizing = "border-box";
               } else {
                 c.style.display = "none";
               }
             });
           }
 
-          // Reset slider position
           track.style.transform = "translateX(0)";
           if (dotsWrap) dotsWrap.innerHTML = "";
-
-          // Reinit slider with filtered cards
           setTimeout(initCortexSlider, 50);
         });
       });
     }
 
-    // Also observe for filter init
     const filterObserver = new MutationObserver(() => {
       const view = document.getElementById("view-cortex");
       if (view && view.classList.contains("active")) {
