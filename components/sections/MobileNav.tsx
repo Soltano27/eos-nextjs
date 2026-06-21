@@ -45,13 +45,6 @@ const sections: MobNavSection[] = [
     ],
   },
   {
-    route: "innovation",
-    label: "Innovation",
-    childId: "mob-innov",
-    arrowId: "mob-innov-arrow",
-    children: [{ route: "innovation-mima", label: "MIMA — Neuro Chatbot" }],
-  },
-  {
     route: "resources",
     label: "Resources",
     childId: "mob-res",

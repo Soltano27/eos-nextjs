@@ -35,13 +35,6 @@ const HTML = `<nav>
     </div>
 
     <div class="nav-item">
-      <a data-route="innovation">Innovation <span class="dropdown-arrow">▾</span></a>
-      <div class="dropdown">
-        <a data-route="innovation-mima">MIMA — Neuro Chatbot</a>
-      </div>
-    </div>
-
-    <div class="nav-item">
       <a data-route="resources">Resources <span class="dropdown-arrow">▾</span></a>
       <div class="dropdown">
         <a data-route="resources-brain-age">Know Your Brain Age</a>
