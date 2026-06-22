@@ -80,6 +80,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap">
       <div class="ci-slider-track" id="ci-track">
+        <div class="article-card" data-route="cortex-article-6" data-category="Physical Brain Health">
+          <div class="article-img" style="background:linear-gradient(135deg,#1A3A2A,#2D6A4A)">
+            <span class="article-issue">ISSUE 006</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#2D8A5A">Physical Brain Health</div>
+            <h4>Is Alzheimer's Disease Preventable?</h4>
+            <p>Exploring the truth about Alzheimer's — what it is, who it affects, and what young people can do now to lower their risk later.</p>
+            <a class="read-more" data-route="cortex-article-6">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-5" data-category="Physical Brain Health">
           <div class="article-img" style="background:linear-gradient(135deg,#6E0A14,#C81E3A)">
             <span class="article-issue">ISSUE 005</span>
@@ -897,6 +908,191 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-4">← Previous Issue</button>
+        <button class="art-back-btn" data-route="cortex">← All Issues</button>
+        <button class="art-back-btn" data-route="cortex-article-6">Next Issue →</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     CORTEX ARTICLE 6 — ALZHEIMER'S
+══════════════════════════════ -->
+<div id="view-cortex-article-6" class="page-view">
+  <div class="art-hero" style="background:linear-gradient(135deg,#1A3A2A 0%,#2D6A4A 100%)">
+    <div class="art-hero-inner">
+      <div class="art-breadcrumb">
+        <span data-route="cortex" style="cursor:pointer;opacity:0.6;transition:opacity 0.2s">The Cortex Printout</span>
+        <span style="opacity:0.3;margin:0 8px">/</span>
+        <span style="opacity:0.9">Issue 006</span>
+      </div>
+      <div class="art-meta-row">
+        <span class="art-issue-badge">ISSUE 006</span>
+        <span class="art-cat-badge" style="background:rgba(45,106,74,0.25);color:#6EE7B7">Physical Brain Health</span>
+      </div>
+      <h1 class="art-title">Is Alzheimer's Disease Preventable?</h1>
+      <p class="art-deck">Exploring the truth about Alzheimer's and looking at ways to prevent it — because the decisions you make now shape the brain you'll have later.</p>
+      <div class="art-byline">
+        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <div>
+          <div class="art-byline-name">The Cortex Printout</div>
+          <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="art-layout">
+    <aside class="art-sidebar">
+      <div class="art-toc">
+        <div class="art-toc-title">In This Article</div>
+        <a class="art-toc-item" href="#a-intro">Introduction</a>
+        <a class="art-toc-item" href="#a-what">What Is Alzheimer's Disease?</a>
+        <a class="art-toc-item" href="#a-symptoms">Symptoms</a>
+        <a class="art-toc-item" href="#a-dementia">Alzheimer's vs Dementia</a>
+        <a class="art-toc-item" href="#a-risk">Risk Factors</a>
+        <a class="art-toc-item" href="#a-lower">How to Lower Your Risk</a>
+        <a class="art-toc-item" href="#a-signs">Signs to Watch Out For</a>
+        <a class="art-toc-item" href="#a-wrapup">Wrap Up</a>
+        <a class="art-toc-item" href="#a-faq">FAQs</a>
+      </div>
+      <div class="art-key-takeaways">
+        <div class="art-kt-title">Key Takeaways</div>
+        <ul class="art-kt-list">
+          <li>Alzheimer's is a specific neurodegenerative disease, but it is the most common form of dementia, not a synonym for it.</li>
+          <li>It mostly affects people in their mid-60s and beyond, but the brain changes behind it can begin decades earlier.</li>
+          <li>Risk factors include age, family history, head injuries, and conditions like heart disease. Some you can't control, but many you can.</li>
+          <li>A healthy diet, regular exercise, quality sleep, and limiting alcohol, smoking, and drugs all lower your risk significantly.</li>
+          <li>Watch for excessive memory loss, difficulty with familiar tasks, problem-solving struggles, and confusion — and see a doctor immediately if they appear.</li>
+        </ul>
+      </div>
+    </aside>
+    <article class="art-body">
+      <section id="a-intro">
+        <p class="art-lede">Having a great memory is a great thing. Especially those who have a photographic memory or, even better, an eidetic memory — people who never forget anything, even the tiniest details. Now imagine slowly losing that memory, becoming increasingly forgetful. Not being able to remember your friends or family, not being able to even remember your own name, or where you are. Sounds terrifying, right? That is the reality of people with Alzheimer's disease.</p>
+        <p>So, for those wondering:</p>
+      </section>
+      <section id="a-what">
+        <h2>What Is Alzheimer's Disease?</h2>
+        <p>Alzheimer's Disease is a type of dementia. It is a neurodegenerative disease that affects thinking, memory, and eventually renders the person incapable of performing simple, day-to-day tasks. It is the most common form of dementia.<sup>[1]</sup></p>
+        <p>Alzheimer's Disease is mostly seen in people in their mid-60s. It affects cognitive function, thinking, memory, and behaviour. It is often dismissed as normal ageing at the beginning, but it isn't.<sup>[2]</sup></p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">🧠</div>
+          <div>Alzheimer's is not a normal part of ageing. The brain changes that lead to it can begin decades before any symptoms appear — which is why what you do now matters.</div>
+        </div>
+      </section>
+      <section id="a-symptoms">
+        <h2>What Are the Symptoms of Alzheimer's Disease?</h2>
+        <p>The symptoms of Alzheimer's Disease may vary from person to person, but the most common symptom is memory loss. Many patients experience cognitive decline, which is seen through memory loss or difficulty performing simple tasks. They could be asking the same questions over and over, having trouble remembering where they are or what they are doing.<sup>[4]</sup></p>
+      </section>
+      <section id="a-dementia">
+        <h2>Is Alzheimer's the Same as Dementia?</h2>
+        <p>Dementia refers to the general term for a large number of neurodegenerative diseases, while Alzheimer's is a very specific disease. Think of it this way: pasta refers to a very wide range of foods, while spaghetti is a specific type of pasta. Dementia could be likened to pasta, while Alzheimer's could be likened to spaghetti.<sup>[3]</sup></p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">📌</div>
+          <div><strong>All Alzheimer's is dementia, but not all dementia is Alzheimer's.</strong> Other forms of dementia include vascular dementia, Lewy body dementia, and frontotemporal dementia.</div>
+        </div>
+      </section>
+      <section id="a-risk">
+        <h2>What Are the Risk Factors for Alzheimer's?</h2>
+        <p>There are several risk factors for Alzheimer's disease.</p>
+        <h3>Age</h3>
+        <p>The biggest risk factor for Alzheimer's is age. Most patients of Alzheimer's are in their mid-60s or above, and the risk doubles after every five years.<sup>[7]</sup></p>
+        <h3>Family History</h3>
+        <p>Those with a history of Alzheimer's in their family are more likely to develop it later on in their advanced ages.</p>
+        <h3>Head Injuries</h3>
+        <p>Head injuries have been linked to Alzheimer's and other forms of dementia, so it is important to protect yourself — whether on the road, in sport, or in everyday life.</p>
+        <h3>Other Medical Conditions</h3>
+        <p>Other medical conditions, especially heart disease, can raise the risk for dementia.<sup>[5]</sup></p>
+        <h3>Lifestyle Factors</h3>
+        <p>Dementia is less common among people who generally take care of their health. It is less prevalent among people who eat right, exercise, and prioritise their brain health.<sup>[6]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>Some risk factors — like age and genetics — cannot be controlled. But many others, including diet, exercise, sleep, stress, and substance use, are within your hands.</div>
+        </div>
+      </section>
+      <section id="a-lower">
+        <h2>How Do I Lower My Risk for Alzheimer's?</h2>
+        <p>While Alzheimer's is more common in older people, younger people should not lose their guard. There is an urgent need for young people to protect themselves and reduce their risks.</p>
+        <h3>Eat Healthy</h3>
+        <p>Eating healthily is the most important thing you can do for your health. Eating healthy food promotes overall health, and the brain is not exempt. Specialised diets such as the Mediterranean Diet are very beneficial for brain health because they contain polyphenols that combat oxidative stress, reduce neuroinflammation, and provide Omega-3 fatty acids — essential building blocks for brain health that also reduce harmful proteins associated with Alzheimer's.<sup>[8]</sup></p>
+        <h3>Exercise Regularly</h3>
+        <p>Exercise promotes blood flow around the body. Aerobic exercise also helps develop the hippocampus, which consolidates long-term memory. Furthermore, it helps reduce stress and anxiety, which are harmful to the brain.<sup>[9]</sup> Mental exercises are also helpful — just as the biceps get stronger when you lift weights, your brain gets sharper when you do mental exercises such as puzzles, chess, or learning new skills.</p>
+        <h3>Avoid Harmful Substances</h3>
+        <p>Alcohol abuse, smoking, and drug use are extremely harmful to the brain and raise the risk of neurodegenerative diseases such as Alzheimer's and Parkinson's. To lower your risk, keep drinking and smoking to a minimum.</p>
+        <h3>Sleep Well and Manage Stress</h3>
+        <p>Sleep gives the brain the time it needs to carry out repairs. It also helps to manage stress and reduce anxiety. The world we live in can be stressful sometimes, but it is up to you to find healthy ways to deal with the stress — whether that is a short walk, a good book, soothing music, or time with friends. The important thing is to find a healthy outlet and use it consistently.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>Working hard while you are young would be meaningless if you are tied down with illness in your old age. The habits you build now are the best investment in the brain you will need later.</div>
+        </div>
+      </section>
+      <section id="a-signs">
+        <h2>What Are the Signs to Watch Out For?</h2>
+        <p>If you see these signs in yourself or someone else, see a doctor immediately.</p>
+        <h3>Excessive Memory Loss</h3>
+        <p>While some memory loss is understandable with advanced age, when it becomes excessive, there is a need to see a doctor. The patient could forget their names, important events, names of family members they have known for years, where they live or work. When memory loss becomes abnormal, especially in a person who is not usually forgetful, seeing a doctor is crucial.</p>
+        <h3>Difficulty Completing Familiar Tasks</h3>
+        <p>Tasks that the person could handle in their sleep now become very difficult — house chores, going to the market, or even work-related tasks. It is important to see a doctor once this is observed.</p>
+        <h3>Challenges in Problem Solving</h3>
+        <p>People with Alzheimer's find it difficult to solve problems. They find it difficult to hold a train of thought and follow through with their plans.</p>
+        <h3>Confusion</h3>
+        <p>People with Alzheimer's may find themselves confused about where they are, what they are doing, dates, times, and even people they have known all their lives.<sup>[10]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">🏥</div>
+          <div>Once these signs are observed, seeing a doctor is not optional — it is crucial. Early diagnosis gives the best chance of managing the condition effectively.</div>
+        </div>
+      </section>
+      <section id="a-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Taking steps to prevent Alzheimer's and other forms of dementia is not just for old people alone. Many people increase their risks of Alzheimer's in old age by the decisions they make in their youth. It is important to take care of your health to enjoy your old age.</p>
+        <p>While you may not be able to control all the risk factors for Alzheimer's, ensure you try your best with the ones you can. Further reading: if you want to understand another condition that affects brain function, read our piece on <a href="#" data-route="cortex-article-3" style="color:var(--teal);text-decoration:underline">seizures and epilepsy</a>.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">📖</div>
+          <div>To get more information about your brain and how to better take care of it, subscribe to The Cortex Printout on Substack or visit <strong>theeosfoundation.org</strong>.</div>
+        </div>
+      </section>
+      <section id="a-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is Alzheimer's the same as dementia?</div>
+            <div class="art-faq-a">No. Dementia is the broad term for a range of conditions that cause cognitive decline. Alzheimer's is one specific disease under that umbrella — the most common one.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can young people get Alzheimer's?</div>
+            <div class="art-faq-a">Alzheimer's is rare in young people, but the lifestyle habits that increase or lower your risk begin building up decades before symptoms ever appear. The choices you make now matter later.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is Alzheimer's hereditary?</div>
+            <div class="art-faq-a">Family history can increase your risk, but having a relative with Alzheimer's does not guarantee you will develop it. Genetics is one risk factor among several, not a verdict.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can Alzheimer's be prevented?</div>
+            <div class="art-faq-a">There is no guaranteed way to prevent it, since factors like age and genetics cannot be controlled. However, eating well, exercising regularly, sleeping enough, and avoiding excessive alcohol, smoking, and drugs can meaningfully lower your risk.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are the early signs of Alzheimer's?</div>
+            <div class="art-faq-a">Early signs include excessive memory loss, difficulty completing familiar tasks, trouble solving problems, and confusion about time, place, or people. If these appear, see a doctor as soon as possible.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>National Institute on Aging (NIA). <em>What Is Alzheimer's Disease?</em> 2024. https://www.nia.nih.gov/health/alzheimers-and-dementia/what-alzheimers-disease</li>
+          <li>GreenShoot Media. <em>Alzheimer's Awareness.</em> 2020. https://greenshootmedia.com/images/September2020Sections/AlzheimersAwarenessPreview.pdf</li>
+          <li>Alzheimer's Association. <em>Difference Between Dementia and Alzheimer's.</em> 2024. https://www.alz.org/alzheimers-dementia/difference-between-dementia-and-alzheimer-s</li>
+          <li>Alzheimer's Association. <em>Causes and Risk Factors for Alzheimer's Disease.</em> 2024. https://www.alz.org/alzheimers-dementia/what-is-alzheimers/causes-and-risk-factors</li>
+          <li>Alzheimer's Association. <em>Causes and Risk Factors for Alzheimer's Disease.</em> 2024. https://www.alz.org/alzheimers-dementia/what-is-alzheimers/causes-and-risk-factors</li>
+          <li>Centers for Disease Control and Prevention (CDC). <em>Morbidity and Mortality Weekly Report (MMWR), Vol. 71.</em> 2022. https://www.cdc.gov/mmwr/volumes/71/wr/mm7120a2.htm</li>
+          <li>Alzheimer's Research UK. <em>Dementia Risk.</em> 2024. https://www.alzheimersresearchuk.org/dementia-information/dementia-risk/</li>
+          <li>National Library of Medicine (PubMed Central). <em>Mediterranean Diet and Brain Health: A Review.</em> 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11631615/</li>
+          <li>Centers for Disease Control and Prevention (CDC). <em>Boost Your Brain Health with Physical Activity.</em> 2024. https://www.cdc.gov/physical-activity/features/boost-brain-health.html</li>
+          <li>Alzheimer's Association. <em>10 Early Signs and Symptoms of Alzheimer's.</em> 2024. https://www.alz.org/alzheimers-dementia/10_signs</li>
+        </ol>
+      </div>
+      <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-5">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
       </div>
     </article>
