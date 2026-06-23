@@ -22,7 +22,7 @@ const HTML = `<!-- ════════════════════�
     <!-- BIG STATS -->
     <div class="impact-report-stats" style="display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-bottom:60px;">
       <div style="background:var(--white);padding:40px 28px;text-align:center;border-radius:20px 0 0 20px;">
-        <div style="font-family:var(--serif);font-size:56px;font-weight:900;color:var(--blue);line-height:1;margin-bottom:10px;">53</div>
+        <div style="font-family:var(--serif);font-size:56px;font-weight:900;color:var(--blue);line-height:1;margin-bottom:10px;">50</div>
         <div style="font-size:13px;font-weight:700;color:var(--navy);margin-bottom:6px;">Fellows Trained</div>
         <div style="font-size:12px;color:var(--dim);">Across 9 universities</div>
       </div>
@@ -49,7 +49,7 @@ const HTML = `<!-- ════════════════════�
       <div style="background:var(--white);border-radius:16px;padding:28px;border-left:4px solid var(--blue);">
         <div style="font-size:10px;font-weight:700;letter-spacing:0.15em;color:var(--blue);text-transform:uppercase;margin-bottom:12px;">Neuro Champions Fellowship</div>
         <div style="display:flex;flex-direction:column;gap:8px;">
-          <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--dim);padding-bottom:8px;border-bottom:1px solid rgba(10,58,110,0.06);"><span>Fellows onboarded (Cohort 1)</span><span style="font-weight:700;color:var(--navy);">53</span></div>
+          <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--dim);padding-bottom:8px;border-bottom:1px solid rgba(10,58,110,0.06);"><span>Fellows onboarded (Cohort 1)</span><span style="font-weight:700;color:var(--navy);">50</span></div>
           <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--dim);padding-bottom:8px;border-bottom:1px solid rgba(10,58,110,0.06);"><span>Fellows graduated</span><span style="font-weight:700;color:var(--navy);">14</span></div>
           <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--dim);padding-bottom:8px;border-bottom:1px solid rgba(10,58,110,0.06);"><span>Universities represented</span><span style="font-weight:700;color:var(--navy);">9</span></div>
           <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--dim);"><span>Cohort 2 (in progress)</span><span style="font-weight:700;color:var(--blue);">Active</span></div>
@@ -134,8 +134,7 @@ const HTML = `<!-- ════════════════════�
       <h2 style="font-family:var(--serif);font-size:32px;color:var(--white);margin-bottom:20px;line-height:1.2;">EOS is not asking you to fund a vision.<br/>We are asking you to scale a proof.</h2>
       <p style="font-size:15px;color:rgba(255,255,255,0.55);line-height:1.85;margin-bottom:32px;max-width:640px;">In two years of fully self-funded operation, EOS onboarded 53 fellows across 9 universities, graduated 14, and directly reached over 408 individuals through community interventions. We held a stroke outreach event attended by over 1,000 people, ran a women's neuro health workshop, conducted direct school visits reaching 100+ secondary students, and funded medical care for indigent patients from our own resources.</p>
       <p style="font-size:15px;color:rgba(255,255,255,0.55);line-height:1.85;margin-bottom:36px;max-width:640px;">We are not replicating existing models. We are building something Nigeria has never had. External funding will take this to the next order of magnitude.</p>
-      <a href="mailto:theeosanyafoundation@gmail.com?subject=Partnership%20%2F%20Funding%20Enquiry" style="display:inline-block;background:var(--teal);color:#fff;border:none;border-radius:100px;padding:16px 32px;font-size:14px;font-weight:600;cursor:pointer;font-family:var(--sans);text-decoration:none;">Get in Touch — theeosanyafoundation@gmail.com</a>
-    </div>
+      <a href="mailto:info@theeosfoundation.org?subject=Partnership%20%2F%20Funding%20Enquiry" style="display:inline-block;background:var(--teal);color:#fff;border:none;border-radius:100px;padding:16px 32px;font-size:14px;font-weight:600;cursor:pointer;font-family:var(--sans);text-decoration:none;">Get in Touch — info@theeosfoundation.org</a></div>
   </div>
 </div>`;
 

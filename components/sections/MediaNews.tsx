@@ -17,10 +17,12 @@ const HTML = `<!-- ════════════════════�
     <div style="font-size:40px;margin-bottom:20px;">🏆</div>
     <h2 style="font-family:var(--serif);font-size:28px;color:var(--navy);margin-bottom:16px;">Press Coverage Coming</h2>
     <p style="font-size:15px;color:var(--dim);max-width:420px;line-height:1.7;margin-bottom:32px;">For press enquiries, interview requests, or media partnerships, reach out directly.</p>
-    <a href="mailto:theeosanyafoundation@gmail.com?subject=Press%20Enquiry" class="btn-primary" style="text-decoration:none;display:inline-block;padding:14px 28px;font-size:14px;font-weight:600;background:var(--blue);color:#fff;border-radius:100px;">Press Enquiries</a>
+    <a href="mailto:info@theeosfoundation.org?subject=Press%20Enquiry" class="btn-primary" style="text-decoration:none;display:inline-block;padding:14px 28px;font-size:14px;font-weight:600;background:var(--blue);color:#fff;border-radius:100px;">Press Enquiries</a>
   </div>
 </div>`;
 
 export default function MediaNews() {
-  return <div data-section="MediaNews" dangerouslySetInnerHTML={{ __html: HTML }} />;
+  return (
+    <div data-section="MediaNews" dangerouslySetInnerHTML={{ __html: HTML }} />
+  );
 }

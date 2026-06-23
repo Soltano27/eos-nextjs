@@ -17,10 +17,15 @@ const HTML = `<!-- ════════════════════�
     <div style="font-size:40px;margin-bottom:20px;">📄</div>
     <h2 style="font-family:var(--serif);font-size:28px;color:var(--navy);margin-bottom:16px;">Coming Soon</h2>
     <p style="font-size:15px;color:var(--dim);max-width:420px;line-height:1.7;margin-bottom:32px;">EOS's research and policy papers are in development. They will be published here as they are completed. To be notified on publication, get in touch.</p>
-    <a href="mailto:theeosanyafoundation@gmail.com?subject=Research%20Papers" class="btn-primary" style="text-decoration:none;display:inline-block;padding:14px 28px;font-size:14px;font-weight:600;background:var(--blue);color:#fff;border-radius:100px;">Contact Us</a>
+    <a href="mailto:info@theeosfoundation.org?subject=Research%20Papers" class="btn-primary" style="text-decoration:none;display:inline-block;padding:14px 28px;font-size:14px;font-weight:600;background:var(--blue);color:#fff;border-radius:100px;">Contact Us</a>
   </div>
 </div>`;
 
 export default function MediaResearch() {
-  return <div data-section="MediaResearch" dangerouslySetInnerHTML={{ __html: HTML }} />;
+  return (
+    <div
+      data-section="MediaResearch"
+      dangerouslySetInnerHTML={{ __html: HTML }}
+    />
+  );
 }
