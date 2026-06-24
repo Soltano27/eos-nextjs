@@ -273,15 +273,15 @@ const HTML = `<!-- ════════════════════�
       <p>From the latest Cortex Printout to new episodes and free tools — everything EOS is putting out right now.</p>
     </div>
     <div class="latest-grid">
-      <div class="latest-card" data-route="cortex-article-6">
-        <div class="latest-card-img" style="background:linear-gradient(135deg,#1A3A2A,#2D6A4A)">
+      <div class="latest-card" data-route="cortex-article-7">
+        <div class="latest-card-img" style="background:linear-gradient(135deg,#1A1A3A,#3A2D6A)">
           <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
         </div>
         <div class="latest-card-body">
-          <div class="latest-card-cat" style="color:#2D8A5A">Physical Brain Health · Issue 006</div>
-          <h4>Is Alzheimer's Disease Preventable?</h4>
-          <p>Exploring the truth about Alzheimer's — what it is, who it affects, and what young people can do now to lower their risk later.</p>
-          <a class="read-more" data-route="cortex-article-6">Read Article <span>→</span></a>
+          <div class="latest-card-cat" style="color:#7C6FCD">Mental Health &amp; Performance · Issue 007</div>
+          <h4>The Skill Nobody Taught You in School: Emotional Intelligence</h4>
+          <p>How understanding your emotions can help you build better relationships, make wiser decisions, and thrive in life.</p>
+          <a class="read-more" data-route="cortex-article-7">Read Article <span>→</span></a>
         </div>
       </div>
       <div class="latest-card" data-route="programs-culture">
@@ -331,6 +331,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap" id="home-ci-wrap">
       <div class="ci-slider-track" id="home-ci-track">
+        <div class="article-card" data-route="cortex-article-7">
+          <div class="article-img" style="background:linear-gradient(135deg,#1A1A3A,#3A2D6A)">
+            <span class="article-issue">ISSUE 007</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#7C6FCD">Mental Health &amp; Performance</div>
+            <h4>The Skill Nobody Taught You in School: Emotional Intelligence</h4>
+            <p>How understanding your emotions can help you build better relationships, make wiser decisions, and thrive in life.</p>
+            <a class="read-more" data-route="cortex-article-7">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-6">
           <div class="article-img" style="background:linear-gradient(135deg,#1A3A2A,#2D6A4A)">
             <span class="article-issue">ISSUE 006</span>

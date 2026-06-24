@@ -80,6 +80,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap">
       <div class="ci-slider-track" id="ci-track">
+        <div class="article-card" data-route="cortex-article-7" data-category="Mental Health &amp; Performance">
+          <div class="article-img" style="background:linear-gradient(135deg,#1A1A3A,#3A2D6A)">
+            <span class="article-issue">ISSUE 007</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#7C6FCD">Mental Health &amp; Performance</div>
+            <h4>The Skill Nobody Taught You in School: Emotional Intelligence</h4>
+            <p>How understanding your emotions can help you build better relationships, make wiser decisions, and thrive in life.</p>
+            <a class="read-more" data-route="cortex-article-7">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-6" data-category="Physical Brain Health">
           <div class="article-img" style="background:linear-gradient(135deg,#1A3A2A,#2D6A4A)">
             <span class="article-issue">ISSUE 006</span>
@@ -1093,6 +1104,175 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-5">← Previous Issue</button>
+        <button class="art-back-btn" data-route="cortex">← All Issues</button>
+        <button class="art-back-btn" data-route="cortex-article-7">Next Issue →</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     CORTEX ARTICLE 7 — EMOTIONAL INTELLIGENCE
+══════════════════════════════ -->
+<div id="view-cortex-article-7" class="page-view">
+  <div class="art-hero" style="background:linear-gradient(135deg,#1A1A3A 0%,#3A2D6A 100%)">
+    <div class="art-hero-inner">
+      <div class="art-breadcrumb">
+        <span data-route="cortex" style="cursor:pointer;opacity:0.6;transition:opacity 0.2s">The Cortex Printout</span>
+        <span style="opacity:0.3;margin:0 8px">/</span>
+        <span style="opacity:0.9">Issue 007</span>
+      </div>
+      <div class="art-meta-row">
+        <span class="art-issue-badge">ISSUE 007</span>
+        <span class="art-cat-badge" style="background:rgba(124,111,205,0.25);color:#C4B5FD">Mental Health &amp; Performance</span>
+      </div>
+      <h1 class="art-title">The Skill Nobody Taught You in School: Emotional Intelligence</h1>
+      <p class="art-deck">How understanding your emotions can help you build better relationships, make wiser decisions, and thrive in life.</p>
+      <div class="art-byline">
+        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <div>
+          <div class="art-byline-name">The Cortex Printout</div>
+          <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="art-layout">
+    <aside class="art-sidebar">
+      <div class="art-toc">
+        <div class="art-toc-title">In This Article</div>
+        <a class="art-toc-item" href="#ei-intro">Introduction</a>
+        <a class="art-toc-item" href="#ei-what">What Is Emotional Intelligence?</a>
+        <a class="art-toc-item" href="#ei-why">Why Is It Important?</a>
+        <a class="art-toc-item" href="#ei-how">How to Develop It</a>
+        <a class="art-toc-item" href="#ei-wrapup">Wrap Up</a>
+        <a class="art-toc-item" href="#ei-faq">FAQs</a>
+      </div>
+      <div class="art-key-takeaways">
+        <div class="art-kt-title">Key Takeaways</div>
+        <ul class="art-kt-list">
+          <li>Emotional intelligence has five core components: self-awareness, self-regulation, social awareness, relationship management, and self-motivation.</li>
+          <li>Being academically smart doesn't guarantee being emotionally smart — the two are independent skills.</li>
+          <li>Healthy relationships are symbiotic, not parasitic, and recognising the difference is a sign of emotional intelligence.</li>
+          <li>Emotionally intelligent people turn conflicts into discussions instead of arguments.</li>
+          <li>Emotional intelligence isn't fixed — it can be developed through self-assessment, observation, reading, and better communication.</li>
+        </ul>
+      </div>
+    </aside>
+    <article class="art-body">
+      <section id="ei-intro">
+        <p class="art-lede">Hey you — yes, you, the one who changes partners like clothes every three months. Before you start feeling like you are unlovable, or that some unseen force is attacking your relationships, have you stopped to consider that you might need to develop emotional intelligence? If you don't know what that is, don't worry — we will get into it.</p>
+      </section>
+      <section id="ei-what">
+        <h2>What Is Emotional Intelligence?</h2>
+        <p>Emotional intelligence refers to the ability to integrate logical reasoning and emotions to make sound decisions.<sup>[1]</sup> It simply means being smarter with handling emotions or feelings. Have you ever seen someone who is academically brilliant but seems to make poor decisions in their relationships or among friends? That person is logically intelligent but emotionally deficient.</p>
+        <p>Emotional intelligence incorporates several attributes: self-awareness, self-regulation, social awareness, relationship management, and self-motivation.<sup>[2]</sup></p>
+
+        <h3>Self-Awareness</h3>
+        <p>Self-awareness refers to the ability to recognise your own emotions and understand how they affect you and those around you.<sup>[3]</sup> Some people are naturally cheerful and brighten up every room they enter — they know this about themselves. Self-awareness is simply understanding yourself.</p>
+
+        <h3>Self-Regulation</h3>
+        <p>Self-regulation is the ability to control your emotions, desires, and impulses — stopping yourself from lashing out when you are upset or angry.<sup>[4]</sup> This is a huge component of healthy relationships. It means keeping your emotions in check so negative feelings don't wreak havoc on your friendships or partnerships.</p>
+
+        <h3>Social Awareness</h3>
+        <p>Social awareness refers to the ability to understand and empathise with the feelings, behaviours, and opinions of others in different contexts.<sup>[5]</sup> People are different — what one person appreciates, another might find offensive. Social awareness is knowing how to read that difference.</p>
+
+        <h3>Relationship Management</h3>
+        <p>Relationship management is the ability to use your understanding of emotions — yours and others' — to interact effectively, build healthy ties, and manage conflicts.<sup>[6]</sup></p>
+
+        <h3>Self-Motivation</h3>
+        <p>Self-motivation is the inner drive to accomplish tasks and pursue self-improvement for personal development, not for external reward or recognition.<sup>[7]</sup> It is choosing to eat healthily even when you are craving junk. It is getting up to go to the gym on the days you don't feel like it.</p>
+
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">🧠</div>
+          <div>Emotional intelligence and academic intelligence are separate skills. A person can excel in school or at work while still struggling to manage their emotions or relationships well.</div>
+        </div>
+      </section>
+      <section id="ei-why">
+        <h2>Why Is Emotional Intelligence Important?</h2>
+
+        <h3>It Improves Communication</h3>
+        <p>An emotionally intelligent person treats others with the consideration they would want for themselves. In a relationship, when one partner has had a bad day, they want reassurance. Emotional intelligence means knowing to offer that same comfort in return. Many people who call themselves "blunt" are simply rude — but you can tell people the truth without making them feel worse. A friend once told me after I made a mistake: "I won't say what you did is stupid, because I know you are already telling yourself that." That is emotional intelligence in practice.</p>
+
+        <h3>It Helps You Make Better Decisions</h3>
+        <p>While empathy teaches us to see things from others' perspectives, emotional intelligence also means knowing when to walk away. Many friendships are parasitic — designed to benefit one person at the expense of the other. A healthy relationship is symbiotic, where all parties benefit. Emotional intelligence helps you recognise the difference and act accordingly.</p>
+
+        <h3>It Helps You Resolve Conflicts</h3>
+        <p>Disagreements are a normal part of any relationship. The difference between a discussion and an argument is this: a discussion means "here is my point and here is yours — let me hear you out." An argument means "I am right and you are wrong, full stop." Emotional intelligence keeps conflicts from escalating into something that damages the relationship permanently.</p>
+
+        <h3>It Helps You Develop Yourself</h3>
+        <p>Self-awareness helps you know yourself better. Self-motivation gives you the drive to pursue your goals. Self-regulation keeps your emotions in check. Social awareness helps you adapt to different situations. Together, they make you a more complete and effective person.</p>
+
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">💬</div>
+          <div>Emotionally intelligent people don't avoid difficult conversations — they approach them with clarity, empathy, and the goal of understanding rather than winning.</div>
+        </div>
+      </section>
+      <section id="ei-how">
+        <h2>How Do I Develop Emotional Intelligence?</h2>
+
+        <h3>Perform an Honest Self-Assessment</h3>
+        <p>Take a deep and honest look at yourself. Examine your emotions — what makes you happy, what upsets you, how you react in difficult situations. If you are unsure, ask people close to you. Sometimes others see patterns in us that we cannot see in ourselves.</p>
+
+        <h3>Observe Emotionally Intelligent People</h3>
+        <p>Watch people you consider emotionally intelligent. Pay attention to how they handle disagreements, how they act among strangers versus close friends, and how they communicate under pressure. If you are close enough, ask them directly. Learn from them.</p>
+
+        <h3>Read</h3>
+        <p>There are excellent books on emotional intelligence and relationships. If you are entering or currently in a relationship, <em>The Five Love Languages</em> by Gary Chapman is a strong starting point. Many other books on relationships and emotional intelligence can genuinely shift how you relate to people.</p>
+
+        <h3>Work on Your Communication</h3>
+        <p>Speak to others with the politeness and courtesy you would like to receive. Pay attention to non-verbal cues as well — facial expressions and body language carry as much meaning as words, sometimes more. Many people miss this entirely.</p>
+
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>Emotional intelligence also includes speaking up when you need help. If you are struggling, reach out. Seeking support is not weakness — it is self-awareness in action. Visit <strong>theeosfoundation.org</strong> for resources.</div>
+        </div>
+      </section>
+      <section id="ei-wrapup">
+        <h2>Wrap Up</h2>
+        <p>For your relationships to be healthy — romantic, platonic, or professional — emotional intelligence is not optional. Aim to develop it deliberately, and you will see real improvements in how you relate to the people around you.</p>
+        <p>The question is this: will you learn and develop your emotional intelligence, or will you continue the way you are?</p>
+        <p>Further reading: emotional intelligence also includes speaking up when you need help. June is Men's Mental Health Month. Read <a href="#" data-route="cortex-article-4" style="color:var(--purple);text-decoration:underline">You're not a Burden, Speak Up</a>.</p>
+      </section>
+      <section id="ei-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is emotional intelligence the same thing as being nice?</div>
+            <div class="art-faq-a">Not quite. Being nice can sometimes mean avoiding conflict or people-pleasing, while emotional intelligence means understanding emotions — yours and others' — well enough to respond appropriately, even when that means having a hard conversation or walking away from a toxic relationship.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can someone be intelligent but have low emotional intelligence?</div>
+            <div class="art-faq-a">Yes. Academic or logical intelligence and emotional intelligence are separate skills. Someone can excel in school or at work while still struggling to manage their emotions or relationships well.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is emotional intelligence something you're born with, or can it be learned?</div>
+            <div class="art-faq-a">It can be learned. Like any skill, it improves with self-awareness, practice, and intentional effort — through honest self-assessment, observing emotionally intelligent people, reading, and working on communication.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How do I know if I have low emotional intelligence?</div>
+            <div class="art-faq-a">Common signs include frequently reacting instead of responding, struggling to see things from other people's perspectives, finding that conflicts often turn into arguments, or staying in relationships and friendships that consistently leave you feeling drained.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does emotional intelligence only apply to romantic relationships?</div>
+            <div class="art-faq-a">No. Emotional intelligence also shapes how you handle friendships, family dynamics, and professional relationships.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Six Seconds. <em>What Is Emotional Intelligence?</em> https://www.6seconds.org/emotional-intelligence/</li>
+          <li>Daniel Goleman Emotional Intelligence Courses. <em>EI Overview: The Four Domains and Twelve Competencies.</em> https://danielgolemanemotionalintelligence.com/ei-overview-the-four-domains-and-twelve-competencies/</li>
+          <li>Sean Jackson (MentalHealth.com). <em>Emotional Intelligence and Self-Awareness.</em> 2025. https://www.mentalhealth.com/library/emotional-intelligence-self-awareness</li>
+          <li>Harvard Health Publishing. <em>Self-Regulation for Adults.</em> https://www.health.harvard.edu/mind-and-mood/self-regulation-for-adults-strategies-for-getting-a-handle-on-emotions-and-behavior</li>
+          <li>Groundbreaker Therapy. <em>Social Awareness: Definition, Importance, and Ways to Improve It.</em> https://groundbreakertherapy.com/blog/social-awareness/</li>
+          <li>Workplace Strategies for Mental Health. <em>Relationship Management for Emotional Intelligence.</em> https://www.workplacestrategiesformentalhealth.com/resources/relationship-management-for-emotional-intelligence</li>
+          <li>John Scott Keane. <em>Self-Motivation: A Critical Component of Emotional Intelligence.</em> https://medium.com/@johnscottkeane11/self-motivation-a-critical-component-of-emotional-intelligence-c06d1927d1d5</li>
+        </ol>
+      </div>
+      <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-6">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
       </div>
     </article>
