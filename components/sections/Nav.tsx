@@ -58,6 +58,10 @@ const HTML = `<nav>
       <a data-route="cortex">The Cortex Printout</a>
     </div>
 
+    <div class="nav-item">
+      <a data-route="contact">Contact</a>
+    </div>
+
   </div>
 
   <button class="nav-cta" data-route="programs-guild">Join the Guild</button>
