@@ -273,15 +273,15 @@ const HTML = `<!-- ════════════════════�
       <p>From the latest Cortex Printout to new episodes and free tools — everything EOS is putting out right now.</p>
     </div>
     <div class="latest-grid">
-      <div class="latest-card" data-route="cortex-article-7">
-        <div class="latest-card-img" style="background:linear-gradient(135deg,#1A1A3A,#3A2D6A)">
+      <div class="latest-card" data-route="cortex-article-8">
+        <div class="latest-card-img" style="background:linear-gradient(135deg,#2A0A0A,#6A1A1A)">
           <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
         </div>
         <div class="latest-card-body">
-          <div class="latest-card-cat" style="color:#7C6FCD">Mental Health &amp; Performance · Issue 007</div>
-          <h4>The Skill Nobody Taught You in School: Emotional Intelligence</h4>
-          <p>How understanding your emotions can help you build better relationships, make wiser decisions, and thrive in life.</p>
-          <a class="read-more" data-route="cortex-article-7">Read Article <span>→</span></a>
+          <div class="latest-card-cat" style="color:#E57373">Physical Brain Health · Issue 008</div>
+          <h4>The Brain on Drugs: What Addiction Actually Does to Your Mind</h4>
+          <p>How drugs hijack the brain's reward system, damage key brain regions, and what recovery actually looks like.</p>
+          <a class="read-more" data-route="cortex-article-8">Read Article <span>→</span></a>
         </div>
       </div>
       <div class="latest-card" data-route="programs-culture">
@@ -331,6 +331,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap" id="home-ci-wrap">
       <div class="ci-slider-track" id="home-ci-track">
+        <div class="article-card" data-route="cortex-article-8">
+          <div class="article-img" style="background:linear-gradient(135deg,#2A0A0A,#6A1A1A)">
+            <span class="article-issue">ISSUE 008</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#E57373">Physical Brain Health</div>
+            <h4>The Brain on Drugs: What Addiction Actually Does to Your Mind</h4>
+            <p>How drugs hijack the brain's reward system, damage key brain regions, and what recovery actually looks like.</p>
+            <a class="read-more" data-route="cortex-article-8">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-7">
           <div class="article-img" style="background:linear-gradient(135deg,#1A1A3A,#3A2D6A)">
             <span class="article-issue">ISSUE 007</span>

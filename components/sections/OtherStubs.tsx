@@ -80,6 +80,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap">
       <div class="ci-slider-track" id="ci-track">
+        <div class="article-card" data-route="cortex-article-8" data-category="Physical Brain Health">
+          <div class="article-img" style="background:linear-gradient(135deg,#2A0A0A,#6A1A1A)">
+            <span class="article-issue">ISSUE 008</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#E57373">Physical Brain Health</div>
+            <h4>The Brain on Drugs: What Addiction Actually Does to Your Mind</h4>
+            <p>How drugs hijack the brain's reward system, damage key brain regions, and what recovery actually looks like.</p>
+            <a class="read-more" data-route="cortex-article-8">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-7" data-category="Mental Health &amp; Performance">
           <div class="article-img" style="background:linear-gradient(135deg,#1A1A3A,#3A2D6A)">
             <span class="article-issue">ISSUE 007</span>
@@ -1273,6 +1284,165 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-6">← Previous Issue</button>
+        <button class="art-back-btn" data-route="cortex">← All Issues</button>
+        <button class="art-back-btn" data-route="cortex-article-8">Next Issue →</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     CORTEX ARTICLE 8 — THE BRAIN ON DRUGS
+══════════════════════════════ -->
+<div id="view-cortex-article-8" class="page-view">
+  <div class="art-hero" style="background:linear-gradient(135deg,#2A0A0A 0%,#6A1A1A 100%)">
+    <div class="art-hero-inner">
+      <div class="art-breadcrumb">
+        <span data-route="cortex" style="cursor:pointer;opacity:0.6;transition:opacity 0.2s">The Cortex Printout</span>
+        <span style="opacity:0.3;margin:0 8px">/</span>
+        <span style="opacity:0.9">Issue 008</span>
+      </div>
+      <div class="art-meta-row">
+        <span class="art-issue-badge">ISSUE 008</span>
+        <span class="art-cat-badge" style="background:rgba(229,115,115,0.2);color:#FFCDD2">Physical Brain Health</span>
+      </div>
+      <h1 class="art-title">The Brain on Drugs:<br/>What Addiction Actually Does to Your Mind</h1>
+      <p class="art-deck">Drugs don't just feel dangerous — they restructure the brain itself. Here is what actually happens, and what recovery looks like.</p>
+      <div class="art-byline">
+        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <div>
+          <div class="art-byline-name">The Cortex Printout</div>
+          <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation · June 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="art-layout">
+    <aside class="art-sidebar">
+      <div class="art-toc">
+        <div class="art-toc-title">In This Article</div>
+        <a class="art-toc-item" href="#d-intro">Introduction</a>
+        <a class="art-toc-item" href="#d-what">What Are Drugs?</a>
+        <a class="art-toc-item" href="#d-abuse">What Is Drug Abuse?</a>
+        <a class="art-toc-item" href="#d-brain">How Drugs Affect the Brain</a>
+        <a class="art-toc-item" href="#d-consequences">Consequences of Drug Abuse</a>
+        <a class="art-toc-item" href="#d-out">The Way Out</a>
+        <a class="art-toc-item" href="#d-wrapup">Wrap Up</a>
+        <a class="art-toc-item" href="#d-faq">FAQs</a>
+      </div>
+      <div class="art-key-takeaways">
+        <div class="art-kt-title">Key Takeaways</div>
+        <ul class="art-kt-list">
+          <li>Drug abuse is a major public health issue in Nigeria, with 1 in 7 people aged 15–64 having used a drug in the past year.</li>
+          <li>Drugs hijack the brain's natural reward system, flooding it with far more dopamine than everyday pleasures ever could.</li>
+          <li>Continued use damages key brain regions: the basal ganglia (reward), the amygdala (emotion and withdrawal), and the prefrontal cortex (decision-making and self-control).</li>
+          <li>The teenage and young adult brain is still developing, making early drug exposure especially risky and long-lasting in its effects.</li>
+          <li>Reaching out for help is a sign of strength, not failure, and addiction is best treated as a health condition rather than a moral one.</li>
+        </ul>
+      </div>
+    </aside>
+    <article class="art-body">
+      <section id="d-intro">
+        <p class="art-lede">June 26 is the International Day against Drug Abuse and Illicit Trafficking. As we mark it, we should be honest about the harm drugs do — not just to lives and families, but to the brain itself. Drug abuse is a major problem in Nigeria: one in seven Nigerians aged 15–64 has abused a drug in the past year.<sup>[7]</sup> Some know the risks. Others don't. And some are curious precisely because of the euphoria that users describe.</p>
+        <p>This article is for all three groups.</p>
+      </section>
+      <section id="d-what">
+        <h2>What Are Drugs?</h2>
+        <p>Medically, drugs are defined as any substance (other than food) used to prevent, diagnose, treat, or relieve symptoms of a disease or abnormal condition.<sup>[1]</sup> In the context of this article, drugs are substances that change a person's mental or physical state.<sup>[2]</sup> Marijuana tends to make people feel euphoric and relaxed. Cocaine makes people feel energised. The mechanism behind both is the same — interference with the brain's chemistry.</p>
+      </section>
+      <section id="d-abuse">
+        <h2>What Is Drug Abuse?</h2>
+        <p>Drug abuse is the use of illegal drugs, or the use of prescription or over-the-counter drugs for purposes other than those for which they are intended, or in excessive amounts.<sup>[3]</sup> Once a drug is taken in a larger dose than prescribed, or for reasons other than its intended purpose, it has been abused. That includes popping antibiotics for a rash, or taking paracetamol for every minor headache.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>Drug abuse is one of the greatest problems in Nigerian society — a menace that has ruined lives, families, and entire communities. It does not discriminate by background, age, or education level.</div>
+        </div>
+      </section>
+      <section id="d-brain">
+        <h2>How Do Drugs Affect the Brain?</h2>
+        <p>Think of the brain as an advanced computer. It communicates through billions of cells called neurons, which send and receive information via chemical messengers called neurotransmitters.</p>
+        <p>When certain drugs are taken, they activate neurons because their chemical structure mimics that of a neurotransmitter — attaching to neurons and activating them abnormally. Other drugs, like amphetamines, cause the brain to release abnormally large amounts of neurotransmitters, or prevent the brain from recycling them. Either way, normal communication between neurons is disrupted.</p>
+        <p>The brain uses dopamine to reinforce beneficial behaviours — eating, exercise, connection. When drugs are taken, the dopamine release is far greater than anything a natural reward can produce. This overload creates the craving. The body wants to repeat the experience. The body also begins to associate dopamine overload with everything connected to the drug — the route to the dealer, the hideout, the smell of the space. These become triggers because the brain has wired them to the reward.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🧠</div>
+          <div>The teenage and young adult brain is still developing — particularly the prefrontal cortex, which governs judgement and impulse control. This is why drug exposure during these years carries a higher risk of lasting harm.</div>
+        </div>
+      </section>
+      <section id="d-consequences">
+        <h2>What Are the Consequences of Drug Abuse?</h2>
+        <p>Drug abuse damages several vital organs — kidneys, liver, spleen — but the most significant damage is to the brain. Long-term use affects three key regions:</p>
+        <h3>Basal Ganglia</h3>
+        <p>The basal ganglia are deep brain structures that control movement, learning, decision-making, and the feeling of reward.<sup>[5]</sup> They form a central part of the brain's reward circuit. When drugs are taken repeatedly, they overload this circuit until it can no longer register pleasure from anything else. Only the drug remains rewarding.</p>
+        <h3>Amygdala</h3>
+        <p>The amygdala is located near the hippocampus (the memory centre) and is part of the limbic system, which controls emotions — fear, anger, happiness, anxiety.<sup>[6]</sup> Drugs increase the sensitivity of this region. When the drug's effects wear off, the amygdala triggers discomfort — what we recognise as withdrawal symptoms.</p>
+        <h3>Prefrontal Cortex</h3>
+        <p>The prefrontal cortex governs thinking, planning, decision-making, self-control, and social behaviour. It is one of the last parts of the brain to fully mature. Drug use lowers its ability to regulate desire — which is why addicts will sacrifice jobs, family, finances, and health in pursuit of the next fix. The part of the brain designed to say "stop" has been compromised.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">💬</div>
+          <div>Beyond the brain: drug abuse tears apart families, causes road fatalities through impaired driving, and destroys financial stability. It is a disease that damages everything it touches if left unaddressed.</div>
+        </div>
+      </section>
+      <section id="d-out">
+        <h2>What Is the Way Out?</h2>
+        <p>The brain has a remarkable ability to heal — a property scientists call neuroplasticity. With sustained abstinence and proper support, some of the damage caused by drugs can be reversed, and affected brain regions can recover meaningful function.</p>
+        <p>Recovery is not easy, and relapse is part of many people's journeys. But it is possible. Here are steps that can help:</p>
+        <ul class="art-firstaid-list">
+          <li><strong>Be honest with yourself.</strong> Admit that there is a problem and that you need help.</li>
+          <li><strong>Reach out to the right people.</strong> Addiction counsellors and rehabilitation facilities exist to help. If your case requires admission, they will guide you.</li>
+          <li><strong>Remove triggers.</strong> Distance yourself from people, places, and situations that tempt you to use again.</li>
+          <li><strong>Fill the time.</strong> An idle mind creates space for cravings. Find healthy habits and activities that occupy you.</li>
+          <li><strong>Address what led you there.</strong> If an underlying problem drove you to drug use, seek counselling for that issue directly. Unresolved pain has a way of pulling people back.</li>
+          <li><strong>Find an accountability partner.</strong> Someone who checks in on you and whom you can call on a rough day.</li>
+        </ul>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>Reaching out for help is not weakness. It is the first act of self-awareness in the recovery process. If you need support, reach out to us at <strong>theeosfoundation.org</strong> and we will connect you with the right resources.</div>
+        </div>
+      </section>
+      <section id="d-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Drug abuse is a disease — not a moral failing. It has devastating consequences if left unaddressed, but people find their way out every single day. If you or someone you know is struggling, all hope is not lost. It is okay to reach out and ask for help.</p>
+        <p>Further reading: relationships are a crucial part of life, and maintaining them well requires emotional intelligence. Read <a href="#" data-route="cortex-article-7" style="color:var(--teal);text-decoration:underline">The Skill Nobody Taught You in School: Emotional Intelligence</a>.</p>
+      </section>
+      <section id="d-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is brain damage from drug abuse always permanent?</div>
+            <div class="art-faq-a">No. Some changes, especially those involving the brain's reward and decision-making circuits, can improve significantly with sustained abstinence and treatment. The extent of recovery depends on how long and heavily a person used, and the support available to them.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Why do some people become addicted while others who use the same drug don't?</div>
+            <div class="art-faq-a">Addiction risk is shaped by a mix of genetics, brain chemistry, age at first use, mental health, and environment — not just willpower or "weakness." This is part of why addiction is now widely understood as a health condition rather than a moral failing.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does alcohol count as a drug when we talk about brain health?</div>
+            <div class="art-faq-a">Yes. Alcohol affects the brain's neurotransmitter systems in ways similar to other drugs, and heavy or prolonged use can damage memory, decision-making, and other brain functions.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is it true that the brain doesn't fully develop until your twenties, and does that affect risk?</div>
+            <div class="art-faq-a">Yes. The prefrontal cortex, which governs judgement and impulse control, typically continues developing into the mid-twenties. Drug exposure during the teenage and young adult years can therefore carry a higher risk of lasting harm.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What's the first step if I or someone I know wants help?</div>
+            <div class="art-faq-a">Start by being honest about the problem, then reach out to a doctor, counsellor, or addiction treatment facility. You don't have to figure out the rest before taking that first step.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>National Cancer Institute. <em>Drug.</em> 2011. https://www.cancer.gov/publications/dictionaries/cancer-terms/def/drug</li>
+          <li>Australian Government Department of Health. <em>What Are Drugs?</em> 2025. https://www.health.gov.au/topics/drugs/about-drugs/what-are-drugs</li>
+          <li>National Cancer Institute. <em>Drug Abuse.</em> 2011. https://www.cancer.gov/publications/dictionaries/cancer-terms/def/drug-abuse</li>
+          <li>American Addiction Centers. <em>How Drugs Affect the Central Nervous System.</em> 2025. https://americanaddictioncenters.org/health-complications-addiction/central-nervous-system</li>
+          <li>Young, C., Reddy, V., &amp; Sonne, J. <em>Neuroanatomy, Basal Ganglia.</em> 2025. StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK537141/</li>
+          <li>Yang, T., et al. <em>The Role of the Amygdala in Emotional Processing.</em> 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC7904248/</li>
+          <li>UNODC / Federal Government of Nigeria. <em>Drug Use in Nigeria 2018.</em> https://www.unodc.org/documents/nigeria/Drug_Use_in_Nigeria_2018_FINAL.pdf</li>
+        </ol>
+      </div>
+      <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-7">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
       </div>
     </article>
