@@ -273,17 +273,17 @@ const HTML = `<!-- ════════════════════�
       <p>From the latest Cortex Printout to new episodes and free tools — everything EOS is putting out right now.</p>
     </div>
     <div class="latest-grid">
-      <div class="latest-card" data-route="cortex-article-8">
-        <div class="latest-card-img" style="background:linear-gradient(135deg,#2A0A0A,#6A1A1A)">
-          <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
-        </div>
-        <div class="latest-card-body">
-          <div class="latest-card-cat" style="color:#E57373">Physical Brain Health · Issue 008</div>
-          <h4>The Brain on Drugs: What Addiction Actually Does to Your Mind</h4>
-          <p>How drugs hijack the brain's reward system, damage key brain regions, and what recovery actually looks like.</p>
-          <a class="read-more" data-route="cortex-article-8">Read Article <span>→</span></a>
-        </div>
-      </div>
+      <div class="latest-card" data-route="cortex-article-9">
+  <div class="latest-card-img" style="background:linear-gradient(135deg,#0A1A2A,#1A3A5A)">
+    <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
+  </div>
+  <div class="latest-card-body">
+    <div class="latest-card-cat" style="color:#64B5F6">Mental Health &amp; Performance · Issue 009</div>
+    <h4>Stress and the Brain: What Happens When Pressure Becomes a Pattern</h4>
+    <p>Chronic stress doesn't just feel bad — it rewires the brain. Here is what happens and how to fight back.</p>
+    <a class="read-more" data-route="cortex-article-9">Read Article <span>→</span></a>
+  </div>
+</div>
       <div class="latest-card" data-route="programs-culture">
         <div class="latest-card-img" style="background:linear-gradient(135deg,#3A1A70,#5B3FA0)">
           <span class="latest-card-issue">IS YOUR BRAIN COOKED?</span>
@@ -331,7 +331,18 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap" id="home-ci-wrap">
       <div class="ci-slider-track" id="home-ci-track">
-        <div class="article-card" data-route="cortex-article-8">
+  <div class="article-card" data-route="cortex-article-9">
+    <div class="article-img" style="background:linear-gradient(135deg,#0A1A2A,#1A3A5A)">
+      <span class="article-issue">ISSUE 009</span>
+    </div>
+    <div class="article-body">
+      <div class="article-cat" style="color:#64B5F6">Mental Health &amp; Performance</div>
+      <h4>Stress and the Brain: What Happens When Pressure Becomes a Pattern</h4>
+      <p>Chronic stress doesn't just feel bad — it rewires the brain. Here is what happens and how to fight back.</p>
+      <a class="read-more" data-route="cortex-article-9">Read More <span>→</span></a>
+    </div>
+  </div>
+  <div class="article-card" data-route="cortex-article-8">
           <div class="article-img" style="background:linear-gradient(135deg,#2A0A0A,#6A1A1A)">
             <span class="article-issue">ISSUE 008</span>
           </div>

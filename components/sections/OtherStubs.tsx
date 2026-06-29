@@ -80,6 +80,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap">
       <div class="ci-slider-track" id="ci-track">
+        <div class="article-card" data-route="cortex-article-9" data-category="Mental Health &amp; Performance">
+          <div class="article-img" style="background:linear-gradient(135deg,#0A1A2A,#1A3A5A)">
+            <span class="article-issue">ISSUE 009</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#64B5F6">Mental Health &amp; Performance</div>
+            <h4>Stress and the Brain: What Happens When Pressure Becomes a Pattern</h4>
+            <p>Chronic stress doesn't just feel bad — it rewires the brain. Here is what happens and how to fight back.</p>
+            <a class="read-more" data-route="cortex-article-9">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-8" data-category="Physical Brain Health">
           <div class="article-img" style="background:linear-gradient(135deg,#2A0A0A,#6A1A1A)">
             <span class="article-issue">ISSUE 008</span>
@@ -1443,6 +1454,159 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-7">← Previous Issue</button>
+        <button class="art-back-btn" data-route="cortex">← All Issues</button>
+        <button class="art-back-btn" data-route="cortex-article-9">Next Issue →</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     CORTEX ARTICLE 9 — STRESS AND THE BRAIN
+══════════════════════════════ -->
+<div id="view-cortex-article-9" class="page-view">
+  <div class="art-hero" style="background:linear-gradient(135deg,#0A1A2A 0%,#1A3A5A 100%)">
+    <div class="art-hero-inner">
+      <div class="art-breadcrumb">
+        <span data-route="cortex" style="cursor:pointer;opacity:0.6;transition:opacity 0.2s">The Cortex Printout</span>
+        <span style="opacity:0.3;margin:0 8px">/</span>
+        <span style="opacity:0.9">Issue 009</span>
+      </div>
+      <div class="art-meta-row">
+        <span class="art-issue-badge">ISSUE 009</span>
+        <span class="art-cat-badge" style="background:rgba(100,181,246,0.2);color:#BBDEFB">Mental Health &amp; Performance</span>
+      </div>
+      <h1 class="art-title">Stress and the Brain:<br/>What Happens When Pressure Becomes a Pattern</h1>
+      <p class="art-deck">Stress is a normal part of life — until it isn't. Here is what chronic stress actually does to your brain, and what you can do about it.</p>
+      <div class="art-byline">
+        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <div>
+          <div class="art-byline-name">The Cortex Printout</div>
+          <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="art-layout">
+    <aside class="art-sidebar">
+      <div class="art-toc">
+        <div class="art-toc-title">In This Article</div>
+        <a class="art-toc-item" href="#s-intro">Introduction</a>
+        <a class="art-toc-item" href="#s-what">What Is Stress?</a>
+        <a class="art-toc-item" href="#s-signs">Signs of Stress</a>
+        <a class="art-toc-item" href="#s-response">How the Body Responds</a>
+        <a class="art-toc-item" href="#s-chronic">Effects of Chronic Stress</a>
+        <a class="art-toc-item" href="#s-deal">How to Deal With Stress</a>
+        <a class="art-toc-item" href="#s-wrapup">Wrap Up</a>
+        <a class="art-toc-item" href="#s-faq">FAQs</a>
+      </div>
+      <div class="art-key-takeaways">
+        <div class="art-kt-title">Key Takeaways</div>
+        <ul class="art-kt-list">
+          <li>Stress is a normal part of life and even helpful in short bursts, but it becomes harmful when it is constant or excessive.</li>
+          <li>Chronic stress rewires the brain, strengthening survival-focused areas like the amygdala while weakening the prefrontal cortex's capacity for higher-level thinking.</li>
+          <li>Persistent stress may damage the brain's insulin receptors and has been linked to the cascade of changes that contribute to Alzheimer's Disease.</li>
+          <li>Chronic stress shows up through physical and emotional symptoms like poor sleep, difficulty concentrating, anxiety, and irritability.</li>
+          <li>Sleep, exercise, healthy habits, meditation, and faith-based fellowship are all practical, evidence-backed ways to manage stress and protect brain health.</li>
+        </ul>
+      </div>
+    </aside>
+    <article class="art-body">
+      <section id="s-intro">
+        <p class="art-lede">Life as an average Nigerian is stressful. If you live in Lagos, your stress is doubled. You get up early to beat the traffic, your day is an endless cycle of meetings and tasks, and then you hustle for a bus or bike home, deal with traffic, and by the time you get in it is already time to sleep — only to repeat it all the next day. Remote workers are not much better off: while they skip the commute, remote work often means working around the clock, dealing with power outages and slow networks on top of everything else.</p>
+        <p>All of this takes a toll. Stress is a fixture of daily Nigerian life, and many of us underestimate what it is doing to our brains.</p>
+      </section>
+      <section id="s-what">
+        <h2>What Is Stress?</h2>
+        <p>The World Health Organisation defines stress as a state of worry or mental tension caused by a difficult situation.<sup>[1]</sup> Stress is a normal part of daily life, but it becomes harmful when it is uncontrolled or chronic.</p>
+      </section>
+      <section id="s-signs">
+        <h2>What Are the Signs That I Am Under Stress?</h2>
+        <p>If you are experiencing any of the following, you could be under stress: difficulty sleeping, difficulty concentrating, anxiety, difficulty breathing, chest pains, constipation or indigestion, unexplained weight loss or gain, excessive sweating in cool conditions, racing thoughts, panic attacks, irritability and aggression, or feeling overwhelmed most of the time.<sup>[5]</sup></p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">📌</div>
+          <div>One or more of these symptoms appearing consistently is worth paying attention to — not dismissing. See the section below on managing stress for practical steps you can take.</div>
+        </div>
+      </section>
+      <section id="s-response">
+        <h2>How Does the Body Respond to Stress?</h2>
+        <p>Stress has some beneficial effects. It signals danger and triggers the fight-or-flight system, increasing alertness and physical readiness. When the brain senses a stressful situation, the sensory organs send information to the amygdala — the brain's emotional processing centre. The amygdala sends distress signals to the hypothalamus, which acts like a command centre.</p>
+        <p>The hypothalamus activates the sympathetic nervous system, triggering the release of stress hormones like adrenaline and noradrenaline. These cause the heart to pump harder, blood pressure to spike, blood flow to increase to the muscles, the eyes to dilate, the lungs to expand, and extra glucose to be released. This entire process happens faster than conscious thought — which is why a person can react to danger before they have even finished processing what they are seeing.</p>
+        <p>When the situation passes, the parasympathetic nervous system steps in to reverse the process — withdrawing adrenaline, normalising blood pressure, and allowing the body to stabilise. Think of it like a car: the sympathetic nervous system is the accelerator, the parasympathetic nervous system is the brake.<sup>[2]</sup></p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">🧠</div>
+          <div>Short-term stress is a survival tool. The problem begins when the accelerator is pressed constantly and the brake rarely gets a chance to engage.</div>
+        </div>
+      </section>
+      <section id="s-chronic">
+        <h2>Effects of Chronic Stress on the Brain</h2>
+        <p>Chronic stress occurs when the brain is exposed to too many stressful situations for too long — a state called allostatic overload. The brain becomes easier to trigger, producing stress responses even in situations that don't warrant them.</p>
+        <p>Studies show that chronic stress physically rewires the brain. Survival-focused areas like the amygdala grow stronger and more reactive, while regions responsible for higher-order thinking — such as the prefrontal cortex — become less developed. The brain is like a muscle: what you exercise grows, what you neglect weakens.<sup>[3]</sup></p>
+        <p>Chronic stress also contributes to neurodegenerative disease. Persistent overstimulation can cause the death of brain cells and makes it harder to relax without external help such as medication or therapy. Excess cortisol and overactive excitatory signalling can damage the brain's insulin receptors — which help the brain use energy efficiently and protect against damage. Damage to these receptors can set off a chain of events that may contribute to Alzheimer's Disease.<sup>[4]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>Chronic stress is also harmful to mental health. Persistent stress can build into anxiety, burnout, and depression — particularly when the stressor shows no sign of ending, creating the sense of a never-ending loop.</div>
+        </div>
+      </section>
+      <section id="s-deal">
+        <h2>How Do I Deal With Chronic Stress?</h2>
+        <h3>Sleep</h3>
+        <p>As much as possible, prioritise a good night's sleep. Sleep allows the brain to withdraw stress hormones from the bloodstream, rest, repair damaged structures, and recharge. It is one of the most powerful tools available for stress recovery.</p>
+        <h3>Destress Habits</h3>
+        <p>Cultivate habits that help you unwind. Listening to soothing music, spending time with friends, or watching a film are all legitimate forms of stress relief. The goal is to give your nervous system consistent opportunities to shift into recovery mode.</p>
+        <h3>Exercise</h3>
+        <p>Physical activity is one of the most effective stress management tools available. After exercise, the body withdraws stress hormones and releases relaxation hormones like serotonin and dopamine, which lift mood and promote rest. This is why a workout leaves you feeling better than when you started.</p>
+        <h3>Meditation</h3>
+        <p>Meditation helps clear mental tension and promotes the withdrawal of stress hormones. Even a few minutes of focused, deliberate quiet can shift the brain out of its stressed state and into a more regulated one.</p>
+        <h3>Faith and Fellowship</h3>
+        <p>For religious people, worship and community fellowship offer genuine relief. Social connection — encouraging one another, sharing experiences, singing, reading scripture — has well-documented psychological and biological benefits. Strong social bonds are one of the most consistent predictors of healthy living in the research literature. This is one area where science and faith broadly agree.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>You don't have to let stress take away your health. Find your method before stress finds its way into your brain's wiring — and reach out to us at <strong>theeosfoundation.org</strong> if you need support or resources.</div>
+        </div>
+      </section>
+      <section id="s-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Stress is part of daily life, and in mild doses it is actually useful. But the doses most Nigerians are absorbing — financial pressure, insecurity, erratic power supply, the grind — are genuinely damaging. You don't have to accept that. Find the tools that work for you and use them consistently. Deal with the stress before it deals with you.</p>
+        <p>Further reading: one in seven Nigerians has abused a drug in the past year. Drug abuse has devastating effects on the brain. Read <a href="#" data-route="cortex-article-8" style="color:var(--teal);text-decoration:underline">The Brain on Drugs: What Addiction Actually Does to Your Mind</a>.</p>
+      </section>
+      <section id="s-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is all stress bad for me?</div>
+            <div class="art-faq-a">No. In small, short-term doses, stress is actually helpful — it sharpens your focus and prepares your body to respond to danger or pressure. It only becomes harmful when it is constant or excessive, a state known as chronic stress.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How do I know if my stress has become chronic?</div>
+            <div class="art-faq-a">If you notice ongoing symptoms like difficulty sleeping, trouble concentrating, anxiety, irritability, racing thoughts, or feeling overwhelmed most of the time, you could be dealing with chronic stress rather than the normal, short-lived kind.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can stress really cause Alzheimer's Disease?</div>
+            <div class="art-faq-a">Researchers haven't established stress as a direct cause, but persistent stress is believed to damage the brain's insulin receptors through excess cortisol, and this is thought to be one of the steps in the chain of events that can contribute to Alzheimer's Disease.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can the brain recover from the effects of chronic stress?</div>
+            <div class="art-faq-a">Yes, to a large extent. The brain is naturally adaptable, and habits like good sleep, regular exercise, meditation, and strong social connections can help reverse some of the effects of chronic stress over time.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does faith actually help with stress, or is that just a personal belief?</div>
+            <div class="art-faq-a">Both. Fellowship, worship, and community have genuine psychological benefits — social connection and support are well-documented stress reducers in science — so for religious people, faith-based community offers both spiritual and biological relief.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>World Health Organization (WHO). <em>Stress.</em> 2026. https://www.who.int/news-room/questions-and-answers/item/stress</li>
+          <li>Harvard Health Publishing. <em>Understanding the Stress Response.</em> 2025. https://www.health.harvard.edu/healthy-aging-and-longevity/understanding-the-stress-response</li>
+          <li>Harvard Health Publishing. <em>Protect Your Brain from Stress.</em> 2021. https://www.health.harvard.edu/mind-and-mood/protect-your-brain-from-stress</li>
+          <li>Bruce S. McEwen. <em>Neurobiological and Systemic Effects of Chronic Stress.</em> 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5573220/</li>
+          <li>Mind. <em>Signs and Symptoms of Stress.</em> https://www.mind.org.uk/information-support/types-of-mental-health-problems/stress/signs-and-symptoms-of-stress/</li>
+        </ol>
+      </div>
+      <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-8">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
       </div>
     </article>
