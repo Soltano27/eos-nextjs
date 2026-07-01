@@ -80,6 +80,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap">
       <div class="ci-slider-track" id="ci-track">
+        <div class="article-card" data-route="cortex-article-10" data-category="Mental Health &amp; Performance">
+          <div class="article-img" style="background:linear-gradient(135deg,#1A0A2A,#3A1A5A)">
+            <span class="article-issue">ISSUE 010</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#CE93D8">Mental Health &amp; Performance</div>
+            <h4>Anxiety and the Brain: How Anxiety Affects the Nervous System</h4>
+            <p>How fear, stress, and survival wiring collide in your head — and what you can do about it.</p>
+            <a class="read-more" data-route="cortex-article-10">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-9" data-category="Mental Health &amp; Performance">
           <div class="article-img" style="background:linear-gradient(135deg,#0A1A2A,#1A3A5A)">
             <span class="article-issue">ISSUE 009</span>
@@ -1607,6 +1618,174 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-8">← Previous Issue</button>
+        <button class="art-back-btn" data-route="cortex">← All Issues</button>
+        <button class="art-back-btn" data-route="cortex-article-10">Next Issue →</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     CORTEX ARTICLE 10 — ANXIETY AND THE BRAIN
+══════════════════════════════ -->
+<div id="view-cortex-article-10" class="page-view">
+  <div class="art-hero" style="background:linear-gradient(135deg,#1A0A2A 0%,#3A1A5A 100%)">
+    <div class="art-hero-inner">
+      <div class="art-breadcrumb">
+        <span data-route="cortex" style="cursor:pointer;opacity:0.6;transition:opacity 0.2s">The Cortex Printout</span>
+        <span style="opacity:0.3;margin:0 8px">/</span>
+        <span style="opacity:0.9">Issue 010</span>
+      </div>
+      <div class="art-meta-row">
+        <span class="art-issue-badge">ISSUE 010</span>
+        <span class="art-cat-badge" style="background:rgba(206,147,216,0.2);color:#E1BEE7">Mental Health &amp; Performance</span>
+      </div>
+      <h1 class="art-title">Anxiety and the Brain:<br/>How Anxiety Affects the Nervous System</h1>
+      <p class="art-deck">How fear, stress, and survival wiring collide in your head — and why your mind won't switch off.</p>
+      <div class="art-byline">
+        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <div>
+          <div class="art-byline-name">The Cortex Printout</div>
+          <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="art-layout">
+    <aside class="art-sidebar">
+      <div class="art-toc">
+        <div class="art-toc-title">In This Article</div>
+        <a class="art-toc-item" href="#ax-intro">Introduction</a>
+        <a class="art-toc-item" href="#ax-what">What Is Anxiety?</a>
+        <a class="art-toc-item" href="#ax-normal">Normal vs Maladaptive</a>
+        <a class="art-toc-item" href="#ax-brain">What Happens in Your Brain</a>
+        <a class="art-toc-item" href="#ax-responses">The Four Responses</a>
+        <a class="art-toc-item" href="#ax-harm">How Anxiety Harms the Brain</a>
+        <a class="art-toc-item" href="#ax-deal">How to Deal With Anxiety</a>
+        <a class="art-toc-item" href="#ax-wrapup">Wrap Up</a>
+        <a class="art-toc-item" href="#ax-faq">FAQs</a>
+      </div>
+      <div class="art-key-takeaways">
+        <div class="art-kt-title">Key Takeaways</div>
+        <ul class="art-kt-list">
+          <li>Anxiety is a normal response to a real stressor; maladaptive anxiety persists without a trigger or long after the situation has passed.</li>
+          <li>The amygdala, hippocampus, and hypothalamus work together to produce the body's anxiety response.</li>
+          <li>Frequent anxiety weakens the prefrontal cortex's ability to regulate the amygdala, making reactions harder to control over time.</li>
+          <li>Unmanaged anxiety can disrupt sleep and concentration, and may lead to depression if left unaddressed.</li>
+          <li>Talking to someone, staying active, and practical problem-solving are simple but effective ways to manage anxiety.</li>
+        </ul>
+      </div>
+    </aside>
+    <article class="art-body">
+      <section id="ax-intro">
+        <p class="art-lede">When you were a kid, was there ever a time your parents gave you something to do before they got back, and you forgot about it? Do you remember the feeling when you heard the horn of their car pulling in — the almost-panic when you remembered the forgotten task and the consequences coming your way? That feeling is anxiety. Most of us know it well. Fewer of us know what it is actually doing to our brains.</p>
+      </section>
+      <section id="ax-what">
+        <h2>What Is Anxiety?</h2>
+        <p>Anxiety is the feeling you get when you are stressed or worried about something.<sup>[1]</sup> It can range from mild concern about a situation to a full anxiety attack. The experience is common — but not all anxiety is the same.</p>
+      </section>
+      <section id="ax-normal">
+        <h2>Normal vs Maladaptive Anxiety</h2>
+        <p>Normal anxiety is the body's natural response to a genuinely stressful situation. Remember the tension before JAMB — the stories of people failing, the worry that you could be among them? Once the results came out, the anxiety went away. In normal anxiety, there is something real to be concerned about, and when it resolves, so does the feeling.</p>
+        <p>Maladaptive anxiety, by contrast, has no clear trigger, or it persists long after the situation has passed. Imagine still worrying about JAMB results months after they were released — that would not be normal. Maladaptive anxiety can interfere with work, daily activities, and family life.<sup>[2]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">📌</div>
+          <div>The key distinction: normal anxiety has a cause and an end. Maladaptive anxiety lingers without reason — and that persistence is what makes it harmful to the brain.</div>
+        </div>
+      </section>
+      <section id="ax-brain">
+        <h2>What Happens in Your Brain During Anxiety?</h2>
+        <p>Several brain regions work together when anxiety strikes. The amygdala — the brain's emotional processing centre — sends signals directly to the hypothalamus (the command centre), which activates the sympathetic nervous system, or fight-or-flight system. At the same time, the amygdala signals the hippocampus, which stores long-term memories and attaches context to them.<sup>[3]</sup> This is why certain places, sounds, or situations can trigger anxiety even when the danger itself is long gone — the brain has filed them as associated threats.</p>
+      </section>
+      <section id="ax-responses">
+        <h2>The Four Responses to Anxiety</h2>
+        <h3>Fight</h3>
+        <p>The body prepares for confrontation. Adrenaline is released, blood pressure rises, blood flow increases to the extremities, breathing quickens, and pupils dilate. Aggression increases and pain sensitivity drops. The person feels intense anger and a strong urge to confront.</p>
+        <h3>Flight</h3>
+        <p>The body prepares to run. The physical mechanisms are similar to fight, but the emotional tone is fear rather than anger. The person feels trapped and urgently needs to escape the situation or environment.</p>
+        <h3>Freeze</h3>
+        <p>The amygdala overrides the prefrontal cortex — the seat of rational thought — and the person becomes temporarily unable to make any decisions at all.<sup>[4]</sup> This is experienced as panic: thoughts scrambling, no clear action available. It is a real brain-based response, not a personal weakness.</p>
+        <h3>Fawn</h3>
+        <p>Some researchers add a fourth response: fawn. This is a submissive reaction — the brain attempts to avoid punishment by complying with others.<sup>[4]</sup> People pleasers, those who can't say no, or employees who stay silent when their boss is wrong are all exhibiting versions of this response. It is driven by fear of consequence, not genuine agreement.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🧠</div>
+          <div>All four responses — fight, flight, freeze, fawn — are the brain doing what it was designed to do. The problem is when they get triggered in situations that don't actually require them.</div>
+        </div>
+      </section>
+      <section id="ax-harm">
+        <h2>How Is Anxiety Harmful to Your Brain?</h2>
+        <p>During anxious situations, the prefrontal cortex takes a backseat to the amygdala — which is why people sometimes act irrationally when anxious.<sup>[6]</sup> When anxiety is frequent, the prefrontal cortex's ability to regulate the amygdala weakens over time, making emotional reactions harder to control.<sup>[7]</sup> Someone naturally prone to aggression becomes more likely to react badly to minor provocations. The hippocampus learns to associate certain situations with certain responses, reinforcing the cycle.</p>
+        <p>Beyond the brain, anxiety disrupts sleep, concentration, and work performance. If it is not addressed and the stressor continues without relief, it can develop into depression — particularly when the situation feels endless and without resolution.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>Anxiety that goes unmanaged long-term doesn't just feel bad — it structurally changes the brain's ability to respond calmly to future situations. Addressing it early matters.</div>
+        </div>
+      </section>
+      <section id="ax-deal">
+        <h2>How to Deal With Anxiety</h2>
+        <h3>Acknowledge What You Are Feeling</h3>
+        <p>Name the emotion. If you are fired up, scared, or overwhelmed, acknowledge it. This alone helps engage the prefrontal cortex and gives you a moment of rational distance from the feeling rather than being swallowed by it.</p>
+        <h3>Talk to Someone</h3>
+        <p>If anxiety is building day by day, talking to someone you trust is important. A family member, friend, or professional. A problem shared is, at minimum, a problem no longer carried alone — and sometimes that shift in perspective is exactly what breaks the cycle.</p>
+        <h3>Find a Relaxing Activity</h3>
+        <p>Have something that reliably helps you unwind — friends, a film, music, a game. The goal is to give your nervous system consistent recovery time. One warning: do not turn to alcohol or drugs. They may offer temporary relief, but long-term they worsen anxiety significantly.<sup>[5]</sup></p>
+        <h3>Exercise</h3>
+        <p>Physical exercise is one of the most effective anxiety interventions available. After exercise, the body clears stress hormones and releases dopamine and serotonin. People who exercise regularly report feeling calmer, more in control, and better able to handle pressure. You don't need a gym — 20 push-ups morning and evening, a run, a walk.</p>
+        <h3>Meditation and Breathing</h3>
+        <p>Breathing exercises and meditation slow the heart rate and breathing, engaging the parasympathetic nervous system — the brake. Even a few minutes of deliberate calm creates space to think clearly rather than react.</p>
+        <h3>Faith and Fellowship</h3>
+        <p>For religious people, worship and community offer genuine relief. Singing, scripture, prayer, and shared conversation with fellow believers are all forms of social connection with well-documented psychological benefits. Faith and science agree here: strong community reduces anxiety.</p>
+        <h3>Look for Practical Solutions</h3>
+        <p>Where you can act, act. Read your books before the exam. Clear tasks before deadlines pile up. Take the steps available to you. Practical action on controllable problems reduces the feeling of helplessness that feeds anxiety.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>If anxiety is affecting your sleep, work, or relationships consistently, speak to a professional rather than managing it alone. Reach out to us at <strong>theeosfoundation.org</strong> and we will help point you in the right direction.</div>
+        </div>
+      </section>
+      <section id="ax-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Anxiety is part of life — especially Nigerian life. But it does not have to take over your brain or your day. The tools exist. Use them before the anxiety becomes a pattern your brain starts treating as normal.</p>
+        <p>Further reading: anxiety and stress share the same nervous system wiring. Read <a href="#" data-route="cortex-article-9" style="color:var(--teal);text-decoration:underline">Stress and the Brain: What Happens When Pressure Becomes a Pattern</a>.</p>
+      </section>
+      <section id="ax-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What's the difference between normal anxiety and an anxiety disorder?</div>
+            <div class="art-faq-a">Normal anxiety has a clear trigger and fades once the situation passes. An anxiety disorder involves worry that persists without a real trigger, or long after the stressful event is over, and it interferes with daily life.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Why do I sometimes freeze instead of fighting or running when I'm anxious?</div>
+            <div class="art-faq-a">Freezing happens when the amygdala overrides the prefrontal cortex, temporarily shutting down your ability to make rational or emotional decisions. It is a real, brain-based response — not a personal failing.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can anxiety actually change my brain over time?</div>
+            <div class="art-faq-a">Yes. Frequent anxiety can weaken the prefrontal cortex's ability to regulate the amygdala, making emotional reactions harder to control and increasing the risk of depression if it continues long-term.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is it bad to distract myself from anxiety with hobbies or games?</div>
+            <div class="art-faq-a">Not at all. Healthy distractions like exercise, hobbies, or time with people you trust can genuinely help calm the body's stress response. The concern is only with turning to alcohol or drugs, which worsen anxiety long-term.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">When should I talk to a professional about my anxiety?</div>
+            <div class="art-faq-a">If anxiety is frequent, hard to control, or affecting your sleep, work, or relationships, it is worth speaking to a trusted person or a mental health professional rather than managing it alone.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>UNICEF. <em>What Is Anxiety?</em> 2024. https://www.unicef.org/parenting/mental-health/what-is-anxiety</li>
+          <li>Shin, L. M., &amp; Liberzon, I. <em>The Neurocircuitry of Fear, Stress, and Anxiety Disorders.</em> 2010. https://pmc.ncbi.nlm.nih.gov/articles/PMC5490257/</li>
+          <li>Martin, E. I., et al. <em>The Neurobiology of Anxiety Disorders.</em> 2009. https://pmc.ncbi.nlm.nih.gov/articles/PMC3684250/</li>
+          <li>Verywell Mind (Kendra Cherry). <em>This Is Your Brain on Anxiety.</em> 2024. https://www.verywellmind.com/this-is-your-brain-on-anxiety-8733665</li>
+          <li>World Health Organization (WHO). <em>Anxiety Disorders.</em> 2023. https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders</li>
+          <li>Calhoon, G. G., &amp; Tye, K. M. <em>Resolving the Neural Circuits of Anxiety.</em> 2015. https://pmc.ncbi.nlm.nih.gov/articles/PMC4349396/</li>
+          <li>Fiocco, A. J., &amp; Faraji, J. <em>Can Anxiety Damage the Brain?</em> 2016. https://pubmed.ncbi.nlm.nih.gov/26651008/</li>
+        </ol>
+      </div>
+      <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-9">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
       </div>
     </article>

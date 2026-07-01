@@ -36,6 +36,7 @@
     "cortex-article-7": "cortex-article-7",
     "cortex-article-8": "cortex-article-8",
     "cortex-article-9": "cortex-article-9",
+    "cortex-article-10": "cortex-article-10",
     home: "home",
     "neuroed-fellowship": "neuroed-fellowship",
   };
@@ -77,6 +78,7 @@
     "cortex-article-7": "cortex",
     "cortex-article-8": "cortex",
     "cortex-article-9": "cortex",
+    "cortex-article-10": "cortex",
     contact: "contact",
   };
 
@@ -188,6 +190,32 @@
   window.addEventListener("popstate", function (e) {
     var route = e.state && e.state.route ? e.state.route : "home";
     window.eosNavigate(route, false, false);
+  });
+
+  // ── TOC ANCHOR LINKS ──
+  // art-toc-item links use href="#section-id" but views are shown/hidden via
+  // CSS classes, so the browser can't find the anchors normally.
+  // Intercept clicks, find the target element inside the active view, and
+  // smooth-scroll to it.
+  document.addEventListener("click", function (e) {
+    var el = e.target;
+    while (el && el !== document) {
+      if (
+        el.classList &&
+        el.classList.contains("art-toc-item") &&
+        el.getAttribute("href") &&
+        el.getAttribute("href").charAt(0) === "#"
+      ) {
+        e.preventDefault();
+        var targetId = el.getAttribute("href").slice(1);
+        var target = document.getElementById(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+        return;
+      }
+      el = el.parentNode;
+    }
   });
 
   // ── LOAD FROM URL ──
