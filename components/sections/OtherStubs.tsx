@@ -80,6 +80,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap">
       <div class="ci-slider-track" id="ci-track">
+        <div class="article-card" data-route="cortex-article-11" data-category="Mental Health &amp; Performance">
+          <div class="article-img" style="background:linear-gradient(135deg,#2A1A0A,#5A3A1A)">
+            <span class="article-issue">ISSUE 011</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#FFCC80">Mental Health &amp; Performance</div>
+            <h4>Your Brain Called. It Wants the Weekend Off</h4>
+            <p>Before you plan another "productive" weekend — here's what burnout is actually doing to your brain, and why rest isn't optional.</p>
+            <a class="read-more" data-route="cortex-article-11">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-10" data-category="Mental Health &amp; Performance">
           <div class="article-img" style="background:linear-gradient(135deg,#1A0A2A,#3A1A5A)">
             <span class="article-issue">ISSUE 010</span>
@@ -1786,6 +1797,157 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-9">← Previous Issue</button>
+        <button class="art-back-btn" data-route="cortex">← All Issues</button>
+        <button class="art-back-btn" data-route="cortex-article-11">Next Issue →</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     CORTEX ARTICLE 11 — BURNOUT
+══════════════════════════════ -->
+<div id="view-cortex-article-11" class="page-view">
+  <div class="art-hero" style="background:linear-gradient(135deg,#2A1A0A 0%,#5A3A1A 100%)">
+    <div class="art-hero-inner">
+      <div class="art-breadcrumb">
+        <span data-route="cortex" style="cursor:pointer;opacity:0.6;transition:opacity 0.2s">The Cortex Printout</span>
+        <span style="opacity:0.3;margin:0 8px">/</span>
+        <span style="opacity:0.9">Issue 011</span>
+      </div>
+      <div class="art-meta-row">
+        <span class="art-issue-badge">ISSUE 011</span>
+        <span class="art-cat-badge" style="background:rgba(255,204,128,0.2);color:#FFE0B2">Mental Health &amp; Performance</span>
+      </div>
+      <h1 class="art-title">Your Brain Called.<br/>It Wants the Weekend Off</h1>
+      <p class="art-deck">Before you plan another "productive" weekend, here's what burnout is actually doing to your brain — and why rest isn't optional.</p>
+      <div class="art-byline">
+        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <div>
+          <div class="art-byline-name">The Cortex Printout</div>
+          <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="art-layout">
+    <aside class="art-sidebar">
+      <div class="art-toc">
+        <div class="art-toc-title">In This Article</div>
+        <a class="art-toc-item" href="#b-intro">Introduction</a>
+        <a class="art-toc-item" href="#b-what">What Is Burnout?</a>
+        <a class="art-toc-item" href="#b-signs">Signs of Burnout</a>
+        <a class="art-toc-item" href="#b-brain">How Burnout Affects the Brain</a>
+        <a class="art-toc-item" href="#b-resilience">Mental Resilience</a>
+        <a class="art-toc-item" href="#b-protect">How to Protect Yourself</a>
+        <a class="art-toc-item" href="#b-wrapup">Wrap Up</a>
+        <a class="art-toc-item" href="#b-faq">FAQs</a>
+      </div>
+      <div class="art-key-takeaways">
+        <div class="art-kt-title">Key Takeaways</div>
+        <ul class="art-kt-list">
+          <li>Burnout isn't just tiredness — it's chronic exhaustion that builds when work stress goes unmanaged for too long.</li>
+          <li>Burnout physically changes your brain, enlarging the amygdala and weakening its connection to your prefrontal cortex, making it harder to keep your emotions in check.</li>
+          <li>The dysregulation burnout causes in your stress-response system disrupts sleep length and quality, keeping your body stuck in overdrive.</li>
+          <li>Your mental resilience — how quickly you bounce back from stress — plays a big role in whether burnout catches up with you.</li>
+          <li>Protecting yourself means setting limits, talking to someone, and actually resting — because rest isn't optional, it's maintenance.</li>
+        </ul>
+      </div>
+    </aside>
+    <article class="art-body">
+      <section id="b-intro">
+        <p class="art-lede">Hey you — yes, you. Is it until your brain literally gives out that you will remember you need some time off? Your brain is screaming for rest, and you are not listening. Thank God it's Friday. Cheers to the weekend — a time to kick back and relax from the stress of the week. Whether you have an outing planned or you are staying in to catch up on your favourite series, what matters is that you actually rest. This week we examined stress and anxiety and their effects on the brain. Today's topic is closely related: burnout.</p>
+      </section>
+      <section id="b-what">
+        <h2>What Is Burnout?</h2>
+        <p>The World Health Organisation defines burnout as "a syndrome conceptualised as resulting from chronic workplace stress that has not been successfully managed."<sup>[1]</sup></p>
+        <p>Many of us know this feeling well. The physical and mental exhaustion of waking up every morning to go to work, being physically present but wishing you were anywhere else, giving just enough and not a drop more. The joy of the job has been replaced by exhaustion. There is always something to do — the work never stops. When stress at work is not well managed, burnout is the result.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">📌</div>
+          <div>Burnout is different from ordinary tiredness. Everyone gets tired sometimes. But when it is every time — and it is not just physical but also mental and emotional — something is wrong.</div>
+        </div>
+      </section>
+      <section id="b-signs">
+        <h2>What Are the Signs of Burnout?</h2>
+        <ul class="art-firstaid-list">
+          <li>Frequent exhaustion no matter how much you rest</li>
+          <li>Feeling unmotivated at work</li>
+          <li>Dreading responsibilities you used to enjoy</li>
+          <li>Difficulty focusing or making more mistakes than usual</li>
+          <li>Headaches, tension, and indigestion</li>
+          <li>Feeling irritable or overwhelmed<sup>[2]</sup></li>
+        </ul>
+        <p>If several of these are showing up consistently, pay attention. Burnout does not resolve on its own — it needs to be addressed.</p>
+      </section>
+      <section id="b-brain">
+        <h2>How Does Burnout Affect the Brain?</h2>
+        <p>Like stress and anxiety, burnout primarily impacts the amygdala. Studies show that people suffering from burnout have an enlarged amygdala — the brain's emotional processing centre, responsible for fear and aggression. These same studies found that the connections between the amygdala and the prefrontal cortex were significantly weaker in people with burnout.<sup>[3]</sup></p>
+        <p>This means burnout makes it harder to keep negative emotions in check. People who are normally calm become more likely to lash out. The prefrontal cortex — which handles decision-making and emotional regulation — loses its ability to manage what the amygdala is sending through.</p>
+        <p>In addition, burnout causes dysregulation in both the hypothalamic-pituitary-adrenal axis and the sympathetic nervous system — the systems that help the body handle stress and return to calm.<sup>[4]</sup> Think of it like a car that accelerates well but struggles to brake. The body stays overactive and imbalanced, which leads to a significant reduction in both sleep length and quality.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>Burnout physically changes the brain. An enlarged amygdala with weakened prefrontal connections is not a metaphor — it is a measurable structural change that affects how you think, feel, and react every day.</div>
+        </div>
+      </section>
+      <section id="b-resilience">
+        <h2>What Is Mental Resilience and How Does It Affect Burnout?</h2>
+        <p>Mental resilience is the ability to remain functional or recover quickly despite stressful and exhausting situations. It varies widely between people. In any office, some people still have energy at closing time while others are drained by noon. Some people are simply better adapted to stress than others.</p>
+        <p>People with high mental resilience are less likely to suffer from burnout because their systems recover more efficiently from daily pressure. This resilience can be built — through sleep, exercise, community, and how you manage your time and energy.</p>
+      </section>
+      <section id="b-protect">
+        <h2>How Do I Protect Myself From Burnout?</h2>
+        <h3>Don't Take On More Than You Can Handle</h3>
+        <p>Burning the candle at both ends burns it out faster. At work and in your personal life, do not take on more than you can carry. Even Superman has limits. Learn to decline when you are already stretched thin — your health is not a resource you can borrow against indefinitely. If you are being given too many tasks at work, let your supervisor know your plate is full. If something happened to you, the company would not stop for even half a day. Your work is important, but so is your ability to see the fruits of it.</p>
+        <h3>Have Someone to Talk To</h3>
+        <p>Having someone to pour your mind out to is genuinely therapeutic — a spouse, a close friend, or a licensed counsellor. Even if the person cannot solve your problem, they can help carry the weight of it. You are not alone in what you are dealing with.</p>
+        <h3>Schedule Real Rest</h3>
+        <p>It's the weekend — use it. Go out with friends, stay in with a good film, listen to music, sleep in during the rains. What matters is that you genuinely let go of the week. Find what relaxes you and protect that time.</p>
+        <h3>Take Care of Your Body</h3>
+        <p>Eat well, exercise, and sleep enough. Exercise clears stress hormones and releases dopamine and serotonin. Good food gives you the energy to function. And watching TikTok until 3 AM when you have an 8 AM start is a bad trade. Sleep is not a luxury — it is recovery.</p>
+        <h3>Take Breaks During the Day</h3>
+        <p>Rather than pushing through from start to finish without stopping, take short breaks to let your brain regroup. Even a brief walk clears the head. You will return to the work sharper than if you had never stopped.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>This weekend: what do you actually enjoy outside work? Plan for it deliberately. Rest is not wasted time — it is the maintenance that keeps everything else running. If you need support, visit <strong>theeosfoundation.org</strong>.</div>
+        </div>
+      </section>
+      <section id="b-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Rest is not optional. Burnout is a serious condition — left unchecked, it can develop into depression. Check yourself for the signs, and if they are there, take care of yourself. Don't spend your days building a future you are too exhausted to enjoy.</p>
+        <p>Further reading: anxiety is closely related to burnout and shares many of the same brain mechanisms. Read <a href="#" data-route="cortex-article-10" style="color:var(--teal);text-decoration:underline">Anxiety and the Brain: How Anxiety Affects the Nervous System</a>.</p>
+      </section>
+      <section id="b-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is burnout the same as depression?</div>
+            <div class="art-faq-a">Not quite, but they are related. Burnout is tied specifically to chronic, unmanaged work stress, while depression is a broader mental health condition that can appear regardless of job situation. That said, unchecked burnout can develop into depression, so it's worth taking seriously.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How long does it take to recover from burnout?</div>
+            <div class="art-faq-a">There is no fixed timeline. It depends on how long the burnout has gone unaddressed and what changes you are able to make. For some, a few weeks of proper rest helps. For others — especially where burnout has persisted for months — recovery takes longer and may need professional support.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can burnout happen outside of work?</div>
+            <div class="art-faq-a">Yes. While this article focuses on workplace burnout, the same chronic stress-and-exhaustion pattern can emerge from school, caregiving, ministry, or any responsibility that never lets up. If it feels relentless and you are not recovering between demands, it counts.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is burnout a sign of weakness?</div>
+            <div class="art-faq-a">No. It is actually more common in people who care deeply and push themselves hard. Burnout is your brain and body signalling that the pace is not sustainable — not a character flaw.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>World Health Organization (WHO). <em>Burn-out an "Occupational Phenomenon": International Classification of Diseases.</em> 2019. https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases</li>
+          <li>Mental Health America (MHA). <em>Burnout: Signs, Causes, and Recovery.</em> 2024. https://mhanational.org/resources/burnout-signs-causes-recover/</li>
+          <li>Association for Psychological Science (APS). <em>Burnout and the Brain.</em> 2022. https://www.psychologicalscience.org/observer/burnout-and-the-brain</li>
+          <li>SAGE Journals. <em>Burnout and the Brain: A Review of Structural and Functional Neurobiological Correlates of Burnout.</em> 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9478693/</li>
+        </ol>
+      </div>
+      <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-10">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
       </div>
     </article>

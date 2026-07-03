@@ -273,15 +273,15 @@ const HTML = `<!-- ════════════════════�
       <p>From the latest Cortex Printout to new episodes and free tools — everything EOS is putting out right now.</p>
     </div>
     <div class="latest-grid">
-     <div class="latest-card" data-route="cortex-article-10">
-  <div class="latest-card-img" style="background:linear-gradient(135deg,#1A0A2A,#3A1A5A)">
+     <div class="latest-card" data-route="cortex-article-11">
+  <div class="latest-card-img" style="background:linear-gradient(135deg,#2A1A0A,#5A3A1A)">
     <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
   </div>
   <div class="latest-card-body">
-    <div class="latest-card-cat" style="color:#CE93D8">Mental Health &amp; Performance · Issue 010</div>
-    <h4>Anxiety and the Brain: How Anxiety Affects the Nervous System</h4>
-    <p>How fear, stress, and survival wiring collide in your head — and why your mind won't switch off.</p>
-    <a class="read-more" data-route="cortex-article-10">Read Article <span>→</span></a>
+    <div class="latest-card-cat" style="color:#FFCC80">Mental Health &amp; Performance · Issue 011</div>
+    <h4>Your Brain Called. It Wants the Weekend Off</h4>
+    <p>Before you plan another "productive" weekend — here's what burnout is actually doing to your brain, and why rest isn't optional.</p>
+    <a class="read-more" data-route="cortex-article-11">Read Article <span>→</span></a>
   </div>
 </div>
       <div class="latest-card" data-route="programs-culture">
@@ -331,6 +331,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap" id="home-ci-wrap">
       <div class="ci-slider-track" id="home-ci-track">
+  <div class="article-card" data-route="cortex-article-11">
+    <div class="article-img" style="background:linear-gradient(135deg,#2A1A0A,#5A3A1A)">
+      <span class="article-issue">ISSUE 011</span>
+    </div>
+    <div class="article-body">
+      <div class="article-cat" style="color:#FFCC80">Mental Health &amp; Performance</div>
+      <h4>Your Brain Called. It Wants the Weekend Off</h4>
+      <p>Before you plan another "productive" weekend — here's what burnout is actually doing to your brain, and why rest isn't optional.</p>
+      <a class="read-more" data-route="cortex-article-11">Read More <span>→</span></a>
+    </div>
+  </div>
   <div class="article-card" data-route="cortex-article-10">
     <div class="article-img" style="background:linear-gradient(135deg,#1A0A2A,#3A1A5A)">
       <span class="article-issue">ISSUE 010</span>
