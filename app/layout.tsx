@@ -3,13 +3,13 @@ import "./globals.css";
 import "./image-overrides.css";
 
 export const metadata: Metadata = {
-  title: "EOS — Own Your Brain",
+  title: "EOS Foundation — Africa's Youth Brain Health Movement",
   description:
-    "The EOS Foundation is dedicated to brain health, neuroscience education, and empowering communities to own their brain.",
+    "Africa's first youth brain health movement. Training Neuro Champions and delivering brain health education to young Nigerians since 2023.",
   openGraph: {
-    title: "EOS — Own Your Brain",
+    title: "EOS Foundation — Africa's Youth Brain Health Movement",
     description:
-      "The EOS Foundation is dedicated to brain health, neuroscience education, and empowering communities to own their brain.",
+      "Africa's first youth brain health movement. Training Neuro Champions and delivering brain health education to young Nigerians since 2023.",
     url: "https://theeosfoundation.org",
     siteName: "The EOS Foundation",
     images: [
@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Mono:wght@400;500&display=swap"
