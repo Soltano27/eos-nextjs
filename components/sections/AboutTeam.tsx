@@ -24,7 +24,7 @@ const HTML = `<!-- ════════════════════�
     <div class="team-grid" style="align-items:stretch;">
       <div class="team-card" style="display:flex;flex-direction:column;">
         <div class="team-photo" style="padding:0;overflow:hidden;">
-          <img src="/images/team-1.jpg" alt="Founder" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"/>
+          <img src="/images/team-1.jpg" alt="Founder" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;" loading="lazy"/>
         </div>
         <div class="team-info" style="flex:1;">
           <h4><a href="https://www.linkedin.com/in/toluwanimi-sanya/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Dr Toluwanimi Akinremi</a></h4>
@@ -35,7 +35,7 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="team-card" style="display:flex;flex-direction:column;">
         <div class="team-photo" style="padding:0;overflow:hidden;">
-          <img src="/images/team-2.jpg" alt="Programs Lead" style="width:100%;height:100%;object-fit:cover;object-position:center center;display:block;"/>
+          <img src="/images/team-2.jpg" alt="Programs Lead" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;" loading="lazy"/>
         </div>
         <div class="team-info" style="flex:1;">
           <h4><a href="https://www.linkedin.com/in/faruq-sosanya/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Faruq Olawale Sosanya</a></h4>
@@ -45,7 +45,7 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="team-card" style="display:flex;flex-direction:column;">
         <div class="team-photo" style="padding:0;overflow:hidden;">
-          <img src="/images/team-3.jpg" alt="Content Lead" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"/>
+          <img src="/images/team-3.jpg" alt="Content Lead" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;" loading="lazy"/>
         </div>
         <div class="team-info" style="flex:1;">
           <h4><a href="https://www.linkedin.com/in/enioluwa-emmanuel-ojewunmi-health-writer/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Enioluwa Emmanuel Ojewunmi</a></h4>

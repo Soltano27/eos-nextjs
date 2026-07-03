@@ -85,8 +85,7 @@ const HTML = `<!-- ════════════════════�
       </div>
     </div>
     <div class="legacy-photo" style="padding:0;overflow:hidden;">
-      <img src="/images/EOS-Prof_Sanya.jpeg" alt="Prof. Emmanuel Olatunde Sanya" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"/>
-    </div>
+      <img src="/images/EOS-Prof_Sanya.jpeg" alt="Prof. Emmanuel Olatunde Sanya" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"/>
   </section>
 
   <!-- MISSION & VISION -->
@@ -206,51 +205,50 @@ const HTML = `<!-- ════════════════════�
     <div class="eos-slideshow-track-wrap">
       <div class="eos-slideshow-track" id="eosSlideTrack">
         <div class="eos-slide-card">
-          <img src="/images/home-photo-1.jpg" alt="Fellowship Training" class="eos-slide-img"/>
+          <img src="/images/home-photo-1.jpg" alt="Fellowship Training" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">Neuro Champions Fellowship · Cohort 1</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-2.jpg" alt="Stroke Outreach Event" class="eos-slide-img"/>
+          <img src="/images/home-photo-2.jpg" alt="Stroke Outreach Event" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">Stroke Outreach · 1,000+ Attended</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-3.jpg" alt="School Visit" class="eos-slide-img"/>
+          <img src="/images/home-photo-3.jpg" alt="School Visit" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">Neuro Smart Schools · Lagos</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-4.jpg" alt="Women's Health Workshop" class="eos-slide-img"/>
+          <img src="/images/home-photo-4.jpg" alt="Women's Health Workshop" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">Women's Neuro Health Workshop</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-5.jpg" alt="Community Clinic Day" class="eos-slide-img"/>
+          <img src="/images/home-photo-5.jpg" alt="Community Clinic Day" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">Community Brain Health Initiative</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-6.jpg" alt="Graduation Ceremony" class="eos-slide-img"/>
+          <img src="/images/home-photo-6.jpg" alt="Graduation Ceremony" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">NCF Cohort 1 · 14 Certified Champions</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-1.jpg" alt="Fellowship Training" class="eos-slide-img"/>
-          <div class="photo-caption">Neuro Champions Fellowship · Cohort 1</div>
+          <img src="/images/home-photo-1.jpg" alt="Fellowship Training" class="eos-slide-img" loading="lazy"/>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-2.jpg" alt="Stroke Outreach Event" class="eos-slide-img"/>
+          <img src="/images/home-photo-2.jpg" alt="Stroke Outreach Event" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">Stroke Outreach · 1,000+ Attended</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-3.jpg" alt="School Visit" class="eos-slide-img"/>
+          <img src="/images/home-photo-3.jpg" alt="School Visit" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">Neuro Smart Schools · Lagos</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-4.jpg" alt="Women's Health Workshop" class="eos-slide-img"/>
+          <img src="/images/home-photo-4.jpg" alt="Women's Health Workshop" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">Women's Neuro Health Workshop</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-5.jpg" alt="Community Clinic Day" class="eos-slide-img"/>
+          <img src="/images/home-photo-5.jpg" alt="Community Clinic Day" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">Community Brain Health Initiative</div>
         </div>
         <div class="eos-slide-card">
-          <img src="/images/home-photo-6.jpg" alt="Graduation Ceremony" class="eos-slide-img"/>
+          <img src="/images/home-photo-6.jpg" alt="Graduation Ceremony" class="eos-slide-img" loading="lazy"/>
           <div class="photo-caption">NCF Cohort 1 · 14 Certified Champions</div>
         </div>
       </div>

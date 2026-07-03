@@ -228,7 +228,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">Is Your Brain Healthy?<br/>What Brain Health Is and Why It Matters</h1>
       <p class="art-deck">The brain controls everything — your thoughts, decisions, emotions, and every involuntary process your body runs. But how many of us actually know whether ours is working well?</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
@@ -379,7 +379,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">What Are Migraines and Why Do You Keep Getting Them?</h1>
       <p class="art-deck">Many of us call every bad headache a migraine. But migraines are something else entirely — a neurological condition with stages, triggers, and patterns that are worth understanding.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
@@ -547,7 +547,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">What Are Seizures and Epilepsy? Causes, Types, and Treatment Explained</h1>
       <p class="art-deck">For centuries, seizures were mistaken for spiritual attacks. Today we know the truth. Here is what epilepsy actually is, what causes it, and what to do when someone has a seizure near you.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
@@ -732,7 +732,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">You're not a Burden,<br/>Speak Up</h1>
       <p class="art-deck">Men account for roughly 73% of suicide deaths. We keep telling men to reach out — but we rarely fix the culture that stops them from doing so.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation · June 2026</div>
@@ -827,7 +827,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">What Do You Know About Sickle Cell?<br/>Understanding Sickle Cell: What Every Nigerian Family Should Know</h1>
       <p class="art-deck">Sickle cell disease shapes the daily lives of millions of Nigerian families — yet much of it is preventable. Here is what every family should know, from the genetics to the brain health risks involved.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation · June 2026</div>
@@ -988,7 +988,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">Is Alzheimer's Disease Preventable?</h1>
       <p class="art-deck">Exploring the truth about Alzheimer's and looking at ways to prevent it — because the decisions you make now shape the brain you'll have later.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
@@ -1173,7 +1173,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">The Skill Nobody Taught You in School: Emotional Intelligence</h1>
       <p class="art-deck">How understanding your emotions can help you build better relationships, make wiser decisions, and thrive in life.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
@@ -1342,7 +1342,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">The Brain on Drugs:<br/>What Addiction Actually Does to Your Mind</h1>
       <p class="art-deck">Drugs don't just feel dangerous — they restructure the brain itself. Here is what actually happens, and what recovery looks like.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation · June 2026</div>
@@ -1501,7 +1501,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">Stress and the Brain:<br/>What Happens When Pressure Becomes a Pattern</h1>
       <p class="art-deck">Stress is a normal part of life — until it isn't. Here is what chronic stress actually does to your brain, and what you can do about it.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
@@ -1654,7 +1654,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">Anxiety and the Brain:<br/>How Anxiety Affects the Nervous System</h1>
       <p class="art-deck">How fear, stress, and survival wiring collide in your head — and why your mind won't switch off.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
@@ -1822,7 +1822,7 @@ const HTML = `<!-- ════════════════════�
       <h1 class="art-title">Your Brain Called.<br/>It Wants the Weekend Off</h1>
       <p class="art-deck">Before you plan another "productive" weekend, here's what burnout is actually doing to your brain — and why rest isn't optional.</p>
       <div class="art-byline">
-        <img src="/images/team-3.jpg" alt="Author" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <div>
           <div class="art-byline-name">The Cortex Printout</div>
           <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>

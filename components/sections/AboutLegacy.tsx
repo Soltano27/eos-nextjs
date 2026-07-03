@@ -53,7 +53,7 @@ const HTML = `<!-- ════════════════════�
 
       <div style="position:sticky;top:100px;">
         <div class="eos-photo-slot" style="border-radius:24px;height:400px;margin-bottom:24px;">
-          <img src="/images/EOS-Prof_Sanya.jpeg" alt="Prof. Emmanuel Olatunde Sanya" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:24px;" />
+          <img src="/images/EOS-Prof_Sanya.jpeg" alt="Prof. Emmanuel Olatunde Sanya" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:24px;" />
           <div class="photo-caption">Prof. Emmanuel Olatunde Sanya · Neurologist</div>
         </div>
         <div style="background:var(--bg);border-radius:16px;padding:28px;">

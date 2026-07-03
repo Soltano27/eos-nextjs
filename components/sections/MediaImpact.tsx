@@ -84,23 +84,23 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="eos-photo-grid">
         <div class="eos-photo-slot wide">
-          <img src="/images/impact-hero.jpg" alt="Stroke awareness outreach Lagos 2024" class="eos-photo-img" style="object-position:center 30%;"/>
+          <img src="/images/impact-hero.jpg" alt="Stroke awareness outreach Lagos 2024" class="eos-photo-img" loading="lazy" style="object-position:center 30%;"/>
           <div class="photo-caption">Our largest event — stroke awareness outreach · Lagos 2024</div>
         </div>
         <div class="eos-photo-slot tall">
-          <img src="/images/impact-cohort.jpg" alt="Fellowship Training Cohort 1" class="eos-photo-img"/>
+          <img src="/images/impact-cohort.jpg" alt="Fellowship Training Cohort 1" class="eos-photo-img" loading="lazy"/>
           <div class="photo-caption">Cohort 1 training · 53 fellows onboarded</div>
         </div>
         <div class="eos-photo-slot short">
-          <img src="/images/impact-school.jpg" alt="Secondary school visit Lagos" class="eos-photo-img"/>
+          <img src="/images/impact-school.jpg" alt="Secondary school visit Lagos" class="eos-photo-img" loading="lazy"/>
           <div class="photo-caption">Secondary school visit · Lagos</div>
         </div>
         <div class="eos-photo-slot short">
-          <img src="/images/impact-women.jpg" alt="Women's Neuro Health Workshop" class="eos-photo-img"/>
+          <img src="/images/impact-women.jpg" alt="Women's Neuro Health Workshop" class="eos-photo-img" loading="lazy"/>
           <div class="photo-caption">Women's Neuro Health Workshop</div>
         </div>
         <div class="eos-photo-slot tall">
-          <img src="/images/impact-champions.jpg" alt="14 Certified NeuroChampions Cohort 1" class="eos-photo-img"/>
+          <img src="/images/impact-champions.jpg" alt="14 Certified NeuroChampions Cohort 1" class="eos-photo-img" loading="lazy"/>
           <div class="photo-caption">14 Certified NeuroChampions · Cohort 1</div>
         </div>
       </div>
