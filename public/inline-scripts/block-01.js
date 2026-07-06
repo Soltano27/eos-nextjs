@@ -38,6 +38,7 @@
     "cortex-article-9": "cortex-article-9",
     "cortex-article-10": "cortex-article-10",
     "cortex-article-11": "cortex-article-11",
+    "cortex-article-12": "cortex-article-12",
     home: "home",
     "neuroed-fellowship": "neuroed-fellowship",
   };
@@ -81,6 +82,7 @@
     "cortex-article-9": "cortex",
     "cortex-article-10": "cortex",
     "cortex-article-11": "cortex",
+    "cortex-article-12": "cortex",
     contact: "contact",
   };
 

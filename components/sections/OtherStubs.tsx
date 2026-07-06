@@ -80,6 +80,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap">
       <div class="ci-slider-track" id="ci-track">
+        <div class="article-card" data-route="cortex-article-12" data-category="Mental Health &amp; Performance">
+          <div class="article-img" style="background:linear-gradient(135deg,#3A0A1A,#6A1A3A)">
+            <span class="article-issue">ISSUE 012</span>
+          </div>
+          <div class="article-body">
+            <div class="article-cat" style="color:#F48FB1">Mental Health &amp; Performance</div>
+            <h4>What Is Depression? Causes, Myths, and Facts Every Nigerian Should Know</h4>
+            <p>Depression is not just "being sad." Here's what's actually going on — and why smiling doesn't rule it out.</p>
+            <a class="read-more" data-route="cortex-article-12">Read More <span>→</span></a>
+          </div>
+        </div>
         <div class="article-card" data-route="cortex-article-11" data-category="Mental Health &amp; Performance">
           <div class="article-img" style="background:linear-gradient(135deg,#2A1A0A,#5A3A1A)">
             <span class="article-issue">ISSUE 011</span>
@@ -1948,6 +1959,178 @@ const HTML = `<!-- ════════════════════�
       </div>
       <div class="art-nav-footer">
         <button class="art-back-btn" data-route="cortex-article-10">← Previous Issue</button>
+        <button class="art-back-btn" data-route="cortex">← All Issues</button>
+        <button class="art-back-btn" data-route="cortex-article-12">Next Issue →</button>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     CORTEX ARTICLE 12 — DEPRESSION
+══════════════════════════════ -->
+<div id="view-cortex-article-12" class="page-view">
+  <div class="art-hero" style="background:linear-gradient(135deg,#3A0A1A 0%,#6A1A3A 100%)">
+    <div class="art-hero-inner">
+      <div class="art-breadcrumb">
+        <span data-route="cortex" style="cursor:pointer;opacity:0.6;transition:opacity 0.2s">The Cortex Printout</span>
+        <span style="opacity:0.3;margin:0 8px">/</span>
+        <span style="opacity:0.9">Issue 012</span>
+      </div>
+      <div class="art-meta-row">
+        <span class="art-issue-badge">ISSUE 012</span>
+        <span class="art-cat-badge" style="background:rgba(244,143,177,0.2);color:#F8BBD0">Mental Health &amp; Performance</span>
+      </div>
+      <h1 class="art-title">What Is Depression?<br/>Causes, Myths, and Facts Every Nigerian Should Know</h1>
+      <p class="art-deck">Depression is not just "being sad." Here's what's actually going on — and why smiling doesn't rule it out.</p>
+      <div class="art-byline">
+        <img src="/images/team-3.jpg" alt="Author" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <div>
+          <div class="art-byline-name">The Cortex Printout</div>
+          <div class="art-byline-date">Published by EOS · Youth Brain Health Culture Organisation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="art-layout">
+    <aside class="art-sidebar">
+      <div class="art-toc">
+        <div class="art-toc-title">In This Article</div>
+        <a class="art-toc-item" href="#dep-intro">Introduction</a>
+        <a class="art-toc-item" href="#dep-what">What Is Depression?</a>
+        <a class="art-toc-item" href="#dep-types">Types of Depression</a>
+        <a class="art-toc-item" href="#dep-myths">Myths About Depression</a>
+        <a class="art-toc-item" href="#dep-common">How Common Is Depression?</a>
+        <a class="art-toc-item" href="#dep-matter">Why Does It Matter?</a>
+        <a class="art-toc-item" href="#dep-wrapup">Wrap Up</a>
+        <a class="art-toc-item" href="#dep-faq">FAQs</a>
+      </div>
+      <div class="art-key-takeaways">
+        <div class="art-kt-title">Key Takeaways</div>
+        <ul class="art-kt-list">
+          <li>Depression is a persistent mental disorder, not ordinary sadness that passes on its own.</li>
+          <li>Someone can look happy in public and still be depressed. Smiling doesn't rule it out.</li>
+          <li>Financial pressure, insecurity, and the general hardship of daily life in Nigeria are real, documented contributors to depression and anxiety.</li>
+          <li>Nigeria's official depression numbers (around 4-6%) are likely far lower than reality, since hospital-based studies show rates as high as 45-90% among people who actually seek care.</li>
+          <li>Untreated depression is a leading contributor to suicide. Getting help early saves lives.</li>
+        </ul>
+      </div>
+    </aside>
+    <article class="art-body">
+      <section id="dep-intro">
+        <p class="art-lede">Hey bro, hi sis, are you okay, or are you just putting on a brave face? I know the situation in the country is not good, and there would be a million and one thoughts running through your head. Things will get better. This week, we will be talking about something most of us know a bit about: depression. It is a serious condition that requires swift action. Without further ado, let's get into it.</p>
+      </section>
+      <section id="dep-what">
+        <h2>What Is Depression?</h2>
+        <p>Depression refers to a mental disorder in which the person experiences a depressed mood or a loss of pleasure in activities for a long period of time.<sup>[1]</sup> It is not just being sad; everyone experiences sadness or feeling down sometimes, but when it goes on for extended periods of time and involves an inability to enjoy activities you once did, then there is a need to get checked out.</p>
+      </section>
+      <section id="dep-types">
+        <h2>What Are the Types of Depression?</h2>
+        <p>There are different types of depression. Some of them are seasonal, and they come and go with their associated seasons, while others are more lasting and occur all year round.</p>
+        <h3>Major Depressive Disorder</h3>
+        <p>This is the most common type of depression. It involves feeling sad or gloomy, loss of appetite, insomnia, and exhaustion. It could be mild, moderate, or severe depending on the extent of the condition. It could also be a one-time occurrence or a repeated one.<sup>[2]</sup></p>
+        <h3>Persistent Depressive Disorder</h3>
+        <p>In this case, the person might still be able to function normally, but their joy or happiness is significantly reduced. In addition, it is more long-lasting, as the person could experience the symptoms for up to two years. It could also occur concurrently with Major Depressive Disorder, leading to a situation known as Double Depression.<sup>[3]</sup></p>
+        <h3>Seasonal Depression</h3>
+        <p>This is tied to the seasons, specifically autumn and winter. It is often associated with a lack of sunlight, and it passes after that season concludes. The person experiences exhaustion and sleepiness, low energy levels, withdrawal from social activities, and cravings for sugar or carbohydrates.<sup>[4]</sup></p>
+        <h3>Postnatal or Postpartum Depression</h3>
+        <p>This is a condition that affects women after childbirth. It usually occurs between two and eight weeks after birth, but it can last up to a year. The symptoms are the same as clinical depression. This condition is different from baby blues, which usually resolve themselves in about two weeks. Postpartum depression can hinder the mother from caring for her child. The usual joy and happiness that come with childbirth are absent, and this often leads to the mother feeling guilty or feeling like she doesn't love her child.<sup>[5]</sup></p>
+        <h3>Bipolar Disorder</h3>
+        <p>This is a disorder in which the person swings from one extreme range of emotions to another. While everyone has mood swings occasionally, someone with bipolar disorder can swing from one extreme to the other very rapidly. In the manic swing, the person could be hyperactive, excited, euphoric, or even irritable, and in some cases, aggressive. On the other hand, during the depressive episodes, the person could experience guilt or loss of self-worth, trouble concentrating, tiredness or low energy levels, difficulty sleeping, or even thoughts of death or suicide.<sup>[6]</sup></p>
+        <h3>Premenstrual Dysphoric Disorder (PMDD)</h3>
+        <p>This is an extreme form of Premenstrual Syndrome (PMS). It occurs in the second half of the menstrual cycle, but it improves as the period starts. Symptoms include extreme mood swings (from being irritable and angry to feeling sad and down), sensitivity to rejection, self-deprecating thoughts, anxiety, hopelessness, and difficulty concentrating.<sup>[7]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">🧠</div>
+          <div>Depression isn't one single experience — it takes several distinct forms, each with its own pattern and timeline. Knowing which one you're looking at matters for getting the right help.</div>
+        </div>
+      </section>
+      <section id="dep-myths">
+        <h2>What Are Myths People Believe About Depression?</h2>
+        <p>Many of us have heard people say things that are untrue about depression. We have been told that it is just sadness, that a depressed person is weak, or that he/she should just snap out of it. Let us explore these myths.</p>
+        <h3>Depression Is Just Sadness</h3>
+        <p>Many of us have heard people say they are depressed whenever they are sad. Depression is more than just sadness or feeling down. It is more persistent and involves these feelings lasting for a long while. Depression can keep the person from enjoying activities they used to. A depressed person may start to question the meaning of life or entertain suicidal thoughts.</p>
+        <h3>Depression Is Something You Can Just Snap Out Of</h3>
+        <p>If it were so easy to snap out of it, suicide numbers yearly would be reduced drastically. A depressed person probably does not want to feel the way they do, but getting out of it is easier said than done. It requires treatment and help to recover from.</p>
+        <h3>Depression Only Shows as Sadness</h3>
+        <p>Many people can display a form of happiness outside even while they are depressed. In fact, in most friend groups, the one who goes out of his/her way to cheer everybody up is usually the one to check up on. Some people can hide their depression in public — they can smile, laugh, and seem to have fun with others. It is important to always check up on your friends and family, no matter how happy they may seem.</p>
+        <h3>Depression Only Affects Those Who Are Not Successful</h3>
+        <p>Many successful people go through depression. It does not just affect those who are struggling with life or making headway — it can affect anyone. This is why it is important not to dismiss people whenever they are opening up to us.</p>
+        <h3>You Can Just Pray Away Depression</h3>
+        <p>Prayer and fellowshipping with other believers help with depression. But it takes more than just prayer. Let's remember the Bible says faith without works is dead. While it is good to pray, the Bible is not against seeking help. As we pray, let us also open up to people who can help with the situation.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">⚠️</div>
+          <div>The most dangerous myth is the one that keeps people quiet — the idea that a smiling face means someone is fine. It doesn't. Check on your strong friends too.</div>
+        </div>
+      </section>
+      <section id="dep-common">
+        <h2>How Common Is Depression?</h2>
+        <p>Depression is more common than we think. Globally, about 3.8% of the world's population is affected by depression, with about 280 million people living with it worldwide.</p>
+        <p>In Nigeria, a large Lagos household survey of over 11,000 adults found current depression symptom prevalence of 6.3% in women and 4.4% in men, and women showed significantly higher rates of anhedonia, hypersomnia, fatigue, guilt and worthlessness, poor concentration, and suicidal ideation.<sup>[9]</sup></p>
+        <p>Hospital-based studies — people who actually show up seeking care — tell a very different story: rates of 59.6% in Ilesa, 44.5% in Ilorin, 47.8% in Ado Ekiti, and 45.7% in Port Harcourt.<sup>[8]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">📌</div>
+          <div>The gap between household-survey numbers (4-6%) and hospital-based numbers (45-90%) suggests a lot of depression in Nigeria goes undiagnosed until it becomes severe enough to force someone into a clinic.</div>
+        </div>
+        <p>Nigerians are one of the most resilient people on earth, but the situation in the country can cause a lot of stress and anxiety. Most times, one source of income can't pay the bills or sort out expenses, so there is a need to have multiple side hustles, which can of course lead to burnout.</p>
+        <p>Even when salary comes in, there are too many bills waiting for the salary, and after bills are sorted out, not much is left. Things are getting more expensive, and there is the pressure of needing to make more money to settle the never-ending bills.</p>
+        <p>To add to all this, there is insecurity. Travelling by road has become a very risky endeavour due to the increased risk of kidnappings. Even in the towns and cities, there is an increased risk of attacks by bandits, with reports of their sightings spreading every day.</p>
+      </section>
+      <section id="dep-matter">
+        <h2>Why Does It Matter?</h2>
+        <p>Depression is a major contributor to suicide, as thousands of people take their lives every year. If some of these people had gotten help, they might still be alive today. Their friends and families could have been spared the pain of mourning them if they had gotten help.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>Getting help early doesn't just ease suffering — it saves lives. If you or someone you know is struggling, reach out to us at <strong>theeosfoundation.org</strong> for support and resources.</div>
+        </div>
+      </section>
+      <section id="dep-wrapup">
+        <h2>Wrap Up</h2>
+        <p>If you are struggling with depression or experiencing some of the symptoms seen in this article, please get help. You are not weak for feeling the way you do; neither are you weak for asking for help. Depression is a serious condition, and it can have devastating effects on lives and families. If you are already considering drugs or alcohol to help, they will only make your condition much worse. Drug addiction will only worsen things and wreak havoc on your physical health.</p>
+        <p>Your life is more precious than you think it is. Don't entertain thoughts about taking your life. Open up to people you trust and seek professional help. You are not a burden. Speak up.</p>
+        <p>In our next article, we will examine the various symptoms of depression and how to recognise them in yourself and others around you. Stay tuned.</p>
+        <p>Further reading: burnout can have devastating effects on the brain and the body. Everyone needs to rest and relax from time to time. Read <a href="#" data-route="cortex-article-11" style="color:var(--teal);text-decoration:underline">Your Brain Called. It Wants the Weekend Off</a>.</p>
+      </section>
+      <section id="dep-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What's the difference between depression and just feeling sad?</div>
+            <div class="art-faq-a">Sadness passes. Depression lingers for weeks or longer, and it takes away your ability to enjoy things you normally would.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can someone be depressed and still seem happy?</div>
+            <div class="art-faq-a">Yes. Many people mask depression well, especially the ones who seem like the "life of the party." That's often the person you should check on.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is depression only for people who are struggling financially or in life generally?</div>
+            <div class="art-faq-a">No. Depression can affect anyone — successful people, students, parents, pastors, anyone. It doesn't discriminate.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can prayer alone cure depression?</div>
+            <div class="art-faq-a">Prayer and community support genuinely help, but depression usually also needs professional treatment. Faith and treatment work together, not against each other.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How do I know if what I'm feeling is depression?</div>
+            <div class="art-faq-a">If low mood or loss of interest in things you enjoy has lasted for weeks and is affecting your daily life, it's worth speaking to a professional to get properly assessed.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>World Health Organization (WHO). <em>Depression.</em> 2025. https://www.who.int/news-room/fact-sheets/detail/depression</li>
+          <li>National Center for Biotechnology Information (NCBI Bookshelf). <em>Depression.</em> 2012 (updated periodically). https://www.ncbi.nlm.nih.gov/books/NBK279288/</li>
+          <li>University of Utah Health. <em>Depression (Major Depressive Disorder).</em> 2024. https://healthcare.utah.edu/hmhi/conditions/mood-disorders/depression</li>
+          <li>Malhi, G. S., &amp; Mann, J. J. <em>Depression.</em> 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC4673349/</li>
+          <li>UNICEF. <em>What Is Postpartum Depression?</em> 2023. https://www.unicef.org/parenting/mental-health/what-postpartum-depression#postpartum-depression</li>
+          <li>World Health Organization (WHO). <em>Bipolar Disorder.</em> 2025. https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder</li>
+          <li>Otte, C., Gold, S. M., Penninx, B. W., et al. <em>Major Depressive Disorder.</em> 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4890701/</li>
+          <li>Ogungbemi, A. O., Afolabi, B. A., Falade, J., et al. <em>Assessment of Depressive Symptoms and Sociodemographic Correlates of Adult Patients Attending a National Health Insurance Clinic at a Tertiary Hospital, Southwest Nigeria.</em> 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11238166/</li>
+          <li>Adewuya, A. O., Coker, O. A., Atilola, O., et al. <em>Gender Difference in the Point Prevalence, Symptoms, Comorbidity, and Correlates of Depression: Findings from the Lagos State Mental Health Survey (LSMHS), Nigeria.</em> 2018. https://link.springer.com/article/10.1007/s00737-018-0839-9</li>
+        </ol>
+      </div>
+      <div class="art-nav-footer">
+        <button class="art-back-btn" data-route="cortex-article-11">← Previous Issue</button>
         <button class="art-back-btn" data-route="cortex">← All Issues</button>
       </div>
     </article>

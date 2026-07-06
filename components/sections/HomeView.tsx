@@ -271,15 +271,15 @@ const HTML = `<!-- ════════════════════�
       <p>From the latest Cortex Printout to new episodes and free tools — everything EOS is putting out right now.</p>
     </div>
     <div class="latest-grid">
-     <div class="latest-card" data-route="cortex-article-11">
-  <div class="latest-card-img" style="background:linear-gradient(135deg,#2A1A0A,#5A3A1A)">
+     <div class="latest-card" data-route="cortex-article-12">
+  <div class="latest-card-img" style="background:linear-gradient(135deg,#3A0A1A,#6A1A3A)">
     <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
   </div>
   <div class="latest-card-body">
-    <div class="latest-card-cat" style="color:#FFCC80">Mental Health &amp; Performance · Issue 011</div>
-    <h4>Your Brain Called. It Wants the Weekend Off</h4>
-    <p>Before you plan another "productive" weekend — here's what burnout is actually doing to your brain, and why rest isn't optional.</p>
-    <a class="read-more" data-route="cortex-article-11">Read Article <span>→</span></a>
+    <div class="latest-card-cat" style="color:#F48FB1">Mental Health &amp; Performance · Issue 012</div>
+    <h4>What Is Depression? Causes, Myths, and Facts Every Nigerian Should Know</h4>
+    <p>Depression is not just "being sad." Here's what's actually going on — and why smiling doesn't rule it out.</p>
+    <a class="read-more" data-route="cortex-article-12">Read Article <span>→</span></a>
   </div>
 </div>
       <div class="latest-card" data-route="programs-culture">
@@ -329,6 +329,17 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="ci-slider-wrap" id="home-ci-wrap">
       <div class="ci-slider-track" id="home-ci-track">
+  <div class="article-card" data-route="cortex-article-12">
+    <div class="article-img" style="background:linear-gradient(135deg,#3A0A1A,#6A1A3A)">
+      <span class="article-issue">ISSUE 012</span>
+    </div>
+    <div class="article-body">
+      <div class="article-cat" style="color:#F48FB1">Mental Health &amp; Performance</div>
+      <h4>What Is Depression? Causes, Myths, and Facts Every Nigerian Should Know</h4>
+      <p>Depression is not just "being sad." Here's what's actually going on — and why smiling doesn't rule it out.</p>
+      <a class="read-more" data-route="cortex-article-12">Read More <span>→</span></a>
+    </div>
+  </div>
   <div class="article-card" data-route="cortex-article-11">
     <div class="article-img" style="background:linear-gradient(135deg,#2A1A0A,#5A3A1A)">
       <span class="article-issue">ISSUE 011</span>
