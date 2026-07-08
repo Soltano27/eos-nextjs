@@ -3,6 +3,10 @@
 // continue to work with the original vanilla JS attached on window.
 "use client";
 import React from "react";
+import {
+  renderHomeLatestCard,
+  renderHomeCortexSlider,
+} from "./cortex/cortexRender";
 
 const HTML = `<!-- ══════════════════════════════
      HOME VIEW
@@ -271,17 +275,7 @@ const HTML = `<!-- ════════════════════�
       <p>From the latest Cortex Printout to new episodes and free tools — everything EOS is putting out right now.</p>
     </div>
     <div class="latest-grid">
-     <div class="latest-card" data-route="cortex-article-12">
-  <div class="latest-card-img" style="background:linear-gradient(135deg,#3A0A1A,#6A1A3A)">
-    <span class="latest-card-issue">THE CORTEX PRINTOUT</span>
-  </div>
-  <div class="latest-card-body">
-    <div class="latest-card-cat" style="color:#F48FB1">Mental Health &amp; Performance · Issue 012</div>
-    <h4>What Is Depression? Causes, Myths, and Facts Every Nigerian Should Know</h4>
-    <p>Depression is not just "being sad." Here's what's actually going on — and why smiling doesn't rule it out.</p>
-    <a class="read-more" data-route="cortex-article-12">Read Article <span>→</span></a>
-  </div>
-</div>
+${renderHomeLatestCard()}
       <div class="latest-card" data-route="programs-culture">
         <div class="latest-card-img" style="background:linear-gradient(135deg,#3A1A70,#5B3FA0)">
           <span class="latest-card-issue">IS YOUR BRAIN COOKED?</span>
@@ -328,141 +322,7 @@ const HTML = `<!-- ════════════════════�
       </div>
     </div>
     <div class="ci-slider-wrap" id="home-ci-wrap">
-      <div class="ci-slider-track" id="home-ci-track">
-  <div class="article-card" data-route="cortex-article-12">
-    <div class="article-img" style="background:linear-gradient(135deg,#3A0A1A,#6A1A3A)">
-      <span class="article-issue">ISSUE 012</span>
-    </div>
-    <div class="article-body">
-      <div class="article-cat" style="color:#F48FB1">Mental Health &amp; Performance</div>
-      <h4>What Is Depression? Causes, Myths, and Facts Every Nigerian Should Know</h4>
-      <p>Depression is not just "being sad." Here's what's actually going on — and why smiling doesn't rule it out.</p>
-      <a class="read-more" data-route="cortex-article-12">Read More <span>→</span></a>
-    </div>
-  </div>
-  <div class="article-card" data-route="cortex-article-11">
-    <div class="article-img" style="background:linear-gradient(135deg,#2A1A0A,#5A3A1A)">
-      <span class="article-issue">ISSUE 011</span>
-    </div>
-    <div class="article-body">
-      <div class="article-cat" style="color:#FFCC80">Mental Health &amp; Performance</div>
-      <h4>Your Brain Called. It Wants the Weekend Off</h4>
-      <p>Before you plan another "productive" weekend — here's what burnout is actually doing to your brain, and why rest isn't optional.</p>
-      <a class="read-more" data-route="cortex-article-11">Read More <span>→</span></a>
-    </div>
-  </div>
-  <div class="article-card" data-route="cortex-article-10">
-    <div class="article-img" style="background:linear-gradient(135deg,#1A0A2A,#3A1A5A)">
-      <span class="article-issue">ISSUE 010</span>
-    </div>
-    <div class="article-body">
-      <div class="article-cat" style="color:#CE93D8">Mental Health &amp; Performance</div>
-      <h4>Anxiety and the Brain: How Anxiety Affects the Nervous System</h4>
-      <p>How fear, stress, and survival wiring collide in your head — and why your mind won't switch off.</p>
-      <a class="read-more" data-route="cortex-article-10">Read More <span>→</span></a>
-    </div>
-  </div>
-  <div class="article-card" data-route="cortex-article-9">
-    <div class="article-img" style="background:linear-gradient(135deg,#0A1A2A,#1A3A5A)">
-      <span class="article-issue">ISSUE 009</span>
-    </div>
-    <div class="article-body">
-      <div class="article-cat" style="color:#64B5F6">Mental Health &amp; Performance</div>
-      <h4>Stress and the Brain: What Happens When Pressure Becomes a Pattern</h4>
-      <p>Chronic stress doesn't just feel bad — it rewires the brain. Here is what happens and how to fight back.</p>
-      <a class="read-more" data-route="cortex-article-9">Read More <span>→</span></a>
-    </div>
-  </div>
-  <div class="article-card" data-route="cortex-article-8">
-          <div class="article-img" style="background:linear-gradient(135deg,#2A0A0A,#6A1A1A)">
-            <span class="article-issue">ISSUE 008</span>
-          </div>
-          <div class="article-body">
-            <div class="article-cat" style="color:#E57373">Physical Brain Health</div>
-            <h4>The Brain on Drugs: What Addiction Actually Does to Your Mind</h4>
-            <p>How drugs hijack the brain's reward system, damage key brain regions, and what recovery actually looks like.</p>
-            <a class="read-more" data-route="cortex-article-8">Read More <span>→</span></a>
-          </div>
-        </div>
-        <div class="article-card" data-route="cortex-article-7">
-          <div class="article-img" style="background:linear-gradient(135deg,#1A1A3A,#3A2D6A)">
-            <span class="article-issue">ISSUE 007</span>
-          </div>
-          <div class="article-body">
-            <div class="article-cat" style="color:#7C6FCD">Mental Health &amp; Performance</div>
-            <h4>The Skill Nobody Taught You in School: Emotional Intelligence</h4>
-            <p>How understanding your emotions can help you build better relationships, make wiser decisions, and thrive in life.</p>
-            <a class="read-more" data-route="cortex-article-7">Read More <span>→</span></a>
-          </div>
-        </div>
-        <div class="article-card" data-route="cortex-article-6">
-          <div class="article-img" style="background:linear-gradient(135deg,#1A3A2A,#2D6A4A)">
-            <span class="article-issue">ISSUE 006</span>
-          </div>
-          <div class="article-body">
-            <div class="article-cat" style="color:#2D8A5A">Physical Brain Health</div>
-            <h4>Is Alzheimer's Disease Preventable?</h4>
-            <p>Exploring the truth about Alzheimer's — what it is, who it affects, and what young people can do now to lower their risk later.</p>
-            <a class="read-more" data-route="cortex-article-6">Read More <span>→</span></a>
-          </div>
-        </div>
-        <div class="article-card" data-route="cortex-article-5">
-          <div class="article-img" style="background:linear-gradient(135deg,#6E0A14,#C81E3A)">
-            <span class="article-issue">ISSUE 005</span>
-          </div>
-          <div class="article-body">
-            <div class="article-cat" style="color:#C81E3A">Physical Brain Health</div>
-            <h4>What Do You Know About Sickle Cell?</h4>
-            <p>Nigeria's sickle cell burden explained — causes, neurological impact, and why genotype testing matters.</p>
-            <a class="read-more" data-route="cortex-article-5">Read More <span>→</span></a>
-          </div>
-        </div>
-        <div class="article-card" data-route="cortex-article-4">
-          <div class="article-img" style="background:linear-gradient(135deg,#1A3A1A,#2D6A2D)">
-            <span class="article-issue">ISSUE 004</span>
-          </div>
-          <div class="article-body">
-            <div class="article-cat" style="color:#4CAF50">Mental Health &amp; Performance</div>
-            <h4>You're not a Burden, Speak Up</h4>
-            <p>Men account for 73% of suicide deaths. This June, we talk about why men don't reach out — and what needs to change.</p>
-            <a class="read-more" data-route="cortex-article-4">Read More <span>→</span></a>
-          </div>
-        </div>
-        <div class="article-card" data-route="cortex-article-3">
-          <div class="article-img" style="background:linear-gradient(135deg,#006A58,#00BFA5)">
-            <span class="article-issue">ISSUE 003</span>
-          </div>
-          <div class="article-body">
-            <div class="article-cat" style="color:#00BFA5">Physical Brain Health</div>
-            <h4>What Are Seizures and Epilepsy? Causes, Types, and Treatment Explained</h4>
-            <p>Separating myth from medicine — what seizures really are and how to respond when it happens.</p>
-            <a class="read-more" data-route="cortex-article-3">Read More <span>→</span></a>
-          </div>
-        </div>
-        <div class="article-card" data-route="cortex-article-2">
-          <div class="article-img" style="background:linear-gradient(135deg,#3A1A70,#5B3FA0)">
-            <span class="article-issue">ISSUE 002</span>
-          </div>
-          <div class="article-body">
-            <div class="article-cat" style="color:#5B3FA0">Physical Brain Health</div>
-            <h4>What Are Migraines and Why Do You Keep Getting Them?</h4>
-            <p>Migraines are more than headaches. Understand the stages, the triggers, and how to manage them.</p>
-            <a class="read-more" data-route="cortex-article-2">Read More <span>→</span></a>
-          </div>
-        </div>
-        <div class="article-card" data-route="cortex-article-1">
-          <div class="article-img" style="background:linear-gradient(135deg,#0A3A6E,#0A84C8)">
-            <span class="article-issue">ISSUE 001</span>
-          </div>
-          <div class="article-body">
-            <div class="article-cat" style="color:#0A84C8">Physical Brain Health</div>
-            <h4>Is Your Brain Healthy? What Brain Health Is and Why It Matters</h4>
-            <p>What the brain is, what brain health means, and how to protect yours starting now.</p>
-            <a class="read-more" data-route="cortex-article-1">Read More <span>→</span></a>
-          </div>
-        </div>
-      </div>
-    </div>
+      <div class="ci-slider-track" id="home-ci-track">${renderHomeCortexSlider()}
     <div class="ci-slider-dots" id="home-ci-dots"></div>
   </section>
 

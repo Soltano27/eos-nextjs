@@ -27,18 +27,11 @@
     "media-gallery": "media-gallery-full",
     "media-news": "media-news-full",
     cortex: "cortex",
-    "cortex-article-1": "cortex-article-1",
-    "cortex-article-2": "cortex-article-2",
-    "cortex-article-3": "cortex-article-3",
-    "cortex-article-4": "cortex-article-4",
-    "cortex-article-5": "cortex-article-5",
-    "cortex-article-6": "cortex-article-6",
-    "cortex-article-7": "cortex-article-7",
-    "cortex-article-8": "cortex-article-8",
-    "cortex-article-9": "cortex-article-9",
-    "cortex-article-10": "cortex-article-10",
-    "cortex-article-11": "cortex-article-11",
-    "cortex-article-12": "cortex-article-12",
+    // Individual "cortex-article-N" routes are intentionally NOT listed here.
+    // eosNavigate() below falls back to `ALIAS[route] || route`, and every
+    // Cortex article's view id is exactly its route (view-cortex-article-N),
+    // so lookup already works with zero entries. Adding a new issue never
+    // requires touching this file — see components/sections/cortex/.
     home: "home",
     "neuroed-fellowship": "neuroed-fellowship",
   };
@@ -71,18 +64,8 @@
     "media-gallery": "media",
     "media-news": "media",
     cortex: "cortex",
-    "cortex-article-1": "cortex",
-    "cortex-article-2": "cortex",
-    "cortex-article-3": "cortex",
-    "cortex-article-4": "cortex",
-    "cortex-article-5": "cortex",
-    "cortex-article-6": "cortex",
-    "cortex-article-7": "cortex",
-    "cortex-article-8": "cortex",
-    "cortex-article-9": "cortex",
-    "cortex-article-10": "cortex",
-    "cortex-article-11": "cortex",
-    "cortex-article-12": "cortex",
+    // Same reasoning as ALIAS above: NAV_GROUPS[route] || route.split("-")[0]
+    // already resolves any "cortex-article-N" to "cortex" without an entry.
     contact: "contact",
   };
 
