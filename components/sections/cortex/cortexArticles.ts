@@ -1760,4 +1760,143 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 14,
+    id: "cortex-article-14",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#2A2A0A",
+    gradTo: "#5A5A1A",
+    badgeBg: "rgba(220,231,117,0.2)",
+    badgeColor: "#DCE775",
+    cardColor: "#DCE775",
+    title:
+      "Can I be free from Depression?<br/>How People Actually Get Their Lives Back From Depression.",
+    deck: "Depression can feel like drowning. But treatment works, recovery is real, and you don't have to face it alone.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle:
+      "Can I Be Free From Depression? How People Actually Get Their Lives Back",
+    cardExcerpt:
+      "Depression can be beaten. Here's how treatment actually works, what recovery really looks like, and how to support someone going through it.",
+    toc: [
+      { href: "#rec-intro", text: "Introduction" },
+      { href: "#rec-treatment", text: "How Depression Is Treated" },
+      { href: "#rec-faith", text: "Does Faith Play a Part?" },
+      { href: "#rec-looks-like", text: "What Recovery Looks Like" },
+      { href: "#rec-support", text: "Supporting Someone Recovering" },
+      { href: "#rec-talk", text: "If You Need Someone to Talk To" },
+      { href: "#rec-wrapup", text: "Wrap Up" },
+      { href: "#rec-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Depression is treatable — through therapy (like CBT), medication, or a combination of both, depending on severity.",
+      "Antidepressants take time to work, sometimes weeks to months, and should only be used under a certified professional's guidance.",
+      "Faith and spiritual community can offer real support in recovery, but they look different for everyone and work best alongside professional treatment.",
+      "Recovery isn't a straight line — dark days can still happen even as you're getting better, and that doesn't mean you've failed.",
+      "The best way to support someone recovering is to listen without judgment, avoid blame, and gently encourage them toward professional help.",
+    ],
+    bodyHtml: `<section id="rec-intro">
+        <p class="art-lede">When we hear of people going through depression, what is our first thought? Do we feel they are in a pit they will never get out of? Depression could be like someone who is drowning and looking for someone to pull them out.</p>
+        <p>As mentioned in the earlier articles, some people can mask their symptoms and appear fine. Such people could be smiling in public and even laughing with friends and family but secretly battling demons when they are alone.</p>
+        <p>Those battling depression might feel like they may never get out of it. It might look like they are stuck forever and there is no way out. But that's not true. Millions of people have fought the battle against depression and won. It may not seem possible today, but eventually, you will overcome. In this article, we explore ways to get out of depression and even share stories of people who have overcome.</p>
+      </section>
+      <section id="rec-treatment">
+        <h2>How Is Depression Treated?</h2>
+        <p>Treatment is a combination of different options. Milder cases may only require therapy or counselling, while more acute or advanced cases may require the use of antidepressants.</p>
+        <h3>Cognitive Behavioural Therapy</h3>
+        <p>This combines two forms of therapy: cognitive therapy and behavioural therapy. This therapy aims to correct wrong thinking and behaviour. In the case of depression, it targets patterns of self-doubt and guilt and helps the person feel better about themselves.<sup>[1]</sup> Cognitive Behavioural Therapy examines three aspects of cognition: automatic thoughts, cognitive distortions, and underlying beliefs.</p>
+        <h3>Automatic Thoughts</h3>
+        <p>Automatic thoughts refer to what immediately comes to mind when something happens. For example, if a stranger talks to you rudely, do you think you must have said something to offend the person, or maybe the person is just having a bad day? One blames you while the other realises that the issue may have had nothing to do with you. CBT aims to ensure that these thoughts are more self-helping and less self-harming.<sup>[2]</sup></p>
+        <h3>Cognitive Distortions</h3>
+        <p>Cognitive distortions are negatively biased errors in thinking that are purported to increase vulnerability to depression.<sup>[3]</sup> These distortions promote self-defeat, and they are very harmful to the person. They include: black-and-white thinking (seeing everything in black and white), personalisation (assuming you are at fault for everything), jumping to conclusions, always focusing on the negative, comparison, false labelling, fortune-telling, and others. CBT aims to correct these beliefs and help the person see themselves in a more positive light.<sup>[4]</sup></p>
+        <h3>Underlying Beliefs</h3>
+        <p>These refer to how the person perceives and interprets life and experiences. They are divided into two: core beliefs and intermediate beliefs. Core beliefs refer to the central ideas the person has about themself and the world, while intermediate beliefs are the assumptions and attitudes shaped by the core beliefs.<sup>[5]</sup></p>
+        <p>In all, CBT aims to correct all these and root out harmful thought patterns to promote healing and better well-being.</p>
+        <h3>Antidepressants</h3>
+        <p>In cases of acute or prolonged depression, antidepressants are used to make the situation better. Antidepressants are drugs that increase the release of neurotransmitters associated with mood and emotions, such as serotonin.</p>
+        <p>Antidepressants can take time to take effect — about two weeks for mild cases, and up to about eight weeks for acute cases. It can take up to six months for the person to start feeling better.<sup>[6]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>Before antidepressants are used, they must be prescribed by a certified professional. Antidepressants have varying side effects, and they should not be used if they were not prescribed.</div>
+        </div>
+      </section>
+      <section id="rec-faith">
+        <h2>Does Faith Play a Part in Recovery?</h2>
+        <p>For religious people, having a community around them can be very instrumental for recovery. When they meet each other, they can open up to trusted people, encourage each other in their interactions, and even proffer solutions to each other's problems. In addition, the events in the service can also be helpful. The singing, reading of scriptures, and the sermons can offer encouragement and lift the person's spirits.</p>
+      </section>
+      <section id="rec-looks-like">
+        <h2>What Does Recovery from Depression Look Like?</h2>
+        <p>Recovery may represent different things in different people. It may be the ability to breathe or feel like a weight has been lifted off their shoulders. For others, it may be seeing the light. One thing is for certain: recovery is not something that happens suddenly. It takes time and intentional effort. You may not feel all better after one therapy session, and life will certainly not be all sunshine and rainbows immediately, but as you put in the effort to get better, you will start seeing some progress. It may be simply being able to step back from the ledge you wanted to throw yourself off of.</p>
+        <p>The important thing is to take your treatment one day at a time. Try to get better each day. Let go of harmful habits and pick up self-healing habits.</p>
+        <p>Recovery does not mean you may not still have your dark days. There might still be days that the world will feel like it is ending or that the darkness is too strong for you to see the light.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💬</div>
+          <div>For those who think they can't get better, as someone who has been through it, I can tell you that recovery is possible. A couple of years ago, I suffered through depression. I hated life, and I came close to ending my life a couple of times. I even had a plan. I was incredibly lucky that no matter how bad things got, my friends and family fought for me and held me back. Honestly, if not for them, I might have ended things then. Life had no meaning, and as a Christian, there were days I asked God what was so special about the day that I had to wake up. Things got so bad that I once asked myself the question: would my family be better off if I were never born? The question changed to: would they be better off if I were out of the picture? I held on to a ton of guilt, self-condemnation, anger, low self-esteem, and a lot of other issues.</div>
+        </div>
+        <p>One great advantage I have is my family and friends. Their words of encouragement, prayers, and refusal to give up on me really helped me. I was also encouraged by the scriptures and studying the Word of God. While I was angry at God and, honestly, I only went to church because my dad is the Pastor, it did me some good, as some sermons got to me and actually encouraged me.</p>
+        <p>While I still have some dark days and I have spent a bit of time crying into my pillow, I have also learnt to still acknowledge my wins and progress no matter how small they may be.</p>
+      </section>
+      <section id="rec-support">
+        <h2>How Do I Support Someone Who Is Recovering from Depression?</h2>
+        <p>If you have someone around you in recovery, here are ways you can support them.</p>
+        <h3>Be a Listening Ear</h3>
+        <p>One of the best things you can do for them is to be there to listen. Even if you don't have any solutions to their issues, just being there for them to rant to can help them feel a lot better. Talking things out is much better for them than bottling things inside. Be there for them to talk to and open up to about their struggles.</p>
+        <h3>Don't Tell Them to Snap Out of It or Blame Them for It</h3>
+        <p>Depression is not just feeling down or having a bad day. It takes a lot of effort and treatment to get out of it. Blaming them for their condition will only reinforce feelings of guilt or self-condemnation rather than help them get better.</p>
+        <p>To men, don't tell young boys or other men to simply man up or tough it out. Rather, be a safe space they can open up to. Many men have expressed an inability to open up about their struggles for fear of being seen as weak or less than.</p>
+        <h3>Encourage Them to Do Things They Enjoy</h3>
+        <p>Encouraging them to do things they enjoy will help them to take their minds off their issues and give them some peace. For me, going for a run worked. For those short periods, I was not regretting the past, blaming myself for the present, or worried about the future; I was just there — the wind in my hair, the deafening music blaring in my ears, and the sounds of my feet on the road. In those periods, I was truly at peace.<sup>[7]</sup></p>
+        <h3>Encourage Them to Get Help</h3>
+        <p>Some of them might be reluctant to get help. They could be skeptical or worried about what help will look like. Help them and encourage them to get professional help instead of facing it on their own.</p>
+      </section>
+      <section id="rec-talk">
+        <h2>If You Need Someone to Talk To</h2>
+        <p>If you're struggling right now, or you're worried about someone close to you, please reach out. In Nigeria, organizations like the Mentally Aware Nigeria Initiative (MANI) and SURPIN (Suicide Research and Prevention Initiative) offer free, confidential support. You can find them at mentallyaware.org and surpinng.com. You don't have to have it all figured out before reaching out. Just start the conversation.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>You are not alone in this. Free, confidential support is available right now through MANI (<strong>mentallyaware.org</strong>) and SURPIN (<strong>surpinng.com</strong>).</div>
+        </div>
+      </section>
+      <section id="rec-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Going through depression can be difficult. But it doesn't have to be final. Depression can be beaten, and recovery is possible. Several resources can help you. Opening up can be scary and it may involve you going for professional help, but it is better to seek treatment. Don't bottle things up inside. Open up to someone today.</p>
+        <p>Further reading: did you miss our article on the signs and symptoms of depression? Read <a href="#" data-route="cortex-article-13" style="color:var(--teal);text-decoration:underline">Am I Depressed or am I just Stressed?</a></p>
+      </section>
+      <section id="rec-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can depression be cured completely?</div>
+            <div class="art-faq-a">Depression can absolutely be treated and managed, and many people go on to live full, thriving lives. "Cured" isn't always the right word, though, since some people continue to have occasional dark days even after significant recovery — but that doesn't mean treatment failed or that they're back at square one.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How long does it take to recover from depression?</div>
+            <div class="art-faq-a">There's no fixed timeline. Some people notice improvement within weeks of starting therapy or medication; for others, it takes months. Recovery is also not a straight line — progress often comes with setbacks along the way.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Do I need medication, or is therapy enough?</div>
+            <div class="art-faq-a">It depends on the severity of the depression. Milder cases often respond well to therapy alone, while more severe or prolonged cases may need medication too. A mental health professional can help determine what combination is right for you.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What's the best way to help a friend or family member who's depressed?</div>
+            <div class="art-faq-a">Listen without judgment, avoid blaming them or telling them to "snap out of it," and gently encourage them toward professional help. Just being present and willing to listen matters more than having the right answers.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is it normal to still have bad days after recovering from depression?</div>
+            <div class="art-faq-a">Yes. Recovery doesn't mean the difficult days disappear entirely — it means you've built the tools and support to move through them without being consumed by them.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>National Center for Biotechnology Information (NCBI Bookshelf). <em>Depression.</em> 2012 (updated periodically). https://www.ncbi.nlm.nih.gov/books/NBK279297/</li>
+          <li>National Center for Biotechnology Information (NCBI Bookshelf). <em>Overview of Depression.</em> 2012 (updated periodically). https://www.ncbi.nlm.nih.gov/books/NBK279282/</li>
+          <li>Sabbatini, R. M., Murphy, R. J., Shalom, J. G., &amp; Bierman, A. S. <em>Cognitive Distortions, Humor Styles, and Depression.</em> 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4991044/#sec10</li>
+          <li>Harvard Health Publishing. <em>How to Recognize and Tame Your Cognitive Distortions.</em> 2022. https://www.health.harvard.edu/blog/how-to-recognize-and-tame-your-cognitive-distortions-202205042738</li>
+          <li>National Center for Biotechnology Information (NCBI Bookshelf). <em>Major Depressive Disorder.</em> 2023. https://www.ncbi.nlm.nih.gov/books/NBK470241/</li>
+          <li>NHS (National Health Service). <em>Antidepressants.</em> 2025. https://www.nhs.uk/medicines/antidepressants/</li>
+          <li>Mental Health Foundation. <em>Supporting a Partner with Depression.</em> 2024. https://www.mentalhealth.org.uk/explore-mental-health/articles/supporting-partner-depression</li>
+        </ol>
+      </div>`,
+  },
 ];
