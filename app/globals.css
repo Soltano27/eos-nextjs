@@ -3199,6 +3199,17 @@ iframe {
   padding: 80px 60px 120px;
   align-items: start;
 }
+/* Grid items default to min-width:auto, meaning a track can't shrink below
+   the widest UNBREAKABLE content inside it (e.g. a long reference URL with
+   no spaces). On the mobile single-column layout, .art-sidebar and .art-body
+   share one track, so a long URL buried in .art-body's references was
+   forcing the whole column — including the Key Takeaways box above it —
+   wider than the screen, clipped by body's overflow-x:hidden. min-width:0
+   lets these items shrink to the actual viewport and wrap normally. */
+.art-sidebar,
+.art-body {
+  min-width: 0;
+}
 .art-sidebar {
   position: sticky;
   top: 100px;
@@ -3425,6 +3436,8 @@ iframe {
   color: var(--dim);
   line-height: 1.7;
   margin-bottom: 10px;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 .art-ref-list em {
   font-style: italic;
