@@ -1899,4 +1899,87 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 15,
+    id: "cortex-article-15",
+    category: "Physical Brain Health",
+    gradFrom: "#4A2A0A",
+    gradTo: "#8A5A1A",
+    badgeBg: "rgba(255,183,77,0.2)",
+    badgeColor: "#FFCC80",
+    cardColor: "#FFB74D",
+    title:
+      "How Does Nutrition Affect the Brain?<br/>Feed Your Brain: Understanding Nutrition's Role in Brain Health",
+    deck: "The brain consumes roughly 20% of your body's energy despite being under 2% of its weight. Here's what happens when it isn't fed properly — and why that matters especially in Nigeria.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle:
+      "How Does Nutrition Affect the Brain? Feed Your Brain: Understanding Nutrition's Role in Brain Health",
+    cardExcerpt:
+      "The brain eats up 20% of your body's energy despite being under 2% of its weight. Here's what happens when it isn't fed properly — and why it matters especially in Nigeria.",
+    toc: [
+      { href: "#nut-intro", text: "Introduction" },
+      { href: "#nut-gut", text: "The Gut-Brain Connection" },
+      { href: "#nut-unnourished", text: "When the Brain Isn't Nourished" },
+      { href: "#nut-nigeria", text: "Why This Matters in Nigeria" },
+      { href: "#nut-wrapup", text: "Wrap Up" },
+    ],
+    keyTakeaways: [
+      "The brain makes up under 2% of body weight but consumes about 20% of the body's resting energy — quality nutrition matters, not just quantity.",
+      "The gut and brain are closely connected through the Enteric Nervous System, which also drives much of the body's serotonin production.",
+      "Poor nourishment causes immediate effects like brain fog, mood swings, and difficulty concentrating — and long-term effects like reduced intelligence in growing children.",
+      "In Nigeria, carbohydrate-heavy diets low in fruits, vegetables, and omega-3s are common, often driven by cost and time pressure rather than choice.",
+      "Feeding the brain properly isn't optional — it directly shapes how well people think, decide, and function day to day.",
+    ],
+    bodyHtml: `<section id="nut-intro">
+        <p class="art-lede">Let's be honest: some of us don't remember to eat until we feel like we're about to faint. For some people, food is only something to consume to keep body and soul together. But food is more than that. It provides the nutrients that the body uses to produce energy, the proteins for growth and the repair of cells and tissues, fats and oils for insulation and protection of internal organs, and various vitamins and minerals. One major organ that benefits from proper nutrition is the brain. The brain consumes a large amount of energy to operate, and so it requires proper nutrition to function optimally.</p>
+        <p>The brain makes up less than 2% of body weight,<sup>[1]</sup> but in terms of energy consumption, it accounts for about 20% of the body's resting metabolic energy.<sup>[2]</sup> The brain is one of the most vascularised organs, and it receives a large part of the blood supply. This is why you often feel tired or hungry after performing tasks that are intellectually demanding.</p>
+        <p>For example, whenever you are preparing for an exam and you are reading, even though you are seated for hours and probably only stretching your legs a couple of times, you tend to feel tired and hungry after a long reading session. This is because the brain is using a lot of the energy produced by the body.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🧠</div>
+          <div>Like other organs, the energy source for the brain is glucose, but the quality of food consumed matters. Think of it this way: a car runs on petrol, but there are varying qualities of petrol based on the refinement at the refinery. Just as a car performs optimally with the highest quality petrol, the brain performs optimally when you feed it properly.</div>
+        </div>
+      </section>
+      <section id="nut-gut">
+        <h2>Are the Digestive System and the Brain Related?</h2>
+        <p>There is a very important relationship between the brain and the gut. As a matter of fact, there is a segment of the Autonomic Nervous System concerned with the gut alone — the Enteric Nervous System. The Enteric Nervous System refers to the neurons in the gut that enable the brain to control the activities of the digestive system. In fact, the digestive system has more neurons than the spinal cord.<sup>[3]</sup></p>
+        <p>In addition, the gut also plays a pivotal role in serotonin production. The microorganisms in the gut produce serotonin — they produce small amounts themselves from certain amino acids, and they also trigger the body to produce larger amounts of it. This release of serotonin affects mood, sleep, and general wellness.</p>
+      </section>
+      <section id="nut-unnourished">
+        <h2>What Happens When the Brain Is Not Well Nourished?</h2>
+        <p>Just like a car will not function optimally when it is not fuelled with the best grade of petrol, the brain will not function optimally whenever it is not well-nourished.</p>
+        <p>If the brain is not being well-supplied with glucose, there are some immediate consequences. Because the brain is running low on fuel, there will be increased demand for food, which means an increase in the intensity of hunger pangs, brain fog (difficulty focusing on tasks, feeling mentally exhausted and sluggish), mood swings, and difficulty concentrating. Let's look at it this way: how easy is it for you to focus or work on tasks when you are hungry? There are many instances where mental blocks at work or school could be solved by finding something good to eat.<sup>[4]</sup></p>
+        <p>Long-term effects, especially in growing children and teenagers, include reduced intelligence, poor academic performance, and impaired cognition and decision-making. Children who are underfed or malnourished would not perform up to their full capabilities in school because the brain will not develop at the level it should have developed to.<sup>[5]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>Malnourishment doesn't just affect how a child feels today — it can shape how their brain develops, with effects that follow them well into adulthood.</div>
+        </div>
+      </section>
+      <section id="nut-nigeria">
+        <h2>Why Is This Important to Us in Nigeria?</h2>
+        <p>Brain health is very important in every society, especially in a society like Nigeria. One reason for so many outrageous statements and decisions is poor brain development. For example, the FRSC manual states that every driver should assume he/she is the only sane one on the road. I thought that was an exaggeration until I started to drive. Driving in Ibadan is not for the weak, abeg. From Micra drivers that do not understand the concept of right of way to motorcycle riders that treat traffic lights like suggestions, you will encounter varying degrees of mental instability on the road.</p>
+        <p>So, we need a society where people think properly and make reasonable decisions. However, one issue we have is our emphasis on carbohydrate-heavy diets. While they supply the carbohydrates necessary for energy production, if they are not accompanied by fruits and vegetables, the brain may not get the essential vitamins and minerals for proper development and function.</p>
+        <p>In addition, supplements that are helpful to brain development, such as omega-3 fatty acids, are often out of reach of the average Nigerian family. The average family cannot afford to eat three square meals or ensure that the meals are nutritious enough to provide the needed nutrients. For many of them, affording supplements would be more than they can handle.</p>
+        <p>Furthermore, even in families that can afford to feed well, there is often too much to do for them to have the time to eat proper meals. Many of them are often dealing with the effects of stress and burnout, unable to properly sit down and take their meals. This often leads to them rushing meals or stockpiling junk foods. For many busy professionals, the anxiety of meeting deadlines and getting to work on time or beating traffic robs them of the opportunity to eat well.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💡</div>
+          <div>Eating well in Nigeria isn't always simple — cost, time, and access all play a part. But small, consistent choices toward fruits, vegetables, and balanced meals still add up for your brain.</div>
+        </div>
+      </section>
+      <section id="nut-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Brain health is inseparable from proper nutrition. For the brain to function optimally, it must be well fuelled and supplied with the vitamins and minerals that aid brain development.</p>
+        <p>The series continues in our next article, where we go in depth about the meals that are helpful to the brain and the meals that are harmful to the brain. You don't want to miss it.</p>
+        <p>Further reading: depression is very real, and it affects more people than we think — but it is not an incurable condition. Read <a href="#" data-route="cortex-article-14" style="color:var(--teal);text-decoration:underline">Can I be free from Depression?</a></p>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Encyclopaedia Britannica. <em>How Much Does a Human Brain Weigh?</em> 2025. https://www.britannica.com/topic/How-Much-Does-a-Human-Brain-Weigh</li>
+          <li>Balasubramanian, V. <em>Brain Power.</em> 2021. https://pmc.ncbi.nlm.nih.gov/articles/PMC8364152/</li>
+          <li>Purves, D., Augustine, G. J., Fitzpatrick, D., et al. <em>The Human Brain.</em> 2001. https://www.ncbi.nlm.nih.gov/books/NBK11097/</li>
+          <li>Lent, R., Herculano-Houzel, S., &amp; others. <em>How Many Neurons Do You Have? Some Dogmas of Quantitative Neuroscience under Revision.</em> 1995. https://pubmed.ncbi.nlm.nih.gov/7542703/</li>
+          <li>Wiersenga, L. M., et al. <em>A Key Characteristic of Sex Differences in the Developing Brain: Greater Variability in Brain Structure of Boys than Girls.</em> 2021. https://www.sciencedirect.com/science/article/pii/S1053811921001051</li>
+        </ol>
+      </div>`,
+  },
 ];
