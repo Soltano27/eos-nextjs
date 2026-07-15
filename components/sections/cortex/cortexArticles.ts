@@ -1982,4 +1982,126 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 16,
+    id: "cortex-article-16",
+    category: "Physical Brain Health",
+    gradFrom: "#2A2E0A",
+    gradTo: "#5A6A1A",
+    badgeBg: "rgba(197,216,109,0.2)",
+    badgeColor: "#D4E29A",
+    cardColor: "#C5D86D",
+    title:
+      "Which Foods are Good for My Brain, and Which Foods are Harming My Brain?<br/>Brain Boosters vs. Brain Drainers",
+    deck: "From Titus fish to reused frying oil — here's exactly which everyday foods build your brain up, and which ones quietly wear it down.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle:
+      "Which Foods Are Good for My Brain, and Which Are Harming It? Brain Boosters vs. Brain Drainers",
+    cardExcerpt:
+      "From Titus fish to reused frying oil — here's exactly which everyday foods build your brain up, and which ones quietly wear it down.",
+    toc: [
+      { href: "#food-intro", text: "Introduction" },
+      { href: "#food-good", text: "Foods That Are Good for the Brain" },
+      { href: "#food-bad", text: "Foods That Harm the Brain" },
+      { href: "#food-better", text: "What We Can Do Better" },
+      { href: "#food-wrapup", text: "Wrap Up" },
+      { href: "#food-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Omega-3 fatty acids, found in fish like Titus and sardines, support thinking, learning, and healthy blood flow to the brain.",
+      "B-vitamins, antioxidants, and adequate hydration all play distinct, essential roles in protecting brain cells and maintaining focus.",
+      "Alcohol, refined sugar, and trans fats each damage the brain in different ways, from memory impairment to reduced brain volume.",
+      "Everyday Nigerian staples like rice and stew can be brain-friendly, but the type and amount of oil used matters more than most people realize.",
+      "Small swaps, like choosing fish over red meat or adding more greens, do more for brain health than an all-or-nothing approach to eating.",
+    ],
+    bodyHtml: `<section id="food-intro">
+        <p class="art-lede">When you pick up a plate of food to eat, how many of you stop to ask if what you want to eat is good for you? Or do you just shove everything you see into your mouth? Many of you know foods that are good for you and foods that are not. For example, many lactose-intolerant people still consume milk and other food items that contain lactose despite the consequences. Several obese and overweight people still consume processed sugars and very fatty meals despite the havoc it wreaks on their health.</p>
+        <p>Diet plays a huge part in physical health, and brain health is a very important aspect of that. Some meals boost mental ability and performance while some drain it. In the first article, we examined the impact food has on the brain. In this one, we will show meals that boost mental performance and meals that drain it.</p>
+      </section>
+      <section id="food-good">
+        <h2>What Foods Are Good for the Brain?</h2>
+        <p>In our diet, several food items contain nutrients that are highly beneficial for the brain. We shall examine some of these brain boosters.</p>
+        <h3>Omega-3 Fatty Acids</h3>
+        <p>These fatty acids are found in fatty fish such as salmon or mackerel (Titus fish) and sardines. They can also be obtained from plant-based sources such as chia seeds, flaxseeds, walnuts, and soybeans. Based on the situation of the country, salmon may be too expensive for the average person to add to their meal plans, but Titus and sardines are still relatively affordable. So, instead of eating red meat all the time, you could switch to fish on a couple of days. There are three forms of Omega-3: alpha-linolenic acid (ALA), eicosapentaenoic acid (EPA), and docosahexaenoic acid (DHA).<sup>[1]</sup></p>
+        <p>Omega-3 fatty acids improve thinking, learning, blood flow to the brain, and cognition.<sup>[2]</sup> Furthermore, studies show that increased consumption of Omega-3 fatty acids reduces the risk of mental health conditions such as autism and depression.<sup>[3]</sup></p>
+        <h3>B-Vitamins and Folate</h3>
+        <p>The B-vitamin complex is very essential to proper brain function. Increased consumption has been associated with reduced risks of dementia and other neurodegenerative diseases.<sup>[4]</sup> There are twelve vitamins under that umbrella, and getting them all in your diet can be a bit tricky, but lean meat, chicken, milk/dairy, eggs, and green leafy vegetables are excellent sources.<sup>[5]</sup></p>
+        <h3>Antioxidants</h3>
+        <p>Antioxidants play a huge role in brain health. They help protect the brain from oxidative stress caused by free radicals. Free radicals bond with lipids and proteins in the brain and alter their structure, increasing vulnerability to neurodegenerative diseases. Free radicals also disrupt the function of enzymes and neurotransmitters in the brain.</p>
+        <p>Antioxidants protect the brain in two ways: first, they prevent the generation of free radicals and capture and block the ones that are generated; second, they repair cellular damage before it accumulates and alters cell metabolism.<sup>[6]</sup> Antioxidants are found in berries, green leafy vegetables, nuts and seeds such as walnuts, sunflower seeds, pecans, and almonds, herbs and spices such as ginger, garlic, cinnamon, and oregano, and various beverages.<sup>[7]</sup></p>
+        <h3>Water</h3>
+        <p>Water is very beneficial to the brain. The brain is composed of about 70% water, so drinking enough water helps to maintain fluid balance. Dehydration reduces blood flow to the brain by making the blood thicker and more difficult to pump. The brain also functions better and more optimally when the person is well hydrated — dehydration causes cognitive issues and brain fog, and drinking enough water helps prevent this.<sup>[8]</sup></p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🐟</div>
+          <div>A simple swap that costs almost nothing: replace one or two red meat meals a week with Titus fish or sardines. Small, affordable changes still move the needle.</div>
+        </div>
+      </section>
+      <section id="food-bad">
+        <h2>What Foods Are Harmful to the Brain?</h2>
+        <p>We have examined foods that are beneficial for the brain. Now, let's look at foods that harm it.</p>
+        <h3>Alcohol</h3>
+        <p>Alcohol does a lot of harm to the brain. It overrides the prefrontal cortex, lowering inhibitions and encouraging impulsive actions — this is why people act irrationally when drunk. It also affects the hippocampus, preventing it from consolidating long-term memories, which is why remembering the events of a wild night out is sometimes difficult.<sup>[9]</sup> Alcohol and drug abuse harm the brain in a lot of ways, and their frequent use should be avoided.</p>
+        <h3>Refined Sugar</h3>
+        <p>Refined sugar should be minimised in the diet. While the brain consumes glucose to generate energy to function, too much sugar is bad for the brain. It prevents the production of Brain-Derived Neurotrophic Factor, which reduces the brain's ability to form new memories.<sup>[11]</sup> It also causes shrinkage of blood vessels in the brain and leads to overall cognitive decline.<sup>[10]</sup></p>
+        <h3>Trans Fats and Excessive Frying</h3>
+        <p>Trans fats and excessively fried foods are harmful to the brain. Trans fats can cause inflammation of the brain, damage to the neurons, and memory impairment.<sup>[12]</sup> They can also lead to a decrease in brain volume and decreased cognitive function.<sup>[13]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">🍚</div>
+          <div>Let's take a look at the average Nigerian meal — rice, beans or spaghetti, with stew and meat or eggs. Most of this is fine, but the oil used to make the stew and fry the meat can be harmful, especially when eating out. Many eateries reuse oil or buy the cheapest oil possible to save costs. In soups like efo or egusi, palm oil is also often added far beyond what's needed, and that excess builds up as unhealthy fat that can damage the brain.</div>
+        </div>
+      </section>
+      <section id="food-better">
+        <h2>What We Can Do Better</h2>
+        <p>The Nigerian diet is rich in very nutritious food items. Try to eat fruits and vegetables weekly. Avoid overcooking vegetables to avoid destroying the vitamins and minerals they contain, and add herbs and spices such as ginger, garlic, turmeric, and cinnamon to your meals. Many items we often turn our noses at are very rich in nutrients — examples are locust beans (iru) and crayfish (ede). Reduce the consumption of red meat and replace it with fish and lean meat, which are healthier options.</p>
+      </section>
+      <section id="food-wrapup">
+        <h2>Wrap Up</h2>
+        <p>One of the best steps you can take for your health is eating healthy. As we said in the last article, the food you eat fuels your brain, and just like a car, the quality of fuel you put in your tank significantly affects engine performance.</p>
+        <p>Aim to eat right and take care of your health. Your brain will thank you for it. I will watch what I eat and avoid foods that are draining my brain power. The question I am asking is, will you do the same?</p>
+        <p>Further reading: did you miss our last article on what effect food has on your brain? Read <a href="#" data-route="cortex-article-15" style="color:var(--teal);text-decoration:underline">How Does Nutrition Affect the Brain?</a></p>
+      </section>
+      <section id="food-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What foods are good for brain function?</div>
+            <div class="art-faq-a">Foods rich in omega-3 fatty acids like fish, walnuts, and flaxseed, along with antioxidant-rich foods like leafy greens and berries, and B-vitamin sources like eggs and lean meat, all support healthy brain function.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What foods are bad for brain health?</div>
+            <div class="art-faq-a">Refined sugar, trans fats, excessive fried foods, and heavy alcohol consumption all negatively affect the brain, contributing to memory impairment, inflammation, and long-term cognitive decline.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does sugar affect memory and brain fog?</div>
+            <div class="art-faq-a">Yes. High sugar intake reduces the brain's production of BDNF, a protein essential for forming new memories, and contributes to blood vessel damage that affects overall brain function.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Are Nigerian foods good for brain health?</div>
+            <div class="art-faq-a">Many Nigerian staples like beans, fish, and leafy vegetables such as ugu and ewedu are brain-supportive. The main concern is the type and quantity of oil used in cooking, particularly reused oil or excess palm oil.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How does hydration affect brain function?</div>
+            <div class="art-faq-a">The brain is made up of about 70% water, and even mild dehydration can reduce blood flow to the brain, leading to brain fog and reduced concentration.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Harvard Health Publishing. <em>Omega-3 Foods: Incorporating Healthy Fats into Your Diet.</em> 2024. https://www.health.harvard.edu/diet-and-nutrition/omega-3-foods-incorporating-healthy-fats-into-your-diet</li>
+          <li>Godos, J., et al. <em>The Role of Nutrition in Brain Health and Cognitive Function.</em> 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9641984/</li>
+          <li>Godos, J., et al. <em>Diet and Mental Health: Review of the Emerging Evidence.</em> 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7468918/#sec9-nutrients-12-02333</li>
+          <li>Gómez-Pinilla, F. <em>Brain Foods: The Effects of Nutrients on Brain Function.</em> 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4772032/#sec6-nutrients-08-00068</li>
+          <li>Kris-Etherton, P. M., et al. <em>Nutrition and Brain Health: The Role of Dietary Patterns and Nutrients.</em> 2022. https://pmc.ncbi.nlm.nih.gov/articles/PMC9662251/</li>
+          <li>Müller, P., et al. <em>Nutrition and the Brain: How Diet Influences Cognitive Function.</em> 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7582347/#sec3-ijms-21-07152</li>
+          <li>Gómez-Pinilla, F. <em>Brain Foods: The Effects of Nutrients on Brain Function.</em> 2008. https://pmc.ncbi.nlm.nih.gov/articles/PMC2841576/</li>
+          <li>Ganio, M. S., Armstrong, L. E., Casa, D. J., et al. <em>Mild Dehydration Impairs Cognitive Performance and Mood of Men.</em> British Journal of Nutrition, 2011. https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/mild-dehydration-impairs-cognitive-performance-and-mood-of-men/3388AB36B8DF73E844C9AD19271A75BF</li>
+          <li>National Institute on Alcohol Abuse and Alcoholism (NIAAA). <em>Alcohol and the Brain: An Overview.</em> 2025. https://www.niaaa.nih.gov/publications/alcohol-and-brain-overview</li>
+          <li>Aviv Clinics. <em>How Does Sugar Affect the Brain?</em> 2023. https://aviv-clinics.com/blog/nutrition/how-does-sugar-affect-the-brain/</li>
+          <li>Molteni, R., Barnard, R. J., Ying, Z., Roberts, C. K., &amp; Gómez-Pinilla, F. <em>A High-Fat, Refined Sugar Diet Reduces Hippocampal Brain-Derived Neurotrophic Factor, Neuronal Plasticity, and Learning.</em> Neuroscience, 2002. https://pubmed.ncbi.nlm.nih.gov/12088740/</li>
+          <li>Golomb, B. A., et al. <em>Dietary Trans Fat Consumption and Memory.</em> 2016. https://pubmed.ncbi.nlm.nih.gov/27215959/</li>
+          <li>UC San Diego. <em>Dietary Trans Fat Linked to Worse Memory.</em> UC San Diego Today, 2015. https://today.ucsd.edu/story/dietary_trans_fat_linked_to_worse_memory</li>
+        </ol>
+      </div>`,
+  },
 ];
