@@ -2104,4 +2104,112 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 17,
+    id: "cortex-article-17",
+    category: "Physical Brain Health",
+    gradFrom: "#3A2A0A",
+    gradTo: "#8A6A1A",
+    badgeBg: "rgba(255,213,79,0.2)",
+    badgeColor: "#FFE082",
+    cardColor: "#FFD54F",
+    title:
+      "Nigerian Meals that are Good for the Brain<br/>Eating for a Sharper Mind: Your Practical Brain-Food Guide",
+    deck: "You don't have to give up your favourite dishes for a healthier brain. A few small, intentional swaps to what's already on your plate go a long way.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "Nigerian Meals that are Good for the Brain",
+    cardExcerpt:
+      "A practical, budget-friendly guide to eating for a sharper mind — without abandoning the meals you already love.",
+    toc: [
+      { href: "#pf-intro", text: "Introduction" },
+      { href: "#pf-day", text: "A Sample Day of Brain-Healthy Eating" },
+      { href: "#pf-soups", text: "Soups, Oil, and Vegetables" },
+      { href: "#pf-protein", text: "Choosing Your Protein" },
+      { href: "#pf-hydration", text: "Water and the Brain" },
+      { href: "#pf-supplements", text: "Do I Need Supplements?" },
+      { href: "#pf-wrapup", text: "Wrap Up" },
+      { href: "#pf-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Brain-healthy eating in Nigeria doesn't mean giving up local staples — it means small, intentional adjustments to what's already on the plate.",
+      "Simple swaps, like Titus fish instead of red meat, or oatmeal instead of puff puff, meaningfully reduce processed sugar and unhealthy fat intake.",
+      "Moderating palm oil and avoiding overcooked vegetables helps preserve the nutrients that support brain function.",
+      "Water plays a bigger role in brain health than most people realise, supporting concentration, brain volume, and reducing brain fog.",
+      "Whole, nutrient-dense foods can meet most of the brain's nutritional needs, making supplements unnecessary for most people.",
+    ],
+    bodyHtml: `<section id="pf-intro">
+        <p class="art-lede">This week has been filled with discussion about food and the brain. We have said that just as fuel quality matters in a car, the quality of food we eat also matters to the brain.</p>
+        <p>In this article, we examine the Nigerian diet and point out ways to eat healthier meals that are beneficial for brain health. This is not about condemning the Nigerian diet — in this part of the world, we can boast about some of the most nutritious and diverse food items anywhere. It is about pointing out which choices serve the brain best, and making small, intentional adjustments.</p>
+      </section>
+      <section id="pf-day">
+        <h2>A Sample Day of Brain-Healthy Eating</h2>
+        <p>Before you have had anything to eat, drink a glass of water. Water helps to flush the system of waste and gets your brain started on the right foot.</p>
+        <h3>Breakfast</h3>
+        <p>Try bread, yam, or potatoes with eggs. Eggs contain B vitamins, which are good for cognition and memory. Yam is also beneficial because it contains complex carbohydrates, which provide energy without spiking blood sugar levels. Where you would normally reach for puff puff and a soft drink, try oatmeal or cereal instead — it meaningfully reduces the processed sugar and oil you consume weekly.</p>
+        <h3>Lunch</h3>
+        <p>Instead of just jollof rice on its own, add lean meat and vegetables like carrots and bell peppers. The vegetables aren't just there to make the plate look fancy — they contain antioxidants that protect the brain from free radicals, and fibre, which slows the release of sugar into the bloodstream. If you are having beans, swap out bread for plantain. Beans are rich in folate, which supports cognition and memory.</p>
+        <h3>Dinner</h3>
+        <p>Keep dinner simple and light — pap with moin moin or akara are good options. Heavy meals just before bed affect sleep quality, and poor sleep is bad for the brain, so lighter is better in the evening.</p>
+        <h3>Snacks</h3>
+        <p>Instead of oily snacks and sugary drinks, reach for groundnuts, corn, coconut, or fruit between meals. Sugary snacks and drinks cause sugar crashes, which reduce concentration, cause brain fog, and hinder focus at work or school.</p>
+      </section>
+      <section id="pf-soups">
+        <h2>Soups, Oil, and Vegetables</h2>
+        <p>When eating swallow with soup, remember that while palm oil is a good source of Vitamin A, too much of it is bad for the brain. Don't add enough to have it flowing over your efo or egusi — use it in moderation. Avoid overcooking your vegetables too, since prolonged heat destroys the vitamins they contain.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🥘</div>
+          <div>Don't overlook locust beans (iru) and crayfish (ede) because of their smell or taste. Both are highly nutritious and packed with vitamins and minerals that are genuinely beneficial for the brain.</div>
+        </div>
+      </section>
+      <section id="pf-protein">
+        <h2>Choosing Your Protein</h2>
+        <p>Reduce your intake of red meat and trim the fat before cooking to cut down on the fat in your diet. In place of beef or goat meat, try fish such as salmon. Salmon may be too expensive for most people, so mackerel — Titus fish — is a great substitute. It's easily affordable and packed with Omega-3 fatty acids, which are very beneficial for brain health.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">🐟</div>
+          <div>A budget-friendly rule of thumb: you don't need salmon to feed your brain well. A couple of Titus fish or sardine meals a week, swapped in for red meat, gets you most of the same benefit at a fraction of the cost.</div>
+        </div>
+      </section>
+      <section id="pf-hydration">
+        <h2>Water and the Brain</h2>
+        <p>Drinking water is very important for brain health. The brain is composed of roughly 70–80% water, so adequate hydration helps to maintain brain volume. Dehydration, on the other hand, reduces cognitive ability and causes brain fog. Make drinking water throughout the day a habit, not an afterthought.</p>
+      </section>
+      <section id="pf-supplements">
+        <h2>Do I Need Supplements?</h2>
+        <p>When nutrients are consumed in adequate volume through diet, there is usually no need for supplements. Supplements exist to augment what is missing from the diet — not to replace a healthy one. If you are eating a varied diet with enough fruits, vegetables, protein, and water, you are already covering most of what your brain needs.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">💊</div>
+          <div>Supplements are a top-up, not a shortcut. Whole foods, eaten consistently, do more for your brain than a bottle of pills ever will for most people.</div>
+        </div>
+      </section>
+      <section id="pf-wrapup">
+        <h2>Wrap Up</h2>
+        <p>This series has explored the relationship between food and the brain — how nutrition affects it, which foods are good for it and which harm it, and now, practical adjustments to your everyday meal plan. None of this requires abandoning the meals you grew up on. It just means paying a little more attention to what goes on the plate.</p>
+        <p>It's the weekend again — time to rest and relax, and let your brain recharge for the week ahead. Why not let your brain rest to prevent the effects of burnout? Burnout is real, and it affects more people than you think. Read <a href="#" data-route="cortex-article-11" style="color:var(--teal);text-decoration:underline">Your Brain Called. It Wants the Weekend Off</a>.</p>
+      </section>
+      <section id="pf-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What does a brain-healthy meal plan look like in Nigeria?</div>
+            <div class="art-faq-a">It includes everyday staples like yam, eggs, beans, fish, and leafy vegetables, with smaller portions of red meat, processed sugar, and excess oil.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How can I eat for better brain health on a budget?</div>
+            <div class="art-faq-a">Affordable local foods like Titus fish, beans, groundnuts, crayfish, and leafy greens like ugu and ewedu offer strong brain-health benefits without the cost of imported options like salmon or supplements.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are good brain-healthy breakfast options?</div>
+            <div class="art-faq-a">Eggs, yam, and oatmeal are strong choices, offering B-vitamins and steady-release complex carbohydrates instead of the sugar and processed oil found in options like puff puff.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can I improve brain health without supplements?</div>
+            <div class="art-faq-a">Yes. A varied diet with adequate whole foods can meet most nutritional needs, and supplements are typically only necessary to fill specific gaps rather than replace a healthy diet.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How much water should I drink for brain health?</div>
+            <div class="art-faq-a">There's no one-size-fits-all number, but drinking water consistently throughout the day, starting with a glass first thing in the morning, helps prevent the brain fog and reduced concentration linked to dehydration.</div>
+          </div>
+        </div>
+      </section>`,
+  },
 ];
