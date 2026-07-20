@@ -2212,4 +2212,116 @@ export const cortexArticles: CortexArticle[] = [
         </div>
       </section>`,
   },
+  {
+    num: 18,
+    id: "cortex-article-18",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#0A0A2A",
+    gradTo: "#1A1A5A",
+    badgeBg: "rgba(129,140,248,0.2)",
+    badgeColor: "#C7D2FE",
+    cardColor: "#818CF8",
+    title: 'What PTSD Actually Is (And Why It\'s More Than "Shock")',
+    deck: "A single traumatic event can rewire how the brain reads danger. Here's what's actually happening in the amygdala, hippocampus, and prefrontal cortex — and what it looks like in a Nigerian context.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: 'What PTSD Actually Is (And Why It\'s More Than "Shock")',
+    cardExcerpt:
+      "From okada accidents to the Ozoro festival, PTSD shows up in everyday Nigerian life. Here's what it does to the brain, and why toughing it out doesn't work.",
+    toc: [
+      { href: "#pt-intro", text: "Introduction" },
+      { href: "#pt-what", text: "What Is PTSD?" },
+      { href: "#pt-vs", text: "PTSD vs. Post-Traumatic Stress" },
+      { href: "#pt-brain", text: "What PTSD Does to the Brain" },
+      { href: "#pt-nigeria", text: "The Nigerian Situation" },
+      { href: "#pt-managing", text: "Managing PTSD" },
+      { href: "#pt-wrapup", text: "Wrap Up" },
+      { href: "#pt-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "PTSD is a mental health condition that can develop after experiencing or witnessing a traumatic event, from road accidents to assault to combat.",
+      "PTSD differs from ordinary post-traumatic stress mainly in duration — PTS tends to fade within a month, while PTSD can persist for years without treatment.",
+      "PTSD changes how three brain regions work together: the amygdala becomes over-sensitive, the hippocampus struggles to flag stimuli as safe, and the prefrontal cortex loses some of its ability to calm the other two down.",
+      "In Nigeria, PTSD shows up in specific everyday contexts — from okada accidents to public transport assault to events like the Ozoro festival — and stigma often keeps both women and men from seeking help.",
+      "Left untreated, PTSD can escalate into panic attacks, substance use, depression, and suicide risk; treatment and trusted support networks meaningfully improve outcomes.",
+    ],
+    bodyHtml: `<section id="pt-intro">
+        <p class="art-lede">How many of us frequently take commercial motorcycles (okada)? If you use them often for transport, chances are you've been in — or witnessed — an accident involving one. How did you feel the next time you had to board a bike again? Were you scared, or did you brush it off as if nothing happened?</p>
+        <p>If you had flashbacks, sweating, or anxiety before boarding a bike, you would have been experiencing PTSD. For most people who have been in or witnessed a traumatic event, a condition can develop called Post-Traumatic Stress Disorder. So without further delay, let's get into it.</p>
+      </section>
+      <section id="pt-what">
+        <h2>What Is PTSD?</h2>
+        <p>Post-Traumatic Stress Disorder, commonly shortened to PTSD, is a mental health condition that affects people who have been in or witnessed a traumatic event or a series of traumatic events.<sup>[1]</sup> It develops after a person has been through something traumatising — soldiers returning home from war, someone who has survived a robbery, or someone who was assaulted. These events are deeply traumatising and can lead to serious, lasting consequences.</p>
+      </section>
+      <section id="pt-vs">
+        <h2>What Is the Difference Between Post-Traumatic Stress Disorder and Post-Traumatic Stress?</h2>
+        <p>Post-traumatic stress is short-lived and usually fades within a month, while post-traumatic stress disorder lasts much longer and can persist for years. The symptoms of PTS and PTSD can look similar, but PTS tends to fade sooner, even without professional treatment.<sup>[2]</sup></p>
+      </section>
+      <section id="pt-brain">
+        <h2>What Does PTSD Do to the Brain?</h2>
+        <p>As covered in our earlier articles on stress and anxiety, the amygdala is the brain's emotional centre. It handles emotions such as fear, sadness, and worry, and when it processes them, it sends impulses to the sympathetic nervous system to activate the fight-or-flight response. In an ideal system, once the situation has passed, the parasympathetic system restores calm to the body. But in someone with PTSD, the amygdala becomes more sensitive and is easily triggered.<sup>[3]</sup></p>
+        <p>The next structure affected is the hippocampus, which consolidates memory — converting short-term memory into long-term memory. In PTSD, the hippocampus struggles to distinguish between safe and unsafe stimuli, and doesn't reliably send calming signals to the amygdala.<sup>[4]</sup></p>
+        <p>Consider an example: when we hear a loud bang, an average person might flinch. A soldier who has served at the warfront might react very differently because of his exposure to combat — instinctively taking cover or scanning for danger.</p>
+        <p>The third area affected is the prefrontal cortex, the seat of executive decision-making. In a normal situation, once a stressful moment has passed, the prefrontal cortex helps activate the parasympathetic nervous system, which calms the body down.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">🧠</div>
+          <div>Think of it this way: the sympathetic nervous system is the body's accelerator, and the parasympathetic nervous system is the brake. In people with PTSD, the prefrontal cortex's ability to regulate the amygdala is hindered<sup>[5]</sup> — which is part of why people can feel paranoid even when there's no obvious sign of danger.</div>
+        </div>
+      </section>
+      <section id="pt-nigeria">
+        <h2>The Nigerian Situation</h2>
+        <p>In all honesty, the Nigerian situation is not the easiest for people living with PTSD — especially women who have been assaulted. There are many incidents of women being touched inappropriately on buses and other public transport. Imagine a woman who has already been assaulted being touched inappropriately by a man in an enclosed space — it could easily retrigger her trauma.</p>
+        <p>Another incident that comes to mind is the unfortunate Ozoro festival, in which a number of men took to the streets to assault and publicly strip women of their clothing.<sup>[6]</sup> Recovery from an experience like that can be long and arduous, especially for anyone who has to keep living in an area with a large male presence.</p>
+        <p>Men don't have it much easier. Men are often mocked or put down for admitting they deal with PTSD. African societies often expect men to be tough and keep their struggles to themselves — a belief system that gets preached to boys from a young age, who are told to "man up" when they try to express what they're going through.</p>
+        <p>When left untreated, PTSD can lead to more serious complications: panic or anxiety attacks, substance use, depression, and suicide — particularly among former military personnel. Many veterans have admitted that the hardest part of war was coming home. The adjustment from combat back to civilian peace can take a real toll on mental health, and many find it difficult to cope.</p>
+      </section>
+      <section id="pt-managing">
+        <h2>Managing PTSD</h2>
+        <p>Managing PTSD is more than just telling someone to deal with it or pray it away. For religious people, opening up to trusted members of a local assembly, alongside therapy, can help. If you have people you trust, open up to them about your trauma — they can offer encouragement and help you work through it. Some may even go out of their way to help you feel safe around them.</p>
+      </section>
+      <section id="pt-wrapup">
+        <h2>Wrap Up</h2>
+        <p>PTSD is nothing to be ashamed of. It's a serious condition that deserves help and treatment. If you're dealing with PTSD, please seek help and take care of yourself. If someone around you is dealing with PTSD, please don't shame them for it — encourage them to seek help, and support them where you can.</p>
+        <p>Further reading: nutrition also plays an important role in how the brain copes and recovers. Read <a href="#" data-route="cortex-article-16" style="color:var(--teal);text-decoration:underline">Which Foods are Good for My Brain, and Which Foods are Harming My Brain?</a></p>
+      </section>
+      <section id="pt-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is PTSD?</div>
+            <div class="art-faq-a">Post-Traumatic Stress Disorder is a mental health condition that can develop in people who have experienced or witnessed a traumatic event, such as an accident, assault, or combat.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How is PTSD different from ordinary post-traumatic stress?</div>
+            <div class="art-faq-a">Post-traumatic stress is usually short-lived and fades within about a month. PTSD lasts much longer, sometimes for years, and typically needs professional treatment to resolve.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What parts of the brain does PTSD affect?</div>
+            <div class="art-faq-a">PTSD primarily affects the amygdala (which becomes overly sensitive), the hippocampus (which struggles to flag stimuli as safe), and the prefrontal cortex (which loses some ability to calm the other two down).</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Why is PTSD often overlooked in Nigeria?</div>
+            <div class="art-faq-a">Stigma plays a large role — women who report assault-related trauma are often not believed or supported, and men are frequently discouraged from admitting they're struggling at all.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What happens if PTSD goes untreated?</div>
+            <div class="art-faq-a">Untreated PTSD can escalate into panic or anxiety attacks, substance use, depression, and in serious cases, suicide risk — particularly among former military personnel.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How can someone start managing PTSD?</div>
+            <div class="art-faq-a">Professional therapy is central, but opening up to trusted people — whether a faith community, friends, or family — can provide meaningful support alongside treatment.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>American Psychiatric Association. <em>What is PTSD?</em> https://www.psychiatry.org/patients-families/ptsd/what-is-ptsd</li>
+          <li>Brainline. <em>What are differences between PTS and PTSD.</em> https://www.brainline.org/article/what-are-differences-between-pts-and-ptsd</li>
+          <li>PTSD UK. <em>The Science and Biology of PTSD.</em> https://www.ptsduk.org/what-is-ptsd/the-science-and-biology-of-ptsd</li>
+          <li>National Center for Biotechnology Information (NCBI). <em>The Neurobiology of Post-Traumatic Stress Disorder.</em> 2011. https://pmc.ncbi.nlm.nih.gov/articles/PMC3182008/#sec21</li>
+          <li>National Center for Biotechnology Information (NCBI). <em>Post-Traumatic Stress Disorder.</em> 2012. https://www.ncbi.nlm.nih.gov/books/NBK201096</li>
+          <li>The Guardian Nigeria. <em>Ozoro's day of shame: How a cultural festival allegedly mutated into coordinated sexual violence.</em> 2026. https://guardian.ng/news/ozoros-day-of-shame-how-a-cultural-festival-allegedly-mutated-into-coordinated-sexual-violence/</li>
+        </ol>
+      </div>`,
+  },
 ];
