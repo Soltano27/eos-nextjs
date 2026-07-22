@@ -2324,4 +2324,139 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 19,
+    id: "cortex-article-19",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#2A0A3A",
+    gradTo: "#6A1A8A",
+    badgeBg: "rgba(186,104,200,0.2)",
+    badgeColor: "#E1BEE7",
+    cardColor: "#BA68C8",
+    title:
+      "What Are the Signs of Post-Traumatic Stress Disorder?<br/>Recognizing the Signs of PTSD In Yourself and Others",
+    deck: "PTSD rarely looks like the movies. Most signs are quiet and easy to miss — here's how intrusion, avoidance, mood changes, and hyperarousal actually show up.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle:
+      "What Are the Signs of Post-Traumatic Stress Disorder? Recognizing the Signs of PTSD In Yourself and Others",
+    cardExcerpt:
+      "PTSD rarely looks like the movies. Most signs are quiet and easy to miss — here's how to actually recognise them, in yourself and in others.",
+    toc: [
+      { href: "#ps-intro", text: "Introduction" },
+      { href: "#ps-intrusion", text: "Intrusion" },
+      { href: "#ps-avoidance", text: "Avoidance" },
+      { href: "#ps-mood", text: "Alterations in Feelings and Mood" },
+      { href: "#ps-arousal", text: "Exaggerated Reactivity and Arousal" },
+      { href: "#ps-different", text: "Why Symptoms Differ" },
+      { href: "#ps-nigeria", text: "Why PTSD Goes Unrecognised in Nigeria" },
+      { href: "#ps-help", text: "When Should You Seek Help?" },
+      { href: "#ps-wrapup", text: "Wrap Up" },
+      { href: "#ps-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "PTSD symptoms fall into four categories: intrusion, avoidance, negative changes in mood and thinking, and heightened arousal or reactivity.",
+      "PTSD rarely looks like the movies. Most signs are quiet and easy to miss, like avoiding a place, going numb, or throwing oneself into work.",
+      "Symptoms vary from person to person. The type of trauma, how often it occurred, and individual coping style all shape how PTSD shows up.",
+      "Stigma keeps many Nigerians from recognizing PTSD in themselves or others, especially assault survivors who are blamed and men who are shamed for struggling.",
+      "If symptoms last beyond a month and interfere with daily life, it's time to seek professional help. Recognizing the signs early opens the door to healing.",
+    ],
+    bodyHtml: `<section id="ps-intro">
+        <p class="art-lede">Have you ever seen PTSD depicted in movies? The affected person often starts panicking or wakes up screaming from a nightmare. In action movies, it could be involuntary action such as attacking people. While these are sometimes true, movies don't often tell the full story of what PTSD looks like. I mean, you can't blame them; they have to put what looks good on the screen.</p>
+        <p>In reality, signs of PTSD are not always as dramatic as shown in movies. Yes, they could be sometimes loud and obvious, but most times, they are quieter. They could be as simple as avoiding the area where the trauma occurred, flashbacks of the incident, or isolation and detachment.</p>
+        <p>In our last article, we examined what PTSD is and how the brain processes it. In this article, we will be examining the signs and symptoms of PTSD. So without further ado, the signs and symptoms of PTSD can be grouped under four categories.</p>
+      </section>
+      <section id="ps-intrusion">
+        <h2>Intrusion</h2>
+        <p>In this case, the person relives the event. The person experiences flashbacks, nightmares of the event, and painful recollections of the event. These recollections are not just visual. They could show up as smells, or in cases of people who were assaulted, it could be recollecting the pain they felt or the feeling of the assailant attacking them.<sup>[1]</sup></p>
+        <p>These recollections could be so vivid that the person can believe they are in that situation again, and they could act like it. These recollections are often triggered by words, sights, or smells associated with the trauma.</p>
+      </section>
+      <section id="ps-avoidance">
+        <h2>Avoidance</h2>
+        <p>This is avoiding reminders of the event. It could be a refusal to visit the area where the event occurred, avoiding talking about it, and trying to forget the event ever happened. It could also mean distancing themselves from friends and family who are trying to help or avoiding treatment and choosing to swallow the pain up.<sup>[2]</sup></p>
+        <p>Avoidance also shows up as numbing the pain with drugs or alcohol, throwing themselves into work or their career to keep busy all the time, and it could even go as far as the brain blocking out some memories of the event.<sup>[2]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">📌</div>
+          <div>Avoidance is one of the quietest signs of PTSD. It rarely looks dramatic — often it just looks like someone who has become very good at staying busy, or very good at steering conversations away from a certain topic.</div>
+        </div>
+      </section>
+      <section id="ps-mood">
+        <h2>Alterations in Feelings and Mood</h2>
+        <p>Some victims may have issues with guilt, regret, and self-blame.<sup>[4]</sup> This is especially true in Nigerian situations of women who were assaulted. The conversation often shifts from the actual assault and trauma to what she was wearing, what she was doing in the area, and other irrelevant issues.</p>
+        <p>The person could also be experiencing anger, difficulty feeling positive emotions, fear, or horror. In some cases, the person could just be numb emotionally and non-responsive to emotional feelings.<sup>[3]</sup></p>
+      </section>
+      <section id="ps-arousal">
+        <h2>Exaggerated Reactivity and Arousal</h2>
+        <p>In this case, the person displays hyperawareness, being easily startled, always scanning for danger, sweating, trouble sleeping or concentrating, anxiety, shaking, fast heartbeat.<sup>[5]</sup></p>
+        <p>The person will be looking out for signs of danger even in places where there aren't any, react more to being surprised or startled, and in some cases even react violently or aggressively to being startled.<sup>[6]</sup></p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🧠</div>
+          <div>These four categories often overlap in the same person. Someone can be avoiding a place, feeling numb about it, and still be jumpy and on edge — all as part of the same underlying condition.</div>
+        </div>
+      </section>
+      <section id="ps-different">
+        <h2>Why Do People Have Different Symptoms of PTSD?</h2>
+        <p>The trauma faced by one person is different from the one faced by another. Someone who lost a shop or house to fire would experience different symptoms from someone who was robbed at gunpoint.</p>
+        <p>In addition, some people can shake things off more easily than others, which is why their symptoms may not be as severe as those of others. Furthermore, exposure to trauma matters. In some cases, people who have been exposed to the same trauma multiple times might shut down and be numb. Some might accept it as their fate or even start feeling like they deserve it. Others might become more paranoid and see danger at every turn.</p>
+      </section>
+      <section id="ps-nigeria">
+        <h2>Why Does PTSD Go Unrecognised in Nigeria?</h2>
+        <p>Nigeria is not the best place for people with PTSD, especially women who have been violently assaulted. In many cases, the victims are blamed and told the situation is their fault. Some even go as far as saying the victim enjoyed it. The justice system has unfortunately failed many victims, and the knowledge that their abusers are walking free keeps many of them trapped in the cycle of pain and fear.</p>
+        <p>On the other hand, many boys who were abused keep it to themselves because of the stigma people associate with it. They get seen as weak because of their experience. This keeps many of them from seeking help, and unfortunately, some of them grow up and replicate this abuse to others.</p>
+        <p>Many signs of PTSD are often written off as spiritual attacks, and because of this, the people don't often get the help they need. While faith helps by reassuring the person and providing a community that can keep tabs on the person to make sure they are okay, there is still the need to see a professional for treatment.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>Stigma is often the biggest barrier to recognising PTSD — not the symptoms themselves. When blame or shame gets attached to trauma, people learn to hide the signs rather than name them.</div>
+        </div>
+      </section>
+      <section id="ps-help">
+        <h2>When Should You Seek Help?</h2>
+        <p>It is important to seek help once you notice the signs listed above. This becomes crucial once they are interfering with work, relationships, and other aspects of life. It would be much easier if there were some sort of test you could use to know if you have PTSD, but if you check the signs listed in this article, you can have a better idea of your condition.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💬</div>
+          <div>For the person dealing with PTSD: seeking help is not a sign of weakness or that you deserved what happened to you. It just means you have a lot, and you need help with it. It was not your fault. Please don't hold on to the guilt and pain, and don't let what happened to you define you. Get some help today. You are greater than what happened to you.</div>
+        </div>
+      </section>
+      <section id="ps-wrapup">
+        <h2>Wrap Up</h2>
+        <p>PTSD shows up in different ways in different people. It is important to recognise the signs and symptoms of PTSD in ourselves and people around us. When we see these signs, let us get help or encourage them to get help.</p>
+        <p>In our next article, we will examine practical steps to help those with PTSD. Make sure you don't miss it.</p>
+        <p>Further reading: did you miss our last article on what PTSD actually is? Read <a href="#" data-route="cortex-article-18" style="color:var(--teal);text-decoration:underline">What PTSD Actually Is (And Why It's More Than "Shock")</a>.</p>
+      </section>
+      <section id="ps-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are the signs of PTSD?</div>
+            <div class="art-faq-a">The four main signs are intrusion, avoidance, mood changes, and hyperarousal. Intrusion means flashbacks and nightmares. Avoidance means staying away from reminders. Mood changes bring guilt or numbness. Hyperarousal means being easily startled or always on edge.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How do you know if you have PTSD?</div>
+            <div class="art-faq-a">Watch for flashbacks, avoidance, guilt, or feeling constantly on edge. These signs often last more than a month. They also start interfering with work, relationships, or daily life. If this sounds familiar, it may be time to speak with a professional.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What does PTSD look like in real life?</div>
+            <div class="art-faq-a">It rarely looks like the movies. Most signs are quiet. Someone might avoid a certain street. They might go numb or throw themselves into work. Others become easily startled or struggle to sleep.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can PTSD symptoms be different for everyone?</div>
+            <div class="art-faq-a">Yes. The type of trauma shapes the symptoms. So does how often it happened. Personal coping style also plays a role. Two people can go through similar events and react very differently.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">When should you see a doctor for PTSD?</div>
+            <div class="art-faq-a">See a doctor once symptoms start affecting daily life. This includes work, relationships, or sleep. Waiting too long can make symptoms harder to manage. Early support leads to better outcomes.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>World Health Organization (WHO). <em>Post-Traumatic Stress Disorder (PTSD).</em> 2025. https://www.who.int/news-room/fact-sheets/detail/post-traumatic-stress-disorder</li>
+          <li>PTSD UK. <em>Symptoms of PTSD.</em> 2024. https://www.ptsduk.org/what-is-ptsd/symptoms-of-ptsd/7/</li>
+          <li>Mayo Clinic. <em>Post-Traumatic Stress Disorder (PTSD): Symptoms and Causes.</em> 2025. https://www.mayoclinic.org/diseases-conditions/post-traumatic-stress-disorder/symptoms-causes/syc-20355967</li>
+          <li>Office on Women's Health (U.S. Department of Health &amp; Human Services). <em>Post-Traumatic Stress Disorder (PTSD).</em> 2025. https://womenshealth.gov/mental-health/mental-health-conditions/post-traumatic-stress-disorder</li>
+          <li>NHS (National Health Service). <em>Post-Traumatic Stress Disorder (PTSD).</em> 2025. https://www.nhs.uk/mental-health/conditions/ptsd-post-traumatic-stress-disorder/</li>
+          <li>Cleveland Clinic. <em>Post-Traumatic Stress Disorder (PTSD).</em> 2025. https://my.clevelandclinic.org/health/diseases/9545-post-traumatic-stress-disorder-ptsd</li>
+        </ol>
+      </div>`,
+  },
 ];
