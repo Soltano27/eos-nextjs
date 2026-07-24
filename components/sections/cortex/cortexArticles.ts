@@ -2459,4 +2459,129 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 20,
+    id: "cortex-article-20",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#0A0A2A",
+    gradTo: "#1A1A5A",
+    badgeBg: "rgba(129,140,248,0.2)",
+    badgeColor: "#C7D2FE",
+    cardColor: "#818CF8",
+    title: "How Do You Get Help If You Have PTSD?<br/>Healing and Treatment: What Actually Helps",
+    deck: "There is no quick fix for PTSD, but recovery is possible. Here's what CBT, EMDR, medication, and community actually do — and why healing in Nigeria comes with barriers most people never talk about.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "How Do You Get Help If You Have PTSD? Healing and Treatment: What Actually Helps",
+    cardExcerpt:
+      "CBT, EMDR, medication, and community each play a different role in PTSD recovery. Here's what actually helps, and what stands in the way in Nigeria.",
+    toc: [
+      { href: "#ph-intro", text: "Introduction" },
+      { href: "#ph-treatment", text: "How Is PTSD Treated?" },
+      { href: "#ph-community", text: "The Role of Community" },
+      { href: "#ph-nigeria", text: "Barriers to Recovery in Nigeria" },
+      { href: "#ph-recovery", text: "What Recovery Looks Like" },
+      { href: "#ph-wrapup", text: "Wrap Up" },
+      { href: "#ph-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "There is no quick fix for PTSD. Healing takes time, and for some, it can take months or even years.",
+      "Treatment usually works best as a combination. CBT, EMDR, and medication each play a different role, and what works varies from person to person.",
+      "Community is a core part of recovery, not an extra. Family, friends, and faith communities help people feel less alone and more supported through the process.",
+      "Nigeria's cultural attitudes remain a real barrier to healing. Stigma, spiritual misattribution, and victim-blaming keep many people from seeking help.",
+      "Recovery means the trauma no longer controls your life, not that it disappears.",
+    ],
+    bodyHtml: `<section id="ph-intro">
+        <p class="art-lede">Have you seen someone visibly showing the signs of PTSD? Are they constantly scanning their environment, avoiding places associated with their trauma, or are they easily startled? Or are you the someone? If you know someone who has been through a traumatic event and is experiencing PTSD and you want to help them, then this article is for you.</p>
+        <p>In the previous articles, we examined what PTSD is, and we discussed the signs of PTSD. In this article, we examine how to get help for yourself or someone you know who is going through PTSD.</p>
+        <p>Here is one truth. There is no quick fix to treatment. It might take some months and even years in extreme cases. It might not exactly be comfortable either. It can make you confront your trauma, and that is not always easy to do. But here is the truth. If you truly focus on your recovery and treatment, little by little, you will get better and move past your trauma.</p>
+        <p>Now is the time to answer the question we came here to discuss. Let's get into it.</p>
+      </section>
+      <section id="ph-treatment">
+        <h2>How Is PTSD Treated?</h2>
+        <p>There are a couple of treatment options in the case of PTSD. We shall explore them together.</p>
+        <h3>Cognitive Behavioural Therapy (CBT)</h3>
+        <p>One common occurrence in people with PTSD is that they see the world as a dangerous place. They see danger behind every turn, and they see themselves as powerless to stop it. This makes them paranoid and keeps them from feeling safe even in places where there is no danger.</p>
+        <p>Cognitive behavioural therapy focuses on helping the patients process trauma and unlearn harmful patterns of thinking and behaviour.<sup>[1]</sup></p>
+        <p>CBT involves restructuring the worldview of patients. For example, a lady who was assaulted might believe it was her fault, especially in a Nigerian setting where victim blame is quite common. Rather than see the incident as the work of an irresponsible person, she might blame herself for what happened. CBT aims to correct these patterns of thinking.<sup>[1]</sup></p>
+        <p>CBT is a very effective form of treatment for people with PTSD. It allows the patient to properly process their trauma and see things the right way. It is very effective for kids, adolescents, and adults.<sup>[2]</sup></p>
+        <h3>Eye Movement Desensitization and Reprocessing (EMDR)</h3>
+        <p>This is an eight-step form of therapy that involves changing the responses to the emotions, thoughts, or behaviours that result from trauma. It allows the patient to remember the traumatic event without feeling like they are reliving it.<sup>[3]</sup> Compared to other forms of treatment, it is a relatively new form of treatment.</p>
+        <p>The patient is asked to remember the event, then, using left-to-right hand movements or tapping on the knees, they examine the negative thoughts that come up, helping the patient process the event, let go of these negative thoughts, and develop positive thoughts.<sup>[4]</sup></p>
+        <p>It helps them remember the event without the fear and terror they must have felt when it happened. This way, they can remember without feeling like it is happening all over again.<sup>[5]</sup></p>
+        <h3>Medication</h3>
+        <p>Medicines that are used for depression and anxiety are often prescribed for people going through PTSD. They include medicines such as paroxetine (Paxil), sertraline (Zoloft), and venlafaxine (Effexor).<sup>[6]</sup> It is very important to note that these medicines are only to be used after a doctor has prescribed them. Self-medication must be avoided completely.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🧠</div>
+          <div>Treatment of PTSD usually involves a combination of these options. It depends on the case and the person, and recovery times differ. In some cases, the person might be admitted if medical professionals think they could hurt themselves or others.<sup>[7]</sup></div>
+        </div>
+      </section>
+      <section id="ph-community">
+        <h2>What Is the Role of Community in Recovery?</h2>
+        <p>A quote from <em>The Jungle Book</em> by Rudyard Kipling says, "The strength of the wolf is the pack and the strength of the pack is the wolf." Having a supportive community greatly helps in the recovery process. There is the feeling that you are not alone; you have people you can confide in, people who you can call on your bad days, who will encourage you to get help and help to counter your negative thoughts about the incident.</p>
+        <p>This community could be family, friends, colleagues, or your local congregation. For religious people, worship services can be very beneficial. You are encouraged by the proceedings of the service. The music can be uplifting, readings from scriptures can offer encouragement, and the sermons can also provide some form of encouragement. In addition, you have people to check up on you, support you, and hold you up on your dark days.</p>
+      </section>
+      <section id="ph-nigeria">
+        <h2>What Are Barriers to Recovery in Nigeria?</h2>
+        <p>In Nigeria, there are a number of barriers to recovery.</p>
+        <p>First and foremost, there is a shortage of knowledge about mental health conditions. Many Nigerians attribute the signs of many mental health conditions to spiritual attacks. For example, people suffering from epilepsy are often regarded as demon-possessed. The lack of awareness and education prevents many people from recognising the signs of mental conditions in other people and encouraging them to seek help.</p>
+        <p>Furthermore, the culture and attitude of people can add to the trauma of those already suffering from PTSD. In several social media posts where men have opened up about being sexually abused as teens or kids, other men would comment that they wished it were them and that the victims must have enjoyed the experience. When men open up about physical abuse, they are often seen as weak or less masculine for talking about it. Many men find it difficult to confide in their female partners because of the fear of being seen as less than or weak.</p>
+        <p>In the case of women, victims of assault are often blamed for what they were wearing, being out late at night, or trusting the wrong people. In public, there are several reports of women being touched inappropriately or even groped by men.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>The Nigerian society is not the most conducive for healing and recovery, but things are getting better. More and more awareness is being raised daily, and people are getting informed about mental health.</div>
+        </div>
+      </section>
+      <section id="ph-recovery">
+        <h2>What Does Recovery Look Like for Someone with PTSD?</h2>
+        <p>Recovery is not a quick fix that will happen in a couple of days. The truth is that it may take a while. It may not be comfortable; it may involve you having to confront some aspects of your past, and it might involve you being vulnerable to others.</p>
+        <p>But you are worth it. You deserve to be okay and get the help you need. Don't try to fix things alone. If you have people who truly care about you and are willing to help you, open up to them. Yes, it may be scary to be vulnerable, especially if you are the one everyone leans on when they are not okay. But if they truly love you, they won't see you as weak or less than; they will hold you up and help you to stand.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💬</div>
+          <div>Recovery doesn't mean the trauma disappears — it means it no longer controls your life. Little by little, with the right treatment and the right people around you, you get there.</div>
+        </div>
+      </section>
+      <section id="ph-wrapup">
+        <h2>Wrap Up</h2>
+        <p>PTSD is a serious condition that affects people who have been through a traumatic event. It may involve avoiding reminders of the event, isolation from friends and family, anxiety attacks, scanning the environment for danger, and having flashbacks of the event.</p>
+        <p>Recovery is possible, and it usually involves a combination of therapy and medication.</p>
+        <p>Further reading: did you miss the previous article in which we discussed the signs of PTSD? Read <a href="#" data-route="cortex-article-19" style="color:var(--teal);text-decoration:underline">What Are the Signs of Post-Traumatic Stress Disorder?</a></p>
+      </section>
+      <section id="ph-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">How is PTSD treated?</div>
+            <div class="art-faq-a">PTSD is treated with therapy, medication, or both. Cognitive Behavioral Therapy (CBT) helps reframe harmful thought patterns. EMDR helps the brain reprocess traumatic memories. Medication can support recovery when prescribed by a doctor.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is the best treatment for PTSD?</div>
+            <div class="art-faq-a">There is no single best treatment for everyone. CBT and EMDR are both proven effective. Many people benefit from combining therapy with medication. The right approach depends on the person and their symptoms.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How long does it take to recover from PTSD?</div>
+            <div class="art-faq-a">Recovery time varies from person to person. Some people improve after a few months of treatment. Others need a year or longer. Consistent treatment leads to steady progress over time.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can PTSD be treated without medication?</div>
+            <div class="art-faq-a">Yes. Many people recover using therapy alone. CBT and EMDR are both effective without medication. A doctor can help determine if medication is also needed.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does community support help PTSD recovery?</div>
+            <div class="art-faq-a">Yes. Support from family, friends, and faith communities plays a major role in recovery. It helps reduce isolation and encourages people to stick with treatment. Community support works best alongside professional care.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>American Psychological Association (APA). <em>Cognitive Behavioral Therapy (CBT) for PTSD.</em> 2025. https://www.apa.org/ptsd-guideline/treatments/cognitive-behavioral-therapy</li>
+          <li>Kar, N. <em>Cognitive Behavioral Therapy for the Treatment of Post-Traumatic Stress Disorder: A Review.</em> 2011. https://pmc.ncbi.nlm.nih.gov/articles/PMC3083990/#sec39</li>
+          <li>Cleveland Clinic. <em>EMDR Therapy (Eye Movement Desensitization and Reprocessing).</em> 2025. https://my.clevelandclinic.org/health/treatments/22641-emdr-therapy</li>
+          <li>Mavranezouli, I., Megnin-Viggars, O., Daly, C., et al. <em>Psychological and Pharmacological Treatments for Post-Traumatic Stress Disorder in Adults: A Systematic Review and Network Meta-Analysis.</em> 2020. https://pmc.ncbi.nlm.nih.gov/articles/PMC7839656/</li>
+          <li>American Psychological Association (APA). <em>Eye Movement Desensitization and Reprocessing (EMDR) Therapy for PTSD.</em> 2025. https://www.apa.org/ptsd-guideline/treatments/eye-movement-reprocessing</li>
+          <li>Harvard Health Publishing. <em>PTSD: How Is Treatment Changing?</em> 2024. https://www.health.harvard.edu/blog/ptsd-how-is-treatment-changing-202405153041</li>
+          <li>NHS (National Health Service). <em>Post-Traumatic Stress Disorder (PTSD).</em> 2025. https://www.nhs.uk/mental-health/conditions/ptsd-post-traumatic-stress-disorder/</li>
+        </ol>
+      </div>`,
+  },
 ];
