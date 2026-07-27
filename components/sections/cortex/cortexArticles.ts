@@ -2468,10 +2468,12 @@ export const cortexArticles: CortexArticle[] = [
     badgeBg: "rgba(129,140,248,0.2)",
     badgeColor: "#C7D2FE",
     cardColor: "#818CF8",
-    title: "How Do You Get Help If You Have PTSD?<br/>Healing and Treatment: What Actually Helps",
+    title:
+      "How Do You Get Help If You Have PTSD?<br/>Healing and Treatment: What Actually Helps",
     deck: "There is no quick fix for PTSD, but recovery is possible. Here's what CBT, EMDR, medication, and community actually do — and why healing in Nigeria comes with barriers most people never talk about.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle: "How Do You Get Help If You Have PTSD? Healing and Treatment: What Actually Helps",
+    cardTitle:
+      "How Do You Get Help If You Have PTSD? Healing and Treatment: What Actually Helps",
     cardExcerpt:
       "CBT, EMDR, medication, and community each play a different role in PTSD recovery. Here's what actually helps, and what stands in the way in Nigeria.",
     toc: [
@@ -2581,6 +2583,141 @@ export const cortexArticles: CortexArticle[] = [
           <li>American Psychological Association (APA). <em>Eye Movement Desensitization and Reprocessing (EMDR) Therapy for PTSD.</em> 2025. https://www.apa.org/ptsd-guideline/treatments/eye-movement-reprocessing</li>
           <li>Harvard Health Publishing. <em>PTSD: How Is Treatment Changing?</em> 2024. https://www.health.harvard.edu/blog/ptsd-how-is-treatment-changing-202405153041</li>
           <li>NHS (National Health Service). <em>Post-Traumatic Stress Disorder (PTSD).</em> 2025. https://www.nhs.uk/mental-health/conditions/ptsd-post-traumatic-stress-disorder/</li>
+        </ol>
+      </div>`,
+  },
+
+  {
+    num: 21,
+    id: "cortex-article-21",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#0A2E3A",
+    gradTo: "#0E6B7A",
+    badgeBg: "rgba(38,198,218,0.2)",
+    badgeColor: "#80DEEA",
+    cardColor: "#26C6DA",
+    title:
+      "What Is Intelligence and Am I an Olodo?<br/>What Intelligence Actually Is (And Why 'Olodo' Doesn't Mean What You Think)",
+    deck: 'The "Olodo Uprising" debate assumes we all agree on what intelligence is. We don\'t. Here is what it actually means, the four forms it takes, and why nobody is born dumb.',
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "What Is Intelligence and Am I an Olodo?",
+    cardExcerpt:
+      'The "Olodo Uprising" debate assumes we agree on what intelligence is. Here is what it actually means, and why nobody is born dumb.',
+    toc: [
+      { href: "#int-intro", text: "Introduction" },
+      { href: "#int-what", text: "What Is Intelligence?" },
+      { href: "#int-types", text: "The Four Types" },
+      { href: "#int-brain", text: "What Determines Each Type" },
+      { href: "#int-olodo", text: "Am I an Olodo?" },
+      { href: "#int-wrapup", text: "Wrap Up" },
+      { href: "#int-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Intelligence isn't one fixed trait — it shows up as IQ (logical reasoning), EQ (managing emotions), SQ (reading people), and AQ (handling adversity), and most people are strong in some and weaker in others.",
+      'The "four types" framework is a popularised way of organising intelligence, not a single settled clinical model, so it is best treated as a useful lens rather than hard science.',
+      "Different brain regions handle different kinds of intelligence — the prefrontal cortex, parietal lobe, and hippocampus support IQ, while the amygdala, insula, anterior cingulate cortex, and prefrontal cortex support EQ and SQ.",
+      "The neuroscience behind Adversity Quotient is still underdeveloped, but people with higher AQ do tend to show better mental health and less burnout under sustained pressure.",
+      'Calling someone an "olodo" for not excelling in one type of intelligence ignores that intelligence is multidimensional — and that it can still be developed in the areas where a person is currently weaker.',
+    ],
+    bodyHtml: `<section id="int-intro">
+        <p class="art-lede">In a recent interview, the rapper Ycee raised a concern that has been sitting on a lot of minds. He spoke about the rise of content creators who produce content of little intellectual value, and argued that the Nigerian environment rewards that kind of content while ignoring people creating something of substance. He mentioned the streamer Peller as an example, and while he was careful to say he did not coin the phrase himself and was not insulting any creator directly, the term "Olodo Uprising" took off almost immediately.</p>
+        <p>Nigerians are split. Some agree with him. Others argue that these creators are simply making ends meet the only way available to them, and that there is nothing unintelligent about that. But underneath all the noise is a question worth answering properly: what is intelligence, actually? And what does it really mean to be an olodo? So, without further ado, let us examine what both these terms mean.</p>
+      </section>
+      <section id="int-what">
+        <h2>What Is Intelligence?</h2>
+        <p>Intelligence is the ability to learn from experience and to adapt, shape, and select environments.<sup>[1]</sup> In short, intelligence is the ability to use what you know to solve your problems.</p>
+        <p>Many of us remember the people we called "efiko" in school, the ones permanently at the top of the class. But many of us also know the person everybody consulted for relationship advice, or the one who somehow knew how to handle any difficult personality in the room. And most of us know that guy whose brilliance only fully switched on during sporting activities. Most people shine somewhere. The challenge is figuring out where.</p>
+      </section>
+      <section id="int-types">
+        <h2>What Are the Types of Intelligence?</h2>
+        <p>Intelligence does not come in only one shade. A widely used framework splits it into four types: IQ, EQ, SQ, and AQ.<sup>[2]</sup></p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">📌</div>
+          <div>A quick note before we go further: the "four types" model is a popularised way of organising how we talk about intelligence, not a single settled clinical model. Treat it as a useful lens rather than hard science.</div>
+        </div>
+        <h3>Intelligence Quotient (IQ)</h3>
+        <p>This measures a person's ability to comprehend, and their cognitive performance.<sup>[3]</sup> It deals with logical reasoning. People with a high IQ tend to do very well in school and approach problems logically.</p>
+        <p>It is often treated as the default indicator of intelligence. In school, those with high IQs frequently grasp topics faster than their classmates, especially when that ability is paired with consistent reading and genuine dedication to their studies.</p>
+        <h3>Emotional Quotient (EQ)</h3>
+        <p>This is also known as emotional intelligence. It refers to the ability to integrate logical reasoning and emotions to make sound decisions.<sup>[4]</sup> People with high EQ can recognise and manage their own emotions as well as the emotions of others, which helps them maintain healthy relationships. These are usually the people we turn to for relationship advice.</p>
+        <h3>Social Quotient (SQ)</h3>
+        <p>Social intelligence is the ability to tune into other people's emotions and read the subtle behavioural cues in a situation in order to choose the most effective response.<sup>[5]</sup> It is essentially an extension of emotional intelligence. Socially intelligent people find it far easier to make new friends and relate to strangers.</p>
+        <h3>Adversity Quotient (AQ)</h3>
+        <p>Some experts include this one, though it is not fully agreed upon. It refers to a person's ability to persist and endure difficult situations, and is essentially a measure of resilience.<sup>[9]</sup> People with high AQ can handle tougher situations for longer without breaking down.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">🧠</div>
+          <div>Almost nobody scores high across all four. The person who tops the class is not automatically the person who handles heartbreak, conflict, or a crisis well — and vice versa.</div>
+        </div>
+      </section>
+      <section id="int-brain">
+        <h2>What Determines Each Type of Intelligence?</h2>
+        <h3>The IQ Circuit</h3>
+        <p>High IQ involves the prefrontal cortex, the parietal lobe, and the hippocampus. The prefrontal cortex is in charge of executive decisions and coordinates logical thinking.<sup>[6]</sup> The parietal lobe receives and processes information gathered from the senses,<sup>[7]</sup> while the hippocampus consolidates long-term memory.<sup>[8]</sup></p>
+        <p>Put simply: the parietal lobe receives the information, the prefrontal cortex processes it and makes the decision, and the hippocampus stores it for later use.</p>
+        <h3>The EQ and SQ Circuit</h3>
+        <p>For emotional and social intelligence, the structures involved are the amygdala, the insula, the anterior cingulate cortex, and again the prefrontal cortex. Research on emotional awareness points to the insula as central to recognising our own emotional states.<sup>[11]</sup> The anterior cingulate cortex helps us process feelings and emotions,<sup>[10]</sup> the amygdala generates emotional reactions,<sup>[12]</sup> and the prefrontal cortex regulates those reactions.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🚗</div>
+          <div>The prefrontal cortex is what stops you from acting on every emotion the moment you feel it. Think of it as the brakes of the car — the amygdala presses the accelerator, and the prefrontal cortex decides whether you actually go.</div>
+        </div>
+        <h3>The AQ Circuit</h3>
+        <p>AQ is thought to involve the prefrontal cortex, the anterior cingulate cortex, the hippocampus, and the amygdala. It is important to be honest here: this area needs far more research into how the brain handles tough situations and builds resilience. What the evidence does show is that people with higher AQ tend to report better mental health and lower burnout under sustained pressure.<sup>[9]</sup></p>
+      </section>
+      <section id="int-olodo">
+        <h2>Am I an Olodo?</h2>
+        <p>This is the question many people quietly ask themselves. The truth is that no one is completely stupid. There are logically brilliant people who are terrible at handling relationships and social interactions. Plenty of nerds (this writer included) are shy in public and keep to themselves. And because people with high IQ often experience early success, some of them have had very little practice with adversity, which means their emotional resilience can be surprisingly thin.</p>
+        <p>Intelligence can also be developed. Some people are naturally gifted in one area, but that does not lock anyone out of building ability in the areas where they are currently weak.</p>
+        <p>So, to answer the question: no, you are not an olodo. Not topping your class, or not being the person who always has the solution, does not make you one. You might be the person who can defuse a volatile situation before it explodes, or the one who can walk into a room of strangers and leave with three new friends.</p>
+        <div class="art-callout art-callout-teal">
+          <div class="art-callout-icon">💬</div>
+          <div>While it is not actually proven that Albert Einstein said it, the quote attributed to him is worth sitting with: "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid."</div>
+        </div>
+      </section>
+      <section id="int-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Intelligence comes in different forms, and someone appearing deficient in one area does not make them dumb or an olodo. Intelligence can also be developed, which means people can genuinely learn to be more capable in the forms they currently lack. Nobody is born dumb — we simply have different capabilities.</p>
+        <p>Further reading: are you curious about how to maintain your relationships, or do you wonder how to become more emotionally intelligent? Read <a href="#" data-route="cortex-article-7" style="color:var(--teal);text-decoration:underline">The Skill Nobody Taught You in School: Emotional Intelligence</a>.</p>
+      </section>
+      <section id="int-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are the 4 types of intelligence?</div>
+            <div class="art-faq-a">The four commonly referenced types are IQ (Intelligence Quotient), EQ (Emotional Quotient), SQ (Social Quotient), and AQ (Adversity Quotient). IQ measures logical reasoning and comprehension, EQ measures how well you manage emotions, SQ measures how well you read and relate to people, and AQ measures how well you handle adversity and setbacks.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is IQ or EQ more important?</div>
+            <div class="art-faq-a">Neither is universally "more important" — they measure different things. IQ tends to predict academic and technical performance, while EQ tends to predict how well you build relationships, lead others, and handle stress. Most successful people draw on a mix of both, not just one.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What part of the brain controls intelligence?</div>
+            <div class="art-faq-a">No single part "controls" intelligence. The prefrontal cortex handles executive decision-making and logical thinking, the parietal lobe processes sensory information, and the hippocampus consolidates memory — together these support IQ. Emotional and social intelligence draw more heavily on the amygdala, insula, and anterior cingulate cortex.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can intelligence be improved or developed?</div>
+            <div class="art-faq-a">Yes. While some cognitive ability is influenced by genetics, all four types of intelligence — including emotional and social intelligence — can be strengthened through practice, self-awareness, and exposure to new experiences and challenges.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What does "Olodo Uprising" mean in Nigeria?</div>
+            <div class="art-faq-a">"Olodo Uprising" is a Nigerian social media term describing a trend where content creators without traditional academic credentials gain massive popularity and financial success, sparking debate over whether Nigerian culture undervalues intellectual achievement in favour of viral entertainment.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Sternberg, R. J. <em>Intelligence.</em> Dialogues in Clinical Neuroscience, 2012.</li>
+          <li>CambriLearn. <em>4 Types of Intelligence: IQ, EQ, SQ &amp; AQ Explained.</em> 2025.</li>
+          <li>ScienceDirect. <em>Intelligence Quotient — an Overview.</em></li>
+          <li>Six Seconds. <em>Emotional Intelligence: What Is EQ? Definition and How to Develop Yours.</em></li>
+          <li>Atre, S. <em>Difference Between IQ, EQ and SQ — The Social Intelligence, and Why SQ Is the Future.</em> Socialigence, 2017.</li>
+          <li>Hathaway, W. R., &amp; Newton, B. W. <em>Neuroanatomy, Prefrontal Cortex.</em> StatPearls / NCBI Bookshelf, 2023.</li>
+          <li>ScienceDirect. <em>Parietal Lobe — an Overview.</em></li>
+          <li>Schapiro, A. C., Reid, A. G., Morgan, A., Manoach, D. S., Verfaellie, M., &amp; Stickgold, R. <em>The Hippocampus Is Necessary for the Consolidation of a Task That Does Not Require the Hippocampus for Initial Learning.</em> Hippocampus, 2019.</li>
+          <li>Li, et al. <em>Adversity Quotient as Determining Factor of Mental Health and Professional Quality of Life Among Healthcare Professionals: A Systematic Review.</em> 2024.</li>
+          <li>ScienceDirect. <em>Anterior Cingulate Cortex — an Overview.</em></li>
+          <li>Smith, R., Lane, R. D., Parr, T., &amp; Friston, K. J. <em>Neurocomputational Mechanisms Underlying Emotional Awareness.</em> 2019.</li>
+          <li>Pessoa, L. <em>Emotion and Cognition and the Amygdala.</em> Neuropsychologia, 2010.</li>
         </ol>
       </div>`,
   },
