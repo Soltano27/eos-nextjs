@@ -2721,4 +2721,124 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+
+  {
+    num: 22,
+    id: "cortex-article-22",
+    category: "Mind &amp; Cognition",
+    gradFrom: "#0F1A2A",
+    gradTo: "#1E3A5F",
+    badgeBg: "rgba(56,189,248,0.2)",
+    badgeColor: "#BAE6FD",
+    cardColor: "#38BDF8",
+    title:
+      "What Social Media Is Doing to Your Attention<br/>(And Why the Olodo Uprising Missed the Real Culprit)",
+    deck: "Every scroll, like, and notification is a small tug-of-war for your brain's attention systems. Here's how that actually works — and what it means for developing minds.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle:
+      "What Social Media Is Doing to Your Attention (And Why the Olodo Uprising Missed the Real Culprit)",
+    cardExcerpt:
+      "Social media hijacks the brain's attention systems by rewarding emotionally engaging content. Here's how that shapes focus, mood, and even how young people think.",
+    toc: [
+      { href: "#sm-intro", text: "Introduction" },
+      { href: "#sm-attention", text: "How Attention Works in the Brain" },
+      {
+        href: "#sm-reward",
+        text: "What Gets Rewarded and What Gets Dismissed",
+      },
+      { href: "#sm-developing", text: "Effect on Developing Brains" },
+      { href: "#sm-wrapup", text: "Wrap Up" },
+      { href: "#sm-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Social media hijacks the brain's attention systems by rewarding emotionally engaging and highly stimulating content.",
+      "Frequent exposure to short-form content can shorten attention spans and make deep focus more difficult.",
+      "Excessive social media use is linked to anxiety, depression, and unhealthy social comparison, especially among young people.",
+      "Social media influences how people think by shaping opinions, beliefs, and behaviours through repeated exposure to specific content.",
+      "Social media is a valuable tool, but using it in moderation is important for protecting attention, sleep, and healthy brain development.",
+    ],
+    bodyHtml: `<section id="sm-intro">
+        <p class="art-lede">Social media is a part of our day-to-day life, whether we like it or not. We use WhatsApp for most communication, Instagram to record key moments, and watch videos on TikTok for education or amusement. Many people would be bored if they had to go for an hour without their devices. While our parents often criticised us for our attachment to our phones, many of them are just as guilty.</p>
+        <p>However, is social media completely safe to use? Are there repercussions of social media use on the brain? Follow us as we find out.</p>
+      </section>
+      <section id="sm-attention">
+        <h2>How Does Attention Work in the Brain?</h2>
+        <p>Attention is defined as the set of evolved brain processes that leads to adaptive and effective behavioural selection.<sup>[1]</sup> It simply means the ability to remain focused on something despite distractions such as a conversation, a class, a task, or even a train of thought.</p>
+        <p>Attention works through three different neural networks.</p>
+        <h3>Alerting System</h3>
+        <p>This is the system that controls your readiness and alertness. The Locus Coeruleus controls this system. When the Locus Coeruleus is engaged, it triggers the release of norepinephrine. When this neurotransmitter is released, the person's focus is engaged.<sup>[2]</sup></p>
+        <p>This is why dipping your face in ice-cold water instantly makes you alert — your nervous system fires up right away.</p>
+        <h3>Orienting System</h3>
+        <p>This system directs the person to the source of the stimulus. The Parietal Cortex controls it. When there is a stimulus that needs attention, acetylcholine is released, and it sharpens the sensory areas for that stimulus.<sup>[3]</sup></p>
+        <p>Think of it this way: if you are talking with someone in a crowded room, you are focused on the conversation, but if someone calls out your name, you turn your head in the direction of the person calling you and most likely respond.</p>
+        <h3>Executive System</h3>
+        <p>This is the part that really holds your focus. The Anterior Cingulate Cortex and the Lateral Prefrontal Cortex control it. The neurotransmitter for this system is dopamine.<sup>[4]</sup></p>
+        <p>For example, the executive attention system is what is keeping your focus on this article right now — you could switch to doing something else if you decided to. It's what keeps your focus on something, filtering everything else as noise.</p>
+        <p>In the crowded-room example, there will be a thousand and one conversations going on around you, but you don't pay attention to them, because your brain filters them out. However, when someone calls your name, your attention is triggered because it is relevant to you.</p>
+      </section>
+      <section id="sm-reward">
+        <h2>What Gets Rewarded and What Gets Dismissed?</h2>
+        <p>When we use social media platforms, we encounter different kinds of content. Our brains filter what we see and determine which types of information hold our focus.</p>
+        <p>In the issue of the Olodo Uprising, content that lacks any intellectual contribution tends to gain more popularity because it engages the alerting system — it triggers provocation, outrage, and disgust.</p>
+        <p>This kind of content is also easier for the executive attention system to digest, because there is nothing deep about it that requires actual effort to understand.</p>
+        <p>When you come across content you are interested in, the alerting system is engaged, the orienting system directs you to it, and the executive attention system keeps your focus on that content. If it is something you like, dopamine is released. Dopamine and serotonin are hormones of happiness and relaxation — this is why you feel happy or excited when you come across content you like.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">📱</div>
+          <div>Preferences can also change depending on the situation. Someone who has had a long day at work would most likely prefer something funny or relaxing over something that requires deep thinking.</div>
+        </div>
+      </section>
+      <section id="sm-developing">
+        <h2>What Is the Effect of Social Media on Developing Brains?</h2>
+        <p>The kind of content you consume can shape your patterns of thinking. In Nigeria, this is very important, especially given our young population.</p>
+        <p>Increased use of social media can reduce attention spans. Platforms like TikTok and Instagram, which churn out short-form content, can reduce the ability to focus on longer forms of interaction. This is because dopamine release happens very quickly with short-form content, and once a person is engaged in an activity that takes longer for dopamine release, the executive attention network loses its ability to hold focus.<sup>[5]</sup></p>
+        <p>Furthermore, increased use of social media contributes to anxiety and depression. Most people don't post their failures or struggles; rather, they tend to post their successes. This can make others feel like they are behind and increase the pressure to measure up to their contemporaries.<sup>[6]</sup></p>
+        <p>Moreover, social media use has also been associated with reduced sleep times in adolescents and teenagers. Most millennials were in bed by 10pm as kids. However, it is not uncommon to see teenagers today surfing through social media platforms till 2 in the morning. This lack of proper sleep hinders brain development. It also compromises the alerting system, because the person is still tired and in need of sleep when it is time for school.<sup>[7]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">💍</div>
+          <div>Social media also shapes the way people think. The recent wedding of a popular content creator, Geh Geh, caused an uproar — his audience consisted of men he often taught how not to be "exploited" by women, steering them away from serious relationships. His marriage stirred a ruckus, with many people clowning his supporters for following someone who didn't practice what he was teaching them.</div>
+        </div>
+      </section>
+      <section id="sm-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Social media is a part of life we cannot do without, but that does not mean it is without its drawbacks. It is important to protect growing minds from the harmful effects of social media. When unchecked, it can have detrimental effects on developing minds.</p>
+        <p>Further reading: if you missed our last article on intelligence, have no fear — you can read up on what intelligence is and the types of intelligence here: <a href="#" data-route="cortex-article-21" style="color:var(--teal);text-decoration:underline">What Is Intelligence and Am I an Olodo?</a></p>
+      </section>
+      <section id="sm-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">How does social media affect your brain?</div>
+            <div class="art-faq-a">Social media affects the brain by activating its attention and reward systems. Every notification, like, or engaging post can trigger the release of dopamine, making you want to keep scrolling. Over time, frequent exposure to highly stimulating content can make it harder to focus on tasks that require sustained attention.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can social media reduce your attention span?</div>
+            <div class="art-faq-a">Yes. Research suggests that frequent exposure to short-form content on platforms like TikTok, Instagram Reels, and YouTube Shorts can train the brain to expect quick rewards. This makes it more difficult to concentrate on activities such as reading, studying, or working for long periods.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does social media cause anxiety and depression?</div>
+            <div class="art-faq-a">Social media does not directly cause anxiety or depression in everyone, but excessive use has been linked to a higher risk of both conditions. Constantly comparing yourself with carefully curated posts can create feelings of inadequacy, loneliness, and pressure to keep up with others.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How does social media influence the way people think?</div>
+            <div class="art-faq-a">Social media shapes opinions by repeatedly exposing users to certain ideas, beliefs, and behaviours. The content people engage with is reinforced by recommendation algorithms, which can gradually influence attitudes, preferences, and even major life decisions.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How can you use social media without harming your brain?</div>
+            <div class="art-faq-a">You can reduce the negative effects of social media by limiting screen time, avoiding excessive use before bedtime, taking regular breaks, following educational and positive content, and making time for offline activities that require deep focus, such as reading, learning, and face-to-face conversations.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Krauzlis, R. J., Wang, L., Yu, G., &amp; Katz, L. N. <em>What Is Attention?</em> Wiley Interdisciplinary Reviews: Cognitive Science, 2023.</li>
+          <li>Neurosity. <em>The Neuroscience of Focus: Understanding Attention.</em> 2023.</li>
+          <li>Petersen, S. E., &amp; Posner, M. I. <em>The Attention System of the Human Brain: 20 Years After.</em> Annual Review of Neuroscience, 2012.</li>
+          <li>Focus Flight. <em>The Neuroscience of Attention (Plain English).</em> 2024.</li>
+          <li>IRE Journals. <em>The Neuroscience of Attention and Focus.</em> 2024.</li>
+          <li>Azem, L., Al Alwani, R., Lucas, A., Alsaadi, B., Njihia, G., Bibi, B., Alzubaidi, M., &amp; Househ, M. <em>Social Media Use and Depression in Adolescents: A Scoping Review.</em> Behavioral Sciences, 2023.</li>
+          <li>Nagata, J. M., Cheng, C. M., Shim, J., Kiss, O., Ganson, K. T., Testa, A., et al. <em>Bedtime Screen Use Behaviors and Sleep Outcomes in Early Adolescents: A Prospective Cohort Study.</em> Journal of Adolescent Health, 2024.</li>
+        </ol>
+      </div>`,
+  },
 ];
