@@ -2586,99 +2586,87 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
-
   {
     num: 21,
     id: "cortex-article-21",
-    category: "Mental Health &amp; Performance",
-    gradFrom: "#0A2E3A",
-    gradTo: "#0E6B7A",
-    badgeBg: "rgba(38,198,218,0.2)",
-    badgeColor: "#80DEEA",
-    cardColor: "#26C6DA",
+    category: "Mind &amp; Cognition",
+    gradFrom: "#0F1A2A",
+    gradTo: "#1E3A5F",
+    badgeBg: "rgba(56,189,248,0.2)",
+    badgeColor: "#BAE6FD",
+    cardColor: "#38BDF8",
     title:
-      "What Is Intelligence and Am I an Olodo?<br/>What Intelligence Actually Is (And Why 'Olodo' Doesn't Mean What You Think)",
-    deck: 'The "Olodo Uprising" debate assumes we all agree on what intelligence is. We don\'t. Here is what it actually means, the four forms it takes, and why nobody is born dumb.',
+      "What Intelligence Actually Is<br/>(And Why 'Olodo' Doesn't Mean What You Think)",
+    deck: "IQ, EQ, SQ, AQ — intelligence isn't one fixed trait. Here's what actually determines each type, which parts of the brain drive them, and why calling someone an olodo misses the point entirely.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle: "What Is Intelligence and Am I an Olodo?",
+    cardTitle:
+      "What Intelligence Actually Is (And Why 'Olodo' Doesn't Mean What You Think)",
     cardExcerpt:
-      'The "Olodo Uprising" debate assumes we agree on what intelligence is. Here is what it actually means, and why nobody is born dumb.',
+      "Intelligence shows up as IQ, EQ, SQ, and AQ — and most people are strong in some and weaker in others. Here's what determines each, and why 'olodo' isn't the full story.",
     toc: [
-      { href: "#int-intro", text: "Introduction" },
-      { href: "#int-what", text: "What Is Intelligence?" },
-      { href: "#int-types", text: "The Four Types" },
-      { href: "#int-brain", text: "What Determines Each Type" },
-      { href: "#int-olodo", text: "Am I an Olodo?" },
-      { href: "#int-wrapup", text: "Wrap Up" },
-      { href: "#int-faq", text: "FAQs" },
+      { href: "#oi-intro", text: "Introduction" },
+      { href: "#oi-what", text: "What Is Intelligence?" },
+      { href: "#oi-types", text: "The Types of Intelligence" },
+      { href: "#oi-brain", text: "What Determines Each Type" },
+      { href: "#oi-olodo", text: "Am I an Olodo?" },
+      { href: "#oi-wrapup", text: "Wrap Up" },
+      { href: "#oi-faq", text: "FAQs" },
     ],
     keyTakeaways: [
-      "Intelligence isn't one fixed trait — it shows up as IQ (logical reasoning), EQ (managing emotions), SQ (reading people), and AQ (handling adversity), and most people are strong in some and weaker in others.",
-      'The "four types" framework is a popularised way of organising intelligence, not a single settled clinical model, so it is best treated as a useful lens rather than hard science.',
-      "Different brain regions handle different kinds of intelligence — the prefrontal cortex, parietal lobe, and hippocampus support IQ, while the amygdala, insula, anterior cingulate cortex, and prefrontal cortex support EQ and SQ.",
+      "Intelligence isn't one fixed trait — it shows up as IQ (logical reasoning), EQ (managing emotions), SQ (reading people), and AQ (handling adversity), and most people are strong in some of these and weaker in others.",
+      'The "four types" framework is a popularized way of organizing intelligence, not a single settled clinical model, so it\'s best treated as a useful lens rather than hard science.',
+      "Different brain regions handle different kinds of intelligence — the Prefrontal Cortex, Parietal Lobe, and Hippocampus support IQ, while the Amygdala, Insula, Anterior Cingulate Cortex, and Prefrontal Cortex support EQ and SQ.",
       "The neuroscience behind Adversity Quotient is still underdeveloped, but people with higher AQ do tend to show better mental health and less burnout under sustained pressure.",
-      'Calling someone an "olodo" for not excelling in one type of intelligence ignores that intelligence is multidimensional — and that it can still be developed in the areas where a person is currently weaker.',
+      'Calling someone an "olodo" for not excelling in one type of intelligence ignores that intelligence is multidimensional and can still be developed in the areas where a person is currently weaker.',
     ],
-    bodyHtml: `<section id="int-intro">
-        <p class="art-lede">In a recent interview, the rapper Ycee raised a concern that has been sitting on a lot of minds. He spoke about the rise of content creators who produce content of little intellectual value, and argued that the Nigerian environment rewards that kind of content while ignoring people creating something of substance. He mentioned the streamer Peller as an example, and while he was careful to say he did not coin the phrase himself and was not insulting any creator directly, the term "Olodo Uprising" took off almost immediately.</p>
-        <p>Nigerians are split. Some agree with him. Others argue that these creators are simply making ends meet the only way available to them, and that there is nothing unintelligent about that. But underneath all the noise is a question worth answering properly: what is intelligence, actually? And what does it really mean to be an olodo? So, without further ado, let us examine what both these terms mean.</p>
+    bodyHtml: `<section id="oi-intro">
+        <p class="art-lede">In a recent interview, a rapper named Ycee raised an issue of concern. He mentioned the rise in popularity of content creators who create content of no intellectual value. He argued that the Nigerian environment rewards dumb and unintelligent content while downplaying actual intelligent content that can provide value. He used the case of a streamer named Peller. While he claimed he didn't coin it himself and that he was not directly insulting any content creator, the term "Olodo Uprising" has gained rapid popularity. Nigerians are divided, with people on both sides of the fence. Some are in support of Ycee, while others claim these content creators are simply trying to make ends meet and that is how they can do so.</p>
+        <p>But it raises the question of what intelligence actually is and what it means to be an olodo. So, without further ado, let us examine what both these terms mean.</p>
       </section>
-      <section id="int-what">
+      <section id="oi-what">
         <h2>What Is Intelligence?</h2>
-        <p>Intelligence is the ability to learn from experience and to adapt, shape, and select environments.<sup>[1]</sup> In short, intelligence is the ability to use what you know to solve your problems.</p>
-        <p>Many of us remember the people we called "efiko" in school, the ones permanently at the top of the class. But many of us also know the person everybody consulted for relationship advice, or the one who somehow knew how to handle any difficult personality in the room. And most of us know that guy whose brilliance only fully switched on during sporting activities. Most people shine somewhere. The challenge is figuring out where.</p>
+        <p>Intelligence is the ability to learn from experience and to adapt, shape, and select environments.<sup>[1]</sup> In short, intelligence is the ability to use what you know to solve your problems. Many of us remember people we called "efiko" in school. These were people who were always at the top of the class. Many of us also know some people whom we consulted for relationship advice or advice about dealing with people. Many of us know guys whose intelligence came alive during sporting activities. Most people have areas in which they shine, but the challenge is figuring out which area it is.</p>
       </section>
-      <section id="int-types">
+      <section id="oi-types">
         <h2>What Are the Types of Intelligence?</h2>
-        <p>Intelligence does not come in only one shade. A widely used framework splits it into four types: IQ, EQ, SQ, and AQ.<sup>[2]</sup></p>
-        <div class="art-callout art-callout-blue">
-          <div class="art-callout-icon">📌</div>
-          <div>A quick note before we go further: the "four types" model is a popularised way of organising how we talk about intelligence, not a single settled clinical model. Treat it as a useful lens rather than hard science.</div>
-        </div>
+        <p>Intelligence does not come in only one shade. In today's world, intelligence is popularly grouped into four types.<sup>[2]</sup> These four types are IQ, EQ, SQ, and AQ.</p>
         <h3>Intelligence Quotient (IQ)</h3>
-        <p>This measures a person's ability to comprehend, and their cognitive performance.<sup>[3]</sup> It deals with logical reasoning. People with a high IQ tend to do very well in school and approach problems logically.</p>
-        <p>It is often treated as the default indicator of intelligence. In school, those with high IQs frequently grasp topics faster than their classmates, especially when that ability is paired with consistent reading and genuine dedication to their studies.</p>
+        <p>This measures a person's ability to comprehend and cognitive performance.<sup>[3]</sup> It deals with logical reasoning. Those with a high IQ tend to do very well in school, and they can approach issues logically.</p>
+        <p>It is often seen as the most common indicator of intelligence in people. In schools, those with high IQs often understand topics being taught in class much faster than their contemporaries, especially when the high IQ is combined with consistent reading and dedication to studies.</p>
         <h3>Emotional Quotient (EQ)</h3>
-        <p>This is also known as emotional intelligence. It refers to the ability to integrate logical reasoning and emotions to make sound decisions.<sup>[4]</sup> People with high EQ can recognise and manage their own emotions as well as the emotions of others, which helps them maintain healthy relationships. These are usually the people we turn to for relationship advice.</p>
+        <p>This is also known as Emotional Intelligence. Emotional intelligence refers to the ability to integrate logical reasoning and emotions to make sound decisions.<sup>[4]</sup> We examined this concept some weeks back in an article. Those with high EQ can recognise and manage their emotions and the emotions of other people. This helps them maintain good relationships. These are the people we often turn to for relationship advice.</p>
         <h3>Social Quotient (SQ)</h3>
-        <p>Social intelligence is the ability to tune into other people's emotions and read the subtle behavioural cues in a situation in order to choose the most effective response.<sup>[5]</sup> It is essentially an extension of emotional intelligence. Socially intelligent people find it far easier to make new friends and relate to strangers.</p>
+        <p>Social Intelligence is the ability of a person to tune into other people's emotions and read subtle behavioural cues to choose the most effective response in a given situation.<sup>[5]</sup> It is an extension of emotional intelligence. Socially intelligent people find it much easier to make new friends and relate to strangers.</p>
         <h3>Adversity Quotient (AQ)</h3>
-        <p>Some experts include this one, though it is not fully agreed upon. It refers to a person's ability to persist and endure difficult situations, and is essentially a measure of resilience.<sup>[9]</sup> People with high AQ can handle tougher situations for longer without breaking down.</p>
-        <div class="art-callout art-callout-purple">
-          <div class="art-callout-icon">🧠</div>
-          <div>Almost nobody scores high across all four. The person who tops the class is not automatically the person who handles heartbreak, conflict, or a crisis well — and vice versa.</div>
-        </div>
-      </section>
-      <section id="int-brain">
-        <h2>What Determines Each Type of Intelligence?</h2>
-        <h3>The IQ Circuit</h3>
-        <p>High IQ involves the prefrontal cortex, the parietal lobe, and the hippocampus. The prefrontal cortex is in charge of executive decisions and coordinates logical thinking.<sup>[6]</sup> The parietal lobe receives and processes information gathered from the senses,<sup>[7]</sup> while the hippocampus consolidates long-term memory.<sup>[8]</sup></p>
-        <p>Put simply: the parietal lobe receives the information, the prefrontal cortex processes it and makes the decision, and the hippocampus stores it for later use.</p>
-        <h3>The EQ and SQ Circuit</h3>
-        <p>For emotional and social intelligence, the structures involved are the amygdala, the insula, the anterior cingulate cortex, and again the prefrontal cortex. Research on emotional awareness points to the insula as central to recognising our own emotional states.<sup>[11]</sup> The anterior cingulate cortex helps us process feelings and emotions,<sup>[10]</sup> the amygdala generates emotional reactions,<sup>[12]</sup> and the prefrontal cortex regulates those reactions.</p>
+        <p>Some experts include this type, though it is not fully agreed upon across the field. This is the ability of a person to persist and endure difficult situations. It is a measure of how resilient a person is.<sup>[9]</sup> Those with high AQ are more resilient and can handle tougher situations without breaking down.</p>
         <div class="art-callout art-callout-blue">
-          <div class="art-callout-icon">🚗</div>
-          <div>The prefrontal cortex is what stops you from acting on every emotion the moment you feel it. Think of it as the brakes of the car — the amygdala presses the accelerator, and the prefrontal cortex decides whether you actually go.</div>
+          <div class="art-callout-icon">🧩</div>
+          <div>The "four types" framework is a popular way of organizing intelligence — useful as a lens, but not a single settled clinical model.</div>
         </div>
-        <h3>The AQ Circuit</h3>
-        <p>AQ is thought to involve the prefrontal cortex, the anterior cingulate cortex, the hippocampus, and the amygdala. It is important to be honest here: this area needs far more research into how the brain handles tough situations and builds resilience. What the evidence does show is that people with higher AQ tend to report better mental health and lower burnout under sustained pressure.<sup>[9]</sup></p>
       </section>
-      <section id="int-olodo">
+      <section id="oi-brain">
+        <h2>What Determines Each Type of Intelligence?</h2>
+        <p>People with high IQs have a very developed Prefrontal Cortex. High IQ involves the Prefrontal Cortex, the Parietal Lobe, and the Hippocampus. The Prefrontal Cortex is in charge of executive decisions — it is the part of the brain that coordinates logical thinking.<sup>[6]</sup> The Parietal Lobe receives and processes the information gotten from the senses,<sup>[7]</sup> while the Hippocampus consolidates long-term memory.<sup>[8]</sup></p>
+        <p>The Parietal Lobe receives information; the Prefrontal Cortex processes this information and makes decisions; the Hippocampus stores memory for later use.</p>
+        <p>In the case of EQ and SQ, the brain structures involved are the Amygdala, the Insula, the Anterior Cingulate Cortex, and the Prefrontal Cortex. The Insula helps us recognise our own emotions;<sup>[10]</sup> the Anterior Cingulate Cortex helps us process feelings and emotions;<sup>[11]</sup> the Amygdala helps us generate emotional reactions;<sup>[9]</sup> while the Prefrontal Cortex helps us regulate our reactions. The Prefrontal Cortex helps us with self-control — it is the part that keeps us from acting purely on our emotions, like the brakes of a car.</p>
+        <p>AQ involves the Prefrontal Cortex, the Anterior Cingulate Cortex, the Hippocampus, and the Amygdala. It is important to note that this area still needs more research into how the brain handles tough situations and builds resilience.<sup>[12]</sup></p>
+      </section>
+      <section id="oi-olodo">
         <h2>Am I an Olodo?</h2>
-        <p>This is the question many people quietly ask themselves. The truth is that no one is completely stupid. There are logically brilliant people who are terrible at handling relationships and social interactions. Plenty of nerds (this writer included) are shy in public and keep to themselves. And because people with high IQ often experience early success, some of them have had very little practice with adversity, which means their emotional resilience can be surprisingly thin.</p>
-        <p>Intelligence can also be developed. Some people are naturally gifted in one area, but that does not lock anyone out of building ability in the areas where they are currently weak.</p>
-        <p>So, to answer the question: no, you are not an olodo. Not topping your class, or not being the person who always has the solution, does not make you one. You might be the person who can defuse a volatile situation before it explodes, or the one who can walk into a room of strangers and leave with three new friends.</p>
+        <p>This is a question many people ask themselves. The truth is no one is completely stupid. There are logically intelligent people who are terrible at handling relationships and social interactions. Most nerds (like me) tend to be shy in public and keep to themselves. In addition, because people with high IQ tend to be quite successful, they may not have much experience with adversity, which means they may not be very emotionally resilient.</p>
+        <p>Furthermore, intelligence can be developed. While some people are naturally gifted in one area or another, they can build intelligence in the areas they are lacking.</p>
+        <p>So, to answer the question — no, you are not an olodo. The fact that you aren't topping your class or being the person who always has the solution to problems does not mean you are an olodo. You might be the person who always seems to have a way to defuse volatile situations, or the person who can make friends easily even among strangers.</p>
         <div class="art-callout art-callout-teal">
-          <div class="art-callout-icon">💬</div>
-          <div>While it is not actually proven that Albert Einstein said it, the quote attributed to him is worth sitting with: "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid."</div>
+          <div class="art-callout-icon">💡</div>
+          <div>No one is born dumb — we have different capabilities. While it isn't proven that Albert Einstein said this, let's leave you with a quote attributed to him: "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid."</div>
         </div>
       </section>
-      <section id="int-wrapup">
+      <section id="oi-wrapup">
         <h2>Wrap Up</h2>
-        <p>Intelligence comes in different forms, and someone appearing deficient in one area does not make them dumb or an olodo. Intelligence can also be developed, which means people can genuinely learn to be more capable in the forms they currently lack. Nobody is born dumb — we simply have different capabilities.</p>
-        <p>Further reading: are you curious about how to maintain your relationships, or do you wonder how to become more emotionally intelligent? Read <a href="#" data-route="cortex-article-7" style="color:var(--teal);text-decoration:underline">The Skill Nobody Taught You in School: Emotional Intelligence</a>.</p>
+        <p>Intelligence comes in different forms, and just because a person seems deficient in one area does not mean that person is dumb or an olodo. Intelligence can also be developed, and people can learn how to be more intelligent in other forms of intelligence.</p>
+        <p>Further reading: curious about how to maintain your relationships, or how you could be more emotionally intelligent? Read <a href="#" data-route="cortex-article-7" style="color:var(--teal);text-decoration:underline">The Skill Nobody Taught You in School: Emotional Intelligence</a>.</p>
       </section>
-      <section id="int-faq">
+      <section id="oi-faq">
         <h2>Frequently Asked Questions</h2>
         <div class="art-faq">
           <div class="art-faq-item">
@@ -2691,7 +2679,7 @@ export const cortexArticles: CortexArticle[] = [
           </div>
           <div class="art-faq-item">
             <div class="art-faq-q">What part of the brain controls intelligence?</div>
-            <div class="art-faq-a">No single part "controls" intelligence. The prefrontal cortex handles executive decision-making and logical thinking, the parietal lobe processes sensory information, and the hippocampus consolidates memory — together these support IQ. Emotional and social intelligence draw more heavily on the amygdala, insula, and anterior cingulate cortex.</div>
+            <div class="art-faq-a">No single part "controls" intelligence. The Prefrontal Cortex handles executive decision-making and logical thinking, the Parietal Lobe processes sensory information, and the Hippocampus consolidates memory — together these support IQ. Emotional and social intelligence draw more heavily on the Amygdala, Insula, and Anterior Cingulate Cortex.</div>
           </div>
           <div class="art-faq-item">
             <div class="art-faq-q">Can intelligence be improved or developed?</div>
@@ -2699,7 +2687,7 @@ export const cortexArticles: CortexArticle[] = [
           </div>
           <div class="art-faq-item">
             <div class="art-faq-q">What does "Olodo Uprising" mean in Nigeria?</div>
-            <div class="art-faq-a">"Olodo Uprising" is a Nigerian social media term describing a trend where content creators without traditional academic credentials gain massive popularity and financial success, sparking debate over whether Nigerian culture undervalues intellectual achievement in favour of viral entertainment.</div>
+            <div class="art-faq-a">"Olodo Uprising" is a Nigerian social media term describing a trend where content creators without traditional academic credentials gain massive popularity and financial success, sparking debate over whether Nigerian culture undervalues intellectual achievement in favor of viral entertainment.</div>
           </div>
         </div>
       </section>
@@ -2708,20 +2696,19 @@ export const cortexArticles: CortexArticle[] = [
         <ol class="art-ref-list">
           <li>Sternberg, R. J. <em>Intelligence.</em> Dialogues in Clinical Neuroscience, 2012.</li>
           <li>CambriLearn. <em>4 Types of Intelligence: IQ, EQ, SQ &amp; AQ Explained.</em> 2025.</li>
-          <li>ScienceDirect. <em>Intelligence Quotient — an Overview.</em></li>
+          <li>ScienceDirect. <em>Intelligence Quotient — An Overview.</em></li>
           <li>Six Seconds. <em>Emotional Intelligence: What Is EQ? Definition and How to Develop Yours.</em></li>
           <li>Atre, S. <em>Difference Between IQ, EQ and SQ — The Social Intelligence, and Why SQ Is the Future.</em> Socialigence, 2017.</li>
-          <li>Hathaway, W. R., &amp; Newton, B. W. <em>Neuroanatomy, Prefrontal Cortex.</em> StatPearls / NCBI Bookshelf, 2023.</li>
-          <li>ScienceDirect. <em>Parietal Lobe — an Overview.</em></li>
+          <li>Hathaway, W. R., &amp; Newton, B. W. <em>Neuroanatomy, Prefrontal Cortex.</em> StatPearls/NCBI Bookshelf, 2023.</li>
+          <li>ScienceDirect. <em>Parietal Lobe — An Overview.</em></li>
           <li>Schapiro, A. C., Reid, A. G., Morgan, A., Manoach, D. S., Verfaellie, M., &amp; Stickgold, R. <em>The Hippocampus Is Necessary for the Consolidation of a Task That Does Not Require the Hippocampus for Initial Learning.</em> Hippocampus, 2019.</li>
-          <li>Li, et al. <em>Adversity Quotient as Determining Factor of Mental Health and Professional Quality of Life Among Healthcare Professionals: A Systematic Review.</em> 2024.</li>
-          <li>ScienceDirect. <em>Anterior Cingulate Cortex — an Overview.</em></li>
+          <li>Li et al. <em>Adversity Quotient as Determining Factor of Mental Health and Professional Quality of Life Among Healthcare Professionals: A Systematic Review.</em> 2024.</li>
           <li>Smith, R., Lane, R. D., Parr, T., &amp; Friston, K. J. <em>Neurocomputational Mechanisms Underlying Emotional Awareness.</em> 2019.</li>
+          <li>ScienceDirect. <em>Anterior Cingulate Cortex — An Overview.</em></li>
           <li>Pessoa, L. <em>Emotion and Cognition and the Amygdala.</em> Neuropsychologia, 2010.</li>
         </ol>
       </div>`,
   },
-
   {
     num: 22,
     id: "cortex-article-22",
@@ -2838,6 +2825,109 @@ export const cortexArticles: CortexArticle[] = [
           <li>IRE Journals. <em>The Neuroscience of Attention and Focus.</em> 2024.</li>
           <li>Azem, L., Al Alwani, R., Lucas, A., Alsaadi, B., Njihia, G., Bibi, B., Alzubaidi, M., &amp; Househ, M. <em>Social Media Use and Depression in Adolescents: A Scoping Review.</em> Behavioral Sciences, 2023.</li>
           <li>Nagata, J. M., Cheng, C. M., Shim, J., Kiss, O., Ganson, K. T., Testa, A., et al. <em>Bedtime Screen Use Behaviors and Sleep Outcomes in Early Adolescents: A Prospective Cohort Study.</em> Journal of Adolescent Health, 2024.</li>
+        </ol>
+      </div>`,
+  },
+  {
+    num: 23,
+    id: "cortex-article-23",
+    category: "Mind &amp; Cognition",
+    gradFrom: "#0F1A2A",
+    gradTo: "#1E3A5F",
+    badgeBg: "rgba(56,189,248,0.2)",
+    badgeColor: "#BAE6FD",
+    cardColor: "#38BDF8",
+    title: "Protecting Your Mind From the Feed:<br/>A Practical Guide",
+    deck: "Willpower alone won't fix a shrinking attention span. Here's how to actually retrain your executive attention system, and protect your thinking from content designed to influence it.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle:
+      "How Do I Protect My Brain From the Harmful Effects of Social Media?",
+    cardExcerpt:
+      "Willpower alone won't rebuild a shrinking attention span. Here's a practical guide to retraining focus and protecting your thinking from social media's influence.",
+    toc: [
+      { href: "#pm-intro", text: "Introduction" },
+      {
+        href: "#pm-retrain",
+        text: "Retraining Your Executive Attention System",
+      },
+      { href: "#pm-influence", text: "Preventing Wrong Influence" },
+      { href: "#pm-wrapup", text: "Wrap Up" },
+      { href: "#pm-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Willpower alone won't fix a shrinking attention span — you need real structural changes, because social media is engineered to exploit the same dopamine-driven executive attention system you're trying to protect.",
+      "Identifying what's actually derailing your focus (poor sleep, unrestricted phone access, constant notifications) is the first step to building a real plan to address it.",
+      "Reducing distractions physically — phone out of reach, notifications off, dedicated deep-focus time — works better than relying on discipline in the moment.",
+      "Reading long-form content, especially physical books, helps rebuild sustained attention while giving your brain a break from social media's information overload.",
+      "Protecting your mind from being wrongly influenced means forming your own opinions, verifying information before accepting it, and checking whether a content creator's actual life reflects what they teach.",
+    ],
+    bodyHtml: `<section id="pm-intro">
+        <p class="art-lede">Before we get into the issue for today, let us have a quick recap of what we have discussed.</p>
+        <p>In the first article, we explored what intelligence is, and we discussed the various types of intelligence — the different types and the parts of the brain concerned with each. In the last article, we explored what attention is and the effects of social media on growing minds. Social media can reduce attention spans, contribute to stress, anxiety, and depression, as well as put people under unnecessary pressure to measure up to their contemporaries. To conclude this series, we will be exploring how to protect your mind against the harmful effects of social media.</p>
+      </section>
+      <section id="pm-retrain">
+        <h2>How Do I Retrain My Executive Attention System?</h2>
+        <p>In the last article, we discussed the systems that work when you need to pay attention to something — the alerting system, the orienting system, and the executive attention system. People with short attention spans have issues with the executive attention system.</p>
+        <p>Frequent use of social media, especially consuming short-form content, can worsen the situation because it leads to early dopamine release. The brain starts expecting that dopamine release soon, and when it doesn't get it, it becomes more difficult to pay attention. For more on how the dopamine release system works, check out <a href="#" data-route="cortex-article-8" style="color:var(--teal);text-decoration:underline">The Brain on Drugs: What Addiction Actually Does to Your Mind</a>.</p>
+        <p>If we remember from the first article, intelligence can be developed — well, not just intelligence, but attention span can be developed too.</p>
+        <p>The first step is to identify what keeps you from paying attention. For example, paying attention in an 8am class will be difficult if you were on your phone till 2 in the middle of the night. You would still be tired and sleepy, and thus it would be difficult to fire up your alerting system. After identifying the obstacles, you can then create a plan of action to overcome them.<sup>[1]</sup></p>
+        <p>Moreover, be careful about what gets your attention. When you have actual important tasks to work on, reduce distractions. For example, keep your phone out of arm's reach if you are not using it for the task. If you need to use your phone, put it on Do Not Disturb or mute notifications to reduce distractions.<sup>[2]</sup></p>
+        <p>Furthermore, engage yourself in activities that require sustained attention. One practical option is reading a book — preferably the physical copy rather than the soft copy. This serves two purposes: it builds your attention span, and it gives your brain a break from the information overload that comes with social media.</p>
+        <p>In addition, turn off your phone or stay away from it for at least an hour each day. In today's world, we seem unable to exist without our phones, and this should not be. You could use this time to meditate, go for a walk, or find another activity to engage in.</p>
+        <p>Also, get enough sleep. Avoid using your phone for at least an hour before bed. If you sleep well and get enough rest, your alerting system will be good to go in the morning, and you won't have to deal with brain fog and sluggishness.</p>
+        <p>You should also reduce your consumption of short-form content. While it can provide some comedic relief and useful information, it can also reduce your attention span. Add more long-form content to your viewing and try to focus on it as you watch.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🎯</div>
+          <div>Here is one truth: willpower alone will not work. To actually develop your attention span, you need to put certain structures in place — and when you do, you will definitely see improvement.</div>
+        </div>
+      </section>
+      <section id="pm-influence">
+        <h2>How Do I Prevent Social Media From Influencing Me the Wrong Way?</h2>
+        <p>Social media has the capacity to influence how people think. In today's world, practically anyone can pick up their phone and post anything that suits them. Unfortunately, the Nigerian situation rewards a lot of content that provides no intellectual benefit whatsoever. The consequence is that people consume this content and allow it to affect how they think. This is what Ycee was warning against.</p>
+        <p>To protect yourself from being wrongly influenced, here are some steps you can follow.</p>
+        <p>Firstly, have your own mind. A person who doesn't have their own mind is easily influenced by any opinion they come across. Many Nigerians are easily swayed by any opinion they come across. In the last article, we mentioned the uproar that came up when Geh Geh got married — many men had broken their relationships over his advice, and they were lamenting the loss of those relationships while he was getting married.</p>
+        <p>Secondly, before taking a stand, make sure you get adequate information. Don't just jump at the opinions of a content creator. Look into the information you are getting and check that it is correct and helpful before you take it in.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">🔍</div>
+          <div>In addition, look into the life of the content creator and check whether they actually practice what they teach. Someone drew attention to the children of a particular musician, Naira Marley, pointing out that he raises his daughters in a traditional, conservative manner while the lyrics of his music are obscene and objectify women as sexual objects. If a person's lifestyle does not reflect what they preach or teach, it is very important to be careful about imbibing what they say.</div>
+        </div>
+      </section>
+      <section id="pm-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Social media is a very important part of life, and it serves many important purposes. It can provide information, educate about current affairs, and entertain us as we use it.</p>
+        <p>However, it is important to note that it also has harmful effects, and there is a need to protect ourselves from them.</p>
+        <p>Further reading: did you miss the previous article in which we talked about how the brain pays attention? Read <a href="#" data-route="cortex-article-22" style="color:var(--teal);text-decoration:underline">What Social Media Is Doing to Your Attention</a>.</p>
+      </section>
+      <section id="pm-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">How can I improve my attention span?</div>
+            <div class="art-faq-a">Reduce distractions by keeping your phone out of reach. Build a daily habit of reading long-form content like physical books. Get enough sleep every night. Add regular phone-free time to your day.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Why is my attention span so short now?</div>
+            <div class="art-faq-a">Frequent use of short-form content trains your brain to expect quick dopamine hits. Over time this makes it harder to focus on longer, slower tasks. Poor sleep makes the problem worse.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does social media affect your attention span?</div>
+            <div class="art-faq-a">Yes. Short-form content on platforms like TikTok and Instagram rewards your brain with quick dopamine release. This weakens your executive attention system over time. It becomes harder to focus on tasks that take longer to feel rewarding.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How do I stop social media from influencing my thinking?</div>
+            <div class="art-faq-a">Form your own opinions instead of accepting others by default. Verify information before you act on it. Check if a content creator actually practices what they teach.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can attention span be trained or improved naturally?</div>
+            <div class="art-faq-a">Yes. Attention works like a skill, not a fixed trait. Reading, reducing distractions, and getting consistent sleep all help rebuild it. Small daily structure matters more than willpower alone.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Harvard Health Publishing. <em>Tips to Improve Concentration.</em> 2023.</li>
+          <li>Srinivas Rao (Mission.org, Medium). <em>5 Daily Habits to Improve Your Attention Span.</em> 2016.</li>
         </ol>
       </div>`,
   },
