@@ -2931,4 +2931,99 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 24,
+    id: "cortex-article-24",
+    category: "Physical Brain Health",
+    gradFrom: "#4A2A0A",
+    gradTo: "#8A5A1A",
+    badgeBg: "rgba(255,183,77,0.2)",
+    badgeColor: "#FFCC80",
+    cardColor: "#FFB74D",
+    title:
+      "Does Exercise Benefit My Brain?<br/>The Workout Your Focus Is Waiting For",
+    deck: "Exercise doesn't just shape your body — it shows up in the brain almost immediately, boosting blood flow, memory, and attention. Here's what actually happens, and how little it takes.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "Does Exercise Benefit My Brain?",
+    cardExcerpt:
+      "Exercise raises blood flow, BDNF, and brain volume — and a single session can sharpen attention and memory. Here's what the science says, and how little it actually takes.",
+    toc: [
+      { href: "#ex-intro", text: "Introduction" },
+      {
+        href: "#ex-during",
+        text: "What Happens in Your Brain During Exercise?",
+      },
+      { href: "#ex-benefits", text: "How Does Exercise Benefit the Brain?" },
+      { href: "#ex-wrapup", text: "Wrap Up" },
+      { href: "#ex-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Exercise increases blood flow and oxygen delivery to the brain, with the increase scaling alongside exercise intensity.",
+      "Physical activity raises BDNF, a molecule that supports the growth and connection of neurons in the hippocampus, the brain's memory center.",
+      "A single bout of exercise measurably improves attention, working memory, and reaction time, with benefits often strongest right after the session ends.",
+      "Roughly 15 minutes of moderate exercise appears sufficient to produce a cognitive benefit; longer sessions don't consistently improve on this and may even reduce accuracy on some tasks.",
+      "The cognitive boost from exercise is real but modest — it sharpens the brain you bring to a task; it doesn't replace preparation.",
+    ],
+    bodyHtml: `<section id="ex-intro">
+        <p class="art-lede">One common piece of advice you get in health talks is to exercise regularly — for general health, to reduce the risk of sicknesses and diseases, and even for optimal brain health. But it leaves a question: is exercise that effective, or have doctors and health influencers been bribed to tell you to exercise so gym subscriptions will increase?</p>
+        <p>Exercise is very helpful to your body, and your brain is a large beneficiary of the benefits. One major aspect is that the effects of exercise show up immediately in the brain, unlike other parts of the body, which take months or even years for the benefits of exercise to show up.</p>
+      </section>
+      <section id="ex-during">
+        <h2>What Happens in Your Brain During Exercise?</h2>
+        <p>Let's say you are going for a run. When it kicks in that you are exercising, your body releases adrenaline, which causes your heart to beat faster, pumps more blood around the body, and widens the blood vessels so that blood flow is easier and faster. This widening also affects cerebral vessels — the blood vessels that take blood to the brain. When you exercise, the blood vessels that supply the brain dilate and allow more blood through. Your heart also pumps blood more forcefully and sends it round the body.<sup>[1]</sup></p>
+        <p>As we mentioned in <a href="#" data-route="cortex-article-15" style="color:var(--teal);text-decoration:underline">the article on how nutrition affects the brain</a>, the brain runs on glucose, and it gets this glucose from the blood supply. When blood supply to the brain increases, so does the amount of glucose the brain has to burn for energy — like a nitrous boost in racing cars.</p>
+        <p>Furthermore, the brain also releases more Brain-Derived Neurotrophic Factor (BDNF). This molecule promotes the growth, survival, and connections of neurons, especially in the hippocampus.<sup>[2]</sup> When BDNF is released, it increases the production of neurons in the hippocampus, which consolidates long-term memory. Some studies have shown that memory improves after this addition of neurons to the hippocampus.<sup>[3]</sup></p>
+      </section>
+      <section id="ex-benefits">
+        <h2>How Does Exercise Benefit the Brain?</h2>
+        <p>Yes, exercise benefits the brain. Let us explore these benefits as we go.</p>
+        <p>First and foremost, exercise improves executive function. A single exercise session can improve cognition, information processing, and attention. If we recall the article on attention span, there are three brain structures involved in attention — the first being the alerting system. After exercise, this system is fired up and running smoothly.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🧠</div>
+          <div>Exercise also increases brain volume. It has been shown to increase both white and gray matter.<sup>[4]</sup> White matter is brain tissue made of nerve fibers (axons) covered in myelin, which enhances communication between different parts of the brain.<sup>[5]</sup> Gray matter is the outermost layer of the brain, comprising neuronal cell bodies, dendrites, and synapses — the part concerned with thinking, memory, and muscle control.<sup>[6]</sup> Exercise aids in the increase of both tissues.</div>
+        </div>
+        <p>In addition, exercise helps the brain deal with stress, anxiety, and burnout. After an exercise session, the brain pulls stress hormones from the bloodstream and releases hormones of happiness and relaxation.<sup>[7]</sup></p>
+        <p>Exercise also improves memory. As mentioned above, when you exercise, BDNF is released, causing an increase in neuron production, especially in the hippocampus. This increases the hippocampus's ability to convert short-term memory into long-term memory.<sup>[8]</sup></p>
+      </section>
+      <section id="ex-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Exercise does not have to mean going heavy in the gym. It could be doing push-ups in your room or going for a walk. The important thing is that you are exercising consistently.</p>
+        <p>Exercise is not just good for the body — it is essential for proper brain function. It helps with memory, cognition, and attention. Getting more exercise can be the difference you need to get your brain firing on all cylinders.</p>
+        <p>Further reading: did you miss our last series on intelligence and the Olodo Uprising? You don't have any reason to fear — you can still catch up. Read <a href="#" data-route="cortex-article-21" style="color:var(--teal);text-decoration:underline">What Intelligence Actually Is</a>.</p>
+      </section>
+      <section id="ex-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does exercise really help before an exam or a big meeting?</div>
+            <div class="art-faq-a">Yes, based on current evidence. Short bouts of moderate exercise have been shown to improve attention, working memory, and reaction time in the hours that follow, making it a reasonable pre-exam or pre-meeting strategy.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How much exercise do I need for a brain benefit?</div>
+            <div class="art-faq-a">Research suggests around 15 minutes of moderate aerobic activity, such as brisk walking or cycling, is enough to produce measurable cognitive benefits. Longer sessions haven't shown clearly better results for focus-related tasks.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is BDNF and why does it matter for the brain?</div>
+            <div class="art-faq-a">BDNF (brain-derived neurotrophic factor) is a molecule the brain produces during exercise that supports the growth and survival of neurons, particularly in the hippocampus, the region responsible for forming new memories.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can exercise replace studying or preparation?</div>
+            <div class="art-faq-a">No. Exercise sharpens attention and memory function, but it doesn't substitute for the underlying preparation, sleep, or stress management a task requires.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Konopka, L. M. <em>How Exercise Influences the Brain: A Neuroscience Perspective.</em> 2015.</li>
+          <li>Erickson, K. I., Hillman, C., &amp; Kramer, A. F. <em>Physical Activity, Brain, and Cognition.</em> 2015.</li>
+          <li>Liu, P. Z., &amp; Nusslock, R. <em>Exercise-Mediated Neurogenesis in the Hippocampus via BDNF.</em> 2018.</li>
+          <li>Cotman, C. W., Berchtold, N. C., &amp; Christie, L. A. <em>Exercise Builds Brain Health: Key Roles of Growth Factor Cascades and Inflammation.</em> Trends in Neurosciences, 2007.</li>
+          <li>Loprinzi, P. D., Frith, E., Edwards, M. K., Sng, E., &amp; Ashpole, N. <em>The Effects of Exercise on Memory Function Among Young to Middle-Aged Adults: Systematic Review and Recommendations for Future Research.</em> 2019.</li>
+          <li>National Center for Biotechnology Information (NCBI Bookshelf). <em>Physiology, Exercise.</em> 2023.</li>
+          <li>Brigham Young University — Department of Life Sciences. <em>How Exercise Affects Your Brain.</em> 2024.</li>
+          <li>Harvard Health Publishing. <em>Working Out Your Brain.</em> 2021.</li>
+        </ol>
+      </div>`,
+  },
 ];
