@@ -2468,12 +2468,10 @@ export const cortexArticles: CortexArticle[] = [
     badgeBg: "rgba(129,140,248,0.2)",
     badgeColor: "#C7D2FE",
     cardColor: "#818CF8",
-    title:
-      "How Do You Get Help If You Have PTSD?<br/>Healing and Treatment: What Actually Helps",
+    title: "How Do You Get Help If You Have PTSD?<br/>Healing and Treatment: What Actually Helps",
     deck: "There is no quick fix for PTSD, but recovery is possible. Here's what CBT, EMDR, medication, and community actually do — and why healing in Nigeria comes with barriers most people never talk about.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle:
-      "How Do You Get Help If You Have PTSD? Healing and Treatment: What Actually Helps",
+    cardTitle: "How Do You Get Help If You Have PTSD? Healing and Treatment: What Actually Helps",
     cardExcerpt:
       "CBT, EMDR, medication, and community each play a different role in PTSD recovery. Here's what actually helps, and what stands in the way in Nigeria.",
     toc: [
@@ -2589,18 +2587,16 @@ export const cortexArticles: CortexArticle[] = [
   {
     num: 21,
     id: "cortex-article-21",
-    category: "Mind &amp; Cognition",
+    category: "Mental Health &amp; Performance",
     gradFrom: "#0F1A2A",
     gradTo: "#1E3A5F",
     badgeBg: "rgba(56,189,248,0.2)",
     badgeColor: "#BAE6FD",
     cardColor: "#38BDF8",
-    title:
-      "What Intelligence Actually Is<br/>(And Why 'Olodo' Doesn't Mean What You Think)",
+    title: "What Intelligence Actually Is<br/>(And Why 'Olodo' Doesn't Mean What You Think)",
     deck: "IQ, EQ, SQ, AQ — intelligence isn't one fixed trait. Here's what actually determines each type, which parts of the brain drive them, and why calling someone an olodo misses the point entirely.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle:
-      "What Intelligence Actually Is (And Why 'Olodo' Doesn't Mean What You Think)",
+    cardTitle: "What Intelligence Actually Is (And Why 'Olodo' Doesn't Mean What You Think)",
     cardExcerpt:
       "Intelligence shows up as IQ, EQ, SQ, and AQ — and most people are strong in some and weaker in others. Here's what determines each, and why 'olodo' isn't the full story.",
     toc: [
@@ -2614,10 +2610,10 @@ export const cortexArticles: CortexArticle[] = [
     ],
     keyTakeaways: [
       "Intelligence isn't one fixed trait — it shows up as IQ (logical reasoning), EQ (managing emotions), SQ (reading people), and AQ (handling adversity), and most people are strong in some of these and weaker in others.",
-      'The "four types" framework is a popularized way of organizing intelligence, not a single settled clinical model, so it\'s best treated as a useful lens rather than hard science.',
+      "The \"four types\" framework is a popularized way of organizing intelligence, not a single settled clinical model, so it's best treated as a useful lens rather than hard science.",
       "Different brain regions handle different kinds of intelligence — the Prefrontal Cortex, Parietal Lobe, and Hippocampus support IQ, while the Amygdala, Insula, Anterior Cingulate Cortex, and Prefrontal Cortex support EQ and SQ.",
       "The neuroscience behind Adversity Quotient is still underdeveloped, but people with higher AQ do tend to show better mental health and less burnout under sustained pressure.",
-      'Calling someone an "olodo" for not excelling in one type of intelligence ignores that intelligence is multidimensional and can still be developed in the areas where a person is currently weaker.',
+      "Calling someone an \"olodo\" for not excelling in one type of intelligence ignores that intelligence is multidimensional and can still be developed in the areas where a person is currently weaker.",
     ],
     bodyHtml: `<section id="oi-intro">
         <p class="art-lede">In a recent interview, a rapper named Ycee raised an issue of concern. He mentioned the rise in popularity of content creators who create content of no intellectual value. He argued that the Nigerian environment rewards dumb and unintelligent content while downplaying actual intelligent content that can provide value. He used the case of a streamer named Peller. While he claimed he didn't coin it himself and that he was not directly insulting any content creator, the term "Olodo Uprising" has gained rapid popularity. Nigerians are divided, with people on both sides of the fence. Some are in support of Ycee, while others claim these content creators are simply trying to make ends meet and that is how they can do so.</p>
@@ -2712,27 +2708,22 @@ export const cortexArticles: CortexArticle[] = [
   {
     num: 22,
     id: "cortex-article-22",
-    category: "Mind &amp; Cognition",
+    category: "Technology &amp; The Brain",
     gradFrom: "#0F1A2A",
     gradTo: "#1E3A5F",
     badgeBg: "rgba(56,189,248,0.2)",
     badgeColor: "#BAE6FD",
     cardColor: "#38BDF8",
-    title:
-      "What Social Media Is Doing to Your Attention<br/>(And Why the Olodo Uprising Missed the Real Culprit)",
+    title: "What Social Media Is Doing to Your Attention<br/>(And Why the Olodo Uprising Missed the Real Culprit)",
     deck: "Every scroll, like, and notification is a small tug-of-war for your brain's attention systems. Here's how that actually works — and what it means for developing minds.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle:
-      "What Social Media Is Doing to Your Attention (And Why the Olodo Uprising Missed the Real Culprit)",
+    cardTitle: "What Social Media Is Doing to Your Attention (And Why the Olodo Uprising Missed the Real Culprit)",
     cardExcerpt:
       "Social media hijacks the brain's attention systems by rewarding emotionally engaging content. Here's how that shapes focus, mood, and even how young people think.",
     toc: [
       { href: "#sm-intro", text: "Introduction" },
       { href: "#sm-attention", text: "How Attention Works in the Brain" },
-      {
-        href: "#sm-reward",
-        text: "What Gets Rewarded and What Gets Dismissed",
-      },
+      { href: "#sm-reward", text: "What Gets Rewarded and What Gets Dismissed" },
       { href: "#sm-developing", text: "Effect on Developing Brains" },
       { href: "#sm-wrapup", text: "Wrap Up" },
       { href: "#sm-faq", text: "FAQs" },
@@ -2831,7 +2822,7 @@ export const cortexArticles: CortexArticle[] = [
   {
     num: 23,
     id: "cortex-article-23",
-    category: "Mind &amp; Cognition",
+    category: "Technology &amp; The Brain",
     gradFrom: "#0F1A2A",
     gradTo: "#1E3A5F",
     badgeBg: "rgba(56,189,248,0.2)",
@@ -2840,16 +2831,12 @@ export const cortexArticles: CortexArticle[] = [
     title: "Protecting Your Mind From the Feed:<br/>A Practical Guide",
     deck: "Willpower alone won't fix a shrinking attention span. Here's how to actually retrain your executive attention system, and protect your thinking from content designed to influence it.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle:
-      "How Do I Protect My Brain From the Harmful Effects of Social Media?",
+    cardTitle: "How Do I Protect My Brain From the Harmful Effects of Social Media?",
     cardExcerpt:
       "Willpower alone won't rebuild a shrinking attention span. Here's a practical guide to retraining focus and protecting your thinking from social media's influence.",
     toc: [
       { href: "#pm-intro", text: "Introduction" },
-      {
-        href: "#pm-retrain",
-        text: "Retraining Your Executive Attention System",
-      },
+      { href: "#pm-retrain", text: "Retraining Your Executive Attention System" },
       { href: "#pm-influence", text: "Preventing Wrong Influence" },
       { href: "#pm-wrapup", text: "Wrap Up" },
       { href: "#pm-faq", text: "FAQs" },
@@ -2940,8 +2927,7 @@ export const cortexArticles: CortexArticle[] = [
     badgeBg: "rgba(255,183,77,0.2)",
     badgeColor: "#FFCC80",
     cardColor: "#FFB74D",
-    title:
-      "Does Exercise Benefit My Brain?<br/>The Workout Your Focus Is Waiting For",
+    title: "Does Exercise Benefit My Brain?<br/>The Workout Your Focus Is Waiting For",
     deck: "Exercise doesn't just shape your body — it shows up in the brain almost immediately, boosting blood flow, memory, and attention. Here's what actually happens, and how little it takes.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
     cardTitle: "Does Exercise Benefit My Brain?",
@@ -2949,10 +2935,7 @@ export const cortexArticles: CortexArticle[] = [
       "Exercise raises blood flow, BDNF, and brain volume — and a single session can sharpen attention and memory. Here's what the science says, and how little it actually takes.",
     toc: [
       { href: "#ex-intro", text: "Introduction" },
-      {
-        href: "#ex-during",
-        text: "What Happens in Your Brain During Exercise?",
-      },
+      { href: "#ex-during", text: "What Happens in Your Brain During Exercise?" },
       { href: "#ex-benefits", text: "How Does Exercise Benefit the Brain?" },
       { href: "#ex-wrapup", text: "Wrap Up" },
       { href: "#ex-faq", text: "FAQs" },
@@ -3023,6 +3006,123 @@ export const cortexArticles: CortexArticle[] = [
           <li>National Center for Biotechnology Information (NCBI Bookshelf). <em>Physiology, Exercise.</em> 2023.</li>
           <li>Brigham Young University — Department of Life Sciences. <em>How Exercise Affects Your Brain.</em> 2024.</li>
           <li>Harvard Health Publishing. <em>Working Out Your Brain.</em> 2021.</li>
+        </ol>
+      </div>`,
+  },
+  {
+    num: 25,
+    id: "cortex-article-25",
+    category: "Women's Neuro Health",
+    gradFrom: "#3A1A70",
+    gradTo: "#5B3FA0",
+    badgeBg: "rgba(91,63,160,0.25)",
+    badgeColor: "#C4B5FD",
+    cardColor: "#5B3FA0",
+    title: "Why Your Migraine Has a Calendar:<br/>The Hormone-Brain Connection",
+    deck: "If your migraines show up like clockwork around your period, it isn't a coincidence — it's estrogen. Here's what period migraines actually are, why they happen, and what helps.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "What Are Period Migraines?",
+    cardExcerpt:
+      "A sharp drop in estrogen right before menstruation is the main trigger behind period migraines. Here's what they are, why they happen, and how to manage them.",
+    toc: [
+      { href: "#pmig-intro", text: "Introduction" },
+      { href: "#pmig-what", text: "What Are Period Migraines?" },
+      { href: "#pmig-why", text: "Why Do I Get Migraines Around My Period?" },
+      { href: "#pmig-symptoms", text: "Symptoms" },
+      { href: "#pmig-types", text: "Types of Period Migraines" },
+      { href: "#pmig-treat", text: "Treatment" },
+      { href: "#pmig-wrapup", text: "Wrap Up" },
+      { href: "#pmig-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Period migraines, also called menstrual migraines, typically strike within a window from two days before to three days after a period begins.",
+      "The main trigger is a sharp drop in estrogen right before menstruation, which heightens pain sensitivity and widens blood vessels.",
+      "There are two types: Pure Menstrual Migraine (occurs only around the period) and Menstrually Related Migraine (occurs around the period and at other times of the month).",
+      "Common symptoms include throbbing one-sided head pain, nausea, light and sound sensitivity, and sometimes visual auras like flashing lights.",
+      "Over-the-counter pain relievers, proper hydration, and stress management can help, but a doctor should be consulted if migraines are severe or disrupt daily life.",
+    ],
+    bodyHtml: `<section id="pmig-intro">
+        <p class="art-lede">Women are superheroes. Honestly, it's hard to imagine what it's like to deal with periods — the bleeding, food cravings, irritability, mood swings, cramps, and all the other issues that come with the monthly cycle. To all our women and ladies reading this, we salute you.</p>
+        <p>Are you among the ladies who develop migraines out of the blue once your period is approaching? Do these migraines show up two days before to three days after the actual period hits? Then you are dealing with period migraines. Let's get into what they are.</p>
+      </section>
+      <section id="pmig-what">
+        <h2>What Are Period Migraines?</h2>
+        <p>Period migraines are intense, debilitating headaches linked to the menstrual cycle. They occur two days before to three days after the period comes.<sup>[1]</sup></p>
+      </section>
+      <section id="pmig-why">
+        <h2>Why Do I Get Migraines Around My Period?</h2>
+        <p>A variety of factors can cause period migraines, but the most common culprit is the drop in estrogen. During the menstrual period, there is a lot of hormone release and withdrawal — this is why you get mood swings, and it's also a major factor in period migraines.<sup>[8]</sup></p>
+        <p>During the menstrual cycle, estrogen levels fluctuate. They are highest during ovulation and lowest during menstruation.<sup>[2]</sup> When estrogen levels drop, pain receptors become more sensitive, and blood vessels widen.</p>
+        <p>In addition, another factor is iron deficiency. Some women get these headaches during and after their period but not before. The symptoms often get better after they add more iron to their diet.<sup>[3]</sup></p>
+      </section>
+      <section id="pmig-symptoms">
+        <h2>What Are the Symptoms of Period Migraines?</h2>
+        <p>The symptoms of period migraines may vary depending on the individual. They may be mild and just consist of headaches and tender breasts. In more severe cases, symptoms could include a tingling sensation in the hands, blind spots, and flashing lights. These phenomena are known as auras, and they pop up before the headache hits.</p>
+        <p>Other symptoms include nausea, vomiting, sensitivity to light and noise, and throbbing on one side of the head.<sup>[4]</sup></p>
+      </section>
+      <section id="pmig-types">
+        <h2>What Are the Types of Period Migraines?</h2>
+        <p>There are two main types of period migraines.</p>
+        <h3>Pure Menstrual Migraine</h3>
+        <p>This one occurs about two days before to three days after the actual period. It only occurs during this window and not at any other time.<sup>[5]</sup></p>
+        <h3>Menstrually Related Migraine</h3>
+        <p>This also occurs two to three days before to after the period, but it also occurs during other times of the month. The occurrence of migraines is more frequent in this case.<sup>[5]</sup></p>
+      </section>
+      <section id="pmig-treat">
+        <h2>How Can I Treat Period Migraines?</h2>
+        <p>Period migraines are usually treated with over-the-counter pain relievers.<sup>[6]</sup> If you are an ulcer patient, it is important to avoid pain relievers like ibuprofen and diclofenac, which could trigger an ulcer attack.</p>
+        <p>In addition, dehydration is another cause of migraines. Make sure you stay hydrated and drink more water during periods of migraine.<sup>[7]</sup></p>
+        <p>Furthermore, make sure you manage stress and anxiety properly during these periods. If you are not getting enough sleep and rest, the migraines are more likely to occur and be more severe.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚕️</div>
+          <div>If you notice the migraines are more severe than they should be, or they are interfering with work or your daily activities, it is very important to see a doctor.</div>
+        </div>
+      </section>
+      <section id="pmig-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Period migraines are not the easiest situations to deal with. They can make periods more difficult and painful than they should normally be. To get relief, see a doctor and let them prescribe the right medication for you.</p>
+        <p>Further reading: do you know the difference between migraines and headaches? If you don't and you'd like to learn, read <a href="#" data-route="cortex-article-2" style="color:var(--teal);text-decoration:underline">What Are Migraines and Why Do You Keep Getting Them?</a></p>
+      </section>
+      <section id="pmig-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are period migraines?</div>
+            <div class="art-faq-a">Period migraines, also known as menstrual migraines, are intense headaches linked to hormonal changes during the menstrual cycle. They typically occur within a window from two days before to three days after a period begins.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Why do I get migraines around my period?</div>
+            <div class="art-faq-a">The main cause is a sharp drop in estrogen right before menstruation. This drop increases pain receptor sensitivity and widens blood vessels, triggering migraine symptoms. Iron deficiency can also contribute, especially for headaches that appear during or after the period rather than before.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is the difference between a pure menstrual migraine and a menstrually related migraine?</div>
+            <div class="art-faq-a">A pure menstrual migraine occurs only during the period window and at no other time of the month. A menstrually related migraine follows the same pattern but also occurs at other times, often more frequently.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are the symptoms of a period migraine?</div>
+            <div class="art-faq-a">Common symptoms include throbbing pain on one side of the head, nausea, vomiting, and sensitivity to light and noise. Some people also experience auras, such as flashing lights, blind spots, or tingling sensations, before the headache begins.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How can I treat period migraines?</div>
+            <div class="art-faq-a">Over-the-counter pain relievers can help, though ulcer patients should avoid NSAIDs like ibuprofen and diclofenac. Staying hydrated, managing stress, and getting enough sleep can also reduce migraine frequency and severity.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">When should I see a doctor about period migraines?</div>
+            <div class="art-faq-a">See a doctor if your migraines are unusually severe, increasing in frequency, or interfering with work or daily activities. A healthcare provider can recommend targeted treatment options, including preventive medication.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Cleveland Clinic. <em>Menstrual Migraines (Hormone Headaches).</em> 2025.</li>
+          <li>Pfizer. <em>Menstrual Migraine Explained: Why They Happen and What Can Help.</em> 2025.</li>
+          <li>University of New Mexico Health Sciences. <em>Headaches and Hormones.</em> 2025.</li>
+          <li>Medical News Today. <em>Hormonal Headaches: Causes and Symptoms.</em> 2024.</li>
+          <li>National Headache Foundation. <em>Menstrual Migraine.</em> 2025.</li>
+          <li>American Migraine Foundation. <em>Menstrual Migraine: Treatment and Prevention.</em> 2025.</li>
+          <li>Price, A., &amp; Burls, A. <em>Increased Water Intake to Reduce Headache: Learning from a Critical Appraisal.</em> 2015.</li>
+          <li>Chaudhary, A. <em>Migraine Associated with Menstruation: An Overlooked Trigger.</em> 2021.</li>
         </ol>
       </div>`,
   },
