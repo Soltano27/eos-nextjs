@@ -3126,4 +3126,116 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+   {
+    num: 26,
+    id: "cortex-article-26",
+    category: "Brain Identity &amp; Culture",
+    gradFrom: "#2A0F2A",
+    gradTo: "#5F1E4A",
+    badgeBg: "rgba(236,72,153,0.2)",
+    badgeColor: "#FBCFE8",
+    cardColor: "#EC4899",
+    title: "The Mirror in Your Mind:<br/>How the Brain Shapes Body Image",
+    deck: "Body image isn't just about what you see in the mirror — it's built by the brain from self-esteem, family feedback, and culture. Here's how that map gets drawn, and how to redraw it.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "How Does My Brain See Me?",
+    cardExcerpt:
+      "Body image is shaped by the Parietal Lobe, Insula, and Prefrontal Cortex — but self-esteem, family, and culture do most of the drawing. Here's how it works, and how to improve it.",
+    toc: [
+      { href: "#bi-intro", text: "Introduction" },
+      { href: "#bi-what", text: "What Is Body Image?" },
+      { href: "#bi-brain", text: "What Parts of the Brain Process Body Image?" },
+      { href: "#bi-factors", text: "What Factors Affect Body Image?" },
+      { href: "#bi-improve", text: "How Do I Improve My Body Image?" },
+      { href: "#bi-wrapup", text: "Wrap Up" },
+      { href: "#bi-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Body image is how you see and feel about your own appearance.",
+      "Body schema is different. It is the brain's automatic map of where your body parts are.",
+      "Self-esteem shapes body image more than any single factor.",
+      "Family and cultural standards can build up or tear down how you see yourself.",
+      "True improvement starts with self-acceptance, not outside approval.",
+    ],
+    bodyHtml: `<section id="bi-intro">
+        <p class="art-lede">The world we live in is full of differing opinions, and unfortunately, the way people look is not exempt from this. Many good-looking people do not see how good they look because of what other people have said about them. Everybody has their "spec" — the body type they consider attractive. Some men like slim ladies and others like curvy ladies. In the same way, some women like light-skinned men while others prefer dark-skinned men. Everybody has their own definition of beautiful, so it is important not to let other people define you by their standards.</p>
+        <p>In this article, we will be exploring body image and the brain — how the brain processes body image. So, without further ado, let us get into it.</p>
+      </section>
+      <section id="bi-what">
+        <h2>What Is Body Image?</h2>
+        <p>Body image is the internal representation of one's external appearance, encompassing self-perceptions related to the body and personal attitudes, including thoughts, beliefs, feelings, and behaviours.<sup>[1]</sup> It means how you see your physical appearance — do you consider yourself attractive, or do you think you are not?</p>
+        <p>Body image differs from body schema. Body schema is the map of your body in the brain. It's why you can touch parts of your body without looking at them — an invisible map that allows the brain to know exactly where each body part is.<sup>[2]</sup></p>
+      </section>
+      <section id="bi-brain">
+        <h2>What Parts of the Brain Process Body Image?</h2>
+        <p>Various structures in the brain handle how the brain sees the body. Let us explore them together.</p>
+        <p>The first is the Parietal Lobe. It receives sensory input from the sense organs and builds a map of the body. It handles the information your eyes supply to the brain, and the brain builds a structure from this information.<sup>[3]</sup></p>
+        <p>The next structure is the Insula. It handles interoception — it gives an emotional feeling to what you see, dealing with how you feel inside. It receives signals from various parts of the body and processes these signals into feelings.<sup>[4]</sup></p>
+        <p>The next structure involved is the Prefrontal Cortex. It handles executive decisions, processing the information and making a stand on how you see yourself. Someone who is regularly told they are attractive will feel more confident than someone who rarely gets any admiration.</p>
+      </section>
+      <section id="bi-factors">
+        <h2>What Factors Affect Body Image?</h2>
+        <p>Body image is influenced by several factors.</p>
+        <p>The first is the self-esteem or self-confidence of the person. A highly self-confident person will most likely have a positive body image. Self-confidence plays a huge part in body image — a self-confident person is more accepting of the way they look and less likely to feel put down by negative comments on their body.</p>
+        <p>Furthermore, the opinion of family and friends can either improve or diminish a person's image of their own body. This is especially important during childhood and adolescent years. Those who often receive encouraging and positive remarks about their body often grow up to have positive views about how they look, while those who were often put down or told they aren't as attractive may not have a good view of their body.<sup>[1]</sup></p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">🌍</div>
+          <div>The standard of attractiveness differs across cultures. European and American cultures tend to prefer slimmer women with a supermodel physique, while African cultures tend to prefer curvier, voluptuous women. A woman who does not fit the common definition of beauty in her environment might not feel attractive, especially if she isn't getting much attention — though these are broad cultural trends, and there is considerable variation within every culture. Beauty is not a universal standard, and what one society considers attractive may be viewed differently elsewhere.</div>
+        </div>
+      </section>
+      <section id="bi-improve">
+        <h2>How Do I Improve My Body Image?</h2>
+        <p>This is a very important question people ask themselves each day. Improving your body image starts with you. It's not about getting compliments or validation from people — it's about loving yourself for who you are and what you look like.</p>
+        <p>The first step is to accept yourself. Insecurities about height, weight, or looks are common, and they can quietly affect self-esteem for a long time before someone starts to accept themselves and admire what they look like. Bad days may still come, but with practice they tend to get fewer over time.</p>
+        <p>The next step is to identify areas that can genuinely be improved. For example, if you are worried about the health consequences of your weight, you could change your diet and get more exercise — not because you don't look good, but because you want to improve yourself. The good news is that when the results start to show, they boost your body image too.</p>
+        <p>Furthermore, do not let other people define how good you look. No matter how beautiful you are, there will always be someone who won't see it. Everyone has their own definition of beauty, but their opinion about you shouldn't be your reality. If people see you and appreciate how you look, that's great — but if not, that's simply their opinion.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🤝</div>
+          <div>There is nothing wrong with seeking help if you feel you need it. A poor body image can quietly affect many areas of life — relationships, confidence, and decisions. If you notice your body image is harming other areas of your life, please seek help and get better.</div>
+        </div>
+      </section>
+      <section id="bi-wrapup">
+        <h2>Wrap Up</h2>
+        <p>A popular saying is that beauty is in the eyes of the beholder. People only see the beauty they want to see in others. However, the fact that someone cannot see beauty in another person does not mean it does not exist. If you are someone struggling with your body image, please remember that you are beautiful, and only you define your beauty — not other people.</p>
+        <p>Further reading: did you know there are different types of intelligence? Intelligence is not a one-dimensional concept. To learn what intelligence is and the different types available, read <a href="#" data-route="cortex-article-21" style="color:var(--teal);text-decoration:underline">What Intelligence Actually Is (And Why 'Olodo' Doesn't Mean What You Think)</a>.</p>
+      </section>
+      <section id="bi-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is body image?</div>
+            <div class="art-faq-a">Body image is how you see your own appearance. It includes your thoughts, feelings, and beliefs about your body.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is body image the same as body schema?</div>
+            <div class="art-faq-a">No. Body schema is the brain's automatic map of your body parts. Body image is how you feel about the way you look.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What affects body image the most?</div>
+            <div class="art-faq-a">Self-esteem plays the biggest role. Family feedback and cultural beauty standards also shape it.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can body image change over time?</div>
+            <div class="art-faq-a">Yes. Body image can improve or worsen based on life experiences and self-talk.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How can I improve my body image?</div>
+            <div class="art-faq-a">Start with self-acceptance. Focus on health, not approval. Seek professional help if it affects your daily life.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">When should I see a professional about body image?</div>
+            <div class="art-faq-a">See a professional if poor body image affects your relationships, confidence, or daily decisions.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Tort-Nasarre, G., Pollina Pocallet, M., &amp; Artigues-Barberà, E. <em>The Meaning and Factors That Influence the Concept of Body Image: Systematic Review and Meta-Ethnography from the Perspectives of Adolescents.</em> 2021.</li>
+          <li>Sattin, D., Parma, C., Lunetta, C., Zulueta, A., Lanzone, J., Giani, L., Vassallo, M., Picozzi, M., &amp; Parati, E. A. <em>An Overview of the Body Schema and Body Image: Theoretical Models, Methodological Settings and Pitfalls for Rehabilitation of Persons with Neurological Disorders.</em> 2023.</li>
+          <li>Vallar, G. <em>Body Schema and Body Image as Internal Representations of the Body, and Their Disorders: An Historical Review.</em> 2025.</li>
+          <li>Choquette, E. M., &amp; Khalsa, S. S. <em>Sensing the Self: The Role of the Insula and Interoception in Body Image.</em> 2025.</li>
+        </ol>
+      </div>`,
+  },
 ];
