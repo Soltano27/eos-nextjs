@@ -2468,10 +2468,12 @@ export const cortexArticles: CortexArticle[] = [
     badgeBg: "rgba(129,140,248,0.2)",
     badgeColor: "#C7D2FE",
     cardColor: "#818CF8",
-    title: "How Do You Get Help If You Have PTSD?<br/>Healing and Treatment: What Actually Helps",
+    title:
+      "How Do You Get Help If You Have PTSD?<br/>Healing and Treatment: What Actually Helps",
     deck: "There is no quick fix for PTSD, but recovery is possible. Here's what CBT, EMDR, medication, and community actually do — and why healing in Nigeria comes with barriers most people never talk about.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle: "How Do You Get Help If You Have PTSD? Healing and Treatment: What Actually Helps",
+    cardTitle:
+      "How Do You Get Help If You Have PTSD? Healing and Treatment: What Actually Helps",
     cardExcerpt:
       "CBT, EMDR, medication, and community each play a different role in PTSD recovery. Here's what actually helps, and what stands in the way in Nigeria.",
     toc: [
@@ -2593,10 +2595,12 @@ export const cortexArticles: CortexArticle[] = [
     badgeBg: "rgba(56,189,248,0.2)",
     badgeColor: "#BAE6FD",
     cardColor: "#38BDF8",
-    title: "What Intelligence Actually Is<br/>(And Why 'Olodo' Doesn't Mean What You Think)",
+    title:
+      "What Intelligence Actually Is<br/>(And Why 'Olodo' Doesn't Mean What You Think)",
     deck: "IQ, EQ, SQ, AQ — intelligence isn't one fixed trait. Here's what actually determines each type, which parts of the brain drive them, and why calling someone an olodo misses the point entirely.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle: "What Intelligence Actually Is (And Why 'Olodo' Doesn't Mean What You Think)",
+    cardTitle:
+      "What Intelligence Actually Is (And Why 'Olodo' Doesn't Mean What You Think)",
     cardExcerpt:
       "Intelligence shows up as IQ, EQ, SQ, and AQ — and most people are strong in some and weaker in others. Here's what determines each, and why 'olodo' isn't the full story.",
     toc: [
@@ -2610,10 +2614,10 @@ export const cortexArticles: CortexArticle[] = [
     ],
     keyTakeaways: [
       "Intelligence isn't one fixed trait — it shows up as IQ (logical reasoning), EQ (managing emotions), SQ (reading people), and AQ (handling adversity), and most people are strong in some of these and weaker in others.",
-      "The \"four types\" framework is a popularized way of organizing intelligence, not a single settled clinical model, so it's best treated as a useful lens rather than hard science.",
+      'The "four types" framework is a popularized way of organizing intelligence, not a single settled clinical model, so it\'s best treated as a useful lens rather than hard science.',
       "Different brain regions handle different kinds of intelligence — the Prefrontal Cortex, Parietal Lobe, and Hippocampus support IQ, while the Amygdala, Insula, Anterior Cingulate Cortex, and Prefrontal Cortex support EQ and SQ.",
       "The neuroscience behind Adversity Quotient is still underdeveloped, but people with higher AQ do tend to show better mental health and less burnout under sustained pressure.",
-      "Calling someone an \"olodo\" for not excelling in one type of intelligence ignores that intelligence is multidimensional and can still be developed in the areas where a person is currently weaker.",
+      'Calling someone an "olodo" for not excelling in one type of intelligence ignores that intelligence is multidimensional and can still be developed in the areas where a person is currently weaker.',
     ],
     bodyHtml: `<section id="oi-intro">
         <p class="art-lede">In a recent interview, a rapper named Ycee raised an issue of concern. He mentioned the rise in popularity of content creators who create content of no intellectual value. He argued that the Nigerian environment rewards dumb and unintelligent content while downplaying actual intelligent content that can provide value. He used the case of a streamer named Peller. While he claimed he didn't coin it himself and that he was not directly insulting any content creator, the term "Olodo Uprising" has gained rapid popularity. Nigerians are divided, with people on both sides of the fence. Some are in support of Ycee, while others claim these content creators are simply trying to make ends meet and that is how they can do so.</p>
@@ -2714,16 +2718,21 @@ export const cortexArticles: CortexArticle[] = [
     badgeBg: "rgba(56,189,248,0.2)",
     badgeColor: "#BAE6FD",
     cardColor: "#38BDF8",
-    title: "What Social Media Is Doing to Your Attention<br/>(And Why the Olodo Uprising Missed the Real Culprit)",
+    title:
+      "What Social Media Is Doing to Your Attention<br/>(And Why the Olodo Uprising Missed the Real Culprit)",
     deck: "Every scroll, like, and notification is a small tug-of-war for your brain's attention systems. Here's how that actually works — and what it means for developing minds.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle: "What Social Media Is Doing to Your Attention (And Why the Olodo Uprising Missed the Real Culprit)",
+    cardTitle:
+      "What Social Media Is Doing to Your Attention (And Why the Olodo Uprising Missed the Real Culprit)",
     cardExcerpt:
       "Social media hijacks the brain's attention systems by rewarding emotionally engaging content. Here's how that shapes focus, mood, and even how young people think.",
     toc: [
       { href: "#sm-intro", text: "Introduction" },
       { href: "#sm-attention", text: "How Attention Works in the Brain" },
-      { href: "#sm-reward", text: "What Gets Rewarded and What Gets Dismissed" },
+      {
+        href: "#sm-reward",
+        text: "What Gets Rewarded and What Gets Dismissed",
+      },
       { href: "#sm-developing", text: "Effect on Developing Brains" },
       { href: "#sm-wrapup", text: "Wrap Up" },
       { href: "#sm-faq", text: "FAQs" },
@@ -2831,12 +2840,16 @@ export const cortexArticles: CortexArticle[] = [
     title: "Protecting Your Mind From the Feed:<br/>A Practical Guide",
     deck: "Willpower alone won't fix a shrinking attention span. Here's how to actually retrain your executive attention system, and protect your thinking from content designed to influence it.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle: "How Do I Protect My Brain From the Harmful Effects of Social Media?",
+    cardTitle:
+      "How Do I Protect My Brain From the Harmful Effects of Social Media?",
     cardExcerpt:
       "Willpower alone won't rebuild a shrinking attention span. Here's a practical guide to retraining focus and protecting your thinking from social media's influence.",
     toc: [
       { href: "#pm-intro", text: "Introduction" },
-      { href: "#pm-retrain", text: "Retraining Your Executive Attention System" },
+      {
+        href: "#pm-retrain",
+        text: "Retraining Your Executive Attention System",
+      },
       { href: "#pm-influence", text: "Preventing Wrong Influence" },
       { href: "#pm-wrapup", text: "Wrap Up" },
       { href: "#pm-faq", text: "FAQs" },
@@ -2927,7 +2940,8 @@ export const cortexArticles: CortexArticle[] = [
     badgeBg: "rgba(255,183,77,0.2)",
     badgeColor: "#FFCC80",
     cardColor: "#FFB74D",
-    title: "Does Exercise Benefit My Brain?<br/>The Workout Your Focus Is Waiting For",
+    title:
+      "Does Exercise Benefit My Brain?<br/>The Workout Your Focus Is Waiting For",
     deck: "Exercise doesn't just shape your body — it shows up in the brain almost immediately, boosting blood flow, memory, and attention. Here's what actually happens, and how little it takes.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
     cardTitle: "Does Exercise Benefit My Brain?",
@@ -2935,7 +2949,10 @@ export const cortexArticles: CortexArticle[] = [
       "Exercise raises blood flow, BDNF, and brain volume — and a single session can sharpen attention and memory. Here's what the science says, and how little it actually takes.",
     toc: [
       { href: "#ex-intro", text: "Introduction" },
-      { href: "#ex-during", text: "What Happens in Your Brain During Exercise?" },
+      {
+        href: "#ex-during",
+        text: "What Happens in Your Brain During Exercise?",
+      },
       { href: "#ex-benefits", text: "How Does Exercise Benefit the Brain?" },
       { href: "#ex-wrapup", text: "Wrap Up" },
       { href: "#ex-faq", text: "FAQs" },
@@ -3126,7 +3143,7 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
-   {
+  {
     num: 26,
     id: "cortex-article-26",
     category: "Brain Identity &amp; Culture",
@@ -3144,7 +3161,10 @@ export const cortexArticles: CortexArticle[] = [
     toc: [
       { href: "#bi-intro", text: "Introduction" },
       { href: "#bi-what", text: "What Is Body Image?" },
-      { href: "#bi-brain", text: "What Parts of the Brain Process Body Image?" },
+      {
+        href: "#bi-brain",
+        text: "What Parts of the Brain Process Body Image?",
+      },
       { href: "#bi-factors", text: "What Factors Affect Body Image?" },
       { href: "#bi-improve", text: "How Do I Improve My Body Image?" },
       { href: "#bi-wrapup", text: "Wrap Up" },
@@ -3235,6 +3255,117 @@ export const cortexArticles: CortexArticle[] = [
           <li>Sattin, D., Parma, C., Lunetta, C., Zulueta, A., Lanzone, J., Giani, L., Vassallo, M., Picozzi, M., &amp; Parati, E. A. <em>An Overview of the Body Schema and Body Image: Theoretical Models, Methodological Settings and Pitfalls for Rehabilitation of Persons with Neurological Disorders.</em> 2023.</li>
           <li>Vallar, G. <em>Body Schema and Body Image as Internal Representations of the Body, and Their Disorders: An Historical Review.</em> 2025.</li>
           <li>Choquette, E. M., &amp; Khalsa, S. S. <em>Sensing the Self: The Role of the Insula and Interoception in Body Image.</em> 2025.</li>
+        </ol>
+      </div>`,
+  },
+  {
+    num: 27,
+    id: "cortex-article-27",
+    category: "Women's Neuro Health",
+    gradFrom: "#2A0A14",
+    gradTo: "#6A1A38",
+    badgeBg: "rgba(244,63,94,0.2)",
+    badgeColor: "#FECDD3",
+    cardColor: "#F43F5E",
+    title: "Anxiety in Women:<br/>Why the Female Brain Carries a Heavier Load",
+    deck: "Women are diagnosed with anxiety at nearly twice the rate of men. Here's what hormones, brain chemistry, and culture actually have to do with it — and what helps.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "Why Are Women More Anxious?",
+    cardExcerpt:
+      "Hormonal shifts, brain chemistry, and cultural pressure combine to make anxiety nearly twice as common in women. Here's why, and what actually helps.",
+    toc: [
+      { href: "#anw-intro", text: "Introduction" },
+      { href: "#anw-why", text: "Why Is Anxiety Higher in Women?" },
+      { href: "#anw-showsup", text: "How Does Anxiety Show Up in Women?" },
+      { href: "#anw-manage", text: "How Do Women Deal With Anxiety?" },
+      { href: "#anw-wrapup", text: "Wrap Up" },
+      { href: "#anw-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Women are diagnosed with anxiety disorders at almost twice the rate of men, largely due to hormonal fluctuations and differences in brain chemistry.",
+      "Reproductive milestones such as pregnancy carry a heightened risk of conditions like Obsessive-Compulsive Disorder as estrogen and progesterone levels shift.",
+      "Anxiety in women commonly shows up as Generalized Anxiety Disorder, Panic Disorder, or Phobias, each with distinct physical and emotional symptoms.",
+      "Societal pressures, including unequal domestic labor and exposure to abuse, add a cultural layer to the biological drivers of anxiety in Nigerian women.",
+      "Identifying stressors, talking openly with loved ones, engaging in relaxing activities, and seeking professional help are practical steps toward managing anxiety.",
+    ],
+    bodyHtml: `<section id="anw-intro">
+        <p class="art-lede">One common experience in the life of an average African child is the anxiety from their mother. Between the two parents, the mother tends to worry more. While fathers cared and performed their duties, they were often calmer than the mothers, who tended to make mountains out of molehills. It's not just mothers — women tend to worry more, and they display higher levels of anxiety.</p>
+        <p>This week, we have discussed period migraines and body image. Today, we are discussing anxiety in women. Come along as we explore it together.</p>
+      </section>
+      <section id="anw-why">
+        <h2>Why Is Anxiety Higher in Women?</h2>
+        <p>Did you know women are diagnosed with anxiety twice as often as men?<sup>[2]</sup> It is primarily because of differences in brain chemistry and hormone fluctuations.</p>
+        <p>In a woman's life, there are various reproductive seasons. The surge and drop of estrogen and progesterone during pregnancy have been linked to a higher risk of Obsessive-Compulsive Disorder.<sup>[1]</sup></p>
+        <p>The Adult Hippocampal Neurogenesis system regulates anxiety. This works with adrenal and gonadal hormones. When estrogen drops, the body's stress response system becomes more responsive to stressors, and this raises anxiety.<sup>[3]</sup></p>
+        <p>Moreover, men and women deal with stress differently. Men are more solution-oriented and aim to find solutions to problems, while women tend to think about the issue more — and this persistent thinking raises anxiety levels.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚖️</div>
+          <div>Societal issues also contribute to stress and anxiety in women. Women are more likely to face physical, emotional, and sexual abuse, and in Nigerian society, little is often done to protect women from it. The average Nigerian woman has to stay on guard whenever she's outside, which raises her anxiety. Cultural expectations add to this too — in many homes, a woman comes back from work to cook, care for the kids, do the dishes, and handle other tasks at home. Working nonstop is bound to increase anxiety.</div>
+        </div>
+      </section>
+      <section id="anw-showsup">
+        <h2>How Does Anxiety Show Up in Women?</h2>
+        <p>In women, anxiety can show up in different ways. They include:</p>
+        <h3>Generalized Anxiety Disorder</h3>
+        <p>Women with this tend to worry about any and everything. They experience mood swings alongside insomnia, fatigue, and difficulty concentrating. These symptoms often get worse around the menstrual period.<sup>[4]</sup></p>
+        <h3>Panic Disorder</h3>
+        <p>This shows up as bursts of fear, with increased heart rate, nausea, sweating, and chest pain.<sup>[4]</sup> The person becomes worried about being attacked or seeing danger even where none exists. The symptoms closely resemble those of Post-Traumatic Stress Disorder.</p>
+        <h3>Phobias</h3>
+        <p>This is also characterised by fear. The person becomes afraid of certain situations — for some, it is enclosed spaces; for others, it could be going outside at night.<sup>[5]</sup></p>
+      </section>
+      <section id="anw-manage">
+        <h2>How Do Women Deal With Anxiety?</h2>
+        <h3>Identify Your Stressors</h3>
+        <p>It would be very beneficial to identify the things or situations that contribute to your anxiety. This way, you can take steps to manage them better.</p>
+        <h3>Talk With People</h3>
+        <p>There is no shame in admitting what you are going through. Open up to your family and friends and let them help you. You could also let them know the ways they are contributing to your anxiety and how they can help you.</p>
+        <h3>Find a Relaxing Activity</h3>
+        <p>Getting an activity that relaxes you will help you calm down and keep your system from feeling on edge all the time. It will also prevent burnout and reduce the effects of stress. It could be listening to music, watching a movie, or just going for a walk.</p>
+        <h3>Get Professional Help</h3>
+        <p>If anxiety is affecting your personal life, seek help. Talking to a trained professional will help you get the treatment you need, and identify triggers and how to better deal with them.</p>
+      </section>
+      <section id="anw-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Anxiety is much higher in women than it is in men, but this does not mean there are no solutions to it. Take steps to relax and do not let anxiety prevent you from enjoying your life.</p>
+        <p>Further reading: do you suffer from anxiety and are looking for ways to deal with it? Read <a href="#" data-route="cortex-article-10" style="color:var(--teal);text-decoration:underline">Anxiety and the Brain: How Anxiety Affects the Nervous System</a>.</p>
+      </section>
+      <section id="anw-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">Why are women more likely to be diagnosed with anxiety than men?</div>
+            <div class="art-faq-a">Women are diagnosed with anxiety roughly twice as often as men, largely due to hormonal fluctuations, differences in brain chemistry, and a tendency to ruminate on stressors rather than move directly to problem-solving.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can pregnancy increase the risk of anxiety disorders?</div>
+            <div class="art-faq-a">Yes. The surge and drop in estrogen and progesterone during pregnancy have been linked to a higher risk of Obsessive-Compulsive Disorder in women.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are the most common types of anxiety disorders in women?</div>
+            <div class="art-faq-a">The most common types include Generalized Anxiety Disorder (persistent worry, mood swings, fatigue), Panic Disorder (sudden fear with physical symptoms like a racing heart), and Phobias (intense fear of specific situations).</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does culture play a role in anxiety among Nigerian women?</div>
+            <div class="art-faq-a">Yes. Societal expectations around domestic responsibility, limited protection from abuse, and pressure to manage multiple roles at once all contribute to higher anxiety levels in Nigerian women.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How can women manage anxiety day to day?</div>
+            <div class="art-faq-a">Identifying personal stressors, talking openly with trusted people, engaging in a relaxing activity, and seeking professional support are all effective ways to manage anxiety.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">When should a woman seek professional help for anxiety?</div>
+            <div class="art-faq-a">If anxiety begins interfering with daily life, relationships, or work, it's time to consult a trained professional who can help identify triggers and recommend appropriate treatment.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>University of Cambridge. <em>Opinion: Women Are Far More Anxious Than Men. Here's the Science.</em></li>
+          <li>CNN. <em>Women and Anxiety Disorders.</em> 2016.</li>
+          <li>McLean, C. P., Asnaani, A., Litz, B. T., &amp; Hofmann, S. G. <em>Gender Differences in Anxiety Disorders: Prevalence, Course of Illness, Comorbidity and Burden of Illness.</em> Journal of Psychiatric Research, 2011.</li>
+          <li>Hantsoo, L., &amp; Epperson, C. N. <em>Anxiety Disorders Among Women: A Female Lifespan Approach.</em> Focus (Am Psychiatr Publ), 2017.</li>
+          <li>U.S. Food and Drug Administration. <em>Women and Anxiety.</em></li>
         </ol>
       </div>`,
   },
