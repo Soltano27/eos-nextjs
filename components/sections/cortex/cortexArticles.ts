@@ -3369,4 +3369,111 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 28,
+    id: "cortex-article-28",
+    category: "Physical Brain Health",
+    gradFrom: "#0A1A3A",
+    gradTo: "#1A2E5A",
+    badgeBg: "rgba(100,181,246,0.2)",
+    badgeColor: "#BBDEFB",
+    cardColor: "#64B5F6",
+    title: "What Your Brain Is Doing<br/>While You Sleep",
+    deck: "Sleep isn't a shutdown — it's when your brain repairs cells, clears out waste, and files away memories. Part one of a three-part series on sleep and the brain.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "What Does Sleep Do to Brain Performance?",
+    cardExcerpt:
+      "The brain doesn't switch off when you sleep — it repairs itself, clears toxins, and consolidates memory. Here's what actually happens each night.",
+    toc: [
+      { href: "#sl1-intro", text: "Introduction" },
+      { href: "#sl1-what", text: "What Is Sleep?" },
+      { href: "#sl1-stages", text: "The Stages of Sleep" },
+      { href: "#sl1-does", text: "What Does Sleep Do to the Brain?" },
+      { href: "#sl1-wrapup", text: "Wrap Up" },
+      { href: "#sl1-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Sleep is not a passive shutdown state — the brain stays active, repairing cells, clearing waste, and organizing memory while the body rests.",
+      "The glymphatic system, which flushes out metabolic waste and toxins like beta-amyloid, functions almost exclusively during deep sleep.",
+      "Memory consolidation happens primarily during REM sleep and the second stage of N-REM sleep, which is why recall improves after a good night's rest.",
+      "Sleep deprivation weakens the brain's alerting system, leading to poor attention, brain fog, and reduced mental sharpness.",
+      "Chronic lack of sleep prevents the brain from regenerating neurons and clearing toxins, raising long-term risk for neurodegenerative diseases like Alzheimer's and Parkinson's.",
+    ],
+    bodyHtml: `<section id="sl1-intro">
+        <p class="art-lede">What do you think happens to your body when you go to sleep? Do you think your body just shuts down and turns off all its systems, or do you think it's like when you put your phone on low-power mode — it just keeps the essential systems running and turns off the rest?</p>
+        <p>The brain is quite active when you are asleep. It clears metabolic waste, strengthens neural connections, and helps build memory capacity.</p>
+        <p>This week, we begin a three-part series examining what sleep does to the brain. We'll look at how sleep affects the brain, the effects of poor sleeping habits, and steps to improve your sleep for those who deal with insomnia. Come along as we explore these topics.</p>
+      </section>
+      <section id="sl1-what">
+        <h2>What Is Sleep?</h2>
+        <p>Sleep is a state characterised by changes in brain wave activity, breathing, heart rate, body temperature, and other physiological functions.<sup>[1]</sup> When we sleep, the physiological demands of the body are reduced, so blood pressure and body temperature drop.</p>
+        <p>Contrary to popular opinion, the brain is not inactive during sleep — it keeps working and functioning. A lot happens while we're asleep: the release and action of growth hormone occurs while we sleep, and the brain coordinates it. Cell repair and growth, digestion, and other processes also occur while we're asleep, and none of these can happen without the brain directing them.</p>
+      </section>
+      <section id="sl1-stages">
+        <h2>What Are the Stages of Sleep?</h2>
+        <p>Sleep occurs in five stages: Wake, Non-Rapid Eye Movement stages 1–3 (N-REM), and Rapid Eye Movement (REM).</p>
+        <p>In the wake stage, the person is fully alert and conscious — this is the stage just before falling asleep. The person could have their eyes open or closed, but they are still awake.</p>
+        <p>The first stage of N-REM sleep is the lightest stage of sleep, and also the shortest.<sup>[2]</sup></p>
+        <p>The second stage of N-REM sleep is the longest — we spend about 45% of our sleep in this stage. It is assumed that this is where the brain sorts out information and organises memories.<sup>[3]</sup></p>
+        <p>The third stage of N-REM sleep is the deepest. This is the stage a person is hardest to wake from, and people often deal with brain fog when woken from it. It's also the stage where the body carries out most repair work — repairing tissue and strengthening the immune system. Bedwetting, night terrors, and sleepwalking also occur during this stage.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🌙</div>
+          <div>After N-REM sleep, the body moves into REM sleep. Heart rate, brain activity, and blood pressure rise, and this is the stage where dreaming happens. As the name suggests, there is a lot of rapid eye movement, and your body paralyses your muscles so you don't act out your dreams.<sup>[4]</sup></div>
+        </div>
+        <p>Now that we've examined the stages of sleep, let's explore what sleep does to the brain.</p>
+      </section>
+      <section id="sl1-does">
+        <h2>What Does Sleep Do to the Brain?</h2>
+        <p>Let's start with a question: on which morning would you be more effective at work or school — a morning after a night of being on your phone till 3am, or after a good night's sleep? You would obviously feel much better after a good night's sleep.</p>
+        <p>Sleep is very beneficial for the brain, and it provides several benefits. Let us explore them together.</p>
+        <p>First and foremost, sleep allows the brain to fix and repair itself. While we're asleep, some enzymes repair damage done to brain cells by free radicals, and the brain can regenerate neurons to replace damaged ones.<sup>[5]</sup></p>
+        <p>Moreover, the brain clears out accumulated waste through a system called the glymphatic system. This system is set up to function almost exclusively when we are asleep, removing waste and toxins caused by the breakdown of cells during the day's activities.<sup>[5]</sup> This helps protect the brain from neurodegenerative diseases such as Parkinson's and Alzheimer's.<sup>[6]</sup></p>
+        <p>Furthermore, sleep allows the brain to consolidate memory. During REM sleep and the second stage of N-REM sleep, the brain organises and stores memories — this is why you can recollect better after a good night's sleep.<sup>[7]</sup></p>
+        <p>In addition, in our <a href="#" data-route="cortex-article-22" style="color:var(--teal);text-decoration:underline">article on social media and attention span</a>, we mentioned the alerting system — the first system of attention. When a person is sleep-deprived, this system doesn't respond the way it should, making it harder to pay attention. The person also tends to experience brain fog.</p>
+        <p>Finally, during sleep, the brain turns off receptors for noradrenaline, serotonin, and histamine, allowing them to rest and regain their sharpness. Think of it this way: if you have a knife you use every day but never sharpen it, it will eventually get blunt and stop working as well as it should.<sup>[5]</sup></p>
+      </section>
+      <section id="sl1-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Sleep is very vital to your brain. It gives the brain the opportunity to clear out waste and toxins, repair itself, sort out memories, and sharpen neural networks.</p>
+        <p>You must get enough sleep to enjoy these benefits. Depriving yourself of proper sleep will damage your brain in the long run — we'll be discussing those damages in our next article, so make sure you don't miss it.</p>
+        <p>Further reading: did you miss our article on women and anxiety? No worries, you can catch up here: <a href="#" data-route="cortex-article-27" style="color:var(--teal);text-decoration:underline">Anxiety in Women: Why the Female Brain Carries a Heavier Load</a>.</p>
+      </section>
+      <section id="sl1-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What does sleep do to the brain?</div>
+            <div class="art-faq-a">Sleep allows the brain to repair damaged cells, clear out metabolic waste through the glymphatic system, consolidate memories, and rest key neurotransmitter receptors so they regain sharpness for the next day.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are the stages of sleep?</div>
+            <div class="art-faq-a">Sleep occurs in five stages: Wake, three stages of Non-Rapid Eye Movement (N-REM) sleep, and Rapid Eye Movement (REM) sleep. Each stage plays a different role, from organizing memory to repairing tissue and triggering dreams.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Why is deep sleep important for the brain?</div>
+            <div class="art-faq-a">Deep sleep (the third stage of N-REM) is when the body carries out most of its repair work, strengthening the immune system and activating the glymphatic system to clear toxins linked to neurodegenerative disease.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How does sleep affect memory?</div>
+            <div class="art-faq-a">During REM sleep and the second stage of N-REM sleep, the brain organizes and stores memories, which is why people tend to recall information better after a full night's rest than after a night of poor sleep.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can lack of sleep cause brain fog?</div>
+            <div class="art-faq-a">Yes. Sleep deprivation disrupts the brain's alerting system, which is responsible for attention and focus, resulting in the mental fog and difficulty concentrating that many people experience after a poor night's sleep.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Harvard Medical School, Division of Sleep Medicine. <em>Sleep and Health Education Program.</em> 2025.</li>
+          <li>Patel, A. K., Reddy, V., Shumway, K. R., et al. <em>Physiology, Sleep Stages.</em> 2024.</li>
+          <li>Cleveland Clinic. <em>Sleep Basics.</em> 2024.</li>
+          <li>Harvard Health Publishing. <em>REM Sleep: What Is It, Why Is It Important, and How Can You Get More of It?</em> 2024.</li>
+          <li>Eugene, A. R., &amp; Masiak, J. <em>The Neuroprotective Aspects of Sleep.</em> 2015.</li>
+          <li>American Brain Foundation. <em>Why Sleep Matters for Brain Health.</em> 2024.</li>
+          <li>University of Utah Health. <em>Why at Least Seven Hours of Sleep Is Essential.</em> 2023.</li>
+        </ol>
+      </div>`,
+  },
 ];
