@@ -3476,4 +3476,117 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 29,
+    id: "cortex-article-29",
+    category: "Physical Brain Health",
+    gradFrom: "#0A1A3A",
+    gradTo: "#1A2E5A",
+    badgeBg: "rgba(100,181,246,0.2)",
+    badgeColor: "#BBDEFB",
+    cardColor: "#64B5F6",
+    title:
+      "The Cost of Cutting Sleep Short:<br/>How Deprivation Damages the Brain",
+    deck: "\"You can rest when you're dead\" is not a strategy — it's a countdown. Here's what sleep deprivation actually does to attention, mood, memory, and long-term brain health. Part two of a three-part series.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "What Happens When the Brain Doesn't Get Enough Rest?",
+    cardExcerpt:
+      "Sleep deprivation weakens attention, keeps the brain stuck in stress mode, and blocks memory consolidation. Here's what the science says about the cost of cutting sleep short.",
+    toc: [
+      { href: "#sl2-intro", text: "Introduction" },
+      { href: "#sl2-what", text: "What Is Sleep Deprivation?" },
+      { href: "#sl2-insomnia", text: "Deprivation vs. Insomnia" },
+      { href: "#sl2-short", text: "Short-Term Effects" },
+      { href: "#sl2-long", text: "Long-Term Effects" },
+      { href: "#sl2-wrapup", text: "Wrap Up" },
+      { href: "#sl2-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Sleep deprivation is not the same as insomnia. Deprivation means choosing not to sleep. Insomnia means being unable to sleep despite trying.",
+      "Sleep deprivation weakens attention and executive function. The prefrontal cortex struggles to sustain focus without enough rest.",
+      "A sleep-deprived brain stays stuck in stress mode. This raises irritability and emotional reactivity over time.",
+      "Chronic sleep loss blocks memory consolidation. Neurons don't get the chance to move information into long-term storage.",
+      "Long-term deprivation raises the risk of neurodegenerative disease. The glymphatic system can't clear toxins like amyloid-beta properly.",
+    ],
+    bodyHtml: `<section id="sl2-intro">
+        <p class="art-lede">How do you feel in the morning after pulling an all-nighter? Are you refreshed and ready to take on the world, or are you groggy, tired, and just lethargic? Depriving the brain of sleep carries its consequences. We live in a hustle-with-all-you-have era, and many youths have sacrificed their sleep in the bid to get ahead. You often hear people justify this with statements like "you can rest when you're dead." Keep depriving yourself of sleep, and you just might get the chance sooner than you think.</p>
+        <p>In our last article, we explored what happens when we sleep, the benefits of sleep, and the stages of sleep. In this article, we discuss the effects of sleep deprivation. Follow us as we go on.</p>
+      </section>
+      <section id="sl2-what">
+        <h2>What Is Sleep Deprivation?</h2>
+        <p>Simply put, sleep deprivation is not getting enough sleep.<sup>[1]</sup> There are two types: acute, which lasts for a few days, and chronic, which lasts for a long time.<sup>[2]</sup></p>
+        <p>Sleep deprivation can also be partial or total. Total means not getting any sleep at all, and partial means not getting enough.</p>
+        <p>Many youths have pulled all-nighters in which they didn't sleep a wink, while others have gone to bed a lot later than they should have. It's one thing when sleep deprivation happens occasionally, but when it starts becoming a pattern, care should be taken.</p>
+      </section>
+      <section id="sl2-insomnia">
+        <h2>Is Sleep Deprivation the Same as Insomnia?</h2>
+        <p>Nope. They sound similar, but they are different. Insomnia means the inability to sleep even when the person is trying, but sleep deprivation means the person can sleep but chooses not to.<sup>[3]</sup></p>
+        <p>Let's use examples to illustrate. If someone is in bed scrolling through social media till three in the morning, that is a case of sleep deprivation. But if the person has put the phone down, lain in bed, and closed their eyes waiting to sleep, and the sleep does not come, then the person is dealing with insomnia.</p>
+      </section>
+      <section id="sl2-short">
+        <h2>What Are the Effects of Sleep Deprivation on the Brain?</h2>
+        <p>Sleep deprivation is definitely not good for the brain. The effects are divided into two: short-term and long-term.</p>
+        <h3>Short-Term Effects</h3>
+        <p>The first area affected is attention. If we remember our <a href="#" data-route="cortex-article-22" style="color:var(--teal);text-decoration:underline">article on social media and attention</a>, we mentioned the alerting system — this system does not operate optimally when a person is sleep-deprived.</p>
+        <p>Also, the executive system is greatly affected by sleep deprivation. Even if something can grab a person's attention, maintaining it isn't easy, because the prefrontal cortex — the part of the brain concerned with executive decisions, through which we decide what to give our attention to — is also impaired. Sleep deprivation hinders the ability to pay attention, especially over a long span.<sup>[4]</sup></p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🔥</div>
+          <div>Another short-term effect is an increased response to stress. Good sleep helps deal with the effects of stress — when we sleep properly, the brain gets the chance to rest and repair the body. But when the brain is deprived of sleep, the parts that deal with stress stay switched on. It's like driving a car at high speed for long hours without a break; eventually, the engine will overheat.<sup>[5]</sup></div>
+        </div>
+        <p>In addition, sleep deprivation comes with psychological effects like mood swings, increased irritability, cognitive disruptions, and decreased performance. As mentioned, the prefrontal cortex's ability to regulate the amygdala is reduced, so the person produces more intense emotional responses to situations.<sup>[5]</sup></p>
+      </section>
+      <section id="sl2-long">
+        <h2>Long-Term Effects of Sleep Deprivation</h2>
+        <p>The first is an increased risk of neurodegenerative diseases like Alzheimer's and Parkinson's. In our last article, we mentioned that while we're asleep, the glymphatic system drains the waste and toxins accumulated in the brain — especially amyloid-beta proteins, thought to be precursors of Alzheimer's. When the brain is unable to do this, the risk of disease rises.<sup>[6]</sup></p>
+        <p>Moreover, sleep deprivation affects long-term memory. When a person is deprived of sleep, neurons cannot consolidate memory into long-term storage, leading to increased forgetfulness. During REM sleep and the second stage of N-REM sleep, neurons consolidate short-term memory into long-term memory — when the brain is sleep-deprived, these neurons don't get the chance to work.<sup>[7]</sup></p>
+        <p>Furthermore, sleep deprivation also contributes to neural degeneration. When we're asleep, the brain releases enzymes that repair it, and active neurons get a break to rest. When the brain is sleep-deprived, this cannot happen — the repair enzymes aren't released, and the neurons don't get the opportunity to rest.</p>
+        <div class="art-callout art-callout-purple">
+          <div class="art-callout-icon">⚠️</div>
+          <div>Sleep deprivation can also lead to microsleep — a short period during which the brain disconnects from sensory input.<sup>[8]</sup> It's like a short sleep with your eyes wide open. This is dangerous, especially if the person is driving.</div>
+        </div>
+      </section>
+      <section id="sl2-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Sleep is very important for the brain, and not getting enough of it is harmful. In this article, we've examined the effects of sleep deprivation on the brain. In the next one, we'll discuss strategies to get enough sleep and deal with insomnia.</p>
+        <p>Further reading: do you know how beneficial sleep is for the brain? If you don't, our last article on sleep and brain performance is a great place to learn: <a href="#" data-route="cortex-article-28" style="color:var(--teal);text-decoration:underline">What Your Brain Is Doing While You Sleep</a>.</p>
+      </section>
+      <section id="sl2-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is sleep deprivation?</div>
+            <div class="art-faq-a">Sleep deprivation means not getting enough sleep. It can be acute or chronic. It can also be partial or total.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Is sleep deprivation the same as insomnia?</div>
+            <div class="art-faq-a">No. Sleep deprivation happens when a person chooses not to sleep. Insomnia happens when a person wants to sleep but can't.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Can lack of sleep cause anxiety?</div>
+            <div class="art-faq-a">Yes. Sleep deprivation reduces the prefrontal cortex's control over the amygdala. This leads to stronger emotional responses and increased anxiety.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does sleep deprivation increase the risk of Alzheimer's?</div>
+            <div class="art-faq-a">Yes. Chronic sleep loss disrupts the glymphatic system. This system normally clears toxins like amyloid-beta, which is linked to Alzheimer's risk.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is microsleep?</div>
+            <div class="art-faq-a">Microsleep is a brief period where the brain disconnects from sensory input. It can happen without warning and is especially dangerous while driving.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>National Heart, Lung, and Blood Institute (NHLBI). <em>Sleep Deprivation and Deficiency: What Are Sleep Deprivation and Deficiency?</em> 2022.</li>
+          <li>Northwest Family Clinics. <em>What Is Sleep Deprivation and What Does It Do to the Body?</em> 2026.</li>
+          <li>Summer, J. V. <em>Sleep Deprivation: How Lack of Sleep Affects Your Health.</em> Sleep Foundation, 2026.</li>
+          <li>Krause, A. J., Simon, E. B., Mander, B. A., Greer, S. M., Saletin, J. M., Goldstein-Piekarski, A. N., &amp; Walker, M. P. <em>The Sleep-Deprived Human Brain.</em> 2017.</li>
+          <li>Medic, G., Wille, M., &amp; Hemels, M. E. H. <em>Short- and Long-Term Health Consequences of Sleep Disruption.</em> 2017.</li>
+          <li>American Brain Foundation. <em>The Effect of Insomnia on Brain Health.</em> 2025.</li>
+          <li>Eugene, A. R., &amp; Masiak, J. <em>The Neuroprotective Aspects of Sleep.</em> 2015.</li>
+          <li>National Sleep Foundation. <em>What Is Microsleep?</em> 2021.</li>
+        </ol>
+      </div>`,
+  },
 ];
