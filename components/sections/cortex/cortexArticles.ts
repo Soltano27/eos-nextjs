@@ -3589,4 +3589,117 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 30,
+    id: "cortex-article-30",
+    category: "Physical Brain Health",
+    gradFrom: "#0A1A3A",
+    gradTo: "#1A2E5A",
+    badgeBg: "rgba(100,181,246,0.2)",
+    badgeColor: "#BBDEFB",
+    cardColor: "#64B5F6",
+    title: "Dealing With Insomnia:<br/>Practical Steps to Reclaim Your Sleep",
+    deck: "Staring at the ceiling isn't a life sentence. Here's what insomnia actually is, how it differs from sleep deprivation, and the practical steps that help you reclaim your sleep. Part three of a three-part series.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "How Do I Deal With Insomnia?",
+    cardExcerpt:
+      "Insomnia isn't the same as sleep deprivation, and it's not something to just push through. Here are the practical steps that actually help — and when to see a doctor.",
+    toc: [
+      { href: "#sl3-intro", text: "Introduction" },
+      { href: "#sl3-what", text: "What Is Insomnia?" },
+      { href: "#sl3-types", text: "Types of Insomnia" },
+      { href: "#sl3-deal", text: "How to Deal With Insomnia" },
+      { href: "#sl3-medical", text: "When Should I Seek Medical Attention?" },
+      { href: "#sl3-wrapup", text: "Wrap Up" },
+      { href: "#sl3-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Insomnia is difficulty falling or staying asleep despite the opportunity to do so, and it's different from sleep deprivation, which involves choosing not to sleep.",
+      "Insomnia falls into three types based on duration: transient (under a month), short-term (one to three months), and chronic (three or more nights a week for three months or longer).",
+      "Consistent sleep and wake times, along with a calming bedtime routine, help train the brain to recognize when it's time to rest.",
+      "A sleep-friendly environment and reduced screen exposure before bed can significantly improve sleep quality.",
+      "Cognitive Behavioral Therapy (CBT-I) is a proven, non-drug approach for chronic insomnia, and persistent insomnia should be addressed by a doctor rather than self-medicated with sleep aids.",
+    ],
+    bodyHtml: `<section id="sl3-intro">
+        <p class="art-lede">Happy Monday to you. How was your weekend? We hope you had fun and got a lot of rest. In this series, we have explored the effects sleep has on brain performance and the effects of sleep deprivation on the brain.</p>
+        <p>In all this, someone might be asking: what do I do if I have insomnia? Well, lucky for you, that is what this article is going to answer. So, without further ado, let's dive into it.</p>
+      </section>
+      <section id="sl3-what">
+        <h2>What Is Insomnia?</h2>
+        <p>Insomnia is difficulty falling asleep despite opportunity and circumstance, occurring at least up to three times a week over a three-month period.<sup>[1]</sup> It is different from sleep deprivation, which means a person not getting adequate sleep — either through deliberate refusal to sleep or for other reasons — despite being able to sleep easily.<sup>[2]</sup></p>
+      </section>
+      <section id="sl3-types">
+        <h2>What Are the Types of Insomnia?</h2>
+        <p>There are three types of insomnia, often classified by how long they last.</p>
+        <h3>Transient Insomnia</h3>
+        <p>This is very short-lived and barely lasts a month. It is often brought about by stressors such as moving or emotional stress.<sup>[3]</sup></p>
+        <h3>Short-Term Insomnia</h3>
+        <p>This lasts between one and three months. It is not usually caused by one factor, but is usually brought on by a series of factors together.<sup>[4]</sup></p>
+        <h3>Chronic Insomnia</h3>
+        <p>This is the inability to fall asleep, maintain sleep, or get good quality sleep, occurring at least three times a week over a period of three months. A combination of genetic and emotional factors causes it.<sup>[5]</sup></p>
+      </section>
+      <section id="sl3-deal">
+        <h2>How to Deal With Insomnia</h2>
+        <p>Insomnia can be frustrating to deal with. You know you are tired and need to sleep, but you spend nights staring at the ceiling. But you don't have to suffer through this condition endlessly. Let us explore the solutions together.</p>
+        <h3>Have a Consistent Bedtime</h3>
+        <p>Sleeping at 1am today and 11pm tomorrow will mess up your circadian rhythm. Having a consistent sleep time allows your brain to know when it's time to sleep.</p>
+        <h3>Have a Bedtime Routine</h3>
+        <p>Having a bedtime routine tells your brain that it's time for bed. When you start your routine, your brain starts withdrawing stress hormones and preparing the body for sleep.</p>
+        <h3>Make Your Environment Conducive to Sleep</h3>
+        <p>While some people can sleep through anything, others are not so lucky. It's important to know the conditions that favour sleep for you, and to ensure those conditions are present in your bedroom.</p>
+        <h3>Get Rid of Distractions</h3>
+        <p>Avoid things that can distract your brain from sleep at bedtime. For example, checking Instagram Reels or TikTok videos when you're getting ready to sleep can be detrimental to getting a good night's sleep.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">💭</div>
+          <div>Deal with emotional issues too. Emotional issues can be barriers to proper sleep — if you are going through something, try to seek help or find healthy ways of dealing with it. Don't compound your situation with health problems from lack of sleep.</div>
+        </div>
+        <h3>Cognitive Behavioral Therapy (CBT-I)</h3>
+        <p>This is a form of therapy specifically designed to deal with insomnia. It helps address thought patterns that interfere with good sleep, and helps build proper sleep hygiene and routine.<sup>[6]</sup></p>
+      </section>
+      <section id="sl3-medical">
+        <h2>When Should I Seek Medical Attention?</h2>
+        <p>If you are trying these steps and they are not working, something else may be at play. It is important to seek medical attention instead of taking sleep medication yourself — abusing sleeping pills may lead to dependency, where you become unable to sleep without using them.</p>
+      </section>
+      <section id="sl3-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Sleep is very important, and being unable to sleep can be frustrating to deal with. But luckily, there are steps to take to deal with insomnia. Follow these steps and seek medical attention if you need it.</p>
+        <p>Further reading: did you miss the article on sleep and brain performance? No need to worry — read <a href="#" data-route="cortex-article-28" style="color:var(--teal);text-decoration:underline">What Your Brain Is Doing While You Sleep</a>.</p>
+      </section>
+      <section id="sl3-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is insomnia?</div>
+            <div class="art-faq-a">Insomnia is difficulty falling asleep or staying asleep despite having the opportunity and circumstances to do so. It's different from sleep deprivation, which happens when a person can sleep but chooses not to.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What are the types of insomnia?</div>
+            <div class="art-faq-a">There are three types, classified by duration: transient insomnia (lasting less than a month, often triggered by stress), short-term insomnia (one to three months), and chronic insomnia (three or more nights a week for three months or longer).</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">How can I fix insomnia naturally?</div>
+            <div class="art-faq-a">Start with consistent sleep and wake times, a calming bedtime routine, a sleep-friendly environment, and reduced screen exposure before bed. Addressing underlying emotional stress can also help.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is CBT-I?</div>
+            <div class="art-faq-a">CBT-I, or Cognitive Behavioral Therapy for Insomnia, is a form of therapy designed to change thought patterns and habits that interfere with sleep. It's considered one of the most effective non-drug treatments for chronic insomnia.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">When should I see a doctor about insomnia?</div>
+            <div class="art-faq-a">If lifestyle changes and sleep hygiene practices aren't improving your sleep, it's important to see a doctor rather than rely on over-the-counter sleep aids, which can lead to dependency.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Roth, T. <em>Insomnia: Definition, Prevalence, Etiology, and Consequences.</em> 2007.</li>
+          <li>Sleep Foundation. <em>Sleep Deprivation.</em> 2025.</li>
+          <li>Nicholson, A. N., &amp; Marks, J. <em>Transient Insomnia.</em> 1983.</li>
+          <li>Momin, R. R., Aslam, S. P., &amp; Ketvertis, K. <em>Short-Term Insomnia.</em> 2025.</li>
+          <li>McNamara, S., Spurling, B. C., &amp; Bollu, P. C. <em>Chronic Insomnia.</em> 2025.</li>
+          <li>Stanford Health Care. <em>Insomnia: Treatments.</em> 2025.</li>
+        </ol>
+      </div>`,
+  },
 ];
