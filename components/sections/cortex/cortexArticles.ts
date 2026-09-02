@@ -3702,4 +3702,108 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 31,
+    id: "cortex-article-31",
+    category: "Physical Brain Health",
+    gradFrom: "#4A2A0A",
+    gradTo: "#8A5A1A",
+    badgeBg: "rgba(255,183,77,0.2)",
+    badgeColor: "#FFCC80",
+    cardColor: "#FFB74D",
+    title: "Exercise as Insurance<br/>for the Aging Brain",
+    deck: "The benefits of exercise aren't just for right now — they compound over decades, building the brain's capacity to protect itself against age and disease. Part two of a two-part series on exercise and the brain.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "How Does Exercise Protect the Brain?",
+    cardExcerpt:
+      "Exercise builds cognitive reserve, lowers dementia risk by up to 20%, and even helps patients already diagnosed with Alzheimer's. Here's how it protects the brain over the long run.",
+    toc: [
+      { href: "#exp-intro", text: "Introduction" },
+      { href: "#exp-what", text: "What Do We Mean by Protection?" },
+      { href: "#exp-dementia", text: "Exercise and Dementia" },
+      { href: "#exp-other", text: "Other Ways Exercise Protects the Brain" },
+      { href: "#exp-best", text: "Which Form of Exercise Is Best?" },
+      { href: "#exp-wrapup", text: "Wrap Up" },
+      { href: "#exp-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Exercise protects the brain over decades, not just in the moment — it builds cognitive reserve, the brain's capacity to compensate for age-related damage using alternative neural pathways.",
+      "People who exercise regularly are up to 20% less likely to develop dementia than those who don't, based on an analysis combining 58 studies.",
+      "In patients already diagnosed with Alzheimer's, regular exercise has been shown to improve memory and cognition, though it doesn't eliminate the disease.",
+      "Heart health and brain health are directly linked — conditions like hypertension and diabetes raise stroke and dementia risk, and coronary heart disease alone is linked to a 40% increase in dementia risk.",
+      "Aerobic exercise has the strongest evidence for brain protection, but consistency matters more than intensity — daily activities like walking, cleaning, or gardening count.",
+    ],
+    bodyHtml: `<section id="exp-intro">
+        <p class="art-lede">Hey there, how is your week going? Do you remember our last article, in which we examined the benefits of exercise for the brain? In this article, we're examining an aspect of those benefits — how exercise protects the brain. Come along as we delve into it.</p>
+        <p>Have you interacted with people of older generations? One thing you can observe among them is the retention of their cognitive abilities well into old age. Many of them are not only mentally sharp, but also often quite active for their age — one reason being that they lived a very active lifestyle in their youth. Most of their jobs involved manual labour.</p>
+        <p>In addition, due to the absence of modern transportation systems, many of them often walked long distances each day. The benefits of that active lifestyle showed up in their old age.</p>
+      </section>
+      <section id="exp-what">
+        <h2>What Do We Mean by Protection?</h2>
+        <p>In the first article of this series, we mentioned that exercise promotes the release of Brain-Derived Neurotrophic Factor (BDNF). When this molecule is released, it promotes the production and connection of neurons in the hippocampus, aiding the consolidation of long-term memory and improving memory overall.<sup>[1]</sup></p>
+        <p>Moreover, when the brains of people who exercised were compared with those of people who didn't, the regions that control thinking and memory were larger in the people who exercised.<sup>[2]</sup></p>
+        <p>Exercise also helps the brain build up its cognitive reserve. Cognitive reserve refers to the capacity to use alternative neural pathways or behavioural compensations in response to central nervous system injury, reflecting lifelong learning and engagement in cognitively stimulating activities.<sup>[3]</sup> In short, the brain creates new neural pathways to compensate for the ones damaged by accident or illness.</p>
+        <div class="art-callout art-callout-blue">
+          <div class="art-callout-icon">🧠</div>
+          <div>Exercise helps build efficient neural connections by stimulating blood flow within neural circuits, which in turn helps build cognitive reserve.<sup>[4]</sup></div>
+        </div>
+      </section>
+      <section id="exp-dementia">
+        <h2>Exercise and Dementia</h2>
+        <p>Exercise is very helpful in reducing the risk of dementia and improving memory and cognition in dementia patients. People who regularly exercise are 20% less likely to develop dementia than those who don't.<sup>[5]</sup></p>
+        <p>Moreover, in older patients who already had dementia, exercise has been found to improve memory and cognition. Studies have shown that older patients with Alzheimer's disease showed improvements in memory and cognition with exercise.<sup>[6]</sup></p>
+        <p>However, it is important to note that while exercise lowers the risk of developing Alzheimer's and helps manage the symptoms, it does not eliminate it.</p>
+      </section>
+      <section id="exp-other">
+        <h2>What Other Ways Does Exercise Protect the Brain?</h2>
+        <p>Exercise protects the brain by aiding good cardiovascular health. Regular exercise reduces the risk of diseases like hypertension and diabetes.</p>
+        <p>These conditions greatly increase the risk of stroke and other neurodegenerative diseases. An ischemic stroke occurs when there is a blockage of blood vessels, often caused by the buildup of fatty tissue and plaque in blood vessels.<sup>[7]</sup></p>
+        <p>Furthermore, good cardiovascular health reduces the risk of Alzheimer's disease. Studies have shown a 40% increase in the risk of dementia among patients with coronary heart disease.</p>
+      </section>
+      <section id="exp-best">
+        <h2>Which Form of Exercise Is Best for Brain Protection?</h2>
+        <p>This is a question you might be asking. While various forms of exercise offer neuroprotective benefits, the best form is aerobic exercise. Aerobic exercise is sustained physical activity designed to increase cardiovascular fitness, targeting large muscle groups and using the aerobic pathways of oxidative phosphorylation for energy supply.<sup>[8]</sup></p>
+        <p>Simply put, aerobic exercise uses oxygen to produce energy for the muscles. It speeds up heart rate and blood pressure.</p>
+        <p>How much exercise to do depends on the person. Do as much as you can and work at your own pace — the key is consistency. If you can go for a run every morning, go for it. If you can only walk, then do that. Just make sure you are active. A study revealed that even everyday tasks can help reduce the risk of dementia.<sup>[5]</sup></p>
+      </section>
+      <section id="exp-wrapup">
+        <h2>Wrap Up</h2>
+        <p>Imagine yourself in the next 30–35 years. How do you want to be? Would you still like to have mental sharpness? Would you still like to think clearly and have proper command of your memories? Then you have to make smart choices. Your decisions today determine where you'll be tomorrow. The choice is yours — choose well.</p>
+        <p>Further reading: did you miss the first article in this series? Have no fear — you can catch up here: <a href="#" data-route="cortex-article-24" style="color:var(--teal);text-decoration:underline">Does Exercise Benefit My Brain? The Workout Your Focus Is Waiting For</a>.</p>
+      </section>
+      <section id="exp-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="art-faq">
+          <div class="art-faq-item">
+            <div class="art-faq-q">Does exercise actually lower my risk of dementia, or does it just help people who already have it?</div>
+            <div class="art-faq-a">Both. Regular exercise is linked to up to a 20% lower risk of developing dementia in the first place, and in people already diagnosed with Alzheimer's, exercise has been shown to improve memory and cognitive scores, even though it doesn't cure or eliminate the disease.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Why does heart health affect brain health?</div>
+            <div class="art-faq-a">Your brain depends entirely on blood flow for oxygen and nutrients. Conditions that damage your cardiovascular system — hypertension, diabetes, high cholesterol — restrict that supply and raise the risk of both stroke and dementia. Coronary heart disease specifically has been linked to a 40% increase in dementia risk.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">What is cognitive reserve, and can I actually build it?</div>
+            <div class="art-faq-a">Cognitive reserve is the brain's ability to find alternative neural pathways when parts of it are damaged by injury, illness, or age. Exercise appears to help build this reserve, largely by improving blood flow and supporting stronger neural connections over time.</div>
+          </div>
+          <div class="art-faq-item">
+            <div class="art-faq-q">Do I need to do intense workouts to get these protective effects?</div>
+            <div class="art-faq-a">No. The research points to consistency over intensity. Aerobic activity has the strongest evidence base, but daily movement — walking, cleaning, gardening — has also been linked to reduced dementia risk. The key is staying active regularly, not pushing hard occasionally.</div>
+          </div>
+        </div>
+      </section>
+      <div class="art-references">
+        <div class="art-ref-title">References</div>
+        <ol class="art-ref-list">
+          <li>Liu, P. Z., &amp; Nusslock, R. <em>Exercise-Mediated Neurogenesis in the Hippocampus via BDNF.</em> 2018.</li>
+          <li>Harvard Health Publishing. <em>Exercise Can Boost Your Memory and Thinking Skills.</em> 2024.</li>
+          <li>ScienceDirect. <em>Cognitive Reserve.</em> 2025.</li>
+          <li>Mandolesi, L., Polverino, A., Montuori, S., Foti, F., Ferraioli, G., Sorrentino, P., &amp; Sorrentino, G. <em>Effects of Physical Exercise on Cognitive Functioning and Wellbeing: Biological and Psychological Benefits.</em> 2018.</li>
+          <li>Alzheimer's Society. <em>Physical Activity and Reducing Your Risk of Dementia.</em> 2025.</li>
+          <li>Ahlskog, J. E., Geda, Y. E., Graff-Radford, N. R., &amp; Petersen, R. C. <em>Physical Exercise as a Preventive or Disease-Modifying Treatment of Dementia and Brain Aging.</em> 2011.</li>
+          <li>American Brain Foundation. <em>Heart Health = Brain Health.</em> 2025.</li>
+          <li>ScienceDirect. <em>Aerobic Exercise.</em> 2025.</li>
+        </ol>
+      </div>`,
+  },
 ];
