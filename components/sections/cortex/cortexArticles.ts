@@ -3806,4 +3806,109 @@ export const cortexArticles: CortexArticle[] = [
         </ol>
       </div>`,
   },
+  {
+    num: 32,
+    id: "cortex-article-32",
+    category: "Physical Brain Health",
+    gradFrom: "#4A2A0A",
+    gradTo: "#8A5A1A",
+    badgeBg: "rgba(255,183,77,0.2)",
+    badgeColor: "#FFCC80",
+    cardColor: "#FFB74D",
+    title: "How Moving Together<br/>Protects the Brain",
+    deck: "A wedding owambe with drumming and dancing can leave you feeling lighter than an hour on a stationary bike. That's not just vibes — it's brain chemistry. Part three of a three-part series on exercise and the brain.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "What Are the Benefits of Group Exercise?",
+    cardExcerpt:
+      "Movement done with other people protects the brain in ways solo exercise can't fully replicate. Here's what dance, community, and connection actually do for cognitive health.",
+    toc: [
+      { href: "#gex-intro", text: "Introduction" },
+      { href: "#gex-together", text: "Exercise Is Always Better in Groups" },
+      {
+        href: "#gex-dance",
+        text: "Dancing: Healing the Soul and Helping the Brain",
+      },
+      { href: "#gex-connection", text: "Why the Brain Rewards Connection" },
+      { href: "#gex-means", text: "What This Means for How We Live" },
+      { href: "#gex-wrapup", text: "Wrap Up" },
+      { href: "#gex-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Movement done with other people appears to protect the brain in ways solo exercise doesn't fully replicate.",
+      "Dance combines physical movement with memory, coordination, timing, and social interaction — and has been linked to a lower dementia risk than other activities like cycling or swimming.",
+      "Social connection itself is deeply tied to brain health. Persistent loneliness in older adults has been linked to faster cognitive decline.",
+      "Exercise builds cognitive reserve; social connection protects it. Communal movement offers both at once.",
+      "Group exercise has been linked to greater reductions in stress and greater improvements in quality of life than solo exercise, even when solo exercisers spent more total time working out.",
+    ],
+    bodyHtml: `<section id="gex-intro">
+      <p class="art-lede">Have you ever wondered why running with a group or a partner often feels more refreshing than running alone? Or why a wedding owambe with drumming and dancing leaves you feeling lighter than an hour on a stationary bike ever could?</p>
+      <p>There's a reason for that, and it isn't just vibes. It's brain chemistry.</p>
+      <p>We've spent this series looking at exercise as biology. In the <a href="#" data-route="cortex-article-24" style="color:var(--teal);text-decoration:underline">first article</a>, we looked at what a single workout does for your focus today. In the <a href="#" data-route="cortex-article-31" style="color:var(--teal);text-decoration:underline">second</a>, we looked at what consistent exercise does for your brain thirty years from now. In this final piece, we're looking at something different: not what exercise does to you as an individual, but what it does when you do it together with other people.</p>
+    </section>
+    <section id="gex-together">
+      <h2>Exercise Is Always Better in Groups</h2>
+      <p>Before we started paying for gym subscriptions, movement was communal. People danced at ceremonies. They drummed together. They farmed, pounded yam, and walked long distances as a group, not alone.</p>
+      <p>While what they did then wasn't exactly "exercise," it was a lot of physical activity, and they often did it together. For most of human history, physical activity was inseparable from community.</p>
+      <p>This matters more than it might seem, because the brain doesn't just respond to movement — it responds better to movement done with other people.</p>
+    </section>
+    <section id="gex-dance">
+      <h2>Dancing: Healing the Soul and Helping the Brain</h2>
+      <p>Dance is one of the clearest examples of this. Unlike a solo run or a set of push-ups, dance combines physical movement with memory, coordination, timing, and social interaction, all at once.</p>
+      <p>A landmark study following older adults over several years found that of all the activities tested — including cycling, golf, swimming, and tennis — dancing was the one most strongly associated with a reduced risk of dementia.<sup>[1]</sup> Researchers pointed to a specific reason: dance requires social engagement and mental effort simultaneously, and that combination appears to matter more than physical exertion alone.<sup>[1]</sup></p>
+      <div class="art-callout art-callout-blue">
+        <div class="art-callout-icon">💃</div>
+        <div>Later research has continued to support this. One clinical trial found that after six months, people in a dance program performed better on tests of memory and executive function than people doing conventional fitness training like stationary cycling and weightlifting, and showed less volume loss in the hippocampus.<sup>[2]</sup> Dance appears to promote the release of BDNF — the same molecule from <a href="#" data-route="cortex-article-24" style="color:var(--teal);text-decoration:underline">the first article in this series</a> that supports the growth and survival of neurons — while also strengthening connectivity between the two hemispheres of the brain.<sup>[2,3]</sup></div>
+      </div>
+      <p>The lesson here isn't that everyone needs to become a dancer. It's that movement layered with social connection and mental engagement does something that repetitive solo exercise doesn't.</p>
+    </section>
+    <section id="gex-connection">
+      <h2>Why the Brain Rewards Connection</h2>
+      <p>This brings us to a wider point. Social connection itself, separate from exercise, is deeply tied to brain health.</p>
+      <p>A study following more than 7,000 adults aged 60 and older found that people who experienced persistent loneliness or social isolation over several years had faster cognitive decline and a higher risk of cognitive impairment than those who weren't isolated.<sup>[4]</sup> Isolation doesn't just affect mood — it appears to erode what researchers call cognitive reserve, the same protective capacity we discussed in <a href="#" data-route="cortex-article-31" style="color:var(--teal);text-decoration:underline">the second article</a> as one of exercise's long-term benefits.<sup>[4]</sup></p>
+      <p>Now put those two facts together. Exercise builds cognitive reserve. Social connection protects it. Communal movement — dancing, playing football with friends, walking in a group, doing something physical together — gives you both at once.</p>
+      <p>There's evidence for this too. One study comparing group exercise to solo exercise over twelve weeks found that people who exercised in a group experienced significantly greater reductions in stress and greater improvements in quality of life than those who worked out alone, even though the solo exercisers spent more total time exercising.<sup>[5]</sup> More effort, done alone, produced a smaller benefit than less effort, done together.</p>
+    </section>
+    <section id="gex-means">
+      <h2>What This Means for How We Live</h2>
+      <p>This is where the science meets something older than science. In many African communities, communal activity was never seen as separate from health. Drumming circles, group dances at ceremonies, communal farm work — all of it doubled as movement and as social bonding. Nobody called it a workout. It was simply how life was lived.</p>
+      <p>What the research is now confirming is that this wasn't just cultural tradition without a physiological basis. Movement done together may protect the brain in ways that movement done alone cannot fully replicate.</p>
+    </section>
+    <section id="gex-wrapup">
+      <h2>Wrap Up</h2>
+      <p>Across three articles, we've looked at exercise from three angles: what it does for your focus today, what it does for your brain thirty years from now, and what it does when you do it with the people around you. Put together, the picture is simple. Exercise is not just a task to check off — it is one of the few tools available to you that works on your mind immediately, protects it over decades, and strengthens your sense of belonging, all at the same time.</p>
+      <p>The next time you're deciding between a solo run and joining a dance class, a football game, or a group workout, consider that your brain may have a preference. It usually leans toward company.</p>
+      <p>Further reading: missed the second article in this series? Read <a href="#" data-route="cortex-article-31" style="color:var(--teal);text-decoration:underline">How Does Exercise Protect the Brain? Exercise as Insurance for the Aging Brain</a>.</p>
+    </section>
+    <section id="gex-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="art-faq">
+        <div class="art-faq-item">
+          <div class="art-faq-q">Is dancing really better for the brain than other forms of exercise?</div>
+          <div class="art-faq-a">Evidence suggests dancing offers unique benefits because it combines physical movement with memory, coordination, and social interaction at the same time. Some studies have found dancing linked to a lower dementia risk compared to other physical activities like cycling or swimming, though this doesn't mean other exercise forms are ineffective.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Does loneliness actually affect brain health, or is that just a mood thing?</div>
+          <div class="art-faq-a">It affects more than mood. Research has linked persistent loneliness and social isolation in older adults to faster cognitive decline and a higher risk of cognitive impairment, independent of physical activity levels.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Is group exercise actually better than exercising alone?</div>
+          <div class="art-faq-a">For stress reduction and quality of life, evidence points that way. One study found people in group exercise programs saw significantly greater improvements in stress and wellbeing than solo exercisers, even when the solo exercisers worked out for longer.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Do I need to exercise in a group to get brain benefits?</div>
+          <div class="art-faq-a">No. Solo exercise still provides real cognitive and long-term protective benefits, as covered in the first two articles of this series. Group and communal movement simply adds a layer of social benefit that solo exercise doesn't fully replicate.</div>
+        </div>
+      </div>
+    </section>
+    <div class="art-references">
+      <div class="art-ref-title">References</div>
+      <ol class="art-ref-list">
+        <li>Verghese, J., Lipton, R. B., Katz, M. J., et al. <em>Leisure Activities and the Risk of Dementia in the Elderly.</em> New England Journal of Medicine, 2003.</li>
+        <li>Brain &amp; Life (American Academy of Neurology). <em>How Dance Promotes Brain Health.</em> 2025.</li>
+        <li>Harvard Medical School. <em>Dancing and the Brain.</em></li>
+        <li>Staying Sharp (AARP). <em>Social Connections Enhance Brain Health.</em> 2026.</li>
+        <li>Yorks, D. M., Frothingham, C. A., &amp; Schuenke, M. D. <em>Effects of Group Fitness Classes on Stress and Quality of Life of Medical Students.</em> The Journal of the American Osteopathic Association, 2017.</li>
+      </ol>
+    </div>`,
+  },
 ];
