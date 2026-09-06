@@ -3911,4 +3911,120 @@ export const cortexArticles: CortexArticle[] = [
       </ol>
     </div>`,
   },
+  {
+    num: 33,
+    id: "cortex-article-33",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#0A0A2A",
+    gradTo: "#1A1A5A",
+    badgeBg: "rgba(129,140,248,0.2)",
+    badgeColor: "#C7D2FE",
+    cardColor: "#818CF8",
+    title:
+      "Inside a Crisis:<br/>What Happens in the Brain During Suicidal Ideation",
+    deck: "Suicidal crises often feel unsolvable because chronic stress physically reshapes the brain's decision-making centers. Here's what's actually happening — and why the crisis window is temporary.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "What Happens in the Brain of a Suicidal Person?",
+    cardExcerpt:
+      "Chronic stress shrinks the prefrontal cortex and loosens its grip on the amygdala, creating tunnel vision. Here's what the science says, and where to find help right now.",
+    toc: [
+      { href: "#si-intro", text: "Introduction" },
+      {
+        href: "#si-tunnel",
+        text: "Tunnel Vision: Believing There Is No Way Out",
+      },
+      { href: "#si-pain", text: "Pain Sensitivity and Suicide Risk" },
+      { href: "#si-hope", text: "Is There Any Hope?" },
+      { href: "#si-wrapup", text: "Wrap Up" },
+      { href: "#si-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Suicidal crises often feel unsolvable because chronic stress physically shrinks the prefrontal cortex.",
+      "A shrunken prefrontal cortex loses its grip on the amygdala's stress response and creates tunnel vision.",
+      "Insomnia deepens the damage by preventing the brain's decision-making system from recovering overnight.",
+      "Suicide risk splits into two pain patterns: some people become hypersensitive to pain while others dissociate from it entirely.",
+      "Acute suicidal crises are temporary and help is available right now through SURPIN and other verified resources.",
+    ],
+    bodyHtml: `<section id="si-intro">
+      <p class="art-lede">Have you ever gotten the news that someone you knew has taken their life? Or come across an announcement that someone has taken their life? What pops up in your head when you get this sad news? Do you feel pity or sadness for them? When most people hear that someone has taken their life, they ask questions like: why didn't the person ask for help? Was the situation that bad? Some would even blame the person and see them as weak.</p>
+      <p>But what we don't often do is wonder what was going on in their minds. We don't usually stop to put ourselves in their shoes to see how they must have been feeling.</p>
+      <p>September is Suicide Awareness Month. As we observe this, we will be examining the topic of suicide from different angles. In this article, we look at what happens in the mind of a suicidal person.</p>
+    </section>
+    <section id="si-tunnel">
+      <h2>Tunnel Vision: Believing There Is No Way Out</h2>
+      <p>One of the first steps toward suicide is the feeling that there is no way out. The person feels trapped, and their situation seems unsolvable.</p>
+      <p>If we remember our article on stress and the brain, chronic stress rewires the brain. When the brain is overloaded with stressors — a situation called allostatic overload — it becomes easier to trigger, and stress hormones are produced even in situations that don't warrant them. This is because the areas of the brain that respond to stress become more developed and can override the Prefrontal Cortex, which is responsible for executive control and decision-making.<sup>[1]</sup></p>
+      <p>Prolonged stress can cause a reduction in the size of the prefrontal cortex while increasing the amygdala, orbitofrontal cortex, and other areas associated with stress response. This atrophy of the executive decision network reduces the brain's capacity to regulate the amygdala's responses. In a suicidal person, the overload of stressors causes the person to start believing there is no way out.<sup>[2]</sup></p>
+      <div class="art-callout art-callout-blue">
+        <div class="art-callout-icon">🚗</div>
+        <div>Think of it this way: if the brain were a car, stress would be the driver hitting the accelerator. Stress hormones activate the Sympathetic Nervous System — the fight-or-flight response — like a car speeding up. Once the stressor is removed or resolved, the Parasympathetic Nervous System activates, like a driver hitting the brakes. But when stress becomes chronic, it's like a driver unable to take their foot off the accelerator. It's only a matter of time before the car breaks down or crashes. For a person on the verge of suicide, the stressful situations have reached a point where they don't see a way out.</div>
+      </div>
+      <p>There's also the issue of insomnia. In many homes, parents stare at the ceiling at night because the thought of how to raise money for one expense or another prevents them from getting a good night's sleep. Insomnia prevents the brain's executive system from resting and recharging. So the executive system, already battered by the day's stress, is not only prevented from resting but further stressed at night. Insomnia has been associated with increased feelings of hopelessness and depression, and is a common phenomenon among suicide victims — though it's important to note that more research is still needed in this area.<sup>[3]</sup></p>
+    </section>
+    <section id="si-pain">
+      <h2>What Is the Relationship Between Pain Sensitivity and Suicide Risk?</h2>
+      <p>Suicide and pain have two subtype relationships. In some cases, people shut down and become unresponsive to physical pain; in others, they become more reactive and hypersensitive to it.</p>
+      <p>In hyposensitive patients, unbearable psychological pain causes a dissociation between the body and physical pain — a disconnect that can go far enough that the patient begins to self-harm.<sup>[4]</sup></p>
+    </section>
+    <section id="si-hope">
+      <h2>Is There Any Hope?</h2>
+      <p>Acute suicidal windows are temporary and can be overcome with help and treatment. If you or someone you know is having suicidal thoughts or practising self-harm, please seek treatment immediately.</p>
+      <div class="art-callout art-callout-purple">
+        <div class="art-callout-icon">📞</div>
+        <div>You can contact SURPIN (Suicide Research &amp; Prevention Initiative) to speak with a counsellor: +234-908-021-7555, +234-903-440-0009, +234-814-224-1007, or +234-8000787746. There are also several government-sponsored and private mental health facilities you can reach out to — you can find a directory through Nigeria Mental Health.</div>
+      </div>
+      <p>If you are feeling boxed in or like your situation is hopeless, please listen to this: it gets better. You've probably heard it a thousand times and it can sound like a cliché, but it truly does. This too shall pass. Maybe not today, maybe not tomorrow, but one day it will be a thing of the past.</p>
+    </section>
+    <section id="si-wrapup">
+      <h2>Wrap Up</h2>
+      <p>An announcement that someone has taken their life is never a good one. Many people who take their lives don't really want to die — they just want to escape their situation. The feeling of being boxed in, that there is no way out, can take a very heavy toll.</p>
+      <p>Further reading: did you know that exercising with partners doesn't just give you good vibes, but also has neurological benefits? If you didn't, find out in our previous article: <a href="#" data-route="cortex-article-32" style="color:var(--teal);text-decoration:underline">What Are the Benefits of Group Exercise? How Moving Together Protects the Brain</a>.</p>
+    </section>
+    <section id="si-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="art-faq">
+        <div class="art-faq-item">
+          <div class="art-faq-q">What happens in the brain during suicidal thoughts?</div>
+          <div class="art-faq-a">Chronic stress shrinks the prefrontal cortex and weakens its control over the amygdala. This creates tunnel vision and makes problems feel unsolvable.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Why do suicidal thoughts feel like there is no way out?</div>
+          <div class="art-faq-a">The brain's decision-making center loses power under prolonged stress. This makes it harder to see options that would otherwise be obvious.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Does lack of sleep increase suicide risk?</div>
+          <div class="art-faq-a">Yes. Insomnia prevents the brain's executive system from resting. This has been linked to higher hopelessness and depression.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Is suicidal ideation temporary?</div>
+          <div class="art-faq-a">Most acute suicidal crises pass within a limited window. Getting through that window with support significantly improves outcomes.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Why do some people self-harm during a mental health crisis?</div>
+          <div class="art-faq-a">Dissociation can numb a person to physical pain. This numbness can make self-harm feel disconnected from its real consequences.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">What is the difference between suicidal ideation and a suicide attempt?</div>
+          <div class="art-faq-a">Ideation refers to thoughts about ending one's life. An attempt is a physical act. Not everyone with ideation moves toward an attempt.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Who can I call in Nigeria if I am having suicidal thoughts?</div>
+          <div class="art-faq-a">SURPIN offers 24-hour counselling support. You can also find a full directory of hotlines and facilities through the Nigeria Mental Health helpline page.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">How can I help someone who is suicidal?</div>
+          <div class="art-faq-a">Listen without judgment and take their words seriously. Connect them to a hotline or mental health professional as soon as possible.</div>
+        </div>
+      </div>
+    </section>
+    <div class="art-references">
+      <div class="art-ref-title">References</div>
+      <ol class="art-ref-list">
+        <li>Harvard Health Publishing. <em>Protect Your Brain From Stress.</em></li>
+        <li>Girotti, M., Adler, S. M., Bulin, S. E., Fucich, E. A., Paredes, D., &amp; Morilak, D. A. <em>Prefrontal Cortex Executive Processes Affected by Stress in Health and Disease.</em> Progress in Neuro-Psychopharmacology and Biological Psychiatry, 2018.</li>
+        <li>McCall, W. V., &amp; Black, C. G. <em>The Link Between Suicide and Insomnia: Theoretical Mechanisms.</em> Current Psychiatry Reports, 2013.</li>
+        <li>Bianco, F., Courtet, P., Olié, E., López-Castroman, J., Madeddu, F., &amp; Calati, R. <em>Proposition of Two Subtypes of Patients at Risk of Suicide: Pain Hypersensitive vs. Dissociative.</em> Current Psychiatry Reports, 2025.</li>
+      </ol>
+    </div>`,
+  },
 ];
