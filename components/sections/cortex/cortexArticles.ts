@@ -4027,4 +4027,121 @@ export const cortexArticles: CortexArticle[] = [
       </ol>
     </div>`,
   },
+  {
+    num: 34,
+    id: "cortex-article-34",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#0A0A2A",
+    gradTo: "#1A1A5A",
+    badgeBg: "rgba(129,140,248,0.2)",
+    badgeColor: "#C7D2FE",
+    cardColor: "#818CF8",
+    title: "What the Research Says<br/>About Safe, Life-Saving Conversations",
+    deck: "Asking someone directly about suicide doesn't plant the idea — it reduces it. Here's what the research says about talking to someone who's considering ending their life, without making things worse.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "How to Talk to Someone Who Is Suicidal",
+    cardExcerpt:
+      "Asking directly about suicide reduces suicidal thoughts, not the other way around. Here's what actually helps when someone you know is considering ending their life.",
+    toc: [
+      { href: "#tsp-intro", text: "Introduction" },
+      {
+        href: "#tsp-asking",
+        text: "Does Asking About Suicide Increase the Risk?",
+      },
+      { href: "#tsp-myths", text: "Other Myths People Have" },
+      {
+        href: "#tsp-how",
+        text: "How Do I Talk to Them Without Making Things Worse?",
+      },
+      { href: "#tsp-wrapup", text: "Wrap Up" },
+      { href: "#tsp-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Asking someone directly about suicide reduces their suicidal thoughts rather than increasing them.",
+      "Suicidal people rarely want attention. Most just want their pain to stop.",
+      "Listening without interrupting can matter more than having the right advice.",
+      "Removing access to means of self-harm and involving trusted people both lower risk.",
+      "Staying present and following up afterward can make the difference between crisis and recovery.",
+    ],
+    bodyHtml: `<section id="tsp-intro">
+      <p class="art-lede">Have you ever been in a bad mood or felt down, and someone told you to simply snap out of it? Be honest — did that make you feel better or worse? Did you feel heard and encouraged, or did you feel like introducing the person's face to a 2-by-2 piece of wood? My money is on the latter. Telling someone to simply snap out of a bad mood is counterproductive, so you can imagine what it does to someone considering ending it all.</p>
+      <p>Talking to someone getting to that point can be difficult, and most people avoid it for fear of saying the wrong thing. Some others avoid it for fear it will plant the idea of suicide in the person's mind. This could not be further from the truth. Talking to someone about suicide allows them to let out what they've been holding in and reassures them that they are not alone.</p>
+      <p>In this article, we discuss how to speak to someone you know is considering suicide without making things worse.</p>
+    </section>
+    <section id="tsp-asking">
+      <h2>Does Asking About Suicide Increase the Risk?</h2>
+      <p>As mentioned, some people believe that talking to someone going through a hard time might plant the idea in their mind. This fear has been debunked. Research has shown that asking about suicidal plans actually reduces thoughts of taking one's life, rather than increasing them.<sup>[1]</sup></p>
+      <p>If we remember the <a href="#" data-route="cortex-article-33" style="color:var(--teal);text-decoration:underline">last article</a>, in which we discussed what goes on in the head of a person considering suicide, we talked about the feeling of being boxed in with no options left. Talking with the person allows them to express their frustrations and gives them the chance to know they have someone with them.</p>
+    </section>
+    <section id="tsp-myths">
+      <h2>What Other Myths Do People Have About These Conversations?</h2>
+      <p>Many people believe talking to someone considering suicide is only for people with professional training. While experts do have better training, being present for the person can make all the difference. Even if you don't have advice or a way to make the situation better, just being someone they can talk to means a lot.</p>
+      <p>Some others think suicidal people just want attention. This is not the case. People planning to end their lives are not doing it for pity or attention — many just want the pain to stop. Some are carrying guilt, regret, or grief, and may erroneously feel that ending it all is the best way to deal with it.</p>
+      <div class="art-callout art-callout-blue">
+        <div class="art-callout-icon">💭</div>
+        <div>Some believe that if a person is considering suicide, they've made up their mind and nothing anyone can do will change it. This is also untrue. Many are just looking for a way to end the pain they're carrying. Most don't really want to die — they want the pain to stop, but their situation has hammered their prefrontal cortex into feeling there is no other way out.</div>
+      </div>
+    </section>
+    <section id="tsp-how">
+      <h2>How Do I Talk to Someone Considering Suicide Without Making Things Worse?</h2>
+      <p>Many people see some signs and want to talk to the person, but fear saying the wrong thing. The truth is that done wrongly, talking to someone with suicidal ideation can make things worse — but done right, it could be the thing that saves their life.</p>
+      <h3>Listen Attentively</h3>
+      <p>Allow the person to pour out everything on their mind without interrupting them. Be present and listen. They may end up rambling and talking on and on, but do your best to listen to as much of it as you can. Sometimes the best thing you can do is be a listening ear. Don't interrupt them or give the impression that you're uninterested — let them pour out as much as they can before you respond.</p>
+      <h3>Ask If They Are Considering Suicide</h3>
+      <p>This is a difficult and uncomfortable question to ask, but you need to ask it. Don't just ask if they are okay — ask directly if they are planning on ending their life, and let them give a direct answer rather than brush off the question.<sup>[2]</sup></p>
+      <h3>Remove Dangerous Objects From Their Reach</h3>
+      <p>If there are objects they could use to harm themselves, remove them from their reach. As much as possible, limit their options to harm themselves.</p>
+      <h3>Involve Other Trusted People</h3>
+      <p>If there are other people they trust to open up to, try involving them. If people rally around and show up for them, the odds of following through on suicidal plans may drop when they see they are not alone.<sup>[3]</sup></p>
+      <h3>Stay With Them</h3>
+      <p>As much as you can, do not leave them alone. If you can stay with them, or get someone else who can, please do. Don't leave them alone with their thoughts — don't assume they are alright and leave. Make sure they will not harm themselves before you leave them.</p>
+      <h3>Encourage Them to Seek Professional Help</h3>
+      <p>It's often best to get them to speak to a therapist or other mental health professional. Speaking to a professional helps with getting a proper treatment plan and recovery.</p>
+      <h3>Check Up on Them</h3>
+      <p>The road to recovery is not always straightforward and can take time. Keep checking up on them and letting them know you are there. If you can go with them to their appointments, please do, and help ensure they follow their treatment plan.</p>
+      <div class="art-callout art-callout-purple">
+        <div class="art-callout-icon">🫁</div>
+        <div>One side note: as much as you want to help others, make sure you aren't carrying too much at once yourself. There's a reason parents are advised to put on their own oxygen masks before helping their children with theirs. It's important to take care of yourself before caring for others.</div>
+      </div>
+      <p>If you or someone around you is entertaining thoughts of ending their life, please don't hesitate to contact emergency services. You can contact SURPIN (Suicide Research &amp; Prevention Initiative) to speak with a counsellor: +234-908-021-7555, +234-903-440-0009, +234-814-224-1007, or +234-8000787746. You can also reach out to several mental health facilities — find both government-sponsored and private agencies at Nigeria Mental Health.</p>
+    </section>
+    <section id="tsp-wrapup">
+      <h2>Wrap Up</h2>
+      <p>Speaking with someone who is entertaining thoughts of ending it all is not a matter to be taken lightly. Talking to someone who is suicidal can be scary, but when done right, it can make all the difference. You don't have to be an expert to show up for people — sometimes just being there for them can make all the difference.</p>
+      <p>Further reading: the desire to live is the most basic and primal of all human desires, so when people choose to end their lives, it comes as a shock. Have you ever wondered what could push someone to that decision? Read <a href="#" data-route="cortex-article-33" style="color:var(--teal);text-decoration:underline">What Happens in the Brain of a Suicidal Person?</a></p>
+    </section>
+    <section id="tsp-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="art-faq">
+        <div class="art-faq-item">
+          <div class="art-faq-q">How do I talk to someone who is suicidal?</div>
+          <div class="art-faq-a">Listen without interrupting and ask directly if they are considering suicide. Stay present and connect them to professional help as soon as possible.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Does asking someone if they are suicidal make it worse?</div>
+          <div class="art-faq-a">No. Research shows asking directly reduces suicidal thoughts rather than increasing them.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Do suicidal people really want to die?</div>
+          <div class="art-faq-a">Most do not want to die. They want their pain to stop and often see no other way to achieve that.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">How can I help a suicidal friend or family member?</div>
+          <div class="art-faq-a">Stay with them and remove access to anything they could use for self-harm. Encourage them to speak with a mental health professional and check in regularly.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Who can I call for suicide support in Nigeria?</div>
+          <div class="art-faq-a">SURPIN offers 24-hour counselling support. The Nigeria Mental Health helpline page also lists government and private facilities.</div>
+        </div>
+      </div>
+    </section>
+    <div class="art-references">
+      <div class="art-ref-title">References</div>
+      <ol class="art-ref-list">
+        <li>Dazzi, T., Gribble, R., Wessely, S., &amp; Fear, N. T. <em>Does Asking About Suicide and Related Behaviours Induce Suicidal Ideation? What Is the Evidence?</em> Psychological Medicine, 2014.</li>
+        <li>National Institute of Mental Health (NIMH). <em>5 Action Steps to Help Someone Having Thoughts of Suicide.</em></li>
+        <li>Colorado State University — Support &amp; Safety. <em>5 Do's and Don'ts.</em></li>
+      </ol>
+    </div>`,
+  },
 ];
