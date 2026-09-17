@@ -74,6 +74,16 @@
   // pushHistory: false = called from popstate (back/forward) — don't push a new history entry
   window.eosNavigate = function (route, keepNavOpen, pushHistory) {
     if (!route) return;
+
+    // Deep links are server-rendered with a temporary CSS override (see
+    // app/[...slug]/page.tsx) that force-shows the right view before this
+    // script has even loaded, to avoid a flash of the homepage. Now that
+    // real navigation is happening, that override must go — otherwise its
+    // !important rules stay in the page forever and pin whichever view was
+    // deep-linked to, blocking every click after it.
+    var bootOverride = document.getElementById("ssr-boot-view-override");
+    if (bootOverride) bootOverride.remove();
+
     var viewId = ALIAS[route] || route;
     var target = document.getElementById("view-" + viewId);
     if (!target) {
@@ -82,10 +92,22 @@
     if (!target) return;
 
     // hide all views, show target
+    //
+    // classList alone isn't enough here: the SSR boot override (removed
+    // above, but only if it was still present — belt-and-suspenders) uses
+    // !important, and any future style with similar weight could do the
+    // same. An inline !important beats any stylesheet rule of the same
+    // origin, so setting display directly — not just toggling the class —
+    // guarantees exactly one view is ever visible, regardless of what CSS
+    // is fighting over it. This was the cause of an article rendering
+    // visibly stacked underneath the Cortex index page instead of
+    // replacing it.
     document.querySelectorAll(".page-view").forEach(function (v) {
       v.classList.remove("active");
+      v.style.setProperty("display", "none", "important");
     });
     target.classList.add("active");
+    target.style.setProperty("display", "block", "important");
     window.scrollTo({ top: 0, behavior: "smooth" });
 
     // ── URL / HISTORY ──
