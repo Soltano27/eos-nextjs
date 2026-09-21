@@ -4144,4 +4144,93 @@ export const cortexArticles: CortexArticle[] = [
       </ol>
     </div>`,
   },
+  {
+    num: 35,
+    id: "cortex-article-35",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#3A1A0A",
+    gradTo: "#7A3A1A",
+    badgeBg: "rgba(251,146,60,0.2)",
+    badgeColor: "#FED7AA",
+    cardColor: "#FB923C",
+    title: "How Stress Rewires the Brain",
+    deck: "Living in Nigeria means signing up to be stressed. But what actually happens to your brain when that stress never lets up? Here's the science behind allostatic overload.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "How Stress Rewires the Brain",
+    cardExcerpt:
+      "Chronic stress doesn't just wear you down emotionally — it physically reshapes the brain, strengthening threat response while weakening reasoning and decision-making.",
+    toc: [
+      { href: "#sr-intro", text: "Introduction" },
+      { href: "#sr-what", text: "What Is Stress?" },
+      { href: "#sr-effects", text: "Effects of Chronic Stress on the Brain" },
+      { href: "#sr-wrapup", text: "Wrap Up" },
+      { href: "#sr-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Stress is a normal part of life and even serves a protective purpose — it triggers the fight-or-flight response that keeps you alert to danger.",
+      "Problems arise with chronic stress: when the brain faces repeated stressful situations over a long period, a state called allostatic overload sets in.",
+      "Chronic stress physically rewires the brain — strengthening the amygdala (threat response) while weakening the prefrontal cortex (reasoning, decision-making, emotional regulation).",
+      "Chronic stress also takes a toll on mental health, contributing to anxiety, burnout, and depression, especially when the source of stress feels unending.",
+      "Managing stress isn't optional — left unchecked, it affects both brain structure and long-term mental wellbeing.",
+    ],
+    bodyHtml: `<section id="sr-intro">
+      <p class="art-lede">Let's be honest: living in Nigeria means you're signing up to be stressed, especially if you're living in Lagos. There's the pressure of making your salary last till the next one comes in, the stress of dashing out early in the morning to get to work on time, the actual stress of work itself, and then you want to go back home, and gbam, petrol prices have increased — so transport costs have increased too. Now, those who work remotely may be thinking this doesn't concern them. That's where electricity issues come in: it's the day you have that important meeting that the light will disappear, and you'll have to buy petrol to put in your generator. One way or another, Nigeria will stress you.</p>
+      <p>But what happens when that stress accumulates in your brain over time? Let's start small.</p>
+    </section>
+    <section id="sr-what">
+      <h2>What Is Stress?</h2>
+      <p>The World Health Organisation defines stress as a state of worry or mental tension caused by a difficult situation.<sup>[1]</sup> Stress is a part of daily life, but it can also be harmful and have negative effects when it isn't controlled.</p>
+    </section>
+    <section id="sr-effects">
+      <h2>Effects of Chronic Stress on the Brain</h2>
+      <p>To start with, stress has some beneficial effects. It tells us that we're in danger or experiencing some discomfort, and that we should remove ourselves from the situation. Stress triggers the fight-or-flight system, increasing alertness and the capacity to fight or run, depending on choice.<sup>[2]</sup></p>
+      <p>Chronic stress occurs when the brain is exposed to too many stressful situations for a long period of time. This is called allostatic overload. The brain becomes easier to trigger, leading to more stressful reactions even in situations that don't warrant such a response.</p>
+      <p>Studies have observed that chronic stress rewires the brain. The parts concerned with survival, such as the amygdala, get stronger and more developed, while the parts concerned with higher brain functions, such as the prefrontal cortex, become less developed. The brain is a bit like your muscles — the parts you exercise get bigger and stronger, while the parts you don't exercise get weaker.<sup>[3]</sup></p>
+      <div class="art-callout art-callout-blue">
+        <div class="art-callout-icon">⚡</div>
+        <div>Chronic stress could also be a contributor to neurodegenerative diseases such as Alzheimer's disease. It makes the brain unhealthy — constant overstimulation can damage the brain by causing the death of brain cells, and it also makes it more difficult to relax without external help, such as medication or behavioural therapy.</div>
+      </div>
+      <p>Persistent stress can lead to damage to the brain's insulin receptors through excess cortisol and overactive excitatory signalling. These insulin receptors help the brain use energy efficiently and protect it from damage. Damage to these receptors can begin a sequence of events that can potentially lead to Alzheimer's disease.<sup>[4]</sup></p>
+      <p>Furthermore, chronic stress is also harmful to your mental health. Persistent stress can lead to a build-up of anxiety, burnout, and even depression. Depression can set in when the stressful situation doesn't seem to be ending soon — for example, someone dealing with financial issues. It can feel like being in a never-ending loop, which leads to heightened tension, more aggressive tendencies, and despair.</p>
+    </section>
+    <section id="sr-wrapup">
+      <h2>Wrap Up</h2>
+      <p>Stress is a part of everyday life. If it isn't properly managed, it can have detrimental effects on both physical and mental health. It's therefore important to ensure that stress is properly managed. Also, did you know there are harmful ways of dealing with stress? If you didn't, stay tuned and find out in our next article.</p>
+      <p>Further reading: have you ever had the chance to talk to someone who is entertaining thoughts of suicide? Knowing what to say can be difficult, and the thought can be terrifying. To learn how to talk to a suicidal person, read <a href="#" data-route="cortex-article-34" style="color:var(--teal);text-decoration:underline">How to Talk to Someone Who Is Suicidal</a>.</p>
+    </section>
+    <section id="sr-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="art-faq">
+        <div class="art-faq-item">
+          <div class="art-faq-q">What does stress do to the brain?</div>
+          <div class="art-faq-a">Stress triggers the fight-or-flight response. It sharpens focus and reaction time. But when stress becomes constant, it starts to rewire the brain instead of just reacting to danger.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">What is chronic stress?</div>
+          <div class="art-faq-a">Chronic stress happens when the brain faces repeated stress for a long time. This leads to allostatic overload. The brain becomes more reactive, even to small triggers.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Can stress cause brain damage?</div>
+          <div class="art-faq-a">Yes. Chronic stress strengthens the amygdala. It weakens the prefrontal cortex. Over time, this imbalance affects memory, decision-making, and emotional control.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Is stress linked to Alzheimer's disease?</div>
+          <div class="art-faq-a">Research suggests a link. Chronic stress can damage the brain's insulin receptors. This damage may contribute to the development of Alzheimer's disease.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Can stress affect mental health?</div>
+          <div class="art-faq-a">Yes. Unmanaged stress can lead to anxiety, burnout, and depression. This is especially true when the stressful situation feels like it has no end.</div>
+        </div>
+      </div>
+    </section>
+    <div class="art-references">
+      <div class="art-ref-title">References</div>
+      <ol class="art-ref-list">
+        <li>World Health Organization (WHO). <em>Stress.</em> 2026.</li>
+        <li>Chu, B., Marwaha, K., Sanvictores, T., et al. <em>Physiology, Stress Reaction.</em> 2024.</li>
+        <li>Harvard Health Publishing. <em>Protect Your Brain From Stress.</em> 2021.</li>
+        <li>McEwen, B. S. <em>Neurobiological and Systemic Effects of Chronic Stress.</em> 2017.</li>
+      </ol>
+    </div>`,
+  },
 ];
