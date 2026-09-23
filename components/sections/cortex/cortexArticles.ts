@@ -4233,4 +4233,103 @@ export const cortexArticles: CortexArticle[] = [
       </ol>
     </div>`,
   },
+  {
+    num: 36,
+    id: "cortex-article-36",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#3A1A0A",
+    gradTo: "#7A3A1A",
+    badgeBg: "rgba(251,146,60,0.2)",
+    badgeColor: "#FED7AA",
+    cardColor: "#FB923C",
+    title: "Harmful Ways People<br/>Cope With Stress",
+    deck: "Everyone has a way of dealing with stress, but not every method actually helps. Here's what substance use, doomscrolling, and a few other quick fixes are really doing to your brain.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "What Are Bad Ways to Handle Stress?",
+    cardExcerpt:
+      "Substance use, doomscrolling, and a few other common coping habits offer quick relief, but they don't touch the actual source of stress. Here's what's really going on.",
+    toc: [
+      { href: "#hcs-intro", text: "Introduction" },
+      { href: "#hcs-ways", text: "Harmful Ways People Handle Stress" },
+      { href: "#hcs-why", text: "Why Do We Reach for Quick Fixes?" },
+      { href: "#hcs-wrapup", text: "Wrap Up" },
+      { href: "#hcs-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Harmful coping mechanisms offer quick relief. But they don't fix the actual source of stress.",
+      "Substance use disrupts sleep and damages the brain. Alcohol reduces sleep quality. Drugs can alter the basal ganglia, extended amygdala, and prefrontal cortex.",
+      "Doomscrolling overstimulates the brain's reward system. It shortens attention span over time.",
+      "These habits feel like relief because they trigger dopamine. But the underlying stressor stays unresolved.",
+      "Recognizing harmful coping patterns is the first step. Awareness makes room for healthier alternatives.",
+    ],
+    bodyHtml: `<section id="hcs-intro">
+      <p class="art-lede">Stress is part of everyday life, but too much is harmful. Everyone has their own mechanisms for coping with stress, but are these methods actually helpful, or are they making things worse? In this article, we're exploring harmful ways people deal with stress. So, let's get into it.</p>
+    </section>
+    <section id="hcs-ways">
+      <h2>What Are Harmful Ways I Am Handling Stress?</h2>
+      <h3>Substance Use</h3>
+      <p>Turning to alcohol or drugs for relief from stress will do more harm than good. While one or two drinks can offer a chance to blow off steam, getting drunk is another thing entirely. Aside from the risks of addiction, alcohol negatively affects the brain. It can disrupt your sleep schedule and prevent you from getting a good night's sleep, which would otherwise be very beneficial to the brain — alcohol may help you fall asleep faster, but it reduces your ability to maintain sleep and lowers overall sleep quality.<sup>[1]</sup></p>
+      <p>Consuming recreational drugs is also a bad idea, as they have varying damaging effects on the brain. Depending on the type of drug abused, they can damage the basal ganglia, amygdala, and prefrontal cortex.<sup>[2]</sup></p>
+      <h3>Doomscrolling</h3>
+      <p>When most of us get home after a long day's work, there's a tendency to want to lie down and press our phones. While checking out a few comedy skits can make you laugh and relax you, spending hours on TikTok and Instagram Reels becomes detrimental. It keeps your brain from relaxing and decreases your attention span. Prolonged social media use has been found to be harmful to attention span — it engages the brain's reward circuit for early dopamine release, and once you're used to that, paying attention to something for a long while becomes more difficult.<sup>[3]</sup></p>
+      <div class="art-callout art-callout-blue">
+        <div class="art-callout-icon">🍽️</div>
+        <div><strong>Overeating.</strong> Reaching for comfort food when stressed is common — food can offer a temporary dopamine boost. But relying on food to regulate emotions can disrupt metabolic health and reinforce a pattern where hunger and stress become tangled together. When you turn to food every time you've had a stressful day, you risk making it a crutch and depriving yourself of healthier ways to cope.</div>
+      </div>
+      <h3>Social Withdrawal</h3>
+      <p>Pulling away from people when stressed feels protective. But social connection is one of the brain's natural stress buffers. Withdrawing removes that buffer, often deepening the very isolation that makes stress harder to manage.</p>
+      <h3>Overworking</h3>
+      <p>Some people cope with stress by working even harder. It looks productive. But it's often avoidance in disguise — burying yourself in tasks distracts from the source of the stress instead of resolving it, and over time, it adds to allostatic load rather than relieving it.</p>
+    </section>
+    <section id="hcs-why">
+      <h2>Why Do We Reach for Quick Fixes?</h2>
+      <p>When the brain is under chronic stress, it starts craving fast relief. This is not a character flaw — it's biology. The brain's reward system releases dopamine when we do something that feels good, even briefly. So turning to some of these methods can seem helpful in the moment. For example, many people under emotional pressure tend to turn to drugs to help them forget their sorrows. While they forget temporarily, once the effects wear off, they're back to reality and will start craving the drug again — which is where addiction comes in.</p>
+    </section>
+    <section id="hcs-wrapup">
+      <h2>Wrap Up</h2>
+      <p>Chronic stress is definitely bad for your health, but using the wrong coping mechanisms for it will make things worse. Check yourself and examine the methods you use to relieve stress. Ask yourself: are they actually helpful, or are they making things worse? In the next article, we'll be examining healthy ways to deal with stress. Stay tuned and don't miss it.</p>
+      <p>Further reading: what do you think happens when you don't find healthy ways to deal with stress? One consequence is burnout. To find out more about burnout and how you can deal with it, read <a href="#" data-route="cortex-article-11" style="color:var(--teal);text-decoration:underline">Your Brain Called: It Wants the Weekend Off</a>.</p>
+      <div class="art-callout art-callout-purple">
+        <div class="art-callout-icon">📅</div>
+        <div><strong>Upcoming Event:</strong> A healthy way of dealing with stress is going out and having fun. To aid with this, the Emmanuel Olatunde Sanya Foundation is hosting a gathering titled "Is Your Brain Cooked?" Early birds get in for ₦5,000, while late registration is ₦10,000. <a href="https://whatsapp.com/channel/0029Vb8Pwmn4inooPbef0X0x" target="_blank" rel="noopener noreferrer" style="color:var(--teal);text-decoration:underline">Join here</a> to register.</div>
+      </div>
+    </section>
+    <section id="hcs-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="art-faq">
+        <div class="art-faq-item">
+          <div class="art-faq-q">What are harmful ways people cope with stress?</div>
+          <div class="art-faq-a">Common ones include substance use, doomscrolling, overeating, social withdrawal, and overworking. Each offers short-term relief. But none address the real cause of stress.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Why do people turn to unhealthy coping habits?</div>
+          <div class="art-faq-a">The brain craves fast relief under stress. These habits trigger dopamine release. That creates a temporary sense of calm, even though the stressor remains.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Does alcohol help with stress?</div>
+          <div class="art-faq-a">Not in the way people think. Alcohol may help you fall asleep faster. But it disrupts sleep quality and can worsen anxiety once it wears off.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Is doomscrolling bad for the brain?</div>
+          <div class="art-faq-a">Yes. It keeps the brain in a heightened state. It also shortens attention span through repeated dopamine stimulation.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Can stress eating be harmful?</div>
+          <div class="art-faq-a">Yes. Using food to manage emotions can disrupt metabolic health. It can also create a pattern where stress and hunger become linked.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">How do I know if my coping method has become harmful?</div>
+          <div class="art-faq-a">Watch for a few signs. You rely on it more over time. You use it to avoid problems rather than relax. Your sleep, mood, or relationships start to suffer.</div>
+        </div>
+      </div>
+    </section>
+    <div class="art-references">
+      <div class="art-ref-title">References</div>
+      <ol class="art-ref-list">
+        <li>Park, S. Y., Oh, M. K., Lee, B. S., et al. <em>The Effects of Alcohol on Quality of Sleep.</em> 2015.</li>
+        <li>National Institute on Drug Abuse (NIDA). <em>Drugs and the Brain.</em> 2020.</li>
+        <li>Cardoso-Leite, P., Buchard, A., Tissieres, I., Mussack, D., &amp; Bavelier, D. <em>Media Use, Attention, Mental Health and Academic Performance Among 8 to 12 Year Old Children.</em> 2021.</li>
+      </ol>
+    </div>`,
+  },
 ];
