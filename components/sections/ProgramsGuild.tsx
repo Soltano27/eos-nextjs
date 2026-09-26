@@ -3,8 +3,9 @@
 // continue to work with the original vanilla JS attached on window.
 "use client";
 import React from "react";
+import { renderEventsSection } from "./events/eventsRender";
 
-const HTML = `<!-- ═══════════════════════════════════════════════════════
+const HTML_TOP = `<!-- ═══════════════════════════════════════════════════════
      NEURO GUILD (routes: programs-guild)
 ═══════════════════════════════════════════════════════ -->
 <div id="view-programs-guild-full" class="page-view">
@@ -76,14 +77,18 @@ const HTML = `<!-- ════════════════════�
         <p style="font-size:13px;color:var(--dim);line-height:1.7;">Not in Lagos? The digital track gives you full community access, live-streamed events, and everything the Guild offers — from anywhere.</p>
       </div>
     </div>
+  </div>`;
 
+const HTML_BOTTOM = `
+  <div style="background:var(--white);padding:0 60px 100px;">
     <div style="display:flex;gap:14px;">
       <button class="btn-primary">Become a Member</button>
       <button style="background:transparent;color:var(--navy);border:1px solid rgba(10,58,110,0.2);border-radius:100px;padding:15px 32px;font-size:14px;font-weight:500;cursor:pointer;font-family:var(--sans);" data-route="programs">← All Programmes</button>
     </div>
   </div>
-
 </div>`;
+
+const HTML = HTML_TOP + renderEventsSection() + HTML_BOTTOM;
 
 export default function ProgramsGuild() {
   return <div data-section="ProgramsGuild" dangerouslySetInnerHTML={{ __html: HTML }} />;

@@ -13,6 +13,7 @@ import {
   renderCortexIndexPage,
   renderAllCortexArticleViews,
 } from "./cortex/cortexRender";
+import { renderAllEventViews } from "./events/eventsRender";
 
 const OTHER_STUBS_HTML = `<!-- ══════════════════════════════
      ALL OTHER VIEWS (React Router stubs)
@@ -48,7 +49,9 @@ const HTML =
   "\n\n" +
   renderCortexIndexPage() +
   "\n\n" +
-  renderAllCortexArticleViews();
+  renderAllCortexArticleViews() +
+  "\n\n" +
+  renderAllEventViews();
 
 export default function OtherStubs() {
   React.useEffect(() => {
