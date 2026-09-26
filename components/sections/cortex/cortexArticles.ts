@@ -4332,4 +4332,93 @@ export const cortexArticles: CortexArticle[] = [
       </ol>
     </div>`,
   },
+  {
+    num: 37,
+    id: "cortex-article-37",
+    category: "Mental Health &amp; Performance",
+    gradFrom: "#3A1A0A",
+    gradTo: "#7A3A1A",
+    badgeBg: "rgba(251,146,60,0.2)",
+    badgeColor: "#FED7AA",
+    cardColor: "#FB923C",
+    title: "Healthy Ways to Deal With Stress",
+    deck: "We've covered what stress does to the brain and the unhealthy ways people try to relieve it. Here's what actually works — and none of it requires a major life overhaul.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "What Are Healthy Ways to Deal With Stress?",
+    cardExcerpt:
+      "Sleep, exercise, meditation, and social connection all help the brain genuinely recover from stress, rather than just numbing it. Here's how each one works.",
+    toc: [
+      { href: "#hws-intro", text: "Introduction" },
+      { href: "#hws-how", text: "How Do I Get Rid of Stress?" },
+      { href: "#hws-wrapup", text: "Wrap Up" },
+      { href: "#hws-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Sleep is one of the most powerful tools for stress recovery. It clears stress hormones, repairs the brain, and supports the glymphatic system's toxin clearance.",
+      "Simple destress habits matter. Music, time with friends, or a film all give the nervous system a chance to recover.",
+      "Exercise directly counters stress physiology. It reduces stress hormones and releases mood-lifting chemicals like serotonin and dopamine.",
+      "Meditation helps the brain shift out of a stressed state. Even a few minutes of quiet focus can regulate mental tension.",
+      "Faith and fellowship offer real relief for religious people. Worship, community, and social connection are strongly linked to healthy outcomes.",
+      "None of these strategies require major life changes. Small, consistent habits make the biggest difference over time.",
+    ],
+    bodyHtml: `<section id="hws-intro">
+      <p class="art-lede">In our last two articles, we examined what stress does to the brain and the unhealthy ways people try to relieve it. We've seen how these unhealthy methods do more damage than good. One question remains: what are healthy ways we can get relief from stress? Without further ado, let's answer that question.</p>
+    </section>
+    <section id="hws-how">
+      <h2>How Do I Get Rid of Stress?</h2>
+      <h3>Sleep</h3>
+      <p>As much as possible, prioritise a good night's sleep. Sleep allows the brain to withdraw stress hormones from the bloodstream, rest, repair damaged structures, and recharge. It is one of the most powerful tools available for stress recovery. If we remember our article on how sleep affects brain performance, sleep helps the brain clear out accumulated toxins through the glymphatic system,<sup>[1]</sup> consolidate memory, and turn off the receptors for noradrenaline, serotonin, and histamine, helping them retain their sharpness.<sup>[2]</sup></p>
+      <h3>Destress Habits</h3>
+      <p>Cultivate habits that help you unwind. Listening to soothing music, spending time with friends, or watching a film are all legitimate forms of stress relief. The goal is to give your nervous system consistent opportunities to shift into recovery mode.</p>
+      <h3>Exercise</h3>
+      <p>Physical activity is one of the most effective stress management tools available. After exercise, the body withdraws stress hormones and releases relaxation hormones like serotonin and dopamine, which lift mood and promote rest. This is why a workout leaves you feeling better than when you started.</p>
+      <h3>Meditation</h3>
+      <p>Meditation helps clear mental tension and promotes the withdrawal of stress hormones. Even a few minutes of focused, deliberate quiet can shift the brain out of its stressed state and into a more regulated one.</p>
+      <div class="art-callout art-callout-blue">
+        <div class="art-callout-icon">🙏</div>
+        <div><strong>Faith and Fellowship.</strong> For religious people, worship and community fellowship offer genuine relief. Social connections such as encouraging one another, sharing experiences, singing, and reading scripture have well-documented psychological and biological benefits. Strong social bonds are one of the most consistent predictors of healthy living in the research literature — one area where science and faith broadly agree.</div>
+      </div>
+    </section>
+    <section id="hws-wrapup">
+      <h2>Wrap Up</h2>
+      <p>Stress is a part of everyday life, but you don't have to let it get you down. There are positive ways to relieve stress and make the best of your situation. It's the weekend — find one of these activities and let go of the stress of the week so you can come back refreshed on Monday.</p>
+      <p>Further reading: do you know that anxiety is not only bad for your blood pressure but also bad for your brain? If you didn't, you can learn more here: <a href="#" data-route="cortex-article-10" style="color:var(--teal);text-decoration:underline">Anxiety and the Brain: How Anxiety Affects the Nervous System</a>.</p>
+      <div class="art-callout art-callout-purple">
+        <div class="art-callout-icon">📅</div>
+        <div><strong>Upcoming Event:</strong> A healthy way of dealing with stress is going out and having fun. To aid with this, the Emmanuel Olatunde Sanya Foundation is hosting a gathering titled "Is Your Brain Cooked?" Early birds get in for ₦5,000, while late registration is ₦10,000. <a href="https://whatsapp.com/channel/0029Vb8Pwmn4inooPbef0X0x" target="_blank" rel="noopener noreferrer" style="color:var(--teal);text-decoration:underline">Join here</a> to register.</div>
+      </div>
+    </section>
+    <section id="hws-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="art-faq">
+        <div class="art-faq-item">
+          <div class="art-faq-q">What are healthy ways to deal with stress?</div>
+          <div class="art-faq-a">Good options include sleep, exercise, meditation, and social connection. Each one helps the brain recover from stress rather than just numbing it temporarily.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Why is sleep important for managing stress?</div>
+          <div class="art-faq-a">Sleep allows the brain to clear stress hormones. It also repairs damaged structures and supports memory consolidation through the glymphatic system.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Does exercise help with stress?</div>
+          <div class="art-faq-a">Yes. Physical activity helps the body release stress hormones. It also boosts mood-lifting chemicals like serotonin and dopamine.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Does social connection help with stress?</div>
+          <div class="art-faq-a">Yes. Strong social bonds are one of the most consistent predictors of healthy living. For many people, this includes faith and community involvement.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">How much effort does it take to manage stress in healthy ways?</div>
+          <div class="art-faq-a">Not much. Small habits, like a short walk, a few minutes of quiet, or time with friends, can make a real difference over time.</div>
+        </div>
+      </div>
+    </section>
+    <div class="art-references">
+      <div class="art-ref-title">References</div>
+      <ol class="art-ref-list">
+        <li>Eugene, A. R., &amp; Masiak, J. <em>The Neuroprotective Aspects of Sleep.</em> 2015.</li>
+        <li>American Brain Foundation. <em>Why Sleep Matters for Brain Health.</em> 2024.</li>
+      </ol>
+    </div>`,
+  },
 ];
