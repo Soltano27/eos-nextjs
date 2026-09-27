@@ -51,14 +51,15 @@ function renderHighlight(h: string): string {
 // ── Compact card for the "Upcoming Events" grid on the Neuro Guild page ──
 function renderEventCard(e: EventItem): string {
   return `
-        <div class="evt-card" data-route="${e.id}" style="background:var(--white);border-radius:20px;overflow:hidden;box-shadow:0 2px 8px rgba(10,58,110,0.08);cursor:pointer;">
-          <div style="background:linear-gradient(135deg,${e.gradFrom},${e.gradTo});padding:28px 24px;position:relative;min-height:120px;display:flex;flex-direction:column;justify-content:flex-end;">
-            <span style="position:absolute;top:16px;left:24px;font-size:10px;font-weight:800;letter-spacing:0.14em;color:rgba(255,255,255,0.7);text-transform:uppercase;">${e.seriesLabel}</span>
-            <h3 style="font-family:var(--serif);font-size:24px;font-weight:900;color:var(--white);margin:0;">${e.title}</h3>
+        <div class="evt-card" data-route="${e.id}" style="background:var(--white);border-radius:20px;overflow:hidden;box-shadow:0 4px 16px rgba(10,58,110,0.1);cursor:pointer;transition:transform 0.15s ease;">
+          <div style="position:relative;aspect-ratio:4/3;overflow:hidden;background:linear-gradient(135deg,${e.gradFrom},${e.gradTo});">
+            <img src="${e.flyerSrc}" alt="${e.title} event flyer" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:top center;" />
+            <span style="position:absolute;top:14px;left:14px;font-size:9px;font-weight:800;letter-spacing:0.12em;color:var(--white);background:rgba(13,31,45,0.55);backdrop-filter:blur(6px);padding:6px 13px;border-radius:100px;text-transform:uppercase;">${e.seriesLabel}</span>
           </div>
           <div style="padding:24px;">
-            <div style="font-size:13px;color:var(--dim);margin-bottom:10px;line-height:1.6;">${e.subtitle}</div>
-            <div style="display:flex;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--navy);font-weight:600;margin-bottom:16px;">
+            <h3 style="font-family:var(--serif);font-size:22px;font-weight:900;color:var(--navy);margin-bottom:8px;">${e.title}</h3>
+            <div style="font-size:13px;color:var(--dim);margin-bottom:16px;line-height:1.6;">${e.subtitle}</div>
+            <div style="display:flex;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--navy);font-weight:600;margin-bottom:18px;">
               <span>📅 ${e.dateLabel}</span>
               <span>📍 ${e.location}</span>
             </div>
@@ -96,17 +97,21 @@ function renderEventDetailView(e: EventItem): string {
      NEURO GUILD EVENT ${e.num} — ${e.title.toUpperCase()}
 ══════════════════════════════ -->
 <div id="view-${e.id}" class="page-view">
-  <div style="background:linear-gradient(135deg,${e.gradFrom} 0%,${e.gradTo} 100%);padding:100px 60px 80px;position:relative;overflow:hidden;">
-    <div style="max-width:760px;position:relative;z-index:1;">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px;">
-        <span style="font-size:10px;font-weight:700;letter-spacing:0.22em;color:rgba(255,255,255,0.6);text-transform:uppercase;cursor:pointer;" data-route="programs-guild">The Neuro Guild</span>
-        <span style="color:rgba(255,255,255,0.2);font-size:12px;">/</span>
-        <span style="font-size:10px;font-weight:700;letter-spacing:0.22em;color:rgba(255,255,255,0.9);text-transform:uppercase;">Events</span>
+  <div style="background:linear-gradient(135deg,${e.gradFrom} 0%,${e.gradTo} 100%);padding:80px 60px;position:relative;overflow:hidden;">
+    <div style="max-width:1040px;margin:0 auto;display:grid;grid-template-columns:320px 1fr;gap:56px;align-items:center;position:relative;z-index:1;">
+      <img src="${e.flyerSrc}" alt="${e.title} event flyer" style="width:100%;border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,0.4);" />
+      <div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px;">
+          <span style="font-size:10px;font-weight:700;letter-spacing:0.22em;color:rgba(255,255,255,0.6);text-transform:uppercase;cursor:pointer;" data-route="programs-guild">The Neuro Guild</span>
+          <span style="color:rgba(255,255,255,0.2);font-size:12px;">/</span>
+          <span style="font-size:10px;font-weight:700;letter-spacing:0.22em;color:rgba(255,255,255,0.9);text-transform:uppercase;">Events</span>
+        </div>
+        <span style="display:inline-block;font-size:9px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;background:${e.badgeBg};color:${e.badgeColor};padding:5px 14px;border-radius:100px;margin-bottom:20px;">${e.seriesLabel}</span>
+        <h1 style="font-family:var(--serif);font-size:44px;font-weight:900;color:var(--white);line-height:1.05;margin-bottom:14px;letter-spacing:-1px;">${e.title}</h1>
+        <p style="font-size:17px;color:rgba(255,255,255,0.75);line-height:1.5;margin-bottom:20px;">${e.subtitle}</p>
+        <p style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.75;margin-bottom:28px;">${e.deck}</p>
+        <a href="${e.registrationUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display:inline-block;text-decoration:none;">Join &amp; Register</a>
       </div>
-      <span style="display:inline-block;font-size:9px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;background:${e.badgeBg};color:${e.badgeColor};padding:5px 14px;border-radius:100px;margin-bottom:20px;">${e.seriesLabel}</span>
-      <h1 style="font-family:var(--serif);font-size:48px;font-weight:900;color:var(--white);line-height:1.05;margin-bottom:14px;letter-spacing:-1px;">${e.title}</h1>
-      <p style="font-size:18px;color:rgba(255,255,255,0.75);line-height:1.5;margin-bottom:24px;max-width:600px;">${e.subtitle}</p>
-      <p style="font-size:15px;color:rgba(255,255,255,0.55);line-height:1.75;max-width:560px;">${e.deck}</p>
     </div>
   </div>
 

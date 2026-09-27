@@ -23,6 +23,7 @@ export interface EventItem {
   badgeBg: string;
   badgeColor: string;
   cardColor: string;
+  flyerSrc: string; // path under /public — the designed event flyer/poster
 
   seriesLabel: string; // e.g. "Neuro Guild Monthly · First Edition"
   title: string; // e.g. "Hustle No Go Kill You"
@@ -50,11 +51,12 @@ export const events: EventItem[] = [
     num: 1,
     id: "programs-guild-event-1",
     status: "upcoming",
-    gradFrom: "#3A1A0A",
-    gradTo: "#7A3A1A",
-    badgeBg: "rgba(251,146,60,0.2)",
-    badgeColor: "#FED7AA",
-    cardColor: "#FB923C",
+    gradFrom: "#0A2A4A",
+    gradTo: "#0F6B5C",
+    badgeBg: "rgba(0,191,165,0.2)",
+    badgeColor: "#B2F5EA",
+    cardColor: "#00BFA5",
+    flyerSrc: "/images/event-1-hustle-no-go-kill-you-flyer.jpg",
 
     seriesLabel: "Neuro Guild Monthly · First Edition",
     title: "Hustle No Go Kill You",
