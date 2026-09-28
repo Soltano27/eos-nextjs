@@ -18,9 +18,9 @@ function renderSpeaker(s: EventSpeaker): string {
   const instagram = s.instagram
     ? `<a href="https://instagram.com/${s.instagram}" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--navy);text-decoration:none;">Instagram ↗</a>`
     : "";
-  const links = [linkedin, instagram].filter(Boolean).join(
-    `<span style="color:rgba(10,58,110,0.2);">•</span>`,
-  );
+  const links = [linkedin, instagram]
+    .filter(Boolean)
+    .join(`<span style="color:rgba(10,58,110,0.2);">•</span>`);
 
   return `
         <div style="display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:start;background:var(--bg);border-radius:16px;padding:24px;">
@@ -71,6 +71,25 @@ function renderEventCard(e: EventItem): string {
         </div>`;
 }
 
+// Compact "next event" teaser banner — embedded near the top of
+// ProgramsGuild.tsx, just under the hero, so the nearest event is visible
+// without scrolling past the membership-tier copy first.
+export function renderNextEventBanner(): string {
+  const next = upcoming()[0];
+  if (!next) return "";
+
+  return `
+    <div class="evt-banner" data-route="${next.id}" style="cursor:pointer;display:grid;grid-template-columns:100px 1fr auto;gap:24px;align-items:center;background:var(--white);border-radius:20px;box-shadow:0 12px 32px rgba(10,58,110,0.14);border:1px solid rgba(10,58,110,0.06);padding:20px 28px;margin-top:-56px;margin-bottom:64px;position:relative;z-index:2;">
+      <img src="${next.flyerSrc}" alt="${next.title} flyer" style="width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:10px;" />
+      <div>
+        <div style="font-size:10px;font-weight:800;letter-spacing:0.14em;color:var(--teal);text-transform:uppercase;margin-bottom:6px;">Next Neuro Guild Event</div>
+        <h3 style="font-family:var(--serif);font-size:20px;font-weight:900;color:var(--navy);margin-bottom:6px;">${next.title}</h3>
+        <div style="font-size:13px;color:var(--dim);">📅 ${next.dateLabel} &nbsp;·&nbsp; 📍 ${next.location} &nbsp;·&nbsp; Early Bird ${next.earlyBirdPrice}</div>
+      </div>
+      <a class="read-more" data-route="${next.id}" style="white-space:nowrap;">View Details <span>→</span></a>
+    </div>`;
+}
+
 // Embedded in ProgramsGuild.tsx, right after the existing marketing content.
 export function renderEventsSection(): string {
   const list = upcoming();
@@ -92,6 +111,17 @@ function renderEventDetailView(e: EventItem): string {
   const activitiesHtml = e.activities.map(renderActivityChip).join("");
   const highlightsHtml = e.highlights.map(renderHighlight).join("\n");
   const speakersHtml = e.speakers.map(renderSpeaker).join("\n");
+  const isPast = e.status === "past";
+
+  const heroCta = isPast
+    ? `<span style="display:inline-block;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.6);padding:15px 28px;border-radius:100px;font-size:14px;font-weight:600;">This event has ended</span>`
+    : `<a href="${e.registrationUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display:inline-block;text-decoration:none;">Join &amp; Register</a>`;
+
+  const ticketCta = isPast
+    ? `<div style="background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.7);text-align:center;padding:14px;border-radius:100px;font-size:14px;font-weight:600;">Registration closed</div>
+        <p style="font-size:11px;color:rgba(255,255,255,0.4);margin-top:12px;text-align:center;">This event has already taken place</p>`
+    : `<a href="${e.registrationUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display:block;text-align:center;text-decoration:none;">Join &amp; Register</a>
+        <p style="font-size:11px;color:rgba(255,255,255,0.4);margin-top:12px;text-align:center;">Limited seats available</p>`;
 
   return `<!-- ══════════════════════════════
      NEURO GUILD EVENT ${e.num} — ${e.title.toUpperCase()}
@@ -107,10 +137,11 @@ function renderEventDetailView(e: EventItem): string {
           <span style="font-size:10px;font-weight:700;letter-spacing:0.22em;color:rgba(255,255,255,0.9);text-transform:uppercase;">Events</span>
         </div>
         <span style="display:inline-block;font-size:9px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;background:${e.badgeBg};color:${e.badgeColor};padding:5px 14px;border-radius:100px;margin-bottom:20px;">${e.seriesLabel}</span>
+        ${isPast ? `<span style="display:inline-block;font-size:9px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;background:rgba(255,255,255,0.12);color:rgba(255,255,255,0.7);padding:5px 14px;border-radius:100px;margin-left:8px;margin-bottom:20px;">Past Event</span>` : ""}
         <h1 style="font-family:var(--serif);font-size:44px;font-weight:900;color:var(--white);line-height:1.05;margin-bottom:14px;letter-spacing:-1px;">${e.title}</h1>
         <p style="font-size:17px;color:rgba(255,255,255,0.75);line-height:1.5;margin-bottom:20px;">${e.subtitle}</p>
         <p style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.75;margin-bottom:28px;">${e.deck}</p>
-        <a href="${e.registrationUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display:inline-block;text-decoration:none;">Join &amp; Register</a>
+        ${heroCta}
       </div>
     </div>
   </div>
@@ -161,8 +192,7 @@ ${highlightsHtml}
           <span style="font-size:14px;color:rgba(255,255,255,0.6);">Regular</span>
           <span style="font-family:var(--serif);font-size:24px;font-weight:800;color:var(--white);">${e.regularPrice}</span>
         </div>
-        <a href="${e.registrationUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display:block;text-align:center;text-decoration:none;">Join &amp; Register</a>
-        <p style="font-size:11px;color:rgba(255,255,255,0.4);margin-top:12px;text-align:center;">Limited seats available</p>
+        ${ticketCta}
       </div>
     </div>
 
