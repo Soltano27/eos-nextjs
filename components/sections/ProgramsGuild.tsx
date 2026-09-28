@@ -3,7 +3,10 @@
 // continue to work with the original vanilla JS attached on window.
 "use client";
 import React from "react";
-import { renderEventsSection, renderNextEventBanner } from "./events/eventsRender";
+import {
+  renderEventsSection,
+  renderNextEventBanner,
+} from "./events/eventsRender";
 
 const HTML_TOP = `<!-- ═══════════════════════════════════════════════════════
      NEURO GUILD (routes: programs-guild)
@@ -48,7 +51,7 @@ const HTML_TOP = `<!-- ═══════════════════
           <div style="font-size:11px;font-weight:700;color:var(--teal);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px;">Free Tier</div>
           <h4 style="font-family:var(--serif);font-size:20px;color:var(--navy);margin-bottom:10px;">Guild Member</h4>
           <p style="font-size:13px;color:var(--dim);line-height:1.7;margin-bottom:14px;">Access to monthly events, the online community, The Cortex Printout, and all free EOS resources and tools.</p>
-          <button class="btn-primary" style="padding:12px 24px;font-size:13px;" data-route="guild-join">Join Free</button>
+          <a href="/guild-join" class="btn-primary" style="display:inline-block;text-decoration:none;padding:12px 24px;font-size:13px;" data-route="guild-join">Join Free</a>
         </div>
         <div style="background:var(--navy);border-radius:16px;padding:28px;border-left:4px solid var(--teal);">
           <div style="font-size:11px;font-weight:700;color:var(--teal);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px;">Premium · Coming Year 2</div>
@@ -82,7 +85,7 @@ const HTML_TOP = `<!-- ═══════════════════
 const HTML_BOTTOM = `
   <div style="background:var(--white);padding:0 60px 100px;">
     <div style="display:flex;gap:14px;">
-      <button class="btn-primary" data-route="guild-join">Become a Member</button>
+      <a href="/guild-join" class="btn-primary" style="display:inline-block;text-decoration:none;" data-route="guild-join">Become a Member</a>
       <button style="background:transparent;color:var(--navy);border:1px solid rgba(10,58,110,0.2);border-radius:100px;padding:15px 32px;font-size:14px;font-weight:500;cursor:pointer;font-family:var(--sans);" data-route="programs">← All Programmes</button>
     </div>
   </div>
@@ -91,5 +94,10 @@ const HTML_BOTTOM = `
 const HTML = HTML_TOP + renderEventsSection() + HTML_BOTTOM;
 
 export default function ProgramsGuild() {
-  return <div data-section="ProgramsGuild" dangerouslySetInnerHTML={{ __html: HTML }} />;
+  return (
+    <div
+      data-section="ProgramsGuild"
+      dangerouslySetInnerHTML={{ __html: HTML }}
+    />
+  );
 }

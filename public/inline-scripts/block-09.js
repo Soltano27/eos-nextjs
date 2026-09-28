@@ -124,10 +124,13 @@
     })
       .then(function () {
         successEl.style.display = "block";
-        document.getElementById("guild-join-form").querySelectorAll("input").forEach(function (el) {
-          if (el.type === "radio") el.checked = false;
-          else el.value = "";
-        });
+        document
+          .getElementById("guild-join-form")
+          .querySelectorAll("input")
+          .forEach(function (el) {
+            if (el.type === "radio") el.checked = false;
+            else el.value = "";
+          });
       })
       .catch(function () {
         errorEl.textContent =
