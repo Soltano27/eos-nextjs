@@ -54,6 +54,88 @@
     document.getElementById("cf-success").style.display = "block";
   };
 
+  // Neuro Guild signup form submit
+  // Points at the real "Neuro Guild Membership Signup" Google Form —
+  // see the header comment in
+  // components/sections/guild-join/guildJoinRender.ts for the form/sheet
+  // links. This constant mirrors the one there since this is a plain
+  // script, not a module, and can't import it directly — keep both in
+  // sync if the form ever changes.
+  var GUILD_FORM_ACTION_URL =
+    "https://docs.google.com/forms/d/e/1FAIpQLSeg_j0p8kyzJlIwWbhb_yJwN2iqhRpUx6T1Hd1pxa7YRxIGkw/formResponse";
+  var GUILD_FORM_FIELDS = {
+    name: "entry.877209908",
+    email: "entry.1722318382",
+    whatsapp: "entry.1872585205",
+    ageRange: "entry.2081883543",
+    consent: "entry.1809377616",
+  };
+  var GUILD_AGE_RANGE_OPTIONS = {
+    explorer: "18–24 (Explorer)",
+    builder: "25–35 (Builder)",
+  };
+  var GUILD_CONSENT_OPTIONS = {
+    yes: "Yes, I consent",
+    no: "No, I do not consent",
+  };
+
+  window.submitGuildForm = function () {
+    var name = document.getElementById("gj-name").value.trim();
+    var email = document.getElementById("gj-email").value.trim();
+    var whatsapp = document.getElementById("gj-whatsapp").value.trim();
+    var ageEl = document.querySelector('input[name="gj-age"]:checked');
+    var consentEl = document.querySelector('input[name="gj-consent"]:checked');
+    var successEl = document.getElementById("gj-success");
+    var errorEl = document.getElementById("gj-error");
+
+    successEl.style.display = "none";
+    errorEl.style.display = "none";
+
+    if (!name || !email || !whatsapp || !ageEl || !consentEl) {
+      errorEl.style.display = "block";
+      return;
+    }
+
+    var ageLabel =
+      ageEl.value === "explorer"
+        ? GUILD_AGE_RANGE_OPTIONS.explorer
+        : GUILD_AGE_RANGE_OPTIONS.builder;
+    var consentLabel =
+      consentEl.value === "yes"
+        ? GUILD_CONSENT_OPTIONS.yes
+        : GUILD_CONSENT_OPTIONS.no;
+
+    var body = new URLSearchParams();
+    body.append(GUILD_FORM_FIELDS.name, name);
+    body.append(GUILD_FORM_FIELDS.email, email);
+    body.append(GUILD_FORM_FIELDS.whatsapp, whatsapp);
+    body.append(GUILD_FORM_FIELDS.ageRange, ageLabel);
+    body.append(GUILD_FORM_FIELDS.consent, consentLabel);
+
+    // no-cors: we can't read the response (Google doesn't send CORS
+    // headers here), but the POST still lands and the Sheet still fills
+    // in. This is the standard no-backend way to submit into a Google
+    // Form from a static site.
+    fetch(GUILD_FORM_ACTION_URL, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: body.toString(),
+    })
+      .then(function () {
+        successEl.style.display = "block";
+        document.getElementById("guild-join-form").querySelectorAll("input").forEach(function (el) {
+          if (el.type === "radio") el.checked = false;
+          else el.value = "";
+        });
+      })
+      .catch(function () {
+        errorEl.textContent =
+          "Something went wrong submitting the form. Please try again, or reach us directly at info@theeosfoundation.org.";
+        errorEl.style.display = "block";
+      });
+  };
+
   // Update footer with real details
   var footer = document.querySelector("footer");
   if (footer) {

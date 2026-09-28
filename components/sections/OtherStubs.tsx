@@ -14,6 +14,7 @@ import {
   renderAllCortexArticleViews,
 } from "./cortex/cortexRender";
 import { renderAllEventViews } from "./events/eventsRender";
+import { renderGuildJoinView } from "./guild-join/guildJoinRender";
 
 const OTHER_STUBS_HTML = `<!-- ══════════════════════════════
      ALL OTHER VIEWS (React Router stubs)
@@ -51,7 +52,9 @@ const HTML =
   "\n\n" +
   renderAllCortexArticleViews() +
   "\n\n" +
-  renderAllEventViews();
+  renderAllEventViews() +
+  "\n\n" +
+  renderGuildJoinView();
 
 export default function OtherStubs() {
   React.useEffect(() => {
