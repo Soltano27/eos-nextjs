@@ -4422,91 +4422,117 @@ export const cortexArticles: CortexArticle[] = [
     </div>`,
   },
   {
-    num: 37,
-    id: "cortex-article-37",
+    num: 38,
+    id: "cortex-article-38",
     category: "Mental Health &amp; Performance",
     gradFrom: "#3A1A0A",
     gradTo: "#7A3A1A",
     badgeBg: "rgba(251,146,60,0.2)",
     badgeColor: "#FED7AA",
     cardColor: "#FB923C",
-    title: "Healthy Ways to Deal With Stress",
-    deck: "We've covered what stress does to the brain and the unhealthy ways people try to relieve it. Here's what actually works — and none of it requires a major life overhaul.",
+    title: "The Hidden Cost<br/>of Hustle Culture",
+    deck: "By the time the bills are calculated at the end of the month, alawee ti ku waso. Here's what financial stress actually does to your brain — and why it's harder to escape than almost any other kind of stress.",
     bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
-    cardTitle: "What Are Healthy Ways to Deal With Stress?",
+    cardTitle: "The Cost of Daily Bread Pass Money",
     cardExcerpt:
-      "Sleep, exercise, meditation, and social connection all help the brain genuinely recover from stress, rather than just numbing it. Here's how each one works.",
+      "Financial stress isn't just workplace stress with extra steps — it accelerates brain aging and raises Alzheimer's risk in ways other stress doesn't. Here's why, and the warning signs to watch.",
     toc: [
-      { href: "#hws-intro", text: "Introduction" },
-      { href: "#hws-how", text: "How Do I Get Rid of Stress?" },
-      { href: "#hws-wrapup", text: "Wrap Up" },
-      { href: "#hws-faq", text: "FAQs" },
+      { href: "#fs-intro", text: "Introduction" },
+      { href: "#fs-what", text: "What Is Financial Stress?" },
+      {
+        href: "#fs-brain",
+        text: "What Happens to the Brain Under Financial Pressure?",
+      },
+      {
+        href: "#fs-harder",
+        text: "Why Is Financial Stress Harder to Deal With?",
+      },
+      {
+        href: "#fs-handle",
+        text: "How Do I Know Things Are Getting Out of Hand?",
+      },
+      { href: "#fs-wrapup", text: "Wrap Up" },
+      { href: "#fs-faq", text: "FAQs" },
     ],
     keyTakeaways: [
-      "Sleep is one of the most powerful tools for stress recovery. It clears stress hormones, repairs the brain, and supports the glymphatic system's toxin clearance.",
-      "Simple destress habits matter. Music, time with friends, or a film all give the nervous system a chance to recover.",
-      "Exercise directly counters stress physiology. It reduces stress hormones and releases mood-lifting chemicals like serotonin and dopamine.",
-      "Meditation helps the brain shift out of a stressed state. Even a few minutes of quiet focus can regulate mental tension.",
-      "Faith and fellowship offer real relief for religious people. Worship, community, and social connection are strongly linked to healthy outcomes.",
-      "None of these strategies require major life changes. Small, consistent habits make the biggest difference over time.",
+      "Financial stress is a distinct form of chronic stress. It involves anxiety, worry, and scarcity tied to money, along with a real physiological stress response.",
+      "It differs from workplace stress. Workplace stress involves deadlines and job pressure. Financial stress is about struggling to meet basic needs.",
+      "Financial pressure harms the brain in measurable ways. It accelerates brain shrinkage, speeds up cognitive aging, and raises neuroinflammation linked to Alzheimer's risk.",
+      "Financial stress fuels anxiety and depression. It is especially hard to escape since bills cannot simply be walked away from, unlike a stressful job.",
+      "Warning signs include insomnia, constant fatigue, headaches, and burnout. Recognizing these early matters more than pushing through them.",
     ],
-    bodyHtml: `<section id="hws-intro">
-      <p class="art-lede">In our last two articles, we examined what stress does to the brain and the unhealthy ways people try to relieve it. We've seen how these unhealthy methods do more damage than good. One question remains: what are healthy ways we can get relief from stress? Without further ado, let's answer that question.</p>
+    bodyHtml: `<section id="fs-intro">
+      <p class="art-lede">Hustling is a part of Nigerian culture. From the crack of dawn to dusk, people are always looking for their daily bread. Nigerians are known for their work ethic and dedication to their work. Unfortunately, the situation of the country has left many people unable to make ends meet with just one source of income. Most people combine two or more jobs; some have one job and one other business or hustle on the side. However, by the time you calculate your bills at the end of the month, alawee ti ku waso — all that's left of the salary is 50 bucks. Your ability to take yourself out and enjoy life after your salary comes in gradually shrinks.</p>
+      <p>This financial strain can put a huge pressure on you and wreak havoc on your health. But before we dive into the effects of financial stress, let's define what it is.</p>
     </section>
-    <section id="hws-how">
-      <h2>How Do I Get Rid of Stress?</h2>
-      <h3>Sleep</h3>
-      <p>As much as possible, prioritise a good night's sleep. Sleep allows the brain to withdraw stress hormones from the bloodstream, rest, repair damaged structures, and recharge. It is one of the most powerful tools available for stress recovery. If we remember our article on how sleep affects brain performance, sleep helps the brain clear out accumulated toxins through the glymphatic system,<sup>[1]</sup> consolidate memory, and turn off the receptors for noradrenaline, serotonin, and histamine, helping them retain their sharpness.<sup>[2]</sup></p>
-      <h3>Destress Habits</h3>
-      <p>Cultivate habits that help you unwind. Listening to soothing music, spending time with friends, or watching a film are all legitimate forms of stress relief. The goal is to give your nervous system consistent opportunities to shift into recovery mode.</p>
-      <h3>Exercise</h3>
-      <p>Physical activity is one of the most effective stress management tools available. After exercise, the body withdraws stress hormones and releases relaxation hormones like serotonin and dopamine, which lift mood and promote rest. This is why a workout leaves you feeling better than when you started.</p>
-      <h3>Meditation</h3>
-      <p>Meditation helps clear mental tension and promotes the withdrawal of stress hormones. Even a few minutes of focused, deliberate quiet can shift the brain out of its stressed state and into a more regulated one.</p>
+    <section id="fs-what">
+      <h2>What Is Financial Stress?</h2>
+      <p>Financial stress is a condition that is the result of financial and/or economic events that create anxiety, worry, or a sense of scarcity, and is accompanied by a physiological stress response.<sup>[1]</sup></p>
+      <p>Financial stress is different from workplace stress. While workplace stress can also have some financial implications — such as delayed salaries or deductions due to errors — it is not primarily financial. Workplace stress involves rushing to meet deadlines, leaving your home at early hours to get to work on time, and others, but it is not majorly financial. Financial stress involves struggling to pay bills, figuring out how to stretch money till the next one comes in, working round the clock to raise money to make ends meet, etc.</p>
+    </section>
+    <section id="fs-brain">
+      <h2>What Happens to the Brain When It Is Under Financial Pressure?</h2>
+      <p>Financial pressure has varying effects on the brain. Come with us as we explore them.</p>
+      <p>First, financial pressure negatively affects cognition.<sup>[2]</sup> Research shows greater brain shrinkage in people who have been experiencing financial pressure for a prolonged period. Financial pressure contributes significantly to accelerated brain ageing.<sup>[3]</sup> Financial pressure raises stress, and the stress in turn increases neuroinflammation. This inflammation accelerates brain ageing and also increases the risk for neurodegenerative diseases such as Alzheimer's.<sup>[4]</sup></p>
       <div class="art-callout art-callout-blue">
-        <div class="art-callout-icon">🙏</div>
-        <div><strong>Faith and Fellowship.</strong> For religious people, worship and community fellowship offer genuine relief. Social connections such as encouraging one another, sharing experiences, singing, and reading scripture have well-documented psychological and biological benefits. Strong social bonds are one of the most consistent predictors of healthy living in the research literature — one area where science and faith broadly agree.</div>
+        <div class="art-callout-icon">🧠</div>
+        <div>Moreover, financial pressure increases feelings of anxiety and depression. Persistent struggling and running around without being able to take a breather because bills are always piling up can lead to feelings of hopelessness and depression.</div>
       </div>
     </section>
-    <section id="hws-wrapup">
+    <section id="fs-harder">
+      <h2>Why Is Financial Stress More Difficult to Deal With?</h2>
+      <p>Financial stress is more difficult than most other forms of stress because it has the external component of bills. In the case of a stressful job, if you have enough saved or an option to fall back on, you could quit the job or reduce your hours even if that means less pay. But in the case of financial pressure, bills can't just disappear, and unfortunately, Nigeria doesn't seem to have your back. The prices of items go up every day, and many times, it seems the government has it out for the citizens with their numerous economically unfavourable policies.</p>
+      <p>So, stretching an income that barely lasts becomes more arduous, and many times it can seem that there is no hope or way out.</p>
+    </section>
+    <section id="fs-handle">
+      <h2>How Do I Know Things Are Getting Out of Hand?</h2>
+      <p>Everyone feels pressure in one way or the other. However, sometimes the pressure can get too much to deal with. It is important to recognise when it's not just pressure, but something else is wrong.</p>
+      <div class="art-callout art-callout-purple">
+        <div class="art-callout-icon">⚠️</div>
+        <div>Signs include insomnia, constant fatigue that does not go away with rest, headaches, and feelings of burnout.</div>
+      </div>
+    </section>
+    <section id="fs-wrapup">
       <h2>Wrap Up</h2>
-      <p>Stress is a part of everyday life, but you don't have to let it get you down. There are positive ways to relieve stress and make the best of your situation. It's the weekend — find one of these activities and let go of the stress of the week so you can come back refreshed on Monday.</p>
-      <p>Further reading: do you know that anxiety is not only bad for your blood pressure but also bad for your brain? If you didn't, you can learn more here: <a href="#" data-route="cortex-article-10" style="color:var(--teal);text-decoration:underline">Anxiety and the Brain: How Anxiety Affects the Nervous System</a>.</p>
+      <p>Everybody wants to live high and enjoy life, but the cost should not be your health. It is important to take care of yourself and beware of the warning signs your body may be giving you.</p>
+      <p>Further reading: dealing with stress can be taxing, and many of us feel we need to take long vacations, but it doesn't have to be so. To learn healthy ways to deal with stress, read <a href="#" data-route="cortex-article-37" style="color:var(--teal);text-decoration:underline">Healthy Ways to Deal With Stress</a>.</p>
       <div class="art-callout art-callout-purple">
         <div class="art-callout-icon">📅</div>
-        <div><strong>Upcoming Event:</strong> A healthy way of dealing with stress is going out and having fun. To aid with this, the Emmanuel Olatunde Sanya Foundation is hosting a gathering titled "Is Your Brain Cooked?" Early birds get in for ₦5,000, while late registration is ₦10,000. <a href="https://whatsapp.com/channel/0029Vb8Pwmn4inooPbef0X0x" target="_blank" rel="noopener noreferrer" style="color:var(--teal);text-decoration:underline">Join here</a> to register.</div>
+        <div><strong>Upcoming Event:</strong> A healthy way of dealing with stress is going out and having fun. Join EOS at <a href="#" data-route="programs-guild-event-1" style="color:var(--teal);text-decoration:underline">Hustle No Go Kill You</a> — a Neuro Guild hangout on stress, anxiety and burnout, with Sip &amp; Paint, Pottery, a Therapist Session and more. Early Bird tickets from ₦5,000.</div>
       </div>
     </section>
-    <section id="hws-faq">
+    <section id="fs-faq">
       <h2>Frequently Asked Questions</h2>
       <div class="art-faq">
         <div class="art-faq-item">
-          <div class="art-faq-q">What are healthy ways to deal with stress?</div>
-          <div class="art-faq-a">Good options include sleep, exercise, meditation, and social connection. Each one helps the brain recover from stress rather than just numbing it temporarily.</div>
+          <div class="art-faq-q">What is financial stress?</div>
+          <div class="art-faq-a">Financial stress is a condition caused by financial or economic pressure. It creates anxiety, worry, or a sense of scarcity. It also comes with a real physiological stress response.</div>
         </div>
         <div class="art-faq-item">
-          <div class="art-faq-q">Why is sleep important for managing stress?</div>
-          <div class="art-faq-a">Sleep allows the brain to clear stress hormones. It also repairs damaged structures and supports memory consolidation through the glymphatic system.</div>
+          <div class="art-faq-q">How is financial stress different from workplace stress?</div>
+          <div class="art-faq-a">Workplace stress involves deadlines, early mornings, and job pressure. Financial stress is about struggling to pay bills and stretch income. The two often overlap, but they are not the same thing.</div>
         </div>
         <div class="art-faq-item">
-          <div class="art-faq-q">Does exercise help with stress?</div>
-          <div class="art-faq-a">Yes. Physical activity helps the body release stress hormones. It also boosts mood-lifting chemicals like serotonin and dopamine.</div>
+          <div class="art-faq-q">Can financial stress affect the brain?</div>
+          <div class="art-faq-a">Yes. Financial pressure has been linked to brain shrinkage and faster cognitive aging. It also raises neuroinflammation, which increases the risk of diseases like Alzheimer's.</div>
         </div>
         <div class="art-faq-item">
-          <div class="art-faq-q">Does social connection help with stress?</div>
-          <div class="art-faq-a">Yes. Strong social bonds are one of the most consistent predictors of healthy living. For many people, this includes faith and community involvement.</div>
+          <div class="art-faq-q">Does financial stress cause anxiety and depression?</div>
+          <div class="art-faq-a">It can. Persistent financial struggle often leads to feelings of hopelessness. Over time, this can develop into anxiety or depression.</div>
         </div>
         <div class="art-faq-item">
-          <div class="art-faq-q">How much effort does it take to manage stress in healthy ways?</div>
-          <div class="art-faq-a">Not much. Small habits, like a short walk, a few minutes of quiet, or time with friends, can make a real difference over time.</div>
+          <div class="art-faq-q">Why is financial stress harder to deal with than other types of stress?</div>
+          <div class="art-faq-a">Financial stress has an external component. Bills do not disappear, even when you reduce your hours or step back from a stressful job. This makes it feel harder to escape.</div>
         </div>
       </div>
     </section>
     <div class="art-references">
       <div class="art-ref-title">References</div>
       <ol class="art-ref-list">
-        <li>Eugene, A. R., &amp; Masiak, J. <em>The Neuroprotective Aspects of Sleep.</em> 2015.</li>
-        <li>American Brain Foundation. <em>Why Sleep Matters for Brain Health.</em> 2024.</li>
+        <li>Martin, M. M. <em>Financial Stress and Your Health.</em> University of Wyoming Extension, 2020.</li>
+        <li>Neuroscience News (Source: Columbia University). <em>Financial Decline Accelerates Brain Aging.</em> 2026.</li>
+        <li>Mattson, J. <em>What Happens to Your Brain When You Stress About Money.</em> Fast Company, 2026.</li>
+        <li>Almalki, D. F., Alkabkabi, R. A., Wayyani, R. A., et al. <em>Chronic Stress, Cortisol Dysregulation, and Neurodegenerative Vulnerability: Mechanistic Pathways Linking HPA-Axis Dysfunction to Alzheimer's Disease Risk.</em> 2026.</li>
       </ol>
     </div>`,
   },
