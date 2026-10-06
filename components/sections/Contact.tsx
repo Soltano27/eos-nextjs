@@ -75,7 +75,7 @@ const HTML = `<!-- ════════════════════�
             <div style="width:40px;height:40px;border-radius:10px;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;">📞</div>
             <div>
               <div style="font-size:11px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:4px;">Phone</div>
-              <a href="tel:+2348179330662" style="font-size:14px;color:var(--blue);text-decoration:none;font-weight:500;">08179330662</a>
+              <a href="tel:+2349155267860" style="font-size:14px;color:var(--blue);text-decoration:none;font-weight:500;">09155267860</a>
             </div>
           </div>
           <div style="display:flex;gap:16px;align-items:flex-start;">
