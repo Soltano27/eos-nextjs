@@ -56,7 +56,7 @@ export const events: EventItem[] = [
     badgeBg: "rgba(0,191,165,0.2)",
     badgeColor: "#B2F5EA",
     cardColor: "#00BFA5",
-    flyerSrc: "/images//images/event-1-hustle-no-go-kill-you-flyer-v2.jpg",
+    flyerSrc: "/images/event-1-hustle-no-go-kill-you-flyer-v2.jpg",
 
     seriesLabel: "Neuro Guild Monthly · First Edition",
     title: "Hustle No Go Kill You",
