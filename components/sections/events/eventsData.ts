@@ -56,14 +56,14 @@ export const events: EventItem[] = [
     badgeBg: "rgba(0,191,165,0.2)",
     badgeColor: "#B2F5EA",
     cardColor: "#00BFA5",
-    flyerSrc: "/images/event-1-hustle-no-go-kill-you-flyer.jpg",
+    flyerSrc: "/images//images/event-1-hustle-no-go-kill-you-flyer-v2.jpg",
 
     seriesLabel: "Neuro Guild Monthly · First Edition",
     title: "Hustle No Go Kill You",
     subtitle: "How to Deal with Stress, Anxiety & Burnout in This Economy",
     deck: "A fun space to pause, unwind, create and connect — because everybody is stressed, anxious, and burnt out in this economy, but we no go die for hustle.",
 
-    dateLabel: "10 October 2026",
+    dateLabel: "10 October 2026 · 1:00–4:00 PM",
     location: "Lagos, Nigeria",
     address: "5 Kola Iyaomolere Street, Ogudu Ori-Oke, Lagos, Nigeria",
     formatLabel: "Physical Community Hangout",
@@ -71,13 +71,12 @@ export const events: EventItem[] = [
 
     earlyBirdPrice: "₦5,000",
     regularPrice: "₦10,000",
-    registrationUrl:
-      "https://whatsapp.com/channel/0029Vb8Pwmn4inooPbef0X0x",
+    registrationUrl: "https://whatsapp.com/channel/0029Vb8Pwmn4inooPbef0X0x",
 
     activities: [
       { emoji: "🎨", label: "Sip & Paint" },
       { emoji: "🏺", label: "Pottery" },
-      { emoji: "🧠", label: "Therapist Session" },
+      { emoji: "🧠", label: "Health Q&A" },
       { emoji: "🤝", label: "Connect & Chill" },
     ],
     highlights: [
