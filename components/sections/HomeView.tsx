@@ -30,13 +30,13 @@ const HTML = `<!-- ════════════════════�
     <div class="hero-visual">
       <div class="hero-card">
         <div class="hero-card-label" style="color:rgba(10,132,200,0.7)">Neuro Champions Fellowship</div>
-        <div class="hero-card-num" style="color:#0A84C8">50</div>
-        <div class="hero-card-desc">Fellows trained across 9 universities</div>
+        <div class="hero-card-num" style="color:#0A84C8">53</div>
+        <div class="hero-card-desc">Fellows onboarded across 9 universities</div>
       </div>
       <div class="hero-card-row">
         <div class="hero-card">
           <div class="hero-card-label" style="color:rgba(0,191,165,0.7)">Community Reach</div>
-          <div class="hero-card-num" style="color:#00BFA5">408+</div>
+          <div class="hero-card-num" style="color:#00BFA5">408</div>
           <div class="hero-card-desc">People reached</div>
         </div>
         <div class="hero-card">
@@ -182,12 +182,12 @@ const HTML = `<!-- ════════════════════�
     </div>
     <div class="impact-grid">
       <div class="impact-stat">
-        <div class="impact-num" style="color:#0A84C8">50</div>
+        <div class="impact-num" style="color:#0A84C8">53</div>
         <div class="impact-label">Fellows trained across<br/>9 universities</div>
       </div>
       <div class="impact-stat">
-        <div class="impact-num" style="color:#00BFA5">408+</div>
-        <div class="impact-label">People reached through<br/>community interventions</div>
+        <div class="impact-num" style="color:#00BFA5">408</div>
+        <div class="impact-label">Estimated people reached through<br/>community interventions</div>
       </div>
       <div class="impact-stat">
         <div class="impact-num" style="color:#fff">1K+</div>

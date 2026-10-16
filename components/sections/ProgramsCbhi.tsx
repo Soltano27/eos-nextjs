@@ -54,8 +54,8 @@ const HTML = `<!-- ════════════════════�
         <div style="font-size:9px;font-weight:700;letter-spacing:0.2em;color:var(--teal);text-transform:uppercase;margin-bottom:20px;">Impact So Far</div>
         <div style="display:flex;flex-direction:column;gap:16px;">
           <div style="display:flex;align-items:baseline;gap:12px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.06);">
-            <div style="font-family:var(--serif);font-size:44px;font-weight:900;color:var(--white);line-height:1;">408+</div>
-            <div style="font-size:12px;color:rgba(255,255,255,0.4);">People reached through community interventions</div>
+            <div style="font-family:var(--serif);font-size:44px;font-weight:900;color:var(--white);line-height:1;">408</div>
+            <div style="font-size:12px;color:rgba(255,255,255,0.4);">Estimated people reached through community interventions</div>
           </div>
           <div style="display:flex;align-items:baseline;gap:12px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.06);">
             <div style="font-family:var(--serif);font-size:44px;font-weight:900;color:var(--teal);line-height:1;">1K+</div>
@@ -84,5 +84,10 @@ const HTML = `<!-- ════════════════════�
 <!-- ROUTING ALIASES FOR ABOUT + PROGRAMMES -->`;
 
 export default function ProgramsCbhi() {
-  return <div data-section="ProgramsCbhi" dangerouslySetInnerHTML={{ __html: HTML }} />;
+  return (
+    <div
+      data-section="ProgramsCbhi"
+      dangerouslySetInnerHTML={{ __html: HTML }}
+    />
+  );
 }
