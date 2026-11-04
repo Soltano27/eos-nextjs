@@ -4536,4 +4536,124 @@ export const cortexArticles: CortexArticle[] = [
       </ol>
     </div>`,
   },
+  {
+    num: 39,
+    id: "cortex-article-39",
+    category: "Physical Brain Health",
+    gradFrom: "#006A58",
+    gradTo: "#00BFA5",
+    badgeBg: "rgba(0,191,165,0.2)",
+    badgeColor: "#5EEAD4",
+    cardColor: "#00BFA5",
+    title: "What Are the Types of Seizures<br/>and How Is Epilepsy Diagnosed?",
+    deck: "Seizures aren't always a dramatic fall to the ground. Many are brief, quiet and easy to miss. Here's how they're classified, and how doctors actually reach an epilepsy diagnosis.",
+    bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+    cardTitle: "What Are the Types of Seizures and How Is Epilepsy Diagnosed?",
+    cardExcerpt:
+      "Many seizures look like daydreaming or sudden confusion. Here's how seizures are classified, why a normal EEG doesn't rule out epilepsy, and how diagnosis really works.",
+    toc: [
+      { href: "#ts-intro", text: "Introduction" },
+      { href: "#ts-classify", text: "How Are Seizures Classified?" },
+      { href: "#ts-focal", text: "Focal Seizures" },
+      { href: "#ts-general", text: "Generalised Seizures" },
+      { href: "#ts-diagnosis", text: "How Is Epilepsy Diagnosed?" },
+      { href: "#ts-wrapup", text: "Wrap Up" },
+      { href: "#ts-faq", text: "FAQs" },
+    ],
+    keyTakeaways: [
+      "Seizures are grouped by where they start in the brain: one area (focal), both sides (generalised), or an unknown starting point.",
+      "Many seizures are quiet. A child staring blankly in class, or an adult who suddenly becomes confused, may be having one.",
+      "Febrile seizures, which come with fever in young children, are usually brief and do not usually mean a child has epilepsy.",
+      "A seizure lasting five minutes or longer is an emergency.",
+      "Diagnosis starts with a careful account of what happened. Tests such as the EEG and brain imaging add to that picture. A normal EEG does not rule out epilepsy.",
+    ],
+    bodyHtml: `<section id="ts-intro">
+      <p class="art-lede">When you hear the word seizures, what comes to mind? Do you picture someone falling to the ground, foaming at the mouth, and jerking uncontrollably? If you thought this, you're partially correct. Seizures come in different forms and differ from case to case. Some seizures are so mild that people don't even realise that they had one.</p>
+      <p>Many seizures are brief, subtle and easy to miss. They can look like daydreaming, drunkenness, a sudden mood change or a strange spell of confusion. When people do not recognise them, they go unreported and untreated.</p>
+      <p>In our earlier article, <a href="#" data-route="cortex-article-3" style="color:var(--teal);text-decoration:underline">What Are Seizures and Epilepsy?</a>, we covered the basics: what a seizure is, what causes epilepsy, and what to do when someone has a seizure near you. In this article, we go deeper into the different types of seizures and how doctors actually diagnose epilepsy.</p>
+    </section>
+    <section id="ts-classify">
+      <h2>How Are Seizures Classified?</h2>
+      <p>Seizures are classified based on where they start in the brain and how they affect the body. There are two main groups: focal seizures and generalised seizures.</p>
+      <div class="art-callout art-callout-blue">
+        <div class="art-callout-icon">❓</div>
+        <div>Sometimes nobody sees how a seizure began, so doctors can't tell where it started. In that case, it is called an <strong>unknown-onset seizure</strong>.<sup>[1]</sup></div>
+      </div>
+    </section>
+    <section id="ts-focal">
+      <h2>Focal Seizures</h2>
+      <p>These are abnormal electrical activities that begin in one specific part of the brain. Their symptoms depend on the area of the brain they start in. There are different types of focal seizures.</p>
+      <p><strong>Focal aware seizures.</strong> The person stays fully conscious and knows what is happening. They may feel a sudden rush of fear, a sense of déjà vu, a rising sensation in the stomach, strange tastes or smells, or twitching in one hand or arm. These were once called simple partial seizures.<sup>[1]</sup></p>
+      <p><strong>Focal impaired awareness seizures.</strong> Awareness is affected. The person may stare, seem unresponsive, smack their lips, fumble with their clothes, or repeat the same movement. Afterwards, they are often confused and have no memory of the episode.<sup>[1]</sup></p>
+      <p><strong>Focal to bilateral tonic-clonic seizures.</strong> A seizure that starts in one area can spread to both sides of the brain. It then looks like a full convulsion.<sup>[1]</sup></p>
+    </section>
+    <section id="ts-general">
+      <h2>Generalised Seizures</h2>
+      <p>Unlike focal seizures, these seizures originate from both sides of the brain. There are different types of generalised seizures.</p>
+      <p><strong>Tonic-clonic seizures.</strong> These are the most common type of generalised seizures. There is the tonic phase, where the muscles stiffen, and the clonic phase, where we see jerking of the limbs. This is the type of seizure we described at the beginning of this article. It is also characterised by irregular breathing, and the lips may look bluish. The person is usually unconscious during the seizure and may be confused or sleepy afterwards and needs time to recover.<sup>[2]</sup></p>
+      <p><strong>Myoclonic seizures.</strong> These are brief muscle jerks that often occur in the arms and shoulders. Because they are so short, the person may not be aware of them or may dismiss them as clumsiness or involuntary muscle twitches.<sup>[3]</sup></p>
+      <p><strong>Absence seizures.</strong> These involve short periods in which the person loses consciousness, stops what they are doing, and stares into space. It often happens in children and it is often seen as daydreaming.<sup>[4]</sup></p>
+      <p><strong>Atonic and tonic seizures.</strong> These cause a sudden loss of muscle tone or a sudden stiffening, which can lead to falls and injuries. See <a href="#" data-route="cortex-article-3" style="color:var(--teal);text-decoration:underline">our earlier article</a> for details.<sup>[5]</sup></p>
+      <div class="art-callout art-callout-purple">
+        <div class="art-callout-icon">🌡️</div>
+        <div><strong>Febrile seizures</strong> are triggered by fever in young children. They are usually brief and do not usually mean the child has epilepsy.</div>
+      </div>
+      <div class="art-callout art-callout-teal">
+        <div class="art-callout-icon">🚨</div>
+        <div>A convulsive seizure lasting <strong>five minutes or longer</strong> is an emergency and needs immediate medical attention.</div>
+      </div>
+    </section>
+    <section id="ts-diagnosis">
+      <h2>How Is Epilepsy Diagnosed?</h2>
+      <p>The diagnosis of epilepsy is made after some tests have been done.</p>
+      <h3>1. The patient's history</h3>
+      <p>The first step is to get the patient's history. The doctor will ask questions about what happened before and after the seizure, what triggered it, and how long it lasted. If a witness was present at the time of the seizure, they can provide better information, because people don't often remember what happened during a seizure.</p>
+      <h3>2. A neurological examination</h3>
+      <p>The next step is a neurological examination, where the doctor checks reflexes, strength, coordination, vision, speech and memory. This helps to detect any underlying problem in the brain or nervous system.</p>
+      <h3>3. An electroencephalogram (EEG)</h3>
+      <p>After this, an electroencephalogram (EEG) is done. This records electrical activity in the brain. However, because it is done for a short period, everything may look normal. The doctor may prescribe longer sessions or subject the patient to sleep deprivation and other methods to elicit abnormalities in the brain's electrical activity.</p>
+      <h3>4. Brain imaging</h3>
+      <p>Furthermore, brain imaging is done. MRIs and CT scans are used to provide an image of the brain. This allows the doctor to see abnormalities like scarring, bleeding, tumours or malformation in the brain.</p>
+    </section>
+    <section id="ts-wrapup">
+      <h2>Wrap Up</h2>
+      <p>Seizures are not something to be ashamed of or taken lightly. Unfortunately, getting the right care may not be easy in Nigeria. However, if you suspect you are having them, please make sure you see a doctor as soon as possible. The best way to help yourself is to start getting treatment as soon as possible.</p>
+      <p>Further reading: stress can be all-encompassing, and sometimes it feels like there is no way out. This sometimes makes people seek relief the wrong way. These wrong options may provide temporary relief but ultimately cause more harm than good. To learn more about these wrong methods, read <a href="#" data-route="cortex-article-36" style="color:var(--teal);text-decoration:underline">Harmful Ways People Cope With Stress</a>.</p>
+    </section>
+    <section id="ts-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="art-faq">
+        <div class="art-faq-item">
+          <div class="art-faq-q">Can you have a seizure and not know it?</div>
+          <div class="art-faq-a">Yes. Some seizures, such as absence seizures and focal impaired awareness seizures, cause a lapse in awareness. The person may not remember them, so a witness's account is very valuable.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Does a normal EEG mean I do not have epilepsy?</div>
+          <div class="art-faq-a">No. An EEG captures only a short window of brain activity, so it can be normal between seizures. Doctors combine it with the history, examination and imaging.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Is a febrile seizure the same as epilepsy?</div>
+          <div class="art-faq-a">No. Febrile seizures are triggered by fever in young children and usually do not mean the child has epilepsy.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">How long is too long for a seizure?</div>
+          <div class="art-faq-a">A convulsive seizure lasting five minutes or longer needs emergency medical attention.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">What type of doctor diagnoses epilepsy?</div>
+          <div class="art-faq-a">A neurologist, ideally one with experience in epilepsy. Your first visit may be to a general practitioner or paediatrician, who can refer you.</div>
+        </div>
+      </div>
+    </section>
+    <div class="art-references">
+      <div class="art-ref-title">References</div>
+      <ol class="art-ref-list">
+        <li>Fisher, R. S., et al. <em>Operational Classification of Seizure Types by the International League Against Epilepsy: Position Paper of the ILAE Commission for Classification and Terminology.</em> 2017.</li>
+        <li>Kodankandath, T. V., Theodore, D., &amp; Samanta, D. <em>Generalized Tonic-Clonic Seizure.</em> 2023.</li>
+        <li>Riva, A., D'Onofrio, G., Ferlazzo, E., et al. <em>Myoclonus: Differential Diagnosis and Current Management.</em> 2024.</li>
+        <li>Albuja, A. C., Ighodaro, E. T., &amp; Khan, G. Q. <em>Absence Seizure.</em> 2024.</li>
+        <li>Centers for Disease Control and Prevention (CDC). <em>Types of Seizures.</em> 2024.</li>
+      </ol>
+    </div>`,
+  },
 ];
