@@ -4655,5 +4655,125 @@ export const cortexArticles: CortexArticle[] = [
         <li>Centers for Disease Control and Prevention (CDC). <em>Types of Seizures.</em> 2024.</li>
       </ol>
     </div>`,
-  },
+  },{
+  num: 40,
+  id: "cortex-article-40",
+  category: "Brain Identity &amp; Culture",
+  gradFrom: "#006A58",
+  gradTo: "#00BFA5",
+  badgeBg: "rgba(0,191,165,0.2)",
+  badgeColor: "#5EEAD4",
+  cardColor: "#00BFA5",
+  title: "Not a Curse:<br/>Ending Epilepsy Stigma in Nigeria",
+  deck: "People with epilepsy have been starved, beaten and shut away in the name of deliverance, when what they needed was a hospital. Here's what the myths get wrong, what they cost, and why faith and medicine can work together.",
+  bylineDate: "Published by EOS · Youth Brain Health Culture Organisation",
+  cardTitle: "Epilepsy Is Not a Curse: Let's End the Stigma",
+  cardExcerpt:
+    "Epilepsy is a medical condition of the brain, not a curse or a punishment. Here's what the common myths get wrong, the harm they cause, and why faith and medicine belong together.",
+  toc: [
+    { href: "#es-intro", text: "Introduction" },
+    { href: "#es-myths", text: "Common Myths About Epilepsy" },
+    { href: "#es-origin", text: "Where Do These Myths Come From?" },
+    { href: "#es-conseq", text: "Consequences of the Myths" },
+    { href: "#es-faith", text: "Faith and Healing" },
+    { href: "#es-wrapup", text: "Wrap Up" },
+    { href: "#es-faq", text: "FAQs" },
+  ],
+  keyTakeaways: [
+    "Epilepsy is a medical condition of the brain. It is not a curse, a spiritual attack or a punishment.",
+    "Common myths are false. Epilepsy is not contagious, it is not madness, and people with epilepsy can marry and have children.",
+    "Never put anything in the mouth of a person having a seizure. Onions and smelling salts do not help either.",
+    "Anti-seizure medication can reduce seizures and help manage the condition, so early treatment matters.",
+    "Faith and medicine can work together. Taking a person with epilepsy to the hospital does not mean giving up on faith.",
+  ],
+  bodyHtml: `<section id="es-intro">
+      <p class="art-lede">When you see someone fall to the ground, foam at the mouth, and jerk uncontrollably, what do you think is the reason? Is it the work of evil spirits, or has the person sinned against an unseen deity? Or could it just be a medical issue?</p>
+      <p>In Africa, or more specifically Nigeria, we often see illnesses or diseases as the work of evil spirits or as a punishment for bad actions, but that may not always be the case. Many people with epilepsy have been erroneously taken to so-called prayer homes and institutions that claim they can deliver them from the spirits afflicting them, instead of being taken to the hospital. These patients are starved in the name of fasting and beaten with brooms and other objects to drive out the supposed evil spirits. Oddly enough, even in the Bible, there is no place where Jesus or any of the apostles inflicted physical violence on any person they delivered.</p>
+      <p>If these people had been taken to a hospital for treatment, a better solution would have been found for their situation. If you haven't yet, start with our earlier articles on <a href="#" data-route="cortex-article-3" style="color:var(--teal);text-decoration:underline">what seizures and epilepsy actually are</a> and the <a href="#" data-route="cortex-article-39" style="color:var(--teal);text-decoration:underline">types of seizures and how epilepsy is diagnosed</a>.</p>
+    </section>
+    <section id="es-myths">
+      <h2>What Are Common Myths About Epilepsy?</h2>
+      <p>Aside from the spiritual angle, there are other myths about epilepsy that need to be debunked. Let's examine them together.</p>
+      <h3>"Epilepsy is contagious"</h3>
+      <p>Many kids have been advised to stay away from people with epilepsy in their schools or neighbourhoods for fear that they will contract it. Epilepsy is caused by abnormal electrical impulses in the brain, and it is not spread from person to person.</p>
+      <h3>"Epilepsy is a form of madness"</h3>
+      <p>Epilepsy is a neurological condition, but it is not a form of madness. People with epilepsy are not suffering from any form of psychosis. While we tend to see all mental conditions as madness, this is not the truth.</p>
+      <h3>"Something should be put in the mouth during a seizure"</h3>
+      <p>This could injure the patient by damaging their teeth or gums. Also, if the object is small enough, the person could swallow it, which can lead to choking. It is best to leave them and remove harmful objects from their surroundings. Some also believe in putting onions or smelling salts under the nose to snap them out of the seizure. All of these are myths, and they don't work.</p>
+      <div class="art-callout art-callout-purple">
+        <div class="art-callout-icon">🚫</div>
+        <div><strong>Never put anything in the mouth of a person having a seizure.</strong> Don't use onions or smelling salts either. They do not work, and they can cause injury.</div>
+      </div>
+      <h3>"Epilepsy cannot be treated"</h3>
+      <p>While there may not be a definite cure, anti-seizure medication can help manage symptoms. It can reduce the occurrence of seizures and manage the other symptoms well.</p>
+      <h3>"People with epilepsy cannot marry or have children"</h3>
+      <p>Several people with epilepsy are happily married with children. While there is a small genetic component, the chance that a child will develop it is very low.</p>
+    </section>
+    <section id="es-origin">
+      <h2>Where Do These Myths Come From?</h2>
+      <p>These myths originate from personal prejudice that spread and became cultural. The religious beliefs often come from a misunderstanding of the scriptures. It is unfortunate that people still hold on to these erroneous beliefs and make innocent people suffer.</p>
+      <p>The good news is that some of these beliefs are beginning to fade because of the influence of modern education.</p>
+    </section>
+    <section id="es-conseq">
+      <h2>What Are the Consequences of These Myths for People With Epilepsy?</h2>
+      <h3>Delayed Treatment</h3>
+      <p>The time they spend suffering at the hands of these spiritual leaders is time they could have spent getting the actual treatment they need. This delay in treatment only worsens their condition.</p>
+      <h3>Physical Injuries</h3>
+      <p>The patients are subjected to inhuman conditions while in the care of these spiritual leaders. They are starved, beaten with brooms and whips, burnt with candles and subjected to other forms of torture in a bid to drive out the evil spirits believed to be causing the condition. For female patients, there is also the risk of sexual abuse and molestation at the hands of these so-called spiritual leaders.<sup>[1]</sup></p>
+      <h3>Mental Health Deterioration</h3>
+      <p>Imagine you are a person with epilepsy (I can hear the resounding "God forbid" in your mind as you read this). You are stigmatised. Your friends at school avoid you for fear that they will catch the disease from you. You are separated from your loved ones and subjected to beating, burning and starving. You are told you are possessed by a demon and that they are doing this for your own good. I can imagine your mental health wouldn't be too good.</p>
+      <div class="art-callout art-callout-blue">
+        <div class="art-callout-icon">🧠</div>
+        <div>The rate of depression among people with epilepsy is around 20%, which is quite high. This rate increases with hospital visits, the frequency of seizures, and the stigma associated with the condition.<sup>[2]</sup></div>
+      </div>
+      <h3>Social Harm</h3>
+      <p>People with epilepsy often face discrimination, isolation and abuse. Some have lost relationships and even employment opportunities because of this. Many are unable to live their lives to the fullest because all people see is the disability and not the person.</p>
+    </section>
+    <section id="es-faith">
+      <h2>Does This Mean Faith Has No Relationship With Healing?</h2>
+      <p>No. Faith and medicine should work together and not against each other. In Luke 17:11–19, Jesus heals ten lepers and tells them to show themselves to the priest. In those days, the priests were the ones to certify that someone was clean, i.e. healed. In addition, Luke, who wrote the Gospel according to Luke and the Book of Acts, was a physician. The Bible has never been against the use of medicine for healing. It mentions the balm of Gilead in Jeremiah 8:22, which was used for healing. After all, most of the drugs we use are made from natural ingredients, which Christians believe were created by God. Also, in the book of Revelation, the Bible mentions the tree of life, whose leaves are for the healing of the nations.</p>
+      <div class="art-callout art-callout-teal">
+        <div class="art-callout-icon">🙏</div>
+        <div>Faith and medicine are not antagonists. They are meant to work together to bring healing to mankind. Taking someone to the hospital is not a lack of faith.</div>
+      </div>
+    </section>
+    <section id="es-wrapup">
+      <h2>Wrap Up</h2>
+      <p>It is sad to see people suffer needlessly as a result of stigma and discrimination towards their condition. There should be more education on epilepsy and mental health in general in Nigeria. While commendable progress has been made, more work needs to be done to eradicate these prejudices and put an end to the suffering people with epilepsy face.</p>
+      <p>By the way, if you see someone having a seizure, do you know the steps to render first aid to the person? Stay tuned for the next article, where we will discuss how to help someone having an epileptic seizure.</p>
+      <p>Further reading: life in Nigeria can be stressful, especially on the financial end. Things are costly, and seeking your daily bread can look like it's one step forward and two steps back. Financial stress can be damaging, and it is important to watch out for its effects. To learn more about the effects of financial stress, read <a href="#" data-route="cortex-article-38" style="color:var(--teal);text-decoration:underline">The Cost of Daily Bread Pass Money</a>.</p>
+    </section>
+    <section id="es-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="art-faq">
+        <div class="art-faq-item">
+          <div class="art-faq-q">Is epilepsy contagious?</div>
+          <div class="art-faq-a">No. Epilepsy is caused by abnormal electrical activity in the brain. It cannot be passed on through touch, saliva, sharing food or being near someone who has it. It is safe to play, study and work alongside a person with epilepsy.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Is epilepsy a spiritual attack or a curse?</div>
+          <div class="art-faq-a">No. Epilepsy is a medical condition of the brain. It is not caused by evil spirits, witchcraft or punishment for wrongdoing. Treating it as a spiritual problem often delays proper care and can lead to harm.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Can epilepsy be cured?</div>
+          <div class="art-faq-a">There is no definite cure for most people. Anti-seizure medication can reduce seizures and help many people control the condition well. Some people, particularly children with certain types of epilepsy, may eventually outgrow it. A doctor can advise on what to expect in each case.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">Can prayer cure epilepsy?</div>
+          <div class="art-faq-a">Faith can be a source of comfort and strength. It should not replace medical treatment. Epilepsy needs a proper diagnosis and care from a doctor. Stopping prescribed medication can trigger seizures, so keep praying and keep taking the medication.</div>
+        </div>
+        <div class="art-faq-item">
+          <div class="art-faq-q">What should you never do when someone is having a seizure?</div>
+          <div class="art-faq-a">Never put anything in their mouth. Do not hold them down, and do not use onions, smelling salts or water to wake them. These do not work and can cause injury. Protect them from harm, turn them gently onto their side and call for emergency help if it lasts more than five minutes.</div>
+        </div>
+      </div>
+    </section>
+    <div class="art-references">
+      <div class="art-ref-title">References</div>
+      <ol class="art-ref-list">
+        <li>Alege, B. O., Agbo, C. P., &amp; Olagunju, A. A. <em>Epilepsy-Related Stigma in Nigeria: A Systematic Review of Manifestations, Impacts, and Socio-Cultural Drivers.</em> African Journal of Disability, 2026.</li>
+        <li>Owolabi, S. D., Owolabi, L. F., Udofia, O., &amp; Sale, S. <em>Depression in Patients with Epilepsy in Northwestern Nigeria: Prevalence and Clinical Correlates.</em> Annals of African Medicine, 2016.</li>
+      </ol>
+    </div>`,
+},
 ];
